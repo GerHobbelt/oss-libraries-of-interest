@@ -109,6 +109,7 @@ git_submod_add   git@github.com:GerHobbelt/Columnizer-jQuery-Plugin.git         
 git_submod_add   git@github.com:GerHobbelt/CompoundSignal.git                            js/signal-compoundsignal
 git_submod_add   git@github.com:GerHobbelt/DByte.git                                     php/DByte-PDOwrapper
 git_submod_add   git@github.com:GerHobbelt/DexCharts.git                                 js/d3-DexCharts
+git_submod_add   git@github.com:GerHobbelt/EB-Garamond.git                               fonts/EB-Garamond
 git_submod_add   git@github.com:GerHobbelt/ErrorHandler.git                              php/ErrorHandler
 git_submod_add   git@github.com:GerHobbelt/Event.js.git                                  js/event.js
 git_submod_add   git@github.com:GerHobbelt/Filemanager.git                               js/File-manager
@@ -281,6 +282,7 @@ git_submod_add   git@github.com:GerHobbelt/cycle2.git                           
 git_submod_add   git@github.com:GerHobbelt/d3-plugins.git                                js/d3-plugins
 git_submod_add   git@github.com:GerHobbelt/d3-tip.git                                    js/d3-tooltip
 git_submod_add   git@github.com:GerHobbelt/d3.git                                        js/d3
+git_submod_add   git@github.com:GerHobbelt/d4-www.git                                    examples/d4-examples-website
 git_submod_add   git@github.com:GerHobbelt/dat.gui.git                                   js/dat.gui
 git_submod_add   git@github.com:GerHobbelt/dataset.git                                   js/miso.dataset
 git_submod_add   git@github.com:GerHobbelt/datavore.git                                  js/datavore
@@ -676,7 +678,6 @@ git_submod_add   git@github.com:GerHobbelt/zoomooz.git                          
 git_submod_add   git@github.com:GerHobbelt/zui53.git                                     js/zui53
 git_submod_add   git@github.com:Timopheym/d4.git                                         js/d4
 git_submod_add   git@github.com:Visyond/ultimatemysql.git                                php/ultimatemysql
-#git_submod_add   git@github.com:Visyond/visyond.wiki.git                                 doc/wiki
 
 
 

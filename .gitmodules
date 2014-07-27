@@ -1,0 +1,1815 @@
+[submodule "examples/mathjax-acidtests"]
+	path = examples/mathjax-acidtests
+	url = git@github.com:GerHobbelt/AcidTestsMathML.git
+[submodule "js/AnythingZoomer"]
+	path = js/AnythingZoomer
+	url = git@github.com:GerHobbelt/AnythingZoomer.git
+[submodule "js/at.autohinting"]
+	path = js/at.autohinting
+	url = git@github.com:GerHobbelt/At.js.git
+[submodule "js/backbone-factory"]
+	path = js/backbone-factory
+	url = git@github.com:GerHobbelt/Backbone-Factory.git
+[submodule "examples/Backbone-Require-Biolerplate-example"]
+	path = examples/Backbone-Require-Biolerplate-example
+	url = git@github.com:GerHobbelt/Backbone-Require-Boilerplate.git
+[submodule "js/backbone-super"]
+	path = js/backbone-super
+	url = git@github.com:GerHobbelt/Backbone-Super.git
+[submodule "js/backbone-D3"]
+	path = js/backbone-D3
+	url = git@github.com:GerHobbelt/Backbone-d3.git
+[submodule "js/backbone-relational"]
+	path = js/backbone-relational
+	url = git@github.com:GerHobbelt/Backbone-relational.git
+[submodule "js/backbone-chosen"]
+	path = js/backbone-chosen
+	url = git@github.com:GerHobbelt/Backbone.Chosen.git
+[submodule "js/backbone-model-binder"]
+	path = js/backbone-model-binder
+	url = git@github.com:GerHobbelt/Backbone.ModelBinder.git
+[submodule "js/backbone-mutators"]
+	path = js/backbone-mutators
+	url = git@github.com:GerHobbelt/Backbone.Mutators.git
+[submodule "js/backbone-rel"]
+	path = js/backbone-rel
+	url = git@github.com:GerHobbelt/Backbone.Rel.git
+[submodule "js/backbone-safe"]
+	path = js/backbone-safe
+	url = git@github.com:GerHobbelt/Backbone.Safe.git
+[submodule "js/backbone-validator"]
+	path = js/backbone-validator
+	url = git@github.com:GerHobbelt/Backbone.Validator.git
+[submodule "js/backbone-virtual-collection"]
+	path = js/backbone-virtual-collection
+	url = git@github.com:GerHobbelt/Backbone.VirtualCollection.git
+[submodule "js/backbone-act-as-configurable"]
+	path = js/backbone-act-as-configurable
+	url = git@github.com:GerHobbelt/Backbone.actAs.Configurable.git
+[submodule "js/backbone-act-as-mementoable"]
+	path = js/backbone-act-as-mementoable
+	url = git@github.com:GerHobbelt/Backbone.actAs.Mementoable.git
+[submodule "js/backbone-act-as-paginatable"]
+	path = js/backbone-act-as-paginatable
+	url = git@github.com:GerHobbelt/Backbone.actAs.Paginatable.git
+[submodule "js/backbone-dual-storage"]
+	path = js/backbone-dual-storage
+	url = git@github.com:GerHobbelt/Backbone.dualStorage.git
+[submodule "js/backbone-localstorage"]
+	path = js/backbone-localstorage
+	url = git@github.com:GerHobbelt/Backbone.localStorage.git
+[submodule "js/backbone-modal-view"]
+	path = js/backbone-modal-view
+	url = git@github.com:GerHobbelt/BackboneJSModalView.git
+[submodule "fonts/Font-Batch"]
+	path = fonts/Font-Batch
+	url = git@github.com:GerHobbelt/Batch.git
+[submodule "js/jquery-bigtext"]
+	path = js/jquery-bigtext
+	url = git@github.com:GerHobbelt/BigText.git
+[submodule "js/BigUpload"]
+	path = js/BigUpload
+	url = git@github.com:GerHobbelt/BigUpload.git
+[submodule "js/BookBlock"]
+	path = js/BookBlock
+	url = git@github.com:GerHobbelt/BookBlock.git
+[submodule "js/BookJS"]
+	path = js/BookJS
+	url = git@github.com:GerHobbelt/BookJS.git
+[submodule "examples/BookPreview"]
+	path = examples/BookPreview
+	url = git@github.com:GerHobbelt/BookPreview.git
+[submodule "examples/Bootstrap-Form-Builder"]
+	path = examples/Bootstrap-Form-Builder
+	url = git@github.com:GerHobbelt/Bootstrap-Form-Builder.git
+[submodule "tooling/btyacc"]
+	path = tooling/btyacc
+	url = git@github.com:GerHobbelt/BtYacc.git
+[submodule "js/caret-position"]
+	path = js/caret-position
+	url = git@github.com:GerHobbelt/Caret.js.git
+[submodule "js/google-channelplate"]
+	path = js/google-channelplate
+	url = git@github.com:GerHobbelt/ChannelPlate.git
+[submodule "js/CodeMirror"]
+	path = js/CodeMirror
+	url = git@github.com:GerHobbelt/CodeMirror2.git
+[submodule "js/jquery-columnizer"]
+	path = js/jquery-columnizer
+	url = git@github.com:GerHobbelt/Columnizer-jQuery-Plugin.git
+[submodule "js/signal-compoundsignal"]
+	path = js/signal-compoundsignal
+	url = git@github.com:GerHobbelt/CompoundSignal.git
+[submodule "php/DByte-PDOwrapper"]
+	path = php/DByte-PDOwrapper
+	url = git@github.com:GerHobbelt/DByte.git
+[submodule "js/d3-DexCharts"]
+	path = js/d3-DexCharts
+	url = git@github.com:GerHobbelt/DexCharts.git
+[submodule "php/ErrorHandler"]
+	path = php/ErrorHandler
+	url = git@github.com:GerHobbelt/ErrorHandler.git
+[submodule "js/event.js"]
+	path = js/event.js
+	url = git@github.com:GerHobbelt/Event.js.git
+[submodule "js/File-manager"]
+	path = js/File-manager
+	url = git@github.com:GerHobbelt/Filemanager.git
+[submodule "js/Fluidbox"]
+	path = js/Fluidbox
+	url = git@github.com:GerHobbelt/Fluidbox.git
+[submodule "fonts/Font-Awesome"]
+	path = fonts/Font-Awesome
+	url = git@github.com:GerHobbelt/Font-Awesome.git
+[submodule "js/jquery-form-accordion"]
+	path = js/jquery-form-accordion
+	url = git@github.com:GerHobbelt/FormAccordion.git
+[submodule "js/Garlic"]
+	path = js/Garlic
+	url = git@github.com:GerHobbelt/Garlic.js.git
+[submodule "fonts/Font-Genericons"]
+	path = fonts/Font-Genericons
+	url = git@github.com:GerHobbelt/Genericons.git
+[submodule "css/Gesso"]
+	path = css/Gesso
+	url = git@github.com:GerHobbelt/Gesso.git
+[submodule "js/jquery-gridalicious"]
+	path = js/jquery-gridalicious
+	url = git@github.com:GerHobbelt/Grid-A-Licious.git
+[submodule "js/jquery-gritter"]
+	path = js/jquery-gritter
+	url = git@github.com:GerHobbelt/Gritter.git
+[submodule "examples/HTML5-Clear-v2-demoapp"]
+	path = examples/HTML5-Clear-v2-demoapp
+	url = git@github.com:GerHobbelt/HTML5-Clear-v2.git
+[submodule "php/HTMLawed"]
+	path = php/HTMLawed
+	url = git@github.com:GerHobbelt/HTMLawed.git
+[submodule "js/Hasher"]
+	path = js/Hasher
+	url = git@github.com:GerHobbelt/Hasher.git
+[submodule "js/jquery-historize-input"]
+	path = js/jquery-historize-input
+	url = git@github.com:GerHobbelt/Historize.git
+[submodule "js/IndexedDBWrapper"]
+	path = js/IndexedDBWrapper
+	url = git@github.com:GerHobbelt/IDBWrapper.git
+[submodule "js/jquery-in-field-labels"]
+	path = js/jquery-in-field-labels
+	url = git@github.com:GerHobbelt/In-Field-Labels-jQuery-Plugin.git
+[submodule "js/IndexedDBShim"]
+	path = js/IndexedDBShim
+	url = git@github.com:GerHobbelt/IndexedDBShim.git
+[submodule "js/json2"]
+	path = js/json2
+	url = git@github.com:GerHobbelt/JSON-js.git
+[submodule "js/json-select"]
+	path = js/json-select
+	url = git@github.com:GerHobbelt/JSONSelect.git
+[submodule "examples/json-select.tests"]
+	path = examples/json-select.tests
+	url = git@github.com:GerHobbelt/JSONSelectTests.git
+[submodule "js/jasmine-matchers-1"]
+	path = js/jasmine-matchers-1
+	url = git@github.com:GerHobbelt/Jasmine-Matchers-1.git
+[submodule "js/keyboard-layout-learn"]
+	path = js/keyboard-layout-learn
+	url = git@github.com:GerHobbelt/JavaScript-keyboard-layout-learn.git
+[submodule "js/jquery-ui-keyboard"]
+	path = js/jquery-ui-keyboard
+	url = git@github.com:GerHobbelt/Keyboard.git
+[submodule "js/keyboard-js"]
+	path = js/keyboard-js
+	url = git@github.com:GerHobbelt/KeyboardJS.git
+[submodule "js/Kizzy-localcache"]
+	path = js/Kizzy-localcache
+	url = git@github.com:GerHobbelt/Kizzy.git
+[submodule "js/ladda"]
+	path = js/ladda
+	url = git@github.com:GerHobbelt/Ladda.git
+[submodule "js/LocalConnection"]
+	path = js/LocalConnection
+	url = git@github.com:GerHobbelt/LocalConnection.js.git
+[submodule "js/mason"]
+	path = js/mason
+	url = git@github.com:GerHobbelt/Mason.git
+[submodule "js/mathjax-dev"]
+	path = js/mathjax-dev
+	url = git@github.com:GerHobbelt/MathJax-dev.git
+[submodule "doc/mathjax-docs"]
+	path = doc/mathjax-docs
+	url = git@github.com:GerHobbelt/MathJax-docs.git
+[submodule "examples/mathjax-test"]
+	path = examples/mathjax-test
+	url = git@github.com:GerHobbelt/MathJax-test.git
+[submodule "js/mathjax"]
+	path = js/mathjax
+	url = git@github.com:GerHobbelt/MathJax.git
+[submodule "js/meny-menu"]
+	path = js/meny-menu
+	url = git@github.com:GerHobbelt/Meny.git
+[submodule "js/MessageChannel"]
+	path = js/MessageChannel
+	url = git@github.com:GerHobbelt/MessageChannel.js.git
+[submodule "js/Modernizr"]
+	path = js/Modernizr
+	url = git@github.com:GerHobbelt/Modernizr.git
+[submodule "js/multilevel-pushmenu"]
+	path = js/multilevel-pushmenu
+	url = git@github.com:GerHobbelt/MultiLevelPushMenu.git
+[submodule "js/jquery-nestable-dragndrop"]
+	path = js/jquery-nestable-dragndrop
+	url = git@github.com:GerHobbelt/Nestable.git
+[submodule "js/nested-grid-layout"]
+	path = js/nested-grid-layout
+	url = git@github.com:GerHobbelt/Nested.git
+[submodule "js/numeral"]
+	path = js/numeral
+	url = git@github.com:GerHobbelt/Numeral-js.git
+[submodule "examples/HTML5-Offline-Form"]
+	path = examples/HTML5-Offline-Form
+	url = git@github.com:GerHobbelt/OfflineForm.git
+[submodule "php/PHP-Error"]
+	path = php/PHP-Error
+	url = git@github.com:GerHobbelt/PHP-Error.git
+[submodule "php/PHPExcel"]
+	path = php/PHPExcel
+	url = git@github.com:GerHobbelt/PHPExcel.git
+[submodule "js/Parsley"]
+	path = js/Parsley
+	url = git@github.com:GerHobbelt/Parsley.js.git
+[submodule "js/pie-menu"]
+	path = js/pie-menu
+	url = git@github.com:GerHobbelt/Pie-Menu.git
+[submodule "js/PointerEvents-polyfill"]
+	path = js/PointerEvents-polyfill
+	url = git@github.com:GerHobbelt/Points.git
+[submodule "js/Probability-F"]
+	path = js/Probability-F
+	url = git@github.com:GerHobbelt/Probability.js.git
+[submodule "js/progress"]
+	path = js/progress
+	url = git@github.com:GerHobbelt/Progress.git
+[submodule "js/jquery-quovolver"]
+	path = js/jquery-quovolver
+	url = git@github.com:GerHobbelt/Quovolver.git
+[submodule "js/rainbow-vis"]
+	path = js/rainbow-vis
+	url = git@github.com:GerHobbelt/RainbowVis-JS.git
+[submodule "js/rangy"]
+	path = js/rangy
+	url = git@github.com:GerHobbelt/Rangy.git
+[submodule "js/Responsive-Measure"]
+	path = js/Responsive-Measure
+	url = git@github.com:GerHobbelt/Responsive-Measure.git
+[submodule "examples/Responsive-Off-Canvas-Menu"]
+	path = examples/Responsive-Off-Canvas-Menu
+	url = git@github.com:GerHobbelt/Responsive-Off-Canvas-Menu.git
+[submodule "js/responsive-multilevel-menu"]
+	path = js/responsive-multilevel-menu
+	url = git@github.com:GerHobbelt/ResponsiveMultiLevelMenu.git
+[submodule "js/jquery-scroller"]
+	path = js/jquery-scroller
+	url = git@github.com:GerHobbelt/Scroller.git
+[submodule "php/Secure-random-bytes-in-PHP"]
+	path = php/Secure-random-bytes-in-PHP
+	url = git@github.com:GerHobbelt/Secure-random-bytes-in-PHP.git
+[submodule "js/sinon-js"]
+	path = js/sinon-js
+	url = git@github.com:GerHobbelt/Sinon.JS.git
+[submodule "js/slickgrid-checkbox-select-all-column-plugin"]
+	path = js/slickgrid-checkbox-select-all-column-plugin
+	url = git@github.com:GerHobbelt/SlickGrid.CheckboxSelectAllColumn.git
+[submodule "js/slickgrid"]
+	path = js/slickgrid
+	url = git@github.com:GerHobbelt/SlickGrid.git
+[submodule "doc/slickgrid-wiki"]
+	path = doc/slickgrid-wiki
+	url = git@github.com:GerHobbelt/SlickGrid.wiki.git
+[submodule "js/slickgrid-enhanced-pager-plugin"]
+	path = js/slickgrid-enhanced-pager-plugin
+	url = git@github.com:GerHobbelt/SlickGridEnhancementPager.git
+[submodule "js/Slidebars"]
+	path = js/Slidebars
+	url = git@github.com:GerHobbelt/Slidebars.git
+[submodule "js/snap.js"]
+	path = js/snap.js
+	url = git@github.com:GerHobbelt/Snap.js.git
+[submodule "js/Socialite"]
+	path = js/Socialite
+	url = git@github.com:GerHobbelt/Socialite.git
+[submodule "js/stately"]
+	path = js/stately
+	url = git@github.com:GerHobbelt/Stately.js.git
+[submodule "js/StringView-polyfill"]
+	path = js/StringView-polyfill
+	url = git@github.com:GerHobbelt/StringView.git
+[submodule "js/slickgrid-surge-extensions"]
+	path = js/slickgrid-surge-extensions
+	url = git@github.com:GerHobbelt/Surge-SlickGrid-Extensions.git
+[submodule "js/SyntaxHighlighter"]
+	path = js/SyntaxHighlighter
+	url = git@github.com:GerHobbelt/SyntaxHighlighter.git
+[submodule "js/TinyColor"]
+	path = js/TinyColor
+	url = git@github.com:GerHobbelt/TinyColor.git
+[submodule "js/tipue-search-engine"]
+	path = js/tipue-search-engine
+	url = git@github.com:GerHobbelt/Tipue-Search.git
+[submodule "js/tipue-drop-search-suggestions"]
+	path = js/tipue-drop-search-suggestions
+	url = git@github.com:GerHobbelt/Tipue-drop.git
+[submodule "js/TooltipMenu"]
+	path = js/TooltipMenu
+	url = git@github.com:GerHobbelt/TooltipMenu.git
+[submodule "php/twig-template-engine"]
+	path = php/twig-template-engine
+	url = git@github.com:GerHobbelt/Twig.git
+[submodule "js/jasmine-Underscore-matchers"]
+	path = js/jasmine-Underscore-matchers
+	url = git@github.com:GerHobbelt/Underscore-Matchers-for-Jasmine.git
+[submodule "php/Upload"]
+	path = php/Upload
+	url = git@github.com:GerHobbelt/Upload.git
+[submodule "js/jquery-wookmark"]
+	path = js/jquery-wookmark
+	url = git@github.com:GerHobbelt/Wookmark-jQuery.git
+[submodule "js/accounting-format"]
+	path = js/accounting-format
+	url = git@github.com:GerHobbelt/accounting.js.git
+[submodule "js/ajaxify"]
+	path = js/ajaxify
+	url = git@github.com:GerHobbelt/ajaxify.git
+[submodule "examples/AMDjs-API"]
+	path = examples/AMDjs-API
+	url = git@github.com:GerHobbelt/amdjs-api.git
+[submodule "tooling/antlr"]
+	path = tooling/antlr
+	url = git@github.com:GerHobbelt/antlr3.git
+[submodule "examples/AppCache.Demo"]
+	path = examples/AppCache.Demo
+	url = git@github.com:GerHobbelt/appcache-demo.git
+[submodule "php/atoum-unittests"]
+	path = php/atoum-unittests
+	url = git@github.com:GerHobbelt/atoum.git
+[submodule "js/autoNumeric"]
+	path = js/autoNumeric
+	url = git@github.com:GerHobbelt/autoNumeric.git
+[submodule "js/autosize"]
+	path = js/autosize
+	url = git@github.com:GerHobbelt/autosize.git
+[submodule "js/backbone-associations"]
+	path = js/backbone-associations
+	url = git@github.com:GerHobbelt/backbone-associations.git
+[submodule "js/backbone-autocomplete"]
+	path = js/backbone-autocomplete
+	url = git@github.com:GerHobbelt/backbone-autocomplete.git
+[submodule "js/backbone-boilerplate"]
+	path = js/backbone-boilerplate
+	url = git@github.com:GerHobbelt/backbone-boilerplate.git
+[submodule "js/backbone-deep-model"]
+	path = js/backbone-deep-model
+	url = git@github.com:GerHobbelt/backbone-deep-model.git
+[submodule "js/backbone-eventbroker"]
+	path = js/backbone-eventbroker
+	url = git@github.com:GerHobbelt/backbone-eventbroker.git
+[submodule "js/backbone-fetch-cache"]
+	path = js/backbone-fetch-cache
+	url = git@github.com:GerHobbelt/backbone-fetch-cache.git
+[submodule "js/backbone-forms"]
+	path = js/backbone-forms
+	url = git@github.com:GerHobbelt/backbone-forms.git
+[submodule "js/backbone-fundamentals-book"]
+	path = js/backbone-fundamentals-book
+	url = git@github.com:GerHobbelt/backbone-fundamentals.git
+[submodule "examples/backbone-iOS-html5demos"]
+	path = examples/backbone-iOS-html5demos
+	url = git@github.com:GerHobbelt/backbone-iOS-html5demos.git
+[submodule "js/backbone-jasmine-koans"]
+	path = js/backbone-jasmine-koans
+	url = git@github.com:GerHobbelt/backbone-koans.git
+[submodule "js/backbone-model-factory"]
+	path = js/backbone-model-factory
+	url = git@github.com:GerHobbelt/backbone-model-factory.git
+[submodule "js/backbone-modelref"]
+	path = js/backbone-modelref
+	url = git@github.com:GerHobbelt/backbone-modelref.git
+[submodule "js/backbone-nested"]
+	path = js/backbone-nested
+	url = git@github.com:GerHobbelt/backbone-nested.git
+[submodule "js/backbone-pageable"]
+	path = js/backbone-pageable
+	url = git@github.com:GerHobbelt/backbone-pageable.git
+[submodule "js/backbone-poller"]
+	path = js/backbone-poller
+	url = git@github.com:GerHobbelt/backbone-poller.git
+[submodule "js/backbone-query-parameters"]
+	path = js/backbone-query-parameters
+	url = git@github.com:GerHobbelt/backbone-query-parameters.git
+[submodule "js/backbone-relational-tutorial"]
+	path = js/backbone-relational-tutorial
+	url = git@github.com:GerHobbelt/backbone-relational-tutorial.git
+[submodule "js/backbone-safesync"]
+	path = js/backbone-safesync
+	url = git@github.com:GerHobbelt/backbone-safesync.git
+[submodule "php/backbone-session"]
+	path = php/backbone-session
+	url = git@github.com:GerHobbelt/backbone-session.git
+[submodule "js/backbone-shortcuts"]
+	path = js/backbone-shortcuts
+	url = git@github.com:GerHobbelt/backbone-shortcuts.git
+[submodule "js/backbone-singleton"]
+	path = js/backbone-singleton
+	url = git@github.com:GerHobbelt/backbone-singleton.git
+[submodule "js/backbone-ui"]
+	path = js/backbone-ui
+	url = git@github.com:GerHobbelt/backbone-ui.git
+[submodule "js/backbone-view-model"]
+	path = js/backbone-view-model
+	url = git@github.com:GerHobbelt/backbone-view-model.git
+[submodule "js/backbone-activities"]
+	path = js/backbone-activities
+	url = git@github.com:GerHobbelt/backbone.activities.git
+[submodule "js/backbone-bootstrap-modal"]
+	path = js/backbone-bootstrap-modal
+	url = git@github.com:GerHobbelt/backbone.bootstrap-modal.git
+[submodule "js/backbone-collection-view"]
+	path = js/backbone-collection-view
+	url = git@github.com:GerHobbelt/backbone.collectionView.git
+[submodule "js/backbone-collectionsubset"]
+	path = js/backbone-collectionsubset
+	url = git@github.com:GerHobbelt/backbone.collectionsubset.git
+[submodule "js/backbone-courier"]
+	path = js/backbone-courier
+	url = git@github.com:GerHobbelt/backbone.courier.git
+[submodule "js/backbone-getters-setters"]
+	path = js/backbone-getters-setters
+	url = git@github.com:GerHobbelt/backbone.getters.setters.git
+[submodule "js/backbone-giraffe"]
+	path = js/backbone-giraffe
+	url = git@github.com:GerHobbelt/backbone.giraffe.git
+[submodule "js/backbone"]
+	path = js/backbone
+	url = git@github.com:GerHobbelt/backbone.git
+[submodule "js/backbone-iobind"]
+	path = js/backbone-iobind
+	url = git@github.com:GerHobbelt/backbone.iobind.git
+[submodule "js/backbone-jwerty"]
+	path = js/backbone-jwerty
+	url = git@github.com:GerHobbelt/backbone.jwerty.git
+[submodule "js/backbone-keys"]
+	path = js/backbone-keys
+	url = git@github.com:GerHobbelt/backbone.keys.git
+[submodule "js/backbone.layoutmanager"]
+	path = js/backbone.layoutmanager
+	url = git@github.com:GerHobbelt/backbone.layoutmanager.git
+[submodule "js/backbone-managedview"]
+	path = js/backbone-managedview
+	url = git@github.com:GerHobbelt/backbone.managedview.git
+[submodule "js/backbone-marionette"]
+	path = js/backbone-marionette
+	url = git@github.com:GerHobbelt/backbone.marionette.git
+[submodule "js/backbone-memento"]
+	path = js/backbone-memento
+	url = git@github.com:GerHobbelt/backbone.memento.git
+[submodule "js/backbone-mousetrap"]
+	path = js/backbone-mousetrap
+	url = git@github.com:GerHobbelt/backbone.mousetrap.git
+[submodule "js/backbone-namespaced-events"]
+	path = js/backbone-namespaced-events
+	url = git@github.com:GerHobbelt/backbone.namespaced-events.git
+[submodule "js/backbone-notifier"]
+	path = js/backbone-notifier
+	url = git@github.com:GerHobbelt/backbone.notifier.git
+[submodule "js/backbone-offline"]
+	path = js/backbone-offline
+	url = git@github.com:GerHobbelt/backbone.offline.git
+[submodule "js/backbone-paginator"]
+	path = js/backbone-paginator
+	url = git@github.com:GerHobbelt/backbone.paginator.git
+[submodule "js/backbone-stickit"]
+	path = js/backbone-stickit
+	url = git@github.com:GerHobbelt/backbone.stickit.git
+[submodule "js/backbone-subroute"]
+	path = js/backbone-subroute
+	url = git@github.com:GerHobbelt/backbone.subroute.git
+[submodule "js/backbone-subviews"]
+	path = js/backbone-subviews
+	url = git@github.com:GerHobbelt/backbone.subviews.git
+[submodule "js/backbone-syphon-serialize-views"]
+	path = js/backbone-syphon-serialize-views
+	url = git@github.com:GerHobbelt/backbone.syphon.git
+[submodule "js/backbone-touch"]
+	path = js/backbone-touch
+	url = git@github.com:GerHobbelt/backbone.touch.git
+[submodule "js/backbone-validation"]
+	path = js/backbone-validation
+	url = git@github.com:GerHobbelt/backbone.validation.git
+[submodule "js/backbone-validations"]
+	path = js/backbone-validations
+	url = git@github.com:GerHobbelt/backbone.validations.git
+[submodule "js/bacon-frp"]
+	path = js/bacon-frp
+	url = git@github.com:GerHobbelt/bacon.js.git
+[submodule "js/tpz-base32"]
+	path = js/tpz-base32
+	url = git@github.com:GerHobbelt/base32-js.git
+[submodule "js/benchmark"]
+	path = js/benchmark
+	url = git@github.com:GerHobbelt/benchmark.js.git
+[submodule "js/better-assert"]
+	path = js/better-assert
+	url = git@github.com:GerHobbelt/better-assert.git
+[submodule "js/jquery-bgiframe"]
+	path = js/jquery-bgiframe
+	url = git@github.com:GerHobbelt/bgiframe.git
+[submodule "js/jquery-boilerplate"]
+	path = js/jquery-boilerplate
+	url = git@github.com:GerHobbelt/boilerplate.git
+[submodule "css/bootstrap"]
+	path = css/bootstrap
+	url = git@github.com:GerHobbelt/bootstrap.git
+[submodule "examples/bootstrap-themes-bootswatch"]
+	path = examples/bootstrap-themes-bootswatch
+	url = git@github.com:GerHobbelt/bootswatch.git
+[submodule "js/callsite"]
+	path = js/callsite
+	url = git@github.com:GerHobbelt/callsite.git
+[submodule "js/caret-position-in-textbox"]
+	path = js/caret-position-in-textbox
+	url = git@github.com:GerHobbelt/caret.git
+[submodule "js/catiline-webworkers"]
+	path = js/catiline-webworkers
+	url = git@github.com:GerHobbelt/catiline.git
+[submodule "js/chai"]
+	path = js/chai
+	url = git@github.com:GerHobbelt/chai.git
+[submodule "js/jquery-chaperone"]
+	path = js/jquery-chaperone
+	url = git@github.com:GerHobbelt/chaperone.js.git
+[submodule "js/jquery-chosen"]
+	path = js/jquery-chosen
+	url = git@github.com:GerHobbelt/chosen.git
+[submodule "js/chroma"]
+	path = js/chroma
+	url = git@github.com:GerHobbelt/chroma.js.git
+[submodule "js/circle-menu"]
+	path = js/circle-menu
+	url = git@github.com:GerHobbelt/circle-menu.git
+[submodule "js/CKeditor.development"]
+	path = js/CKeditor.development
+	url = git@github.com:GerHobbelt/ckeditor-dev.git
+[submodule "js/CKeditor.releases"]
+	path = js/CKeditor.releases
+	url = git@github.com:GerHobbelt/ckeditor-releases.git
+[submodule "js/classlist-shim"]
+	path = js/classlist-shim
+	url = git@github.com:GerHobbelt/classList.js.git
+[submodule "js/clipboard"]
+	path = js/clipboard
+	url = git@github.com:GerHobbelt/clipboard.git
+[submodule "tooling/google-closure-compiler"]
+	path = tooling/google-closure-compiler
+	url = git@github.com:GerHobbelt/closure-compiler.git
+[submodule "js/CodeMirror-UI"]
+	path = js/CodeMirror-UI
+	url = git@github.com:GerHobbelt/codemirror-ui.git
+[submodule "js/jquery-colorbox"]
+	path = js/jquery-colorbox
+	url = git@github.com:GerHobbelt/colorbox.git
+[submodule "js/colorjoe"]
+	path = js/colorjoe
+	url = git@github.com:GerHobbelt/colorjoe.git
+[submodule "js/consolidate-template-engines"]
+	path = js/consolidate-template-engines
+	url = git@github.com:GerHobbelt/consolidate.js.git
+[submodule "js/crc8"]
+	path = js/crc8
+	url = git@github.com:GerHobbelt/crc8js.git
+[submodule "js/create"]
+	path = js/create
+	url = git@github.com:GerHobbelt/create.git
+[submodule "js/crossfilter"]
+	path = js/crossfilter
+	url = git@github.com:GerHobbelt/crossfilter.git
+[submodule "doc/crossfilter-wiki"]
+	path = doc/crossfilter-wiki
+	url = git@github.com:GerHobbelt/crossfilter.wiki.git
+[submodule "js/crypto-js"]
+	path = js/crypto-js
+	url = git@github.com:GerHobbelt/cryptojs.git
+[submodule "js/crypton-zero-knowledge"]
+	path = js/crypton-zero-knowledge
+	url = git@github.com:GerHobbelt/crypton.git
+[submodule "css/CSS-arrow-please"]
+	path = css/CSS-arrow-please
+	url = git@github.com:GerHobbelt/cssarrowplease.git
+[submodule "tooling/csslint"]
+	path = tooling/csslint
+	url = git@github.com:GerHobbelt/csslint.git
+[submodule "tooling/csso"]
+	path = tooling/csso
+	url = git@github.com:GerHobbelt/csso.git
+[submodule "js/jquery-cycle2"]
+	path = js/jquery-cycle2
+	url = git@github.com:GerHobbelt/cycle2.git
+[submodule "js/d3-plugins"]
+	path = js/d3-plugins
+	url = git@github.com:GerHobbelt/d3-plugins.git
+[submodule "js/d3-tooltip"]
+	path = js/d3-tooltip
+	url = git@github.com:GerHobbelt/d3-tip.git
+[submodule "js/d3"]
+	path = js/d3
+	url = git@github.com:GerHobbelt/d3.git
+[submodule "js/dat.gui"]
+	path = js/dat.gui
+	url = git@github.com:GerHobbelt/dat.gui.git
+[submodule "js/miso.dataset"]
+	path = js/miso.dataset
+	url = git@github.com:GerHobbelt/dataset.git
+[submodule "js/datavore"]
+	path = js/datavore
+	url = git@github.com:GerHobbelt/datavore.git
+[submodule "js/jquery-datepicker"]
+	path = js/jquery-datepicker
+	url = git@github.com:GerHobbelt/datepick.git
+[submodule "js/dc"]
+	path = js/dc
+	url = git@github.com:GerHobbelt/dc.js.git
+[submodule "js/debug-helper-functions"]
+	path = js/debug-helper-functions
+	url = git@github.com:GerHobbelt/debug-helper-functions.git
+[submodule "examples/DeckJS-CodeMirror-Example"]
+	path = examples/DeckJS-CodeMirror-Example
+	url = git@github.com:GerHobbelt/deck.js-codemirror.git
+[submodule "js/deck.js"]
+	path = js/deck.js
+	url = git@github.com:GerHobbelt/deck.js.git
+[submodule "js/detect-zoom"]
+	path = js/detect-zoom
+	url = git@github.com:GerHobbelt/detect-zoom.git
+[submodule "js/director-router"]
+	path = js/director-router
+	url = git@github.com:GerHobbelt/director.git
+[submodule "examples/Backbone-example-directory"]
+	path = examples/Backbone-example-directory
+	url = git@github.com:GerHobbelt/directory-backbone-bootstrap.git
+[submodule "tooling/docco"]
+	path = tooling/docco
+	url = git@github.com:GerHobbelt/docco.git
+[submodule "doc/php-opauth-docs"]
+	path = doc/php-opauth-docs
+	url = git@github.com:GerHobbelt/docs.git
+[submodule "php/domPDF"]
+	path = php/domPDF
+	url = git@github.com:GerHobbelt/dompdf.git
+[submodule "js/domready"]
+	path = js/domready
+	url = git@github.com:GerHobbelt/domready.git
+[submodule "tooling/doxygen"]
+	path = tooling/doxygen
+	url = git@github.com:GerHobbelt/doxygen.git
+[submodule "js/tether-drop"]
+	path = js/tether-drop
+	url = git@github.com:GerHobbelt/drop.git
+[submodule "js/dropin-require"]
+	path = js/dropin-require
+	url = git@github.com:GerHobbelt/dropinrequire.js.git
+[submodule "js/dropzone"]
+	path = js/dropzone
+	url = git@github.com:GerHobbelt/dropzone.git
+[submodule "js/jquery-easie"]
+	path = js/jquery-easie
+	url = git@github.com:GerHobbelt/easie.git
+[submodule "php/easier-baseN-encoding"]
+	path = php/easier-baseN-encoding
+	url = git@github.com:GerHobbelt/easier.git
+[submodule "js/echo3"]
+	path = js/echo3
+	url = git@github.com:GerHobbelt/echo3.git
+[submodule "js/editable-contenteditable"]
+	path = js/editable-contenteditable
+	url = git@github.com:GerHobbelt/editable.git
+[submodule "js/elFinder"]
+	path = js/elFinder
+	url = git@github.com:GerHobbelt/elFinder.git
+[submodule "js/jquery-equalize"]
+	path = js/jquery-equalize
+	url = git@github.com:GerHobbelt/equalize.js.git
+[submodule "doc/ECMAscript.5"]
+	path = doc/ECMAscript.5
+	url = git@github.com:GerHobbelt/es5.github.com.git
+[submodule "js/miso.events"]
+	path = js/miso.events
+	url = git@github.com:GerHobbelt/events.git
+[submodule "examples/antlr-examples"]
+	path = examples/antlr-examples
+	url = git@github.com:GerHobbelt/examples-v3.git
+[submodule "php/opauth-facebook"]
+	path = php/opauth-facebook
+	url = git@github.com:GerHobbelt/facebook.git
+[submodule "js/jquery-facebox"]
+	path = js/jquery-facebox
+	url = git@github.com:GerHobbelt/facebox.git
+[submodule "buttons/famfamfam"]
+	path = buttons/famfamfam
+	url = git@github.com:GerHobbelt/famfamfam.git
+[submodule "js/famous"]
+	path = js/famous
+	url = git@github.com:GerHobbelt/famous.git
+[submodule "js/fd-slider"]
+	path = js/fd-slider
+	url = git@github.com:GerHobbelt/fd-slider.git
+[submodule "js/financial-Excel-functions"]
+	path = js/financial-Excel-functions
+	url = git@github.com:GerHobbelt/financial.js.git
+[submodule "tooling/findW-find_in_worktree"]
+	path = tooling/findW-find_in_worktree
+	url = git@github.com:GerHobbelt/findW-find_in_worktree.git
+[submodule "js/finderSelect"]
+	path = js/finderSelect
+	url = git@github.com:GerHobbelt/finderSelect.git
+[submodule "js/fingerprint"]
+	path = js/fingerprint
+	url = git@github.com:GerHobbelt/fingerprintjs.git
+[submodule "js/jquery-floatlabels"]
+	path = js/jquery-floatlabels
+	url = git@github.com:GerHobbelt/floatlabels.js.git
+[submodule "js/flowtime"]
+	path = js/flowtime
+	url = git@github.com:GerHobbelt/flowtime.js.git
+[submodule "js/fontIconPicker"]
+	path = js/fontIconPicker
+	url = git@github.com:GerHobbelt/fontIconPicker.git
+[submodule "js/jquery-form"]
+	path = js/jquery-form
+	url = git@github.com:GerHobbelt/form.git
+[submodule "css/formalize"]
+	path = css/formalize
+	url = git@github.com:GerHobbelt/formalize.git
+[submodule "js/formula-Excel-functions"]
+	path = js/formula-Excel-functions
+	url = git@github.com:GerHobbelt/formula.js.git
+[submodule "js/zurb-foundation"]
+	path = js/zurb-foundation
+	url = git@github.com:GerHobbelt/foundation.git
+[submodule "js/jquery-freewall"]
+	path = js/jquery-freewall
+	url = git@github.com:GerHobbelt/freewall.git
+[submodule "js/jquery-fullcalendar"]
+	path = js/jquery-fullcalendar
+	url = git@github.com:GerHobbelt/fullcalendar.git
+[submodule "js/functional-js"]
+	path = js/functional-js
+	url = git@github.com:GerHobbelt/functional-javascript.git
+[submodule "js/genie"]
+	path = js/genie
+	url = git@github.com:GerHobbelt/genie.git
+[submodule "php/github-api3-php"]
+	path = php/github-api3-php
+	url = git@github.com:GerHobbelt/github-api3-php.git
+[submodule "php/opauth-github"]
+	path = php/opauth-github
+	url = git@github.com:GerHobbelt/github.git
+[submodule "doc/gitmagic"]
+	path = doc/gitmagic
+	url = git@github.com:GerHobbelt/gitmagic.git
+[submodule "js/jquery-globalize"]
+	path = js/jquery-globalize
+	url = git@github.com:GerHobbelt/globalize.git
+[submodule "php/opauth-google"]
+	path = php/opauth-google
+	url = git@github.com:GerHobbelt/google.git
+[submodule "tooling/greg"]
+	path = tooling/greg
+	url = git@github.com:GerHobbelt/greg.git
+[submodule "js/gridster"]
+	path = js/gridster
+	url = git@github.com:GerHobbelt/gridster.js.git
+[submodule "js/jquery-grumble-tooltip"]
+	path = js/jquery-grumble-tooltip
+	url = git@github.com:GerHobbelt/grumble.js.git
+[submodule "js/slickgrid-guriddo-frozencolumns"]
+	path = js/slickgrid-guriddo-frozencolumns
+	url = git@github.com:GerHobbelt/guriddo.git
+[submodule "js/hallo"]
+	path = js/hallo
+	url = git@github.com:GerHobbelt/hallo.git
+[submodule "js/hammer"]
+	path = js/hammer
+	url = git@github.com:GerHobbelt/hammer.js.git
+[submodule "js/handlebars"]
+	path = js/handlebars
+	url = git@github.com:GerHobbelt/handlebars.js.git
+[submodule "js/has.js"]
+	path = js/has.js
+	url = git@github.com:GerHobbelt/has.js.git
+[submodule "js/headjs"]
+	path = js/headjs
+	url = git@github.com:GerHobbelt/headjs.git
+[submodule "js/highlight"]
+	path = js/highlight
+	url = git@github.com:GerHobbelt/highlight.js.git
+[submodule "js/hilitor"]
+	path = js/hilitor
+	url = git@github.com:GerHobbelt/hilitor.git
+[submodule "css/CSS-hint"]
+	path = css/CSS-hint
+	url = git@github.com:GerHobbelt/hint.css.git
+[submodule "js/history-js"]
+	path = js/history-js
+	url = git@github.com:GerHobbelt/history.js.git
+[submodule "js/html2canvas"]
+	path = js/html2canvas
+	url = git@github.com:GerHobbelt/html2canvas.git
+[submodule "examples/html5demos"]
+	path = examples/html5demos
+	url = git@github.com:GerHobbelt/html5demos.git
+[submodule "js/jquery-html5sortable-dragndrop"]
+	path = js/jquery-html5sortable-dragndrop
+	url = git@github.com:GerHobbelt/html5sortable.git
+[submodule "php/HTMLpurifier"]
+	path = php/HTMLpurifier
+	url = git@github.com:GerHobbelt/htmlpurifier.git
+[submodule "php/hybridauth"]
+	path = php/hybridauth
+	url = git@github.com:GerHobbelt/hybridauth.git
+[submodule "js/impress.js"]
+	path = js/impress.js
+	url = git@github.com:GerHobbelt/impress.js.git
+[submodule "js/jquery-input-indicator"]
+	path = js/jquery-input-indicator
+	url = git@github.com:GerHobbelt/input_indicator.git
+[submodule "js/intercom"]
+	path = js/intercom
+	url = git@github.com:GerHobbelt/intercom.js.git
+[submodule "examples/interdependent-interactive-histograms"]
+	path = examples/interdependent-interactive-histograms
+	url = git@github.com:GerHobbelt/interdependent-interactive-histograms.git
+[submodule "js/intern"]
+	path = js/intern
+	url = git@github.com:GerHobbelt/intern.git
+[submodule "js/intro.js"]
+	path = js/intro.js
+	url = git@github.com:GerHobbelt/intro.js.git
+[submodule "js/iscroll"]
+	path = js/iscroll
+	url = git@github.com:GerHobbelt/iscroll.git
+[submodule "js/jquery-rangeslider"]
+	path = js/jquery-rangeslider
+	url = git@github.com:GerHobbelt/jQRangeSlider.git
+[submodule "js/jquery-animate-enhanced"]
+	path = js/jquery-animate-enhanced
+	url = git@github.com:GerHobbelt/jQuery-Animate-Enhanced.git
+[submodule "js/jquery-autocomplete"]
+	path = js/jquery-autocomplete
+	url = git@github.com:GerHobbelt/jQuery-Autocomplete.git
+[submodule "js/jquery-colorpicker"]
+	path = js/jquery-colorpicker
+	url = git@github.com:GerHobbelt/jQuery-ColorPicker.git
+[submodule "js/jquery-custom-input"]
+	path = js/jquery-custom-input
+	url = git@github.com:GerHobbelt/jQuery-Custom-Input.git
+[submodule "js/jquery-equal-heights"]
+	path = js/jquery-equal-heights
+	url = git@github.com:GerHobbelt/jQuery-Equal-Heights.git
+[submodule "js/jquery-file-tree"]
+	path = js/jquery-file-tree
+	url = git@github.com:GerHobbelt/jQuery-File-Tree.git
+[submodule "js/jQuery-File-Upload"]
+	path = js/jQuery-File-Upload
+	url = git@github.com:GerHobbelt/jQuery-File-Upload.git
+[submodule "js/jquery-rotary-dial-knob"]
+	path = js/jquery-rotary-dial-knob
+	url = git@github.com:GerHobbelt/jQuery-Knob.git
+[submodule "js/jquery-kontrols"]
+	path = js/jquery-kontrols
+	url = git@github.com:GerHobbelt/jQuery-Kontrol.git
+[submodule "js/jquery-mask"]
+	path = js/jquery-mask
+	url = git@github.com:GerHobbelt/jQuery-Mask-Plugin.git
+[submodule "js/jquery-multipage-form"]
+	path = js/jquery-multipage-form
+	url = git@github.com:GerHobbelt/jQuery-Multipage-Form.git
+[submodule "js/jquery-stick-em"]
+	path = js/jquery-stick-em
+	url = git@github.com:GerHobbelt/jQuery-Stickem.git
+[submodule "js/jquery-timepicker-addon"]
+	path = js/jquery-timepicker-addon
+	url = git@github.com:GerHobbelt/jQuery-Timepicker-Addon.git
+[submodule "js/jquery-validation-engine"]
+	path = js/jquery-validation-engine
+	url = git@github.com:GerHobbelt/jQuery-Validation-Engine.git
+[submodule "js/jquery-contextmenu"]
+	path = js/jquery-contextmenu
+	url = git@github.com:GerHobbelt/jQuery-contextMenu.git
+[submodule "js/jquery-insertAt"]
+	path = js/jquery-insertAt
+	url = git@github.com:GerHobbelt/jQuery-insertAt.git
+[submodule "js/jquery-menu-aim"]
+	path = js/jquery-menu-aim
+	url = git@github.com:GerHobbelt/jQuery-menu-aim.git
+[submodule "js/jquery-jscrollpane"]
+	path = js/jquery-jscrollpane
+	url = git@github.com:GerHobbelt/jScrollPane.git
+[submodule "js/jasmine-ajax"]
+	path = js/jasmine-ajax
+	url = git@github.com:GerHobbelt/jasmine-ajax.git
+[submodule "js/jasmine-bootstrap"]
+	path = js/jasmine-bootstrap
+	url = git@github.com:GerHobbelt/jasmine-bootstrap.git
+[submodule "js/jasmine-DOM"]
+	path = js/jasmine-DOM
+	url = git@github.com:GerHobbelt/jasmine-dom.git
+[submodule "js/jasmine-jquery"]
+	path = js/jasmine-jquery
+	url = git@github.com:GerHobbelt/jasmine-jquery.git
+[submodule "js/jasmine-matchers"]
+	path = js/jasmine-matchers
+	url = git@github.com:GerHobbelt/jasmine-matchers.git
+[submodule "js/jasmine-signals"]
+	path = js/jasmine-signals
+	url = git@github.com:GerHobbelt/jasmine-signals.git
+[submodule "js/jasmine-stealth"]
+	path = js/jasmine-stealth
+	url = git@github.com:GerHobbelt/jasmine-stealth.git
+[submodule "js/jasmine-ui"]
+	path = js/jasmine-ui
+	url = git@github.com:GerHobbelt/jasmine-ui.git
+[submodule "js/jasmine-async"]
+	path = js/jasmine-async
+	url = git@github.com:GerHobbelt/jasmine.async.git
+[submodule "js/jasmine-backbone-matchers"]
+	path = js/jasmine-backbone-matchers
+	url = git@github.com:GerHobbelt/jasmine.backbone.js.git
+[submodule "js/jasmine"]
+	path = js/jasmine
+	url = git@github.com:GerHobbelt/jasmine.git
+[submodule "js/javascript-debug"]
+	path = js/javascript-debug
+	url = git@github.com:GerHobbelt/javascript-debug.git
+[submodule "js/javascript-sandbox-console"]
+	path = js/javascript-sandbox-console
+	url = git@github.com:GerHobbelt/javascript-sandbox-console.git
+[submodule "js/javascript-stacktrace"]
+	path = js/javascript-stacktrace
+	url = git@github.com:GerHobbelt/javascript-stacktrace.git
+[submodule "tooling/javascriptlint"]
+	path = tooling/javascriptlint
+	url = git@github.com:GerHobbelt/javascriptlint.git
+[submodule "tooling/jison"]
+	path = tooling/jison
+	url = git@github.com:GerHobbelt/jison.git
+[submodule "js/jquery-impress"]
+	path = js/jquery-impress
+	url = git@github.com:GerHobbelt/jmpress.js.git
+[submodule "js/jquery-idealforms"]
+	path = js/jquery-idealforms
+	url = git@github.com:GerHobbelt/jq-idealforms.git
+[submodule "js/jquery-anystretch"]
+	path = js/jquery-anystretch
+	url = git@github.com:GerHobbelt/jquery-anystretch.git
+[submodule "js/jquery-autocomplete-orig"]
+	path = js/jquery-autocomplete-orig
+	url = git@github.com:GerHobbelt/jquery-autocomplete-orig.git
+[submodule "js/jquery-autogrow"]
+	path = js/jquery-autogrow
+	url = git@github.com:GerHobbelt/jquery-autogrow.git
+[submodule "js/jquery-checkbox"]
+	path = js/jquery-checkbox
+	url = git@github.com:GerHobbelt/jquery-checkbox.git
+[submodule "js/jquery-cleverfocus"]
+	path = js/jquery-cleverfocus
+	url = git@github.com:GerHobbelt/jquery-cleverfocus.git
+[submodule "js/jquery-color"]
+	path = js/jquery-color
+	url = git@github.com:GerHobbelt/jquery-color.git
+[submodule "js/jquery-colorpickersliders"]
+	path = js/jquery-colorpickersliders
+	url = git@github.com:GerHobbelt/jquery-colorpickersliders.git
+[submodule "js/jquery-console"]
+	path = js/jquery-console
+	url = git@github.com:GerHobbelt/jquery-console.git
+[submodule "js/jquery-cookie"]
+	path = js/jquery-cookie
+	url = git@github.com:GerHobbelt/jquery-cookie.git
+[submodule "js/jquery-deserialize"]
+	path = js/jquery-deserialize
+	url = git@github.com:GerHobbelt/jquery-deserialize.git
+[submodule "js/jquery-dropdown"]
+	path = js/jquery-dropdown
+	url = git@github.com:GerHobbelt/jquery-dropdown.git
+[submodule "js/jquery-editable"]
+	path = js/jquery-editable
+	url = git@github.com:GerHobbelt/jquery-editable.git
+[submodule "js/jquery-fieldselection"]
+	path = js/jquery-fieldselection
+	url = git@github.com:GerHobbelt/jquery-fieldselection.git
+[submodule "js/jQuery-filedrop"]
+	path = js/jQuery-filedrop
+	url = git@github.com:GerHobbelt/jquery-filedrop.git
+[submodule "js/jquery-fixclick"]
+	path = js/jquery-fixclick
+	url = git@github.com:GerHobbelt/jquery-fixclick.git
+[submodule "js/jquery-flexselect"]
+	path = js/jquery-flexselect
+	url = git@github.com:GerHobbelt/jquery-flexselect.git
+[submodule "js/jquery-grewform"]
+	path = js/jquery-grewform
+	url = git@github.com:GerHobbelt/jquery-grewform.git
+[submodule "js/jquery-hashchange"]
+	path = js/jquery-hashchange
+	url = git@github.com:GerHobbelt/jquery-hashchange.git
+[submodule "js/jquery-html5-upload"]
+	path = js/jquery-html5-upload
+	url = git@github.com:GerHobbelt/jquery-html5-upload.git
+[submodule "js/jquery-icheckbox"]
+	path = js/jquery-icheckbox
+	url = git@github.com:GerHobbelt/jquery-icheckbox.git
+[submodule "js/jquery-infinite-drag"]
+	path = js/jquery-infinite-drag
+	url = git@github.com:GerHobbelt/jquery-infinite-drag.git
+[submodule "js/jquery-loadprogress"]
+	path = js/jquery-loadprogress
+	url = git@github.com:GerHobbelt/jquery-loadprogress-plugin.git
+[submodule "js/jquery-marcopolo"]
+	path = js/jquery-marcopolo
+	url = git@github.com:GerHobbelt/jquery-marcopolo.git
+[submodule "js/jquery-match-height"]
+	path = js/jquery-match-height
+	url = git@github.com:GerHobbelt/jquery-match-height.git
+[submodule "css/jquery-mobile-flat-ui-theme"]
+	path = css/jquery-mobile-flat-ui-theme
+	url = git@github.com:GerHobbelt/jquery-mobile-flat-ui-theme.git
+[submodule "js/jquery-mobile-simpledialog"]
+	path = js/jquery-mobile-simpledialog
+	url = git@github.com:GerHobbelt/jquery-mobile-simpledialog.git
+[submodule "js/jquery-mockjax"]
+	path = js/jquery-mockjax
+	url = git@github.com:GerHobbelt/jquery-mockjax.git
+[submodule "js/jquery-mousewheel"]
+	path = js/jquery-mousewheel
+	url = git@github.com:GerHobbelt/jquery-mousewheel.git
+[submodule "js/jquery-multiselect"]
+	path = js/jquery-multiselect
+	url = git@github.com:GerHobbelt/jquery-multiselect.git
+[submodule "js/jquery-offline"]
+	path = js/jquery-offline
+	url = git@github.com:GerHobbelt/jquery-offline.git
+[submodule "js/jquery-pageslide"]
+	path = js/jquery-pageslide
+	url = git@github.com:GerHobbelt/jquery-pageslide.git
+[submodule "examples/jquery-boilerplate-patterns"]
+	path = examples/jquery-boilerplate-patterns
+	url = git@github.com:GerHobbelt/jquery-patterns.git
+[submodule "js/jquery-postmessage"]
+	path = js/jquery-postmessage
+	url = git@github.com:GerHobbelt/jquery-postmessage.git
+[submodule "js/jquery-resize"]
+	path = js/jquery-resize
+	url = git@github.com:GerHobbelt/jquery-resize.git
+[submodule "js/jquery-scrollintoview"]
+	path = js/jquery-scrollintoview
+	url = git@github.com:GerHobbelt/jquery-scrollintoview.git
+[submodule "js/jquery-serialize-form"]
+	path = js/jquery-serialize-form
+	url = git@github.com:GerHobbelt/jquery-serializeForm.git
+[submodule "js/jquery-simple-datetimepicker"]
+	path = js/jquery-simple-datetimepicker
+	url = git@github.com:GerHobbelt/jquery-simple-datetimepicker.git
+[submodule "js/jquery-simulate-ext"]
+	path = js/jquery-simulate-ext
+	url = git@github.com:GerHobbelt/jquery-simulate-ext.git
+[submodule "js/jquery-simulate"]
+	path = js/jquery-simulate
+	url = git@github.com:GerHobbelt/jquery-simulate.git
+[submodule "js/jquery-smartresize"]
+	path = js/jquery-smartresize
+	url = git@github.com:GerHobbelt/jquery-smartresize.git
+[submodule "js/jquery-throttle-debounce"]
+	path = js/jquery-throttle-debounce
+	url = git@github.com:GerHobbelt/jquery-throttle-debounce.git
+[submodule "js/jquery-timepicker"]
+	path = js/jquery-timepicker
+	url = git@github.com:GerHobbelt/jquery-timepicker.git
+[submodule "js/jquery-ui-bootstrap"]
+	path = js/jquery-ui-bootstrap
+	url = git@github.com:GerHobbelt/jquery-ui-bootstrap.git
+[submodule "js/jquery-ui-touch-punch"]
+	path = js/jquery-ui-touch-punch
+	url = git@github.com:GerHobbelt/jquery-ui-touch-punch.git
+[submodule "js/jquery-ui"]
+	path = js/jquery-ui
+	url = git@github.com:GerHobbelt/jquery-ui.git
+[submodule "js/jquery-validation"]
+	path = js/jquery-validation
+	url = git@github.com:GerHobbelt/jquery-validation.git
+[submodule "js/jquery-waypoints"]
+	path = js/jquery-waypoints
+	url = git@github.com:GerHobbelt/jquery-waypoints.git
+[submodule "js/jquery-appear"]
+	path = js/jquery-appear
+	url = git@github.com:GerHobbelt/jquery.appear.git
+[submodule "js/jquery-avgrund-modal"]
+	path = js/jquery-avgrund-modal
+	url = git@github.com:GerHobbelt/jquery.avgrund.js.git
+[submodule "js/jquery-classList"]
+	path = js/jquery-classList
+	url = git@github.com:GerHobbelt/jquery.classList.git
+[submodule "js/jquery-complexify"]
+	path = js/jquery-complexify
+	url = git@github.com:GerHobbelt/jquery.complexify.js.git
+[submodule "js/jquery-dform"]
+	path = js/jquery-dform
+	url = git@github.com:GerHobbelt/jquery.dform.git
+[submodule "js/jquery-dialog"]
+	path = js/jquery-dialog
+	url = git@github.com:GerHobbelt/jquery.dialog.git
+[submodule "js/jquery-dirtyforms"]
+	path = js/jquery-dirtyforms
+	url = git@github.com:GerHobbelt/jquery.dirtyforms.git
+[submodule "js/jquery-event-move"]
+	path = js/jquery-event-move
+	url = git@github.com:GerHobbelt/jquery.event.move.git
+[submodule "js/jquery-event-swipe"]
+	path = js/jquery-event-swipe
+	url = git@github.com:GerHobbelt/jquery.event.swipe.git
+[submodule "js/jquery"]
+	path = js/jquery
+	url = git@github.com:GerHobbelt/jquery.git
+[submodule "js/jquery-hotkeys"]
+	path = js/jquery-hotkeys
+	url = git@github.com:GerHobbelt/jquery.hotkeys.git
+[submodule "js/jquery-inview"]
+	path = js/jquery-inview
+	url = git@github.com:GerHobbelt/jquery.inview.git
+[submodule "js/jquery-ui-layout"]
+	path = js/jquery-ui-layout
+	url = git@github.com:GerHobbelt/jquery.layout.git
+[submodule "js/jquery-masked-input"]
+	path = js/jquery-masked-input
+	url = git@github.com:GerHobbelt/jquery.maskedinput.git
+[submodule "js/jquery-nicescroll"]
+	path = js/jquery-nicescroll
+	url = git@github.com:GerHobbelt/jquery.nicescroll.git
+[submodule "js/jquery-payment"]
+	path = js/jquery-payment
+	url = git@github.com:GerHobbelt/jquery.payment.git
+[submodule "js/jquery-pep-dynamic-dragndrop"]
+	path = js/jquery-pep-dynamic-dragndrop
+	url = git@github.com:GerHobbelt/jquery.pep.js.git
+[submodule "js/jquery-print-in-page"]
+	path = js/jquery-print-in-page
+	url = git@github.com:GerHobbelt/jquery.print-in-page.git
+[submodule "js/jquery-printarea"]
+	path = js/jquery-printarea
+	url = git@github.com:GerHobbelt/jquery.printarea.js.git
+[submodule "js/jquery-scrollto"]
+	path = js/jquery-scrollto
+	url = git@github.com:GerHobbelt/jquery.scrollTo.git
+[submodule "js/jquery-selectboxit"]
+	path = js/jquery-selectboxit
+	url = git@github.com:GerHobbelt/jquery.selectBoxIt.js.git
+[submodule "js/jquery-shapeshift"]
+	path = js/jquery-shapeshift
+	url = git@github.com:GerHobbelt/jquery.shapeshift.git
+[submodule "js/jquery-sparkline"]
+	path = js/jquery-sparkline
+	url = git@github.com:GerHobbelt/jquery.sparkline.git
+[submodule "js/jquery-terminal"]
+	path = js/jquery-terminal
+	url = git@github.com:GerHobbelt/jquery.terminal.git
+[submodule "js/jquery-textfit"]
+	path = js/jquery-textfit
+	url = git@github.com:GerHobbelt/jquery.textFit.git
+[submodule "js/jquery-event-drag-drop"]
+	path = js/jquery-event-drag-drop
+	url = git@github.com:GerHobbelt/jquery.threedubmedia.git
+[submodule "js/jquery-tocify"]
+	path = js/jquery-tocify
+	url = git@github.com:GerHobbelt/jquery.tocify.js.git
+[submodule "js/jquery-transition"]
+	path = js/jquery-transition
+	url = git@github.com:GerHobbelt/jquery.transition.js.git
+[submodule "js/jquery-jeditable"]
+	path = js/jquery-jeditable
+	url = git@github.com:GerHobbelt/jquery_jeditable.git
+[submodule "js/jquerypp"]
+	path = js/jquerypp
+	url = git@github.com:GerHobbelt/jquerypp.git
+[submodule "js/jquerytools"]
+	path = js/jquerytools
+	url = git@github.com:GerHobbelt/jquerytools.git
+[submodule "tooling/jsbeautifier"]
+	path = tooling/jsbeautifier
+	url = git@github.com:GerHobbelt/js-beautify.git
+[submodule "js/code-walker"]
+	path = js/code-walker
+	url = git@github.com:GerHobbelt/js-code-walker.git
+[submodule "js/signal-signals"]
+	path = js/signal-signals
+	url = git@github.com:GerHobbelt/js-signals.git
+[submodule "js/jsPDF"]
+	path = js/jsPDF
+	url = git@github.com:GerHobbelt/jsPDF.git
+[submodule "js/jsSHA"]
+	path = js/jsSHA
+	url = git@github.com:GerHobbelt/jsSHA.git
+[submodule "js/priority-queue"]
+	path = js/priority-queue
+	url = git@github.com:GerHobbelt/js_priority_queue.git
+[submodule "js/jsbin"]
+	path = js/jsbin
+	url = git@github.com:GerHobbelt/jsbin.git
+[submodule "js/jschannel"]
+	path = js/jschannel
+	url = git@github.com:GerHobbelt/jschannel.git
+[submodule "js/jsdiff"]
+	path = js/jsdiff
+	url = git@github.com:GerHobbelt/jsdiff.git
+[submodule "tooling/JSDoc"]
+	path = tooling/JSDoc
+	url = git@github.com:GerHobbelt/jsdoc.git
+[submodule "js/crypto-js-hashes"]
+	path = js/crypto-js-hashes
+	url = git@github.com:GerHobbelt/jshashes.git
+[submodule "tooling/JSHint"]
+	path = tooling/JSHint
+	url = git@github.com:GerHobbelt/jshint.git
+[submodule "js/jquery-jsizes"]
+	path = js/jquery-jsizes
+	url = git@github.com:GerHobbelt/jsizes.git
+[submodule "js/jskata"]
+	path = js/jskata
+	url = git@github.com:GerHobbelt/jskata.git
+[submodule "tooling/json"]
+	path = tooling/json
+	url = git@github.com:GerHobbelt/json.git
+[submodule "js/json3"]
+	path = js/json3
+	url = git@github.com:GerHobbelt/json3.git
+[submodule "js/json5"]
+	path = js/json5
+	url = git@github.com:GerHobbelt/json5.git
+[submodule "js/jstat"]
+	path = js/jstat
+	url = git@github.com:GerHobbelt/jstat.git
+[submodule "js/jsTimezoneDetect"]
+	path = js/jsTimezoneDetect
+	url = git@github.com:GerHobbelt/jstimezonedetect.git
+[submodule "js/jwerty"]
+	path = js/jwerty
+	url = git@github.com:GerHobbelt/jwerty.git
+[submodule "js/kamino"]
+	path = js/kamino
+	url = git@github.com:GerHobbelt/kamino.js.git
+[submodule "js/kebab-pubsub-queue"]
+	path = js/kebab-pubsub-queue
+	url = git@github.com:GerHobbelt/kebab.git
+[submodule "js/keymaster"]
+	path = js/keymaster
+	url = git@github.com:GerHobbelt/keymaster.git
+[submodule "php/kissCMS-themes"]
+	path = php/kissCMS-themes
+	url = git@github.com:GerHobbelt/kisscms-themes.git
+[submodule "php/kissCMS"]
+	path = php/kissCMS
+	url = git@github.com:GerHobbelt/kisscms.git
+[submodule "doc/Know.Your.HTTP"]
+	path = doc/Know.Your.HTTP
+	url = git@github.com:GerHobbelt/know-your-http.git
+[submodule "js/jquery-kwicks"]
+	path = js/jquery-kwicks
+	url = git@github.com:GerHobbelt/kwicks.git
+[submodule "examples/concord-consortium-HTML5-laboratory"]
+	path = examples/concord-consortium-HTML5-laboratory
+	url = git@github.com:GerHobbelt/lab.git
+[submodule "js/laconic"]
+	path = js/laconic
+	url = git@github.com:GerHobbelt/laconic.git
+[submodule "tooling/PEG-tolmasky"]
+	path = tooling/PEG-tolmasky
+	url = git@github.com:GerHobbelt/language.git
+[submodule "js/lazy"]
+	path = js/lazy
+	url = git@github.com:GerHobbelt/lazy.js.git
+[submodule "js/lazyload-all"]
+	path = js/lazyload-all
+	url = git@github.com:GerHobbelt/lazyload-all.git
+[submodule "js/lazyload"]
+	path = js/lazyload
+	url = git@github.com:GerHobbelt/lazyload.git
+[submodule "js/less"]
+	path = js/less
+	url = git@github.com:GerHobbelt/less.js.git
+[submodule "php/lessphp"]
+	path = php/lessphp
+	url = git@github.com:GerHobbelt/lessphp.git
+[submodule "php/opauth-linkedin"]
+	path = php/opauth-linkedin
+	url = git@github.com:GerHobbelt/linkedin.git
+[submodule "js/liquidmetal-scoring-algo"]
+	path = js/liquidmetal-scoring-algo
+	url = git@github.com:GerHobbelt/liquidmetal.git
+[submodule "php/opauth-live"]
+	path = php/opauth-live
+	url = git@github.com:GerHobbelt/live.git
+[submodule "js/loStorage"]
+	path = js/loStorage
+	url = git@github.com:GerHobbelt/loStorage.js.git
+[submodule "js/locache"]
+	path = js/locache
+	url = git@github.com:GerHobbelt/locache.git
+[submodule "js/lodash"]
+	path = js/lodash
+	url = git@github.com:GerHobbelt/lodash.git
+[submodule "js/loglevel"]
+	path = js/loglevel
+	url = git@github.com:GerHobbelt/loglevel.git
+[submodule "js/lunr-search-engine"]
+	path = js/lunr-search-engine
+	url = git@github.com:GerHobbelt/lunr.js.git
+[submodule "js/machina"]
+	path = js/machina
+	url = git@github.com:GerHobbelt/machina.js.git
+[submodule "js/postal-machina"]
+	path = js/postal-machina
+	url = git@github.com:GerHobbelt/machina.postal.git
+[submodule "js/machina-promise"]
+	path = js/machina-promise
+	url = git@github.com:GerHobbelt/machina.promise.git
+[submodule "js/malihu-scrollbar"]
+	path = js/malihu-scrollbar
+	url = git@github.com:GerHobbelt/malihu-custom-scrollbar-plugin.git
+[submodule "js/markdown"]
+	path = js/markdown
+	url = git@github.com:GerHobbelt/markdown-js.git
+[submodule "js/marked"]
+	path = js/marked
+	url = git@github.com:GerHobbelt/marked.git
+[submodule "js/masonry"]
+	path = js/masonry
+	url = git@github.com:GerHobbelt/masonry.git
+[submodule "js/metalsmith"]
+	path = js/metalsmith
+	url = git@github.com:GerHobbelt/metalsmith.git
+[submodule "js/mocha"]
+	path = js/mocha
+	url = git@github.com:GerHobbelt/mocha.git
+[submodule "js/moment"]
+	path = js/moment
+	url = git@github.com:GerHobbelt/moment.git
+[submodule "js/monologue"]
+	path = js/monologue
+	url = git@github.com:GerHobbelt/monologue.js.git
+[submodule "js/postal-monologue"]
+	path = js/postal-monologue
+	url = git@github.com:GerHobbelt/monopost.js.git
+[submodule "js/mousetrap"]
+	path = js/mousetrap
+	url = git@github.com:GerHobbelt/mousetrap.git
+[submodule "js/move"]
+	path = js/move
+	url = git@github.com:GerHobbelt/move.js.git
+[submodule "js/multi-level-push-menu"]
+	path = js/multi-level-push-menu
+	url = git@github.com:GerHobbelt/multi-level-push-menu.git
+[submodule "php/niceJSON"]
+	path = php/niceJSON
+	url = git@github.com:GerHobbelt/nicejson-php.git
+[submodule "js/no-ui-slider"]
+	path = js/no-ui-slider
+	url = git@github.com:GerHobbelt/noUiSlider.git
+[submodule "js/node-si"]
+	path = js/node-si
+	url = git@github.com:GerHobbelt/node-si.git
+[submodule "js/uuid"]
+	path = js/uuid
+	url = git@github.com:GerHobbelt/node-uuid.git
+[submodule "css/normalize"]
+	path = css/normalize
+	url = git@github.com:GerHobbelt/normalize.css.git
+[submodule "js/noty"]
+	path = js/noty
+	url = git@github.com:GerHobbelt/noty.git
+[submodule "js/nprogress"]
+	path = js/nprogress
+	url = git@github.com:GerHobbelt/nprogress.git
+[submodule "js/numbers-math"]
+	path = js/numbers-math
+	url = git@github.com:GerHobbelt/numbers.js.git
+[submodule "js/numeric"]
+	path = js/numeric
+	url = git@github.com:GerHobbelt/numeric.git
+[submodule "js/d3-nvd3-charts"]
+	path = js/d3-nvd3-charts
+	url = git@github.com:GerHobbelt/nvd3.git
+[submodule "doc/d3-nvd3-charts-wiki"]
+	path = doc/d3-nvd3-charts-wiki
+	url = git@github.com:GerHobbelt/nvd3.wiki.git
+[submodule "js/object-path"]
+	path = js/object-path
+	url = git@github.com:GerHobbelt/object-path.git
+[submodule "js/objeq-json-querying"]
+	path = js/objeq-json-querying
+	url = git@github.com:GerHobbelt/objeq.git
+[submodule "js/offline"]
+	path = js/offline
+	url = git@github.com:GerHobbelt/offline.git
+[submodule "php/omnipay"]
+	path = php/omnipay
+	url = git@github.com:GerHobbelt/omnipay.git
+[submodule "js/one-color"]
+	path = js/one-color
+	url = git@github.com:GerHobbelt/one-color.git
+[submodule "js/jquery-onescroll"]
+	path = js/jquery-onescroll
+	url = git@github.com:GerHobbelt/onescroll.git
+[submodule "php/opauth"]
+	path = php/opauth
+	url = git@github.com:GerHobbelt/opauth.git
+[submodule "php/opauth-openid"]
+	path = php/opauth-openid
+	url = git@github.com:GerHobbelt/openid.git
+[submodule "js/pace-automatic-progress"]
+	path = js/pace-automatic-progress
+	url = git@github.com:GerHobbelt/pace.git
+[submodule "php/packager"]
+	path = php/packager
+	url = git@github.com:GerHobbelt/packager.git
+[submodule "js/pageguide"]
+	path = js/pageguide
+	url = git@github.com:GerHobbelt/pageguide.git
+[submodule "examples/PEG-js-web"]
+	path = examples/PEG-js-web
+	url = git@github.com:GerHobbelt/peg.arcanis.fr.git
+[submodule "tooling/PEG-js"]
+	path = tooling/PEG-js
+	url = git@github.com:GerHobbelt/pegjs.git
+[submodule "js/pen-live-edit"]
+	path = js/pen-live-edit
+	url = git@github.com:GerHobbelt/pen.git
+[submodule "js/persistJS"]
+	path = js/persistJS
+	url = git@github.com:GerHobbelt/persist-js.git
+[submodule "php/email-address-validation"]
+	path = php/email-address-validation
+	url = git@github.com:GerHobbelt/php-email-address-validation.git
+[submodule "php/php-json-format"]
+	path = php/php-json-format
+	url = git@github.com:GerHobbelt/php-json-format.git
+[submodule "php/php-markdown"]
+	path = php/php-markdown
+	url = git@github.com:GerHobbelt/php-markdown.git
+[submodule "php/php-profiler"]
+	path = php/php-profiler
+	url = git@github.com:GerHobbelt/php-profiler.git
+[submodule "php/php-ref"]
+	path = php/php-ref
+	url = git@github.com:GerHobbelt/php-ref.git
+[submodule "tooling/phpDocumentor"]
+	path = tooling/phpDocumentor
+	url = git@github.com:GerHobbelt/phpDocumentor2.git
+[submodule "php/phpass"]
+	path = php/phpass
+	url = git@github.com:GerHobbelt/phpass.git
+[submodule "php/phpbrowscap"]
+	path = php/phpbrowscap
+	url = git@github.com:GerHobbelt/phpbrowscap.git
+[submodule "php/phplist"]
+	path = php/phplist
+	url = git@github.com:GerHobbelt/phplist.git
+[submodule "php/phplist-api"]
+	path = php/phplist-api
+	url = git@github.com:GerHobbelt/phplistapi.git
+[submodule "php/phpmailer"]
+	path = php/phpmailer
+	url = git@github.com:GerHobbelt/phpmailer.git
+[submodule "php/phpti-template-engine"]
+	path = php/phpti-template-engine
+	url = git@github.com:GerHobbelt/phpti.git
+[submodule "php/phpUnit"]
+	path = php/phpUnit
+	url = git@github.com:GerHobbelt/phpunit.git
+[submodule "js/pivot.js"]
+	path = js/pivot.js
+	url = git@github.com:GerHobbelt/pivot.js.git
+[submodule "js/jquery-plusTabs"]
+	path = js/jquery-plusTabs
+	url = git@github.com:GerHobbelt/plusTabs.git
+[submodule "js/postal-diagnostics"]
+	path = js/postal-diagnostics
+	url = git@github.com:GerHobbelt/postal.diagnostics.git
+[submodule "js/postal-DOM"]
+	path = js/postal-DOM
+	url = git@github.com:GerHobbelt/postal.dom.git
+[submodule "js/postal-federation"]
+	path = js/postal-federation
+	url = git@github.com:GerHobbelt/postal.federation.git
+[submodule "js/postal"]
+	path = js/postal
+	url = git@github.com:GerHobbelt/postal.js.git
+[submodule "js/postal-when"]
+	path = js/postal-when
+	url = git@github.com:GerHobbelt/postal.when.git
+[submodule "js/postal-xframe"]
+	path = js/postal-xframe
+	url = git@github.com:GerHobbelt/postal.xframe.git
+[submodule "css/priss"]
+	path = css/priss
+	url = git@github.com:GerHobbelt/priss.git
+[submodule "php/profiler"]
+	path = php/profiler
+	url = git@github.com:GerHobbelt/profiler.git
+[submodule "js/qTip2"]
+	path = js/qTip2
+	url = git@github.com:GerHobbelt/qTip2.git
+[submodule "js/quickdiff"]
+	path = js/quickdiff
+	url = git@github.com:GerHobbelt/quickdiff.git
+[submodule "js/qunit"]
+	path = js/qunit
+	url = git@github.com:GerHobbelt/qunit.git
+[submodule "js/radial-menu"]
+	path = js/radial-menu
+	url = git@github.com:GerHobbelt/radial-menu.git
+[submodule "js/radial-responsive-menu"]
+	path = js/radial-responsive-menu
+	url = git@github.com:GerHobbelt/radial-responsive-menu.git
+[submodule "js/rangyinputs"]
+	path = js/rangyinputs
+	url = git@github.com:GerHobbelt/rangyinputs.git
+[submodule "js/jquery-raty"]
+	path = js/jquery-raty
+	url = git@github.com:GerHobbelt/raty.git
+[submodule "js/recline"]
+	path = js/recline
+	url = git@github.com:GerHobbelt/recline.git
+[submodule "js/regression"]
+	path = js/regression
+	url = git@github.com:GerHobbelt/regression-js.git
+[submodule "js/requireCSS"]
+	path = js/requireCSS
+	url = git@github.com:GerHobbelt/require-css.git
+[submodule "js/require-less"]
+	path = js/require-less
+	url = git@github.com:GerHobbelt/require-less.git
+[submodule "js/require-domReady"]
+	path = js/require-domReady
+	url = git@github.com:GerHobbelt/requireJS-domReady.git
+[submodule "js/require-handlebars"]
+	path = js/require-handlebars
+	url = git@github.com:GerHobbelt/requirejs-handlebars.git
+[submodule "js/require-plugins"]
+	path = js/require-plugins
+	url = git@github.com:GerHobbelt/requirejs-plugins.git
+[submodule "js/requireJS"]
+	path = js/requireJS
+	url = git@github.com:GerHobbelt/requirejs.git
+[submodule "js/response.js"]
+	path = js/response.js
+	url = git@github.com:GerHobbelt/response.js.git
+[submodule "js/reveal.js"]
+	path = js/reveal.js
+	url = git@github.com:GerHobbelt/reveal.js.git
+[submodule "js/rickshaw"]
+	path = js/rickshaw
+	url = git@github.com:GerHobbelt/rickshaw.git
+[submodule "js/ring-progress-bar"]
+	path = js/ring-progress-bar
+	url = git@github.com:GerHobbelt/ring-progress-bar.git
+[submodule "js/riot"]
+	path = js/riot
+	url = git@github.com:GerHobbelt/riotjs.git
+[submodule "js/rivets"]
+	path = js/rivets
+	url = git@github.com:GerHobbelt/rivets.git
+[submodule "js/jquery-rowGrid"]
+	path = js/jquery-rowGrid
+	url = git@github.com:GerHobbelt/rowGrid.js.git
+[submodule "js/jquery-sausage"]
+	path = js/jquery-sausage
+	url = git@github.com:GerHobbelt/sausage.git
+[submodule "js/science"]
+	path = js/science
+	url = git@github.com:GerHobbelt/science.js.git
+[submodule "js/jquery-select2"]
+	path = js/jquery-select2
+	url = git@github.com:GerHobbelt/select2.git
+[submodule "js/jquery-selectize"]
+	path = js/jquery-selectize
+	url = git@github.com:GerHobbelt/selectize.js.git
+[submodule "js/jquery-selectplus"]
+	path = js/jquery-selectplus
+	url = git@github.com:GerHobbelt/selectplus.git
+[submodule "php/sentry"]
+	path = php/sentry
+	url = git@github.com:GerHobbelt/sentry.git
+[submodule "js/SHA3-js"]
+	path = js/SHA3-js
+	url = git@github.com:GerHobbelt/sha3-js.git
+[submodule "examples/tether-shepherd-intro"]
+	path = examples/tether-shepherd-intro
+	url = git@github.com:GerHobbelt/shepherd.git
+[submodule "js/shotgun"]
+	path = js/shotgun
+	url = git@github.com:GerHobbelt/shotgun.git
+[submodule "js/simple-statistics"]
+	path = js/simple-statistics
+	url = git@github.com:GerHobbelt/simple-statistics.git
+[submodule "php/SimpleTest-visualGUI"]
+	path = php/SimpleTest-visualGUI
+	url = git@github.com:GerHobbelt/simpletest-visual-gui.git
+[submodule "php/SimpleTest"]
+	path = php/SimpleTest
+	url = git@github.com:GerHobbelt/simpletest.git
+[submodule "js/sisyphus"]
+	path = js/sisyphus
+	url = git@github.com:GerHobbelt/sisyphus.git
+[submodule "js/sketch"]
+	path = js/sketch
+	url = git@github.com:GerHobbelt/sketch.js.git
+[submodule "js/skrollr"]
+	path = js/skrollr
+	url = git@github.com:GerHobbelt/skrollr.git
+[submodule "js/slickgrid-distinct-values-menu-plugin"]
+	path = js/slickgrid-distinct-values-menu-plugin
+	url = git@github.com:GerHobbelt/slick.distinctMenu.git
+[submodule "js/SlickBack"]
+	path = js/SlickBack
+	url = git@github.com:GerHobbelt/slickback.git
+[submodule "js/slickgrid-spreadsheet-plugins"]
+	path = js/slickgrid-spreadsheet-plugins
+	url = git@github.com:GerHobbelt/slickgrid-spreadsheet-plugins.git
+[submodule "js/slickgrid-totals-plugin"]
+	path = js/slickgrid-totals-plugin
+	url = git@github.com:GerHobbelt/slickgrid-totals-plugin.git
+[submodule "js/smash"]
+	path = js/smash
+	url = git@github.com:GerHobbelt/smash.git
+[submodule "js/speakingURL"]
+	path = js/speakingURL
+	url = git@github.com:GerHobbelt/speakingurl.git
+[submodule "js/spectrum"]
+	path = js/spectrum
+	url = git@github.com:GerHobbelt/spectrum.git
+[submodule "js/spin"]
+	path = js/spin
+	url = git@github.com:GerHobbelt/spin.js.git
+[submodule "js/jquery-splitter-panels"]
+	path = js/jquery-splitter-panels
+	url = git@github.com:GerHobbelt/splitter.git
+[submodule "js/square-responsive-menu"]
+	path = js/square-responsive-menu
+	url = git@github.com:GerHobbelt/square-responsive-menu.git
+[submodule "js/stapes-js-mvc"]
+	path = js/stapes-js-mvc
+	url = git@github.com:GerHobbelt/stapes.git
+[submodule "js/store-local"]
+	path = js/store-local
+	url = git@github.com:GerHobbelt/store.js.git
+[submodule "js/jquery-switchy"]
+	path = js/jquery-switchy
+	url = git@github.com:GerHobbelt/switchy.git
+[submodule "js/tabletop-import-google-spreadsheets"]
+	path = js/tabletop-import-google-spreadsheets
+	url = git@github.com:GerHobbelt/tabletop.git
+[submodule "buttons/tango-iconset-naming"]
+	path = buttons/tango-iconset-naming
+	url = git@github.com:GerHobbelt/tango-icon-naming.git
+[submodule "buttons/tango-iconset-theme"]
+	path = buttons/tango-iconset-theme
+	url = git@github.com:GerHobbelt/tango-icon-theme.git
+[submodule "js/tether"]
+	path = js/tether
+	url = git@github.com:GerHobbelt/tether.git
+[submodule "js/require-text"]
+	path = js/require-text
+	url = git@github.com:GerHobbelt/text.git
+[submodule "js/three"]
+	path = js/three
+	url = git@github.com:GerHobbelt/three.js.git
+[submodule "js/three-ex"]
+	path = js/three-ex
+	url = git@github.com:GerHobbelt/threex.git
+[submodule "js/thumbs-touch"]
+	path = js/thumbs-touch
+	url = git@github.com:GerHobbelt/thumbs.js.git
+[submodule "js/jquery-tooltip-toolbar"]
+	path = js/jquery-tooltip-toolbar
+	url = git@github.com:GerHobbelt/toolbar.git
+[submodule "js/tether-tooltip"]
+	path = js/tether-tooltip
+	url = git@github.com:GerHobbelt/tooltip.git
+[submodule "js/tooltipster"]
+	path = js/tooltipster
+	url = git@github.com:GerHobbelt/tooltipster.git
+[submodule "css/topcoat"]
+	path = css/topcoat
+	url = git@github.com:GerHobbelt/topcoat.git
+[submodule "js/tributary"]
+	path = js/tributary
+	url = git@github.com:GerHobbelt/tributary.git
+[submodule "php/opauth-twitter"]
+	path = php/opauth-twitter
+	url = git@github.com:GerHobbelt/twitter.git
+[submodule "js/two-svg"]
+	path = js/two-svg
+	url = git@github.com:GerHobbelt/two.js.git
+[submodule "js/typeahead"]
+	path = js/typeahead
+	url = git@github.com:GerHobbelt/typeahead.js.git
+[submodule "js/ui-message-queue"]
+	path = js/ui-message-queue
+	url = git@github.com:GerHobbelt/ui-message-queue.git
+[submodule "js/ui-progress-bar"]
+	path = js/ui-progress-bar
+	url = git@github.com:GerHobbelt/ui-progress-bar.git
+[submodule "examples/UMD-Universal-Module-Definition"]
+	path = examples/UMD-Universal-Module-Definition
+	url = git@github.com:GerHobbelt/umd.git
+[submodule "js/underscore"]
+	path = js/underscore
+	url = git@github.com:GerHobbelt/underscore.git
+[submodule "js/underscore.math"]
+	path = js/underscore.math
+	url = git@github.com:GerHobbelt/underscore.math.git
+[submodule "css/uni-form"]
+	path = css/uni-form
+	url = git@github.com:GerHobbelt/uni-form.git
+[submodule "js/uri.regex"]
+	path = js/uri.regex
+	url = git@github.com:GerHobbelt/uri.regex.git
+[submodule "js/verge-screendimensions"]
+	path = js/verge-screendimensions
+	url = git@github.com:GerHobbelt/verge.git
+[submodule "js/verlet"]
+	path = js/verlet
+	url = git@github.com:GerHobbelt/verlet-js.git
+[submodule "js/vows"]
+	path = js/vows
+	url = git@github.com:GerHobbelt/vows.git
+[submodule "js/w2ui"]
+	path = js/w2ui
+	url = git@github.com:GerHobbelt/w2ui.git
+[submodule "js/wheel-menu"]
+	path = js/wheel-menu
+	url = git@github.com:GerHobbelt/wheel-menu.git
+[submodule "tooling/wsclean"]
+	path = tooling/wsclean
+	url = git@github.com:GerHobbelt/whitespace-cleaner.git
+[submodule "js/backbone-workflow"]
+	path = js/backbone-workflow
+	url = git@github.com:GerHobbelt/workflow.js.git
+[submodule "js/x-editable"]
+	path = js/x-editable
+	url = git@github.com:GerHobbelt/x-editable.git
+[submodule "js/d3-xcharts"]
+	path = js/d3-xcharts
+	url = git@github.com:GerHobbelt/xcharts.git
+[submodule "examples/postal-xframe-example"]
+	path = examples/postal-xframe-example
+	url = git@github.com:GerHobbelt/xframe-demo.git
+[submodule "tooling/xmail"]
+	path = tooling/xmail
+	url = git@github.com:GerHobbelt/xmail.git
+[submodule "js/xregexp"]
+	path = js/xregexp
+	url = git@github.com:GerHobbelt/xregexp.git
+[submodule "php/yii"]
+	path = php/yii
+	url = git@github.com:GerHobbelt/yii.git
+[submodule "php/yii2"]
+	path = php/yii2
+	url = git@github.com:GerHobbelt/yii2.git
+[submodule "js/jquery-zTree"]
+	path = js/jquery-zTree
+	url = git@github.com:GerHobbelt/zTree_v3.git
+[submodule "js/zen-form"]
+	path = js/zen-form
+	url = git@github.com:GerHobbelt/zen-form.git
+[submodule "js/zeroclipboard"]
+	path = js/zeroclipboard
+	url = git@github.com:GerHobbelt/zeroclipboard.git
+[submodule "js/zoom"]
+	path = js/zoom
+	url = git@github.com:GerHobbelt/zoom.js.git
+[submodule "js/jquery-zoomooz"]
+	path = js/jquery-zoomooz
+	url = git@github.com:GerHobbelt/zoomooz.git
+[submodule "js/zui53"]
+	path = js/zui53
+	url = git@github.com:GerHobbelt/zui53.git
+[submodule "js/d4"]
+	path = js/d4
+	url = git@github.com:Timopheym/d4.git
+[submodule "php/ultimatemysql"]
+	path = php/ultimatemysql
+	url = git@github.com:Visyond/ultimatemysql.git
+[submodule "examples/d4-examples-website"]
+	path = examples/d4-examples-website
+	url = git@github.com:GerHobbelt/d4-www.git
+[submodule "fonts/EB-Garamond"]
+	path = fonts/EB-Garamond
+	url = git@github.com:GerHobbelt/EB-Garamond.git
