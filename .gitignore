@@ -1,23 +1,60 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Editor backup files
+*~
+*.bak
 
-# Libraries
-*.lib
-*.a
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# SVN-to-GIT conversion assist directories
+lib/blocky-svn/blockly/
+lib/blocky-svn/svn/
+lib/crypto-js-svn/crypto-js/
+lib/crypto-js-svn/svn/
+lib/jquery-icheckbox-svn/icheckbox/
+lib/jquery-icheckbox-svn/svn/
+lib/rangy-svn/rangy/
+lib/rangy-svn/svn/
+lib/rangyinputs-svn/rangyinputs/
+lib/rangyinputs-svn/svn/
+php/lib/email-address-validation-svn/email-address-validation/
+php/lib/email-address-validation-svn/php-email-address-validation/
+php/lib/email-address-validation-svn/svn/
+php/lib/phpmailer-svn/phpmailer/
+php/lib/SimpleTest-svn/eclipse/
+php/lib/SimpleTest-svn/eclipsefeature/
+php/lib/SimpleTest-svn/eclipseupdate/
+php/lib/SimpleTest-svn/phpdoc_theme/
+php/lib/SimpleTest-svn/simpletest/
+util/jslint-svn/javascriptlint/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# experimental and R&D/test directories
+tmp/
+
+# intermediates
+util/__tmp__.sh
+
+.directory
+
+# GNU autotooling intermediates
+util/Makefile
+php/Makefile
+php/lib/Makefile
+parser/Makefile
+config.log
+config.status
+autom4te.cache
+Makefile
+
+# npm/grunt temporaries
+node_modules/
+
+# ... misc ...
+
+
+
+
+#JetBrains IDE
+.idea/
+
+# sublime project save
+*.sublime-project
+*.sublime-workspace
+
