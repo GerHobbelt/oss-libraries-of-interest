@@ -4,11 +4,11 @@
 #
 # [submodule "php/lib/ultimatemysql"]
 #    path = php/lib/ultimatemysql
-#    url = git@github.com:Visyond/ultimatemysql.git
+#    url = git@github.com:GerHobbelt/ultimatemysql.git
 #
 # -->
 #
-# git submodule add  git@github.com:Visyond/ultimatemysql.git  php/lib/ultimatemysql
+# git submodule add  git@github.com:GerHobbelt/ultimatemysql.git  php/lib/ultimatemysql
 #
 
 

@@ -162,6 +162,7 @@ checkout_branch lib/jquery-sparkline                                           t
 checkout_branch lib/jquery-ui-keyboard                                         gh-pages                                    $@
 checkout_branch lib/jquery-waypoints                                           gh-pages                                    $@
 checkout_branch lib/json3/vendor/spec                                          gh-pages                                    $@
+checkout_branch lib/large-local-storage                                        gh-pages                                    $@
 checkout_branch lib/less                                                       master                                      $@
 checkout_branch lib/Modernizr                                                  improvedAsyncTestSupport                    $@
 checkout_branch lib/moment                                                     develop                                     $@
