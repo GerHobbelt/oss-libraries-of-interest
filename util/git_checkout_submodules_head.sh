@@ -153,12 +153,13 @@ checkout_branch lib/elFinder                                                   e
 checkout_branch lib/highlight                                                  master                                      $@
 checkout_branch lib/iscroll                                                    v5                                          $@
 checkout_branch lib/jasmine/pages                                              gh-pages                                    $@
+checkout_branch lib/jasmine                                                    master                                      $@
 checkout_branch lib/jquery-dirtyforms/lib/facebox                              cssified                                    $@
 checkout_branch lib/jquery-facebox                                             cssified                                    $@
 checkout_branch lib/jQuery-File-Upload                                         gh-pages                                    $@
 checkout_branch lib/jquery-form-accordion                                      gh-pages                                    $@
 checkout_branch lib/jquery-print-in-page                                       gh-pages                                    $@
-checkout_branch lib/jquery-sparkline                                           takacsv-work                                $@
+checkout_branch lib/jquery-sparkline                                           master                                      $@
 checkout_branch lib/jquery-ui-keyboard                                         gh-pages                                    $@
 checkout_branch lib/jquery-waypoints                                           gh-pages                                    $@
 checkout_branch lib/json3/vendor/spec                                          gh-pages                                    $@

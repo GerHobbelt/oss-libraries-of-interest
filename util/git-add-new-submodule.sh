@@ -17,24 +17,39 @@ realpath() {
 # 
 # Note: the RE is engineered to eat ANYTHING and only extract username from legal git r/w repository URLs (git@github.com:user/repo.git)
 # Note: this RE should work with BSD/OSX sed too:  http://stackoverflow.com/questions/12178924/os-x-sed-e-doesnt-accept-extended-regular-expressions
-repoOwner=$( git config --get remote.origin.url | sed -E -e 's/^[^:]+(:([^\/]+)\/)?.*$/\2/' )
-if test -z $repoOwner ; then
-    repoOwner=$( git config --get github.user )
+getRepoOwner() {
+    repoOwner=""
+    if test -z "$1" ; then
+        repoOwner=$( git config --get remote.origin.url | sed -E -e 's/^[^:]+(:([^\/]+)\/)?.*$/\2/' )
+    fi
     if test -z $repoOwner ; then
-        repoOwner=$( git config --global --get github.user )
-        if test -z "$repoOwner"; then
-            repoOwner=GerHobbelt
+        repoOwner=$( git config --get github.user )
+        if test -z $repoOwner ; then
+            repoOwner=$( git config --global --get github.user )
+            if test -z "$repoOwner"; then
+                repoOwner=GerHobbelt
+            fi
         fi
     fi
-fi
+    echo "$repoOwner"
+}
 
 
 pushd $(dirname $0)                                                                                     2> /dev/null  > /dev/null
 cd ..
 
+# when the commandline starts with '-me' or '--me' then the repoOwner is NOT assumed to match 
+# the one of the repo you're currently standing in:
+if test "$1" == "-m" -o "$1" == "-me" -o "$1" == "--me" ; then
+    shift
+    repoOwner=$( getRepoOwner "whoami" );
+else
+    repoOwner=$( getRepoOwner );
+fi  
+
 if test -z "$2" ; then
     cat <<EOT
-$0 <repo-name> <destination-directory> [<original-author> [<forks>]]
+$0 [-m|-me|--me] <repo-name> <destination-directory> [<original-author> [<forks>]]
 
 Add a NEW submodule to the set of submodules.
 
@@ -58,6 +73,16 @@ in it.
 where 'repo-owner' is the remote owner (default: '$repoOwner') which owns
 the remote repository from which you clone; the 'repo-owner' will also be the
 target for any 'git push'.
+
+Note:
+  When the commandline starts with '-m', '-me' or '--me' then the repo-owner is
+  NOT assumed to match the one of the repo you're currently standing in; instead
+  we'll only look at the local git user.
+
+  Right now, with your current commandline, the repo-name will be:
+
+      $repoOwner
+
 
 Example usage:
 

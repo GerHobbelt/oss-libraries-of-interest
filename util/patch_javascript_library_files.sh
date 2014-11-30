@@ -10,7 +10,7 @@ pushd $(dirname $0)                                                             
 # go to the lib directory of project
 cd ../lib/_
 
-for f in $( grep -L -e 'visyond_file_counter' $( find . -type f -name '*.js' ) ) ; do
+for f in $( grep -L -e 'visyond_file_counter = ' $( find . -type f -name '*.js' ) ) ; do
     echo "*** patching file $f ***"
     cat $f ../../util/visyond_javascript_file_postfix.ascii > tmp.bak
     mv tmp.bak $f
@@ -19,7 +19,7 @@ done
 # go to the parser directory of project
 cd ../../parser
 
-for f in $( grep -L -e 'visyond_file_counter' $( find . -type f -name '*.js' ) ) ; do
+for f in $( grep -L -e 'visyond_file_counter = ' $( find . -type f -name '*.js' ) ) ; do
     echo "*** patching file $f ***"
     cat $f ../util/visyond_javascript_file_postfix.ascii > tmp.bak
     mv tmp.bak $f
@@ -28,7 +28,7 @@ done
 # go to the js directory of project
 cd ../js
 
-for f in $( grep -L -e 'visyond_file_counter' $( find . -type f -name '*.js' ) ) ; do
+for f in $( grep -L -e 'visyond_file_counter = ' $( find . -type f -name '*.js' ) ) ; do
     echo "*** patching file $f ***"
     cat $f ../util/visyond_javascript_file_postfix.ascii > tmp.bak
     mv tmp.bak $f
@@ -39,7 +39,7 @@ cd ..
 if test -d yii/visyond/js ; then
     cd yii/visyond/js
 
-    for f in $( grep -L -e 'visyond_file_counter' $( find . -type f -name '*.js' ) ) ; do
+    for f in $( grep -L -e 'visyond_file_counter = ' $( find . -type f -name '*.js' ) ) ; do
         echo "*** patching file $f ***"
         cat $f ../../../util/visyond_javascript_file_postfix.ascii > tmp.bak
         mv tmp.bak $f
@@ -52,7 +52,7 @@ fi
 if test -d yii/framework/web/js/source ; then
     cd yii/framework/web/js/source
 
-    for f in $( grep -L -e 'visyond_file_counter' $( find . -type f -name '*.js' ) ) ; do
+    for f in $( grep -L -e 'visyond_file_counter = ' $( find . -type f -name '*.js' ) ) ; do
         echo "*** patching file $f ***"
         cat $f ../../../../../util/visyond_javascript_file_postfix.ascii > tmp.bak
         mv tmp.bak $f
