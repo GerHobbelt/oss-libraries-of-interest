@@ -82,30 +82,32 @@ fi
 
 # args: lib localname remote
 function checkout_branch {
-    pushd $1                                                                                                2> /dev/null  > /dev/null
-    case "$mode" in
+    if test -d $1 ; then
+        pushd $1                                                                                                2> /dev/null  > /dev/null
+        case "$mode" in
 F )
-        echo "submodule: $1, branch: $2 (FORCED)"
-        git branch --track $2 origin/$2                                                                            2> /dev/null
-        git reset --hard
-        git checkout $2 $3 --force
-        git reset --hard
-  ;;
+            echo "submodule: $1, branch: $2 (FORCED)"
+            git branch --track $2 origin/$2                                                                            2> /dev/null
+            git reset --hard
+            git checkout $2 $3 --force
+            git reset --hard
+            ;;
 
 "?" )
-        if test "$2" != "master"; then
-            echo "submodule: $1"
-            echo "                                         branch: $2"
-        fi
-        ;;
+            if test "$2" != "master"; then
+                echo "submodule: $1"
+                echo "                                         branch: $2"
+            fi
+            ;;
 
 R )
-        echo "submodule: $1, branch: $2"
-        git branch --track $2 origin/$2                                                                            2> /dev/null
-        git checkout $2 $3
-        ;;
-    esac
-    popd                                                                                                    2> /dev/null  > /dev/null
+            echo "submodule: $1, branch: $2"
+            git branch --track $2 origin/$2                                                                            2> /dev/null
+            git checkout $2 $3
+            ;;
+        esac
+        popd                                                                                                    2> /dev/null  > /dev/null
+    fi
 }
 
 
@@ -159,7 +161,7 @@ checkout_branch lib/jquery-facebox                                             c
 checkout_branch lib/jQuery-File-Upload                                         gh-pages                                    $@
 checkout_branch lib/jquery-form-accordion                                      gh-pages                                    $@
 checkout_branch lib/jquery-print-in-page                                       gh-pages                                    $@
-checkout_branch lib/jquery-sparkline                                           master                                      $@
+checkout_branch lib/jquery-sparkline                                           takacsv-work                                $@
 checkout_branch lib/jquery-ui-keyboard                                         gh-pages                                    $@
 checkout_branch lib/jquery-waypoints                                           gh-pages                                    $@
 checkout_branch lib/json3/vendor/spec                                          gh-pages                                    $@

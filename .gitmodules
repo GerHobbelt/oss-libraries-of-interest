@@ -2125,3 +2125,12 @@
 [submodule "php/collision_detection"]
 	path = php/collision_detection
 	url = git@github.com:Visyond/collision_detection.git
+[submodule "js/Montmartre"]
+	path = js/Montmartre
+	url = git@github.com:GerHobbelt/Montmartre.git
+[submodule "js/BeatMaster"]
+	path = js/BeatMaster
+	url = git@github.com:GerHobbelt/BeatMaster.git
+[submodule "js/dagre"]
+	path = js/dagre
+	url = git@github.com:GerHobbelt/dagre.git

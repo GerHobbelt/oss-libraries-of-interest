@@ -316,6 +316,7 @@ git_submod_add   git@github.com:GerHobbelt/cycle2.git                           
 git_submod_add   git@github.com:GerHobbelt/d3-plugins.git                                js/d3-plugins
 git_submod_add   git@github.com:GerHobbelt/d3-tip.git                                    js/d3-tooltip
 git_submod_add   git@github.com:GerHobbelt/d3.git                                        js/d3
+git_submod_add   git@github.com:GerHobbelt/dagre.git                                     js/dagre
 git_submod_add   git@github.com:GerHobbelt/d4-www.git                                    examples/d4-examples-website
 git_submod_add   git@github.com:GerHobbelt/dat.gui.git                                   js/dat.gui
 git_submod_add   git@github.com:GerHobbelt/dataset.git                                   js/miso.dataset
