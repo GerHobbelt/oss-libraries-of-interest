@@ -183,7 +183,7 @@ checkout_branch lib/square-responsive-menu                                     g
 checkout_branch lib/SyntaxHighlighter                                          highlight-and-annotate-per-line             $@
 checkout_branch lib/TinyColor                                                  gh-pages                                    $@
 checkout_branch lib/zoom                                                       for-revealJS                                $@
-checkout_branch php/lib/opauth-docs                                            gh-pages                                    $@
+checkout_branch doc/php-opauth-docs                                            gh-pages                                    $@
 checkout_branch php/lib/PHPExcel                                               develop                                     $@
 checkout_branch php/lib/phpmailer                                              smtp-refactor                               $@
 checkout_branch util/docco                                                     jump_menu                                   $@
