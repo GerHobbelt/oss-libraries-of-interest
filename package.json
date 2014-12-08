@@ -1,0 +1,27 @@
+{
+  "name": "lib",
+  "version": "0.0.0",
+  "description": "Our (**mostly** Open Source) libraries of interest collective",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Visyond/libraries_of_interest.git"
+  },
+  "author": "Ger Hobbelt",
+  "license": "Commercial",
+  "bugs": {
+    "url": "https://github.com/Visyond/libraries_of_interest/issues"
+  },
+  "homepage": "https://github.com/Visyond/libraries_of_interest",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0"
+  }
+}
