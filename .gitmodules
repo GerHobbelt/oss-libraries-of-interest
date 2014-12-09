@@ -2134,3 +2134,6 @@
 [submodule "js/dagre"]
 	path = js/dagre
 	url = git@github.com:GerHobbelt/dagre.git
+[submodule "tooling/denyhosts"]
+	path = tooling/denyhosts
+	url = git@github.com:GerHobbelt/denyhosts.git

@@ -97,6 +97,7 @@ git_submod_add   git@github.com:GerHobbelt/Backbone.localStorage.git            
 git_submod_add   git@github.com:GerHobbelt/BackboneJSModalView.git                       js/backbone-modal-view
 git_submod_add   git@github.com:GerHobbelt/Baseline.js.git                               js/baseline-image
 git_submod_add   git@github.com:GerHobbelt/Batch.git                                     fonts/Font-Batch
+git_submod_add   git@github.com:GerHobbelt/BeatMaster.git                                js/BeatMaster
 git_submod_add   git@github.com:GerHobbelt/BigText.git                                   js/jquery-bigtext
 git_submod_add   git@github.com:GerHobbelt/BigUpload.git                                 js/BigUpload
 git_submod_add   git@github.com:GerHobbelt/Blob.js.git                                   js/Blob-filesystem-shim
@@ -164,6 +165,7 @@ git_submod_add   git@github.com:GerHobbelt/Meny.git                             
 git_submod_add   git@github.com:GerHobbelt/MessageChannel.js.git                         js/MessageChannel
 git_submod_add   git@github.com:GerHobbelt/ModalWindowEffects.git                        examples/modal-window-CSS3-effects
 git_submod_add   git@github.com:GerHobbelt/Modernizr.git                                 js/Modernizr
+git_submod_add   git@github.com:GerHobbelt/Montmartre.git                                js/Montmartre
 git_submod_add   git@github.com:GerHobbelt/MultiLevelPushMenu.git                        js/multilevel-pushmenu
 git_submod_add   git@github.com:GerHobbelt/Nestable.git                                  js/jquery-nestable-dragndrop
 git_submod_add   git@github.com:GerHobbelt/Nested.git                                    js/nested-grid-layout
@@ -316,8 +318,8 @@ git_submod_add   git@github.com:GerHobbelt/cycle2.git                           
 git_submod_add   git@github.com:GerHobbelt/d3-plugins.git                                js/d3-plugins
 git_submod_add   git@github.com:GerHobbelt/d3-tip.git                                    js/d3-tooltip
 git_submod_add   git@github.com:GerHobbelt/d3.git                                        js/d3
-git_submod_add   git@github.com:GerHobbelt/dagre.git                                     js/dagre
 git_submod_add   git@github.com:GerHobbelt/d4-www.git                                    examples/d4-examples-website
+git_submod_add   git@github.com:GerHobbelt/dagre.git                                     js/dagre
 git_submod_add   git@github.com:GerHobbelt/dat.gui.git                                   js/dat.gui
 git_submod_add   git@github.com:GerHobbelt/dataset.git                                   js/miso.dataset
 git_submod_add   git@github.com:GerHobbelt/datavore.git                                  js/datavore
@@ -326,6 +328,7 @@ git_submod_add   git@github.com:GerHobbelt/dc.js.git                            
 git_submod_add   git@github.com:GerHobbelt/debug-helper-functions.git                    js/debug-helper-functions
 git_submod_add   git@github.com:GerHobbelt/deck.js-codemirror.git                        examples/DeckJS-CodeMirror-Example
 git_submod_add   git@github.com:GerHobbelt/deck.js.git                                   js/deck.js
+git_submod_add   git@github.com:GerHobbelt/denyhosts.git                                 tooling/denyhosts
 git_submod_add   git@github.com:GerHobbelt/detect-zoom.git                               js/detect-zoom
 git_submod_add   git@github.com:GerHobbelt/dimple.git                                    js/d3-dimple
 git_submod_add   git@github.com:GerHobbelt/director.git                                  js/director-router
@@ -749,6 +752,7 @@ git_submod_add   git@github.com:GerHobbelt/typeahead.js.git                     
 git_submod_add   git@github.com:GerHobbelt/typson.git                                    js/typson-json-schema
 git_submod_add   git@github.com:GerHobbelt/ui-message-queue.git                          js/ui-message-queue
 git_submod_add   git@github.com:GerHobbelt/ui-progress-bar.git                           js/ui-progress-bar
+git_submod_add   git@github.com:GerHobbelt/ultimatemysql.git                             php/ultimatemysql
 git_submod_add   git@github.com:GerHobbelt/umd.git                                       examples/UMD-Universal-Module-Definition
 git_submod_add   git@github.com:GerHobbelt/underscore.git                                js/underscore
 git_submod_add   git@github.com:GerHobbelt/underscore.math.git                           js/underscore.math
@@ -782,7 +786,6 @@ git_submod_add   git@github.com:GerHobbelt/zoomooz.git                          
 git_submod_add   git@github.com:GerHobbelt/zui53.git                                     js/zui53
 git_submod_add   git@github.com:Timopheym/d4.git                                         js/d4
 git_submod_add   git@github.com:Visyond/collision_detection.git                          php/collision_detection
-git_submod_add   git@github.com:Visyond/ultimatemysql.git                                php/ultimatemysql
 
 
 
