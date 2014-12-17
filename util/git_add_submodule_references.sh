@@ -281,6 +281,7 @@ git_submod_add   git@github.com:GerHobbelt/blueprint.less.git                   
 git_submod_add   git@github.com:GerHobbelt/boilerplate.git                               js/jquery-boilerplate
 git_submod_add   git@github.com:GerHobbelt/bootstrap.git                                 css/bootstrap
 git_submod_add   git@github.com:GerHobbelt/bootswatch.git                                examples/bootstrap-themes-bootswatch
+git_submod_add   git@github.com:GerHobbelt/c3.git                                        js/c3
 git_submod_add   git@github.com:GerHobbelt/callsite.git                                  js/callsite
 git_submod_add   git@github.com:GerHobbelt/canvas-toBlob.js.git                          js/canvas-to-Blob.js
 git_submod_add   git@github.com:GerHobbelt/caret.git                                     js/caret-position-in-textbox
@@ -605,6 +606,7 @@ git_submod_add   git@github.com:GerHobbelt/markdown-js.git                      
 git_submod_add   git@github.com:GerHobbelt/marked.git                                    js/marked
 git_submod_add   git@github.com:GerHobbelt/masonry.git                                   js/masonry
 git_submod_add   git@github.com:GerHobbelt/mediaelement.git                              js/mediaelement
+git_submod_add   git@github.com:GerHobbelt/mercury.git                                   js/mercury-wysiwyg-editor
 git_submod_add   git@github.com:GerHobbelt/metalsmith.git                                js/metalsmith
 git_submod_add   git@github.com:GerHobbelt/mocha.git                                     js/mocha
 git_submod_add   git@github.com:GerHobbelt/mold-source-map.git                           tooling/source-map-mold

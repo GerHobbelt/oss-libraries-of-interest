@@ -2137,3 +2137,9 @@
 [submodule "tooling/denyhosts"]
 	path = tooling/denyhosts
 	url = git@github.com:GerHobbelt/denyhosts.git
+[submodule "js/mercury-wysiwyg-editor"]
+	path = js/mercury-wysiwyg-editor
+	url = git@github.com:GerHobbelt/mercury.git
+[submodule "js/c3"]
+	path = js/c3
+	url = git@github.com:GerHobbelt/c3.git
