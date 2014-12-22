@@ -2143,3 +2143,12 @@
 [submodule "js/c3"]
 	path = js/c3
 	url = git@github.com:GerHobbelt/c3.git
+[submodule "js/marked-toc"]
+	path = js/marked-toc
+	url = git@github.com:GerHobbelt/marked-toc.git
+[submodule "tooling/gitbook"]
+	path = tooling/gitbook
+	url = git@github.com:GerHobbelt/gitbook.git
+[submodule "js/marked-kramed"]
+	path = js/marked-kramed
+	url = git@github.com:GerHobbelt/kramed.git

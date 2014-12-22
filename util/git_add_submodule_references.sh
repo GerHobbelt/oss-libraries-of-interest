@@ -378,6 +378,7 @@ git_submod_add   git@github.com:GerHobbelt/ftcolumnflow.git                     
 git_submod_add   git@github.com:GerHobbelt/fullcalendar.git                              js/jquery-fullcalendar
 git_submod_add   git@github.com:GerHobbelt/functional-javascript.git                     js/functional-js
 git_submod_add   git@github.com:GerHobbelt/genie.git                                     js/genie
+git_submod_add   git@github.com:GerHobbelt/gitbook.git                                   tooling/gitbook
 git_submod_add   git@github.com:GerHobbelt/github-api3-php.git                           php/github-api3-php
 git_submod_add   git@github.com:GerHobbelt/github.git                                    php/opauth-github
 git_submod_add   git@github.com:GerHobbelt/gitmagic.git                                  doc/gitmagic
@@ -579,6 +580,7 @@ git_submod_add   git@github.com:GerHobbelt/keyvent.js.git                       
 git_submod_add   git@github.com:GerHobbelt/kisscms-themes.git                            php/kissCMS-themes
 git_submod_add   git@github.com:GerHobbelt/kisscms.git                                   php/kissCMS
 git_submod_add   git@github.com:GerHobbelt/know-your-http.git                            doc/Know.Your.HTTP
+git_submod_add   git@github.com:GerHobbelt/kramed.git                                    js/marked-kramed
 git_submod_add   git@github.com:GerHobbelt/kwicks.git                                    js/jquery-kwicks
 git_submod_add   git@github.com:GerHobbelt/lab.git                                       examples/concord-consortium-HTML5-laboratory
 git_submod_add   git@github.com:GerHobbelt/laconic.git                                   js/laconic
@@ -603,6 +605,7 @@ git_submod_add   git@github.com:GerHobbelt/machina.postal.git                   
 git_submod_add   git@github.com:GerHobbelt/machina.promise.git                           js/machina-promise
 git_submod_add   git@github.com:GerHobbelt/malihu-custom-scrollbar-plugin.git            js/malihu-scrollbar
 git_submod_add   git@github.com:GerHobbelt/markdown-js.git                               js/markdown
+git_submod_add   git@github.com:GerHobbelt/marked-toc.git                                js/marked-toc
 git_submod_add   git@github.com:GerHobbelt/marked.git                                    js/marked
 git_submod_add   git@github.com:GerHobbelt/masonry.git                                   js/masonry
 git_submod_add   git@github.com:GerHobbelt/mediaelement.git                              js/mediaelement
