@@ -2152,3 +2152,6 @@
 [submodule "js/marked-kramed"]
 	path = js/marked-kramed
 	url = git@github.com:GerHobbelt/kramed.git
+[submodule "js/video.js"]
+	path = js/video.js
+	url = git@github.com:GerHobbelt/video-js.git

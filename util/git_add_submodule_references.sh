@@ -767,6 +767,7 @@ git_submod_add   git@github.com:GerHobbelt/uri.regex.git                        
 git_submod_add   git@github.com:GerHobbelt/veinjs.git                                    js/veinjs-css-injection
 git_submod_add   git@github.com:GerHobbelt/verge.git                                     js/verge-screendimensions
 git_submod_add   git@github.com:GerHobbelt/verlet-js.git                                 js/verlet
+git_submod_add   git@github.com:GerHobbelt/video-js.git                                  js/video.js
 git_submod_add   git@github.com:GerHobbelt/vows.git                                      js/vows
 git_submod_add   git@github.com:GerHobbelt/vulcanize.git                                 tooling/vulcanize
 git_submod_add   git@github.com:GerHobbelt/w2ui.git                                      js/w2ui
