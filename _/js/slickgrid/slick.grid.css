@@ -1,0 +1,182 @@
+/*
+ * IMPORTANT:
+ * In order to preserve the uniform grid appearance, all cell styles need to have padding, margin and border sizes.
+ * No built-in (selected, editable, highlight, flashing, invalid, loading, :focus) or user-specified CSS
+ * classes should alter those!
+ */
+.slickgrid-container {
+  overflow: hidden;
+  outline: 0;
+  border: 1px solid silver;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+.slickgrid-container .slick-viewport,
+.slickgrid-container .slick-top-panel-scroller,
+.slickgrid-container .slick-header,
+.slickgrid-container .slick-headerrow,
+.slickgrid-container .slick-footerrow {
+  position: relative;
+  width: 100%;
+  border: 1px solid silver;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  margin: 0;
+  outline: 0;
+}
+.slickgrid-container .slick-viewport {
+  overflow: auto;
+}
+.slickgrid-container .slick-header,
+.slickgrid-container .slick-headerrow,
+.slickgrid-container .slick-footerrow {
+  overflow: hidden;
+}
+.slickgrid-container .slick-headerrow {
+  border-top-color: transparent;
+  border-top-width: 0;
+}
+.slickgrid-container .slick-top-panel,
+.slickgrid-container .slick-header-columns,
+.slickgrid-container .slick-headerrow-columns,
+.slickgrid-container .slick-footerrow-columns {
+  position: relative;
+  white-space: nowrap;
+  cursor: default;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.slickgrid-container .slick-cell,
+.slickgrid-container .slick-header-column,
+.slickgrid-container .slick-headerrow-column,
+.slickgrid-container .slick-footerrow-column {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: 1px solid silver;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-top-width: 0;
+  border-left-width: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  z-index: 1;
+  white-space: nowrap;
+  cursor: default;
+}
+.slickgrid-container .slick-cell.slick-header-is-leaf,
+.slickgrid-container .slick-header-column.slick-header-is-leaf,
+.slickgrid-container .slick-headerrow-column.slick-header-is-leaf,
+.slickgrid-container .slick-footerrow-column.slick-header-is-leaf {
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+}
+.slickgrid-container .slick-cell {
+  border-style: dotted;
+  padding: 1px 2px 1px 2px;
+}
+.slickgrid-container .slick-header-column {
+  padding: 4px 4px 4px 4px;
+}
+.slickgrid-container .grid-canvas {
+  position: relative;
+  outline: 0;
+}
+.slickgrid-container .slick-row {
+  position: absolute;
+  border: 0;
+  width: 100%;
+}
+.slickgrid-container .slick-header-column-sorted {
+  font-style: italic;
+}
+.slickgrid-container .slick-sort-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  margin-left: 4px;
+  margin-top: 6px;
+  position: absolute;
+  left: 0;
+  background: url('images/sort-undetermined.png');
+}
+.slickgrid-container .slick-sort-indicator-desc {
+  background: url('images/sort-desc.png');
+}
+.slickgrid-container .slick-sort-indicator-asc {
+  background: url('images/sort-asc.png');
+}
+.slickgrid-container .slick-header-sortable .slick-column-name {
+  margin-left: 10px;
+}
+.slickgrid-container .slick-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+  cursor: col-resize;
+  width: 4px;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.slickgrid-container .slick-resizable-handle-hover {
+  background-color: #ccc;
+}
+.slickgrid-container .slick-sortable-placeholder {
+  background: silver;
+}
+.slickgrid-container .slick-group-toggle {
+  display: inline-block;
+}
+.slickgrid-container .slick-cell.highlighted {
+  background: lightskyblue;
+  background: rgba(0, 0, 255, 0.2);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.slickgrid-container .slick-cell.flashing {
+  border: 1px solid red !important;
+}
+.slickgrid-container .slick-cell.editable {
+  z-index: 11;
+  overflow: visible;
+  background: white;
+  border-color: black;
+  border-style: solid;
+}
+.slickgrid-container .slick-cell:focus {
+  outline: none;
+}
+.slickgrid-container .slick-reorder-proxy {
+  display: inline-block;
+  background: blue;
+  opacity: 0.15;
+  filter: alpha(opacity = 15);
+  cursor: move;
+}
+.slickgrid-container .slick-reorder-guide {
+  display: inline-block;
+  height: 2px;
+  background: blue;
+  opacity: 0.7;
+  filter: alpha(opacity = 70);
+}
+.slickgrid-container .slick-selection {
+  z-index: 10;
+  position: absolute;
+  border: 2px dashed black;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpYi9fL2pzL3NsaWNrZ3JpZC9zbGljay5ncmlkLmxlc3MiLCJsaWIvXy9qcy9zbGlja2dyaWQvc2xpY2subGVzcy5tYWNyb3MubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFZQTtFQUVJLGdCQUFBO0VBQ0EsVUFBQTtFQUVBLHdCQUFBO0VBQ0EsOEJBQUE7RUFDQSw2QkFBQTtFQUNBLG9CQUFBO0VBQ0EsbUJBQUE7O0FBVEosb0JBV0k7QUFYSixvQkFZSTtBQVpKLG9CQWFJO0FBYkosb0JBY0k7QUFkSixvQkFlSTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLHdCQUFBO0VBQ0EsK0JBQUE7RUFDQSxnQ0FBQTtFQUNBLHFCQUFBO0VBQ0Esc0JBQUE7RUFDQSxTQUFBO0VBQ0EsVUFBQTs7QUF4Qk4sb0JBMEJJO0VBQ0UsY0FBQTs7QUEzQk4sb0JBNkJJO0FBN0JKLG9CQThCSTtBQTlCSixvQkErQkk7RUFDRSxnQkFBQTs7QUFoQ04sb0JBa0NJO0VBQ0UsNkJBQUE7RUFDQSxtQkFBQTs7QUFwQ04sb0JBdUNJO0FBdkNKLG9CQXdDSTtBQXhDSixvQkF5Q0k7QUF6Q0osb0JBMENJO0VBQ0Usa0JBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLFNBQUE7RUFDQSxVQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7O0FBbEROLG9CQXFESTtBQXJESixvQkFzREk7QUF0REosb0JBdURJO0FBdkRKLG9CQXdESTtFQUNFLGtCQUFBO0VBQ0EsTUFBQTtFQUNBLFNBQUE7RUFFQSx3QkFBQTtFQUNBLDZCQUFBO0VBQ0EsOEJBQUE7RUFDQSxtQkFBQTtFQUNBLG9CQUFBO0VBQ0EsU0FBQTtFQUNBLFVBQUE7RUFFQSxnQkFBQTtFQ3BESiwwQkFBQTtFQThCQSx1QkFBQTtFRHdCSSxzQkFBQTtFQUNBLFVBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7O0FBSUEsb0JBekJGLFlBeUJHO0FBQUQsb0JBeEJGLHFCQXdCRztBQUFELG9CQXZCRix3QkF1Qkc7QUFBRCxvQkF0QkYsd0JBc0JHO0VBQ0MsZ0NBQUE7RUFDQSxzQkFBQTs7QUFoRlIsb0JBb0ZJO0VBQ0Usb0JBQUE7RUFDQSx3QkFBQTs7QUF0Rk4sb0JBeUZJO0VBQ0Usd0JBQUE7O0FBMUZOLG9CQTZGSTtFQUNFLGtCQUFBO0VBQ0EsVUFBQTs7QUEvRk4sb0JBa0dJO0VBQ0Usa0JBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTs7QUFyR04sb0JBd0dJO0VBQ0Usa0JBQUE7O0FBekdOLG9CQTRHSTtFQUNFLHFCQUFBO0VBQ0EsVUFBQTtFQUNBLFdBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLE9BQUE7RUFDQSxnQkFBZ0IsK0JBQWhCOztBQXBITixvQkF1SEk7RUFDRSxnQkFBZ0IsdUJBQWhCOztBQXhITixvQkEySEk7RUFDRSxnQkFBZ0Isc0JBQWhCOztBQTVITixvQkErSEksdUJBQXVCO0VBQ3JCLGlCQUFBOztBQWhJTixvQkFtSUk7RUFDRSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0VBQ0EsVUFBQTtFQUNBLFFBQUE7RUFDQSxNQUFBO0VBQ0EsWUFBQTs7QUEzSU4sb0JBOElJO0VBQ0Usc0JBQUE7O0FBL0lOLG9CQWtKSTtFQUNFLGtCQUFBOztBQW5KTixvQkF5Skk7RUFDRSxxQkFBQTs7QUFJQSxvQkFERixZQUNHO0VBQ0Msd0JBQUE7RUFDQSxnQ0FBQTtFQzNJTiw0QkFBQTtFQUpBLHVCQUFBO0VBSkEseUJBQUE7RUFlQSxvQkFBQTs7QUR3SUksb0JBUEYsWUFPRztFQUNDLGdDQUFBOztBQUdGLG9CQVhGLFlBV0c7RUFDQyxXQUFBO0VBQ0EsaUJBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0EsbUJBQUE7O0FBR0Ysb0JBbkJGLFlBbUJHO0VBQ0MsYUFBQTs7QUFqTFIsb0JBcUxJO0VBQ0UscUJBQUE7RUFDQSxnQkFBQTtFQzVMSixhQUFBO0VBQ0EsMkJBQUE7RUQ2TEksWUFBQTs7QUF6TE4sb0JBNExJO0VBQ0UscUJBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7RUNwTUosWUFBQTtFQUNBLDJCQUFBOztBRElGLG9CQW1NSTtFQUNFLFdBQUE7RUFDQSxrQkFBQTtFQUNBLHdCQUFBIn0= */

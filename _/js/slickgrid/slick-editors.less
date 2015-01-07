@@ -1,0 +1,196 @@
+//
+// Slick.Editors.Text et al
+//
+
+
+@import (less) "slick.config.less";
+
+@import (less) "slick.less.macros.less";
+
+
+//
+// As most editors are supposed to show up inside the slickgrid container,
+// we easily prevent collisions with other website components out there by
+// wrapping these buggers in the container class...
+//
+// ... and for the few editors which need to 'exist outside' the container
+// (a.k.a. "detached" editor, e.g. when the editor creates a body-based
+// overlay), then we better make sure the editor has some pretty unique
+// container class itself!
+//
+
+.slickgrid-container
+{
+    input.editor-text,
+    input.editor-text-readonly,
+    input.editor-integer,
+    input.editor-float,
+    input.editor-percentage,
+    input.editor-percentcomplete,
+    input.editor-date,
+    textarea.editor-longtext-basic-input
+    {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      margin: 0;
+      background: transparent;
+      outline: 0;
+      padding: 0;
+    }
+
+    input.editor-date
+    {
+      font-family: Arial, sans-serif;
+      font-size: 8px;
+    }
+
+    .ui-datepicker-trigger {
+      margin-top: 2px;
+      padding: 0;
+      vertical-align: top;
+    }
+
+    //
+    // Slick.Editors.PercentComplete
+    //
+    input.editor-percentcomplete
+    {
+    }
+
+    .editor-percentcomplete-picker,
+    .editor-longtext-icon
+    {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      display: inline-block;
+      width: 16px;
+      height: 100%;
+      background: url("images/pencil.gif") no-repeat center center;
+      overflow: visible;
+      z-index: 1000;
+    }
+
+
+    //
+    // Slick.Editors.LongText
+    //
+    textarea.editor-longtext-basic-input
+    {
+        line-height: 20px;
+        resize: none;
+    }
+
+
+    //
+    // Slick.Editors.YesNoSelect
+    //
+    select.editor-yesno {
+      width: 100%;
+      margin: 0;
+      vertical-align: middle;
+    }
+
+    //
+    // Slick.Editors.Checkbox
+    //
+    input.editor-checkbox {
+      margin: 0;
+      height: 100%;
+      padding: 0;
+      border: 0;
+    }
+}
+
+
+
+
+
+
+//
+// DIV overlay of the LongTextEditor
+//
+.slick-editor-longtext
+{
+  z-index: 10000;
+  position: absolute;
+  background: rgb(242, 242, 242);
+  padding: 5px;
+  border: 3px solid gray;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  // initially hidden; only shows up after call to $wrapper.show()
+  display: none;
+
+  textarea
+  {
+    background: white;
+    width: 250px;
+    height: 80px;
+    border: 0;
+    outline: 0;
+  }
+
+  .buttons-container
+  {
+    text-align: right;
+
+    .save-button
+    {
+    }
+    .cancel-button
+    {
+    }
+  }
+}
+
+
+
+
+
+//
+// Slick.Editors.PercentComplete
+//
+.editor-percentcomplete-helper
+{
+    z-index: 12;
+
+    border: 0 solid gray;
+    position: absolute;
+    top: -2px;
+    left: -9px;
+    background: url("images/editor-helper-bg.gif") no-repeat top left;
+    padding-left: 9px;
+
+    width: 120px;
+    height: 140px;
+    display: none;
+    overflow: visible;
+
+
+    .editor-percentcomplete-wrapper {
+      background: beige;
+      padding: 20px 8px;
+
+      //width: 100%;
+      height: 98px;
+      border: 1px solid gray;
+      border-left: 0;
+    }
+
+    .editor-percentcomplete-buttons {
+      float: right;
+
+      button {
+        width: 80px;
+      }
+    }
+
+    .editor-percentcomplete-slider {
+      float: left;
+    }
+}
+

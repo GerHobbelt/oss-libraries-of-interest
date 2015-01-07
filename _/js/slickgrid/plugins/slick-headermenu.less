@@ -1,0 +1,75 @@
+
+// Column layout looks like this:
+//
+// ```
+// <div role="columnheader" id="..." title="Select/Deselect All" class="ui-state-default slick-header-column level0 colspan1">
+//   <span class="slick-column-name">bla</span>
+//   <div class="slick-header-menubutton"></div>
+//   <div class="slick-resizable-handle" style="width: 16px;"></div>
+// </div>
+// ```
+//
+// and we are trying to ensure that the MENUBUTTON indeed overlaps the slick-resizable-handle DIV below it for mouse/touch.
+
+/* Menu button */
+.slick-header-menubutton {
+  position: absolute;
+  // Ensure the MENUBUTTON in the column header sits *on top* of the column resize DIV (which is position:absolute)
+  z-index: 1;
+
+  right: 3px;         // keep some space for the column-resize button to 'see' the mouse 
+  top: 0;
+  bottom: 0;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../images/down.gif);
+  cursor: pointer;
+
+  display: none;
+  border-left: thin ridge silver;
+}
+
+.slick-header-column:hover > .slick-header-menubutton,
+.slick-header-column-active .slick-header-menubutton {
+  display: inline-block;
+}
+
+/* Menu */
+.slick-header-menu {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 2px;
+  cursor: default;
+}
+
+
+/* Menu items */
+.slick-header-menuitem {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-header-menuicon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slick-header-menucontent {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* Disabled */
+.slick-header-menuitem-disabled {
+  color: silver;
+}

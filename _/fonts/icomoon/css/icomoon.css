@@ -1,0 +1,85 @@
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Ico-19:before {
+	content: "\e612";
+}
+.icon-Ico-28:before {
+	content: "\e613";
+}
+.icon-Ico-29:before {
+	content: "\e614";
+}
+.icon-Ico-20:before {
+	content: "\e600";
+}
+.icon-Ico-21:before {
+	content: "\e601";
+}
+.icon-disk:before {
+	content: "\e602";
+}
+.icon-map:before {
+	content: "\e603";
+}
+.icon-stack:before {
+	content: "\e604";
+}
+.icon-user:before {
+	content: "\e605";
+}
+.icon-file:before {
+	content: "\e606";
+}
+.icon-users:before {
+	content: "\e607";
+}
+.icon-cog:before {
+	content: "\e608";
+}
+.icon-rocket:before {
+	content: "\e609";
+}
+.icon-history:before {
+	content: "\e60a";
+}
+.icon-meter:before {
+	content: "\e60b";
+}
+.icon-switch:before {
+	content: "\e60c";
+}
+.icon-search:before {
+	content: "\e60d";
+}
+.icon-bars:before {
+	content: "\e60e";
+}
+.icon-print:before {
+	content: "\e60f";
+}
+.icon-menu:before {
+	content: "\e610";
+}
+.icon-cancel-circle:before {
+	content: "\e611";
+}
+.icon-images:before {
+	content: "\e615";
+}
+.icon-pencil:before {
+	content: "\e616";
+}
+

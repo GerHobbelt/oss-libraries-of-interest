@@ -1,0 +1,61 @@
+
+//
+// LESS mixins for slickgrid
+//
+
+.opacity(@opacity)
+{
+  opacity: @opacity;
+  filter: ~`"alpha(opacity = " + @{opacity} * 100 + ")"`;
+}
+
+
+//
+// Taken from
+//   https://github.com/less/less.js/issues/1199
+//   https://github.com/less/less.js/issues/36
+// and reworked as an alternative answer to
+//   http://stackoverflow.com/questions/18558368/is-there-a-generic-way-to-add-vendor-prefixes-in-less
+//
+@prefix-moz: true;
+@prefix-opera: true;
+@prefix-webkit: true;
+
+.moz-prefix(@prop, @value) when (@prefix-moz)
+{
+  -moz-@{prop}: @value;
+}
+.opera-prefix(@prop, @value) when (@prefix-opera)
+{
+  -o-@{prop}: @value;
+}
+.webkit-prefix(@prop, @value) when (@prefix-webkit)
+{
+  -webkit-@{prop}: @value;
+}
+.prefixer(@prop, @value)
+{
+  .webkit-prefix(@prop, @value);
+  .opera-prefix(@prop, @value);
+  .moz-prefix(@prop, @value);
+  @{prop}: @value;
+}
+// Usage example:
+//   .box {
+//     .prefixer(border-radius, 10px);
+//   }
+
+
+
+
+
+.transition(@value)
+{
+    .prefixer(transition,   @value);
+}
+
+.text-overflow(@value)
+{
+  .opera-prefix(text-overflow, @value);
+  text-overflow: @value;
+}

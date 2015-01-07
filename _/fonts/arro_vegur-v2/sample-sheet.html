@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="english" />
+    <title>Font Sample Page</title>
+
+    <!-- //////////////////////////////////-->
+    <!-- Font Awesome: for vector icons -->
+    <!-- ////////////////////////////////// -->
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+
+
+<style>
+.awesome-font
+{
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  /* -webkit-font-smoothing: antialiased;   -- killing this fixes the clipping of the top of each character in Chrome */
+
+  color: black;
+}
+
+.regular-sized
+{
+    font-size: 16px;
+}
+
+.awesome-font-item
+{
+    display: inline-block;
+    width: 8em;
+    color: #888;
+    position: relative;
+}
+
+.unicode-char-description
+{
+    position: absolute;
+    left: 2em;
+}
+
+
+
+input[type='range']
+{
+    -webkit-appearance: none;
+    padding-left:2px;
+    padding-right:2px;
+    -webkit-border-radius: 5px;
+    background-image: -webkit-linear-gradient(top, #000000, #333333, #000000);
+
+    width: 70%;
+}
+</style>
+
+<h1>Font Awesome - Sample Sheet</h1>
+
+<div class="regular-sized">
+
+    <h2>Variable size ~ <span id="font_size_value">16</span></h2>
+
+    <div>
+        <label for="slide">Adjust font size:</label>
+        <button type="button" onclick="decSlider();" >-</button>
+        <input id="slide" name="slide" type="range" min="6" max="42" step="1" value="16" onchange="updateSlider(this.value);" />
+        <button type="button" onclick="incSlider();" >+</button>
+    </div>
+    <hr />
+    <div id="series"></div>
+
+</div>
+
+
+<script>
+
+function css(selector, property, value) {
+    //Loop through all styles
+    for (var i = 0; i < document.styleSheets.length; i++) {
+        //Try add rule
+        try {
+            document.styleSheets[i].insertRule(selector + ' {' + property + ':' + value + '}', document.styleSheets[i].cssRules.length);
+        } catch(err) {
+            //IE
+            try {
+                document.styleSheets[i].addRule(selector, property + ':' + value);
+            } catch(err) {
+
+            }
+        }
+    }
+}
+
+function decSlider()
+{
+    var el = document.getElementById('slide');
+    el.value--;
+    updateSlider(el.value);
+}
+
+function incSlider()
+{
+    var el = document.getElementById('slide');
+    el.value++;
+    updateSlider(el.value);
+}
+
+function updateSlider(val)
+{
+    var fs = Math.max(6, +val);
+    css('.regular-sized', 'font-size', fs + 'px');
+    var el = document.getElementById('font_size_value');
+    el.innerHTML = fs;
+}
+
+
+function generateFontMap(from, to)
+{
+    from = from | 0xf000;
+    to = to | 0xf800;
+
+    var i;
+    var str = [];
+    for (i = from; i < to; i++) {
+        if (i % 8 == 0) {
+            str.push('<br />');
+        }
+
+        var c = ("0000" + i.toString(16)).substr(-4);
+        str.push('<span class="awesome-font-item"> <span class="awesome-font">&#x' + c + '</span> <span class="unicode-char-description">' + c + '</span> </span> ');
+    }
+
+    var el = document.getElementById('series');
+    el.innerHTML = str.join('\n');
+}
+
+generateFontMap(0xf000, 0xf800);
+
+</script>
+
+  </body>
+</html>
+
+

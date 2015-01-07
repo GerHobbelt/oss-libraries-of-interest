@@ -1,0 +1,11 @@
+/* this overrides the default Smarty tag styles for emphasis. Not required, but suggested! */
+.cm-smarty.cm-variable,
+.cm-smarty.cm-variable-2,
+.cm-smarty.cm-tag,
+.cm-smarty.cm-operator,
+.cm-smarty.cm-string,
+.cm-smarty.cm-keyword,
+.cm-smarty.cm-number,
+.cm-smarty.cm-comment {
+    background-color: #ffffbb;
+}
