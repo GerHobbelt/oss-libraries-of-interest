@@ -322,6 +322,9 @@ if (typeof Slick === "undefined") {
     // while the cells are rerendered.
     var focusMustBeReacquired = false;   
 
+    var cssRulesHashtable = {};
+    var cssRulesCount = 0;
+
     var rowsCache = [];
     // var deletedRowsCache = [];
     var rowPositionCache = [];
@@ -1925,24 +1928,24 @@ if (typeof Slick === "undefined") {
       var headersCount = (hasNestedColumns ? nestedColumns.length : 1);
       var headerHeight = headersCount * options.headerHeight;
       var rules = [
-        [".slickgrid-container." + uid + " .slick-top-panel", "height: " + options.topPanelHeight + "px"],
-        [".slickgrid-container." + uid + " .slick-header-columns", "height: " + headerHeight + "px"],
-        [".slickgrid-container." + uid + " .slick-headerrow-columns", "height: " + options.headerRowHeight + "px"],
-        [".slickgrid-container." + uid + " .slick-footerrow-columns", "height: " + options.footerRowHeight + "px"],
-        [".slickgrid-container." + uid + " .slick-cell", "height:" + rowHeight + "px"],
-        [".slickgrid-container." + uid + " .slick-row", "height:" + options.rowHeight + "px"]
+        [".slick-top-panel", "height: " + options.topPanelHeight + "px"],
+        [".slick-header-columns", "height: " + headerHeight + "px"],
+        [".slick-headerrow-columns", "height: " + options.headerRowHeight + "px"],
+        [".slick-footerrow-columns", "height: " + options.footerRowHeight + "px"],
+        [".slick-cell", "height:" + rowHeight + "px"],
+        [".slick-row", "height:" + options.rowHeight + "px"]
       ];
 
       for (var i = 0, len = columns.length; i < len; i++) {
-        rules.push([".slickgrid-container." + uid + " .l" + i, ""]);
-        rules.push([".slickgrid-container." + uid + " .r" + i, ""]);
-        rules.push([".slickgrid-container." + uid + " .hl" + i, ""]);
-        rules.push([".slickgrid-container." + uid + " .hr" + i, ""]);
+        rules.push([".l" + i, ""]);
+        rules.push([".r" + i, ""]);
+        rules.push([".hl" + i, ""]);
+        rules.push([".hr" + i, ""]);
       }
 
       for (i = 0, len = (hasNestedColumns ? nestedColumns.length : 1); i < len; i++) {
-        rules.push([".slickgrid-container." + uid + " .hrt" + i, "top: " + (i * options.headerHeight) + "px"]);
-        rules.push([".slickgrid-container." + uid + " .hrb" + i, "bottom: " + ((headersCount - i - 1) * options.headerHeight) + "px"]);
+        rules.push([".hrt" + i, "top: " + (i * options.headerHeight) + "px"]);
+        rules.push([".hrb" + i, "bottom: " + ((headersCount - i - 1) * options.headerHeight) + "px"]);
       }
 
       if (options.createCssRulesCallback) {
@@ -1961,12 +1964,85 @@ if (typeof Slick === "undefined") {
     }
 
     function addCSSRule(sheet, selector, rules, index) {
+      var entry = {
+        css: rules,
+        index: index
+      };
+      cssRulesHashtable[selector] = entry;
+      if (cssRulesCount <= index) {
+        cssRulesCount = index + 1;
+      }
       if (sheet.insertRule) {
-        sheet.insertRule(selector + " {" + rules + "}", index);
+        sheet.insertRule(".slickgrid-container." + uid + " " + selector + " {" + rules + "}", index);
       } else {
-        sheet.addRule(selector, rules, index);
+        sheet.addRule(".slickgrid-container." + uid + " " + selector, rules, index);
       }
       assert(sheet.ownerNode);
+    }
+
+    // Recalculate the maximum CSS rule index (PLUS ONE) currently in use.
+    // This is used as part of a CSS rule DELETE action as a CSS rule DELETE may delete a custom
+    // CSS rule at the end of the CSS stylesheet, which means the next CSS rule to INSERT ends
+    // up at a lower index as the number of CSS rules has shrunk.
+    function recalcCssRulesCount() {
+      var count = 0;
+      for (var idx in cssRulesHashtable) {
+        var entry = cssRulesHashtable[idx];
+        if (entry && count <= entry.index) {
+          count = entry.index + 1;
+        }
+      }
+    }
+
+    // API: update or insert a slickgrid-instance specific CSS rule.
+    // 
+    // The `selector` is automatically prefixed by the appropriate slickgrid instance UID to make the
+    // CSS rule specific to this SlickGrid instance.
+    // 
+    // When `rule` is FALSE or NULL, the rule will be DELETED.
+    // 
+    // When `rule` is UNDEFINED, this function will serve as a getter, i.e. it will not change
+    // the CSS and only return the previously set rule value, if available.
+    // 
+    // Returns:
+    // - FALSE when the SlickGrid instance stylesheet is not present (yet), i.e. when the
+    //   CSS rule could not be applied to the DOM. 
+    // - FALSE when the specified rule is *requested* (i.e. when `rule` is NULL or FALSE)
+    //   but is not present yet: here FALSE signals the rule does not yet exist.
+    // - Otherwise return the previously set CSS rule content and rule index as an object:
+    //   `{ css:string, index:n }`.
+    // 
+    // Hence FALSE signals error/non-existence, any other value signals success.
+    function setCssRule(selector, rule) {
+      // Check if the stylesheet is instantiated & present yet:
+      var sheet;
+      if (!stylesheet) {
+        stylesheet = getStyleSheet();
+      }
+      if (!stylesheet) {
+        return false;
+      } else {
+        sheet = stylesheet;
+      }
+      assert(sheet.ownerNode);
+
+      // check if this is a rule UPDATE or ADD/INSERT:
+      var entry = cssRulesHashtable[selector];      
+      if (entry) {
+        // update. IFF `rule` is not UNDEFINED. (NULL rule will delete the rule!)
+        if (rule !== undefined) {
+          // The sequence now becomes: UPDATE = DELETE + INSERT (at the same index as before).
+          sheet.deleteRule(entry.index);
+          cssRulesHashtable[selector] = undefined;
+          recalcCssRulesCount();
+        }
+      }
+      // ADD/INSERT/UPDATE rule? yes, IFF rule !== NULL/UNDEFINED/FALSE:
+      if (rule || rule === "") {
+        var index = (entry ? entry.index : cssRulesCount);
+        addCSSRule(sheet, selector, rule, index);
+      }
+      return cssRulesHashtable[selector] || false;
     }
 
     function getStyleSheetOwner(sheet) {
@@ -4503,7 +4579,7 @@ if (typeof Slick === "undefined") {
         rv = parseFloat($.css($container[0], "height", true));
         assert(rv === $container.height());
       } else {
-        console.log("What's the height when this shit is hidden? It IS unpredictable!   ", $.css($container[0], "height", true));
+        console.debug("What's the height when this shit is hidden? It IS unpredictable!   ", $.css($container[0], "height", true));
       }
       return rv;
     }
@@ -8736,6 +8812,7 @@ if (0) {
       "setCellCssStyles": setCellCssStyles,
       "removeCellCssStyles": removeCellCssStyles,
       "getCellCssStyles": getCellCssStyles,
+      "setCssRule": setCssRule,
 
       "handleKeyDown": handleKeyDown,
 
