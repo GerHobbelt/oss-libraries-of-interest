@@ -290,7 +290,6 @@
         });
         queue(function() {
             NProgress.remove();
-            console.profileEnd("NProgress.done");
             Settings.onDone();
         });
       }
@@ -362,7 +361,6 @@
   NProgress.done = function(force, t) {
     if (!force && !NProgress.status) return this;
 
-    console.profile("NProgress.done");
     return NProgress.inc(0.3 + 0.5 * Math.random(), t).set(1);
   };
 
