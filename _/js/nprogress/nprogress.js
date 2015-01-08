@@ -230,8 +230,11 @@
    *
    *     NProgress.set(0.4);
    *     NProgress.set(1.0);
+   *
+   * Note: calling `NProgress.set(1.0)` is identical to calling `NProgress.done()` without
+   * the visual effects (and accompanying delay in executing the `onDone` callbacks), hence
+   * `NProgress.set(1.0)` serves as the *fast* version of `NProgress.done()`.  
    */
-
   NProgress.set = function(n, t) {
     var started = NProgress.isStarted();
 
@@ -296,15 +299,23 @@
     return this;
   };
 
+  /**
+   * Return TRUE when the progressbar is active, i.e. when `NProgress.start()` has been called 
+   * but neither `NProgress.set(1.0)` nor `NProgress.done()` have been reached yet.
+   */
   NProgress.isStarted = function() {
     return typeof NProgress.status === 'number';
   };
 
   /**
-   * Shorthand for maximum configuration. Must be greater than minimum.
+   * Shorthand for setting up the `maximum` configuration value. Must be greater than the `minimum`
+   * configuration value.
+   *
+   * Returns the newly configured `maximum` value.
    */
   NProgress.max = function(maximum) {
-    if (typeof maximum === 'number' && maximum > Settings.minimum) Settings.maximum = maximum;
+    if (typeof maximum === 'number' && isFinite(maximum) && maximum > Settings.minimum) Settings.maximum = clamp(maximum, 0, 1);
+    return Settings.maximum;
   };
 
   /**
@@ -344,11 +355,10 @@
    *
    *     NProgress.done();
    *
-   * If `true` is passed, it will show the progress bar even if its hidden.
+   * If `true` is passed, it will show the progress bar even if it's hidden.
    *
    *     NProgress.done(true);
    */
-
   NProgress.done = function(force, t) {
     if (!force && !NProgress.status) return this;
 
@@ -359,7 +369,6 @@
   /**
    * Increments by a random amount.
    */
-
   NProgress.inc = function(amount, t) {
     var n = NProgress.status;
 
@@ -377,11 +386,16 @@
     }
   };
 
+  /**
+   * Slowly increase the progress semi-randomly. This method is mostly used in interval timers
+   * while another process is working and we wish to provide the user with some visual 'progress'
+   * feedback while we do not know the exact 'progress' of the process currently running.
+   */
   NProgress.trickle = function(t) {
     return NProgress.inc(Math.random() * Settings.trickleRate, t);
   };
 
-  /*
+  /**
    * Shows the spinner independently from the progress bar.
    */
   NProgress.showSpinner = function () {
@@ -396,7 +410,7 @@
     return this;
   };
 
-  /*
+  /**
    * Hides the spinner independently from the progress bar.
    */
   NProgress.hideSpinner = function () {
@@ -411,7 +425,7 @@
     return this;
   };
 
-  /*
+  /**
    * Shows the bar independently from the progress bar.
    */
   NProgress.showBar = function () {
@@ -426,7 +440,7 @@
     return this;
   };
 
-  /*
+  /**
    * Hides the bar independently from the progress bar.
    */
   NProgress.hideBar = function () {
@@ -441,6 +455,7 @@
     return this;
   };
 
+  // (Internal) state tracking variables
   var initial = 0, current = 0;
 
   /**
@@ -478,7 +493,6 @@
    * (Internal) renders the progress bar markup based on the `template`
    * setting.
    */
-
   NProgress.render = function(fromStart) {
     if (NProgress.isRendered()) return document.getElementById('nprogress');
 
@@ -518,7 +532,6 @@
   /**
    * Removes the element. Opposite of render().
    */
-
   NProgress.remove = function() {
     var parent = II.findElementByAny(document, Settings.parent);
     II.removeClass(parent, 'nprogress-parent');
@@ -534,7 +547,6 @@
   /**
    * Checks if the progress bar is rendered.
    */
-
   NProgress.isRendered = function() {
     return !!document.getElementById('nprogress');
   };
@@ -542,7 +554,6 @@
   /**
    * Determine which positioning CSS rule to use.
    */
-
   NProgress.getPositioningCSS = function() {
     // Sniff on document.body.style
     var bodyStyle = document.body.style;
@@ -567,8 +578,13 @@
 
   /**
    * Helpers
+   * -------
    */
 
+  /**
+   * Clamps value `n` between `min` and `max`. The range is inclusive i.e. `n` may equal `min` 
+   * or `max`. 
+   */
   function clamp(n, min, max) {
     if (n < min) return min;
     if (n > max) return max;
@@ -579,7 +595,6 @@
    * (Internal) converts a percentage (`0..1`) to a bar translateX
    * percentage (`-100%..0%`).
    */
-
   function toBarPerc(n) {
     return (-1 + n) * 100;
   }
@@ -589,7 +604,6 @@
    * (Internal) returns the correct CSS for changing the bar's
    * position given an n percentage, and speed and ease from Settings
    */
-
   function barPositionCSS(n, speed, ease) {
     var barCSS;
 
@@ -615,16 +629,14 @@
   /**
    * (Internal) Determines if an element or space separated list of class names contains a class name.
    */
-
   II.hasClass = function (element, name) {
     var list = typeof element === 'string' ? element : II.classList(element);
     return list.indexOf(' ' + name + ' ') >= 0;
-  }
+  };
 
   /**
    * (Internal) Adds a class to an element.
    */
-
   II.addClass = function (element, name) {
     var oldList = II.classList(element),
         newList = oldList + name;
@@ -638,7 +650,6 @@
   /**
    * (Internal) Removes a class from an element.
    */
-
   II.removeClass = function (element, name) {
     var oldList = II.classList(element),
         newList;
@@ -657,7 +668,6 @@
    * The list is wrapped with a single space on each end to facilitate finding
    * matches within the list.
    */
-
   II.classList = function (element) {
     return (' ' + (element.className || '') + ' ').replace(/\s+/gi, ' ');
   };
@@ -665,7 +675,6 @@
   /**
    * (Internal) Removes an element from the DOM.
    */
-
   II.removeElement = function (element) {
     element && element.parentNode && element.parentNode.removeChild(element);
   };
