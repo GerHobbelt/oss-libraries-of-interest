@@ -2155,3 +2155,9 @@
 [submodule "js/video.js"]
 	path = js/video.js
 	url = git@github.com:GerHobbelt/video-js.git
+[submodule "tooling/glueJS"]
+	path = tooling/glueJS
+	url = git@github.com:GerHobbelt/gluejs.git
+[submodule "js/animation-frame"]
+	path = js/animation-frame
+	url = git@github.com:GerHobbelt/animation-frame.git

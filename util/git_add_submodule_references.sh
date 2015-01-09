@@ -216,6 +216,7 @@ git_submod_add   git@github.com:GerHobbelt/accounting.js.git                    
 git_submod_add   git@github.com:GerHobbelt/ajaxify.git                                   js/ajaxify
 git_submod_add   git@github.com:GerHobbelt/amdclean.git                                  tooling/amdclean
 git_submod_add   git@github.com:GerHobbelt/amdjs-api.git                                 examples/AMDjs-API
+git_submod_add   git@github.com:GerHobbelt/animation-frame.git                           js/animation-frame
 git_submod_add   git@github.com:GerHobbelt/antlr3.git                                    tooling/antlr
 git_submod_add   git@github.com:GerHobbelt/appcache-demo.git                             examples/AppCache.Demo
 git_submod_add   git@github.com:GerHobbelt/atoum.git                                     php/atoum-unittests
@@ -383,6 +384,7 @@ git_submod_add   git@github.com:GerHobbelt/github-api3-php.git                  
 git_submod_add   git@github.com:GerHobbelt/github.git                                    php/opauth-github
 git_submod_add   git@github.com:GerHobbelt/gitmagic.git                                  doc/gitmagic
 git_submod_add   git@github.com:GerHobbelt/globalize.git                                 js/jquery-globalize
+git_submod_add   git@github.com:GerHobbelt/gluejs.git                                    tooling/glueJS
 git_submod_add   git@github.com:GerHobbelt/google.git                                    php/opauth-google
 git_submod_add   git@github.com:GerHobbelt/greg.git                                      tooling/greg
 git_submod_add   git@github.com:GerHobbelt/gridster.js.git                               js/gridster
