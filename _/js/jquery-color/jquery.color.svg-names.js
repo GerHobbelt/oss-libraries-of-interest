@@ -144,3 +144,13 @@ jQuery.extend( jQuery.Color.names, {
 	whitesmoke: "#f5f5f5",
 	yellowgreen: "#9acd32"
 });
+
+
+
+
+
+
+
+
+// Ensure this file has completely loaded AND PARSED before we take off...
+if (typeof window !== "undefined") { window.visyond_file_counter = (!window.visyond_file_counter ? 1 : window.visyond_file_counter + 1); }

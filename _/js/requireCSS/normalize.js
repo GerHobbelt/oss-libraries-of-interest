@@ -1,3 +1,4 @@
+//>>excludeStart('excludeRequireCss', pragmas.excludeRequireCss)
 /*
  * css.normalize.js
  *
@@ -40,14 +41,12 @@ define('require/normalize', [], function() {
   }
 
   // given a relative URI, and two absolute base URIs, convert it from one base to another
-  var protocolRegEx = /[^\:\/]*:\/\/([^\/])*/
+  var protocolRegEx = /[^\:\/]*:\/\/([^\/])*/;
+  var absUrlRegEx = /^(\/|data:)/;
   function convertURIBase(uri, fromBase, toBase) {
-    if(uri.indexOf("data:") === 0)
+    if (uri.match(absUrlRegEx) || uri.match(protocolRegEx))
       return uri;
     uri = removeDoubleSlashes(uri);
-    // absolute urls are left in tact
-    if (uri.match(/^\//) || uri.match(protocolRegEx))
-      return uri;
     // if toBase specifies a protocol path, ensure this is the same protocol as fromBase, if not
     // use absolute path at fromBase
     var toBaseProtocol = toBase.match(protocolRegEx);
@@ -63,7 +62,11 @@ define('require/normalize', [], function() {
   // given a relative URI, calculate the absolute URI
   function absoluteURI(uri, base) {
     if (uri.substr(0, 2) == './')
-      uri = uri.substr(2);    
+      uri = uri.substr(2);
+
+    // absolute urls are left in tact
+    if (uri.match(absUrlRegEx) || uri.match(protocolRegEx))
+      return uri;
     
     var baseParts = base.split('/');
     var uriParts = uri.split('/');
@@ -114,7 +117,7 @@ define('require/normalize', [], function() {
     fromBase = removeDoubleSlashes(fromBase);
     toBase = removeDoubleSlashes(toBase);
 
-    var urlRegEx = /@import\s*("([^"]*)"|'([^']*)')|url\s*\(\s*(\s*"([^"]*)"|'([^']*)'|[^\)]*\s*)\s*\)/ig;
+    var urlRegEx = /@import\s*("([^"]*)"|'([^']*)')|url\s*\((?!#)\s*(\s*"([^"]*)"|'([^']*)'|[^\)]*\s*)\s*\)/ig;
     var result, url, source;
 
     while (result = urlRegEx.exec(source)) {
@@ -135,14 +138,7 @@ define('require/normalize', [], function() {
   
   return normalizeCSS;
 });
-
-
-
-
-
-
-
-
+//>>excludeEnd('excludeRequireCss')
 
 
 

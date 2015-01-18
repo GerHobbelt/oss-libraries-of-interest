@@ -992,3 +992,13 @@ rangy.createModule("ClassApplier", ["WrappedSelection"], function(api, module) {
     api.CssClassApplier = api.ClassApplier = ClassApplier;
     api.createCssClassApplier = api.createClassApplier = createClassApplier;
 });
+
+
+
+
+
+
+
+
+// Ensure this file has completely loaded AND PARSED before we take off...
+if (typeof window !== "undefined") { window.visyond_file_counter = (!window.visyond_file_counter ? 1 : window.visyond_file_counter + 1); }

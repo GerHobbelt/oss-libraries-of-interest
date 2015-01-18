@@ -9,11 +9,11 @@
   self: false, setInterval: false */
 
 
-define('require/domReady', [], function () {
+define([], function () {
     'use strict';
 
     var isTop, testDiv, scrollIntervalId,
-        isBrowser = typeof window !== "undefined" && window.document,
+        isBrowser = typeof window !== 'undefined' && window.document,
         isPageLoaded = !isBrowser,
         doc = isBrowser ? document : null,
         readyCalls = [];
@@ -55,10 +55,10 @@ define('require/domReady', [], function () {
         if (document.addEventListener) {
             //Standards. Hooray! Assumption here that if standards based,
             //it knows about DOMContentLoaded.
-            document.addEventListener("DOMContentLoaded", pageLoaded, false);
-            window.addEventListener("load", pageLoaded, false);
+            document.addEventListener('DOMContentLoaded', pageLoaded, false);
+            window.addEventListener('load', pageLoaded, false);
         } else if (window.attachEvent) {
-            window.attachEvent("onload", pageLoaded);
+            window.attachEvent('onload', pageLoaded);
 
             testDiv = document.createElement('div');
             try {
@@ -89,7 +89,7 @@ define('require/domReady', [], function () {
         //so removing the || document.readyState === "interactive" test.
         //There is still a window.onload binding that should get fired if
         //DOMContentLoaded is missed.
-        if (document.readyState === "complete") {
+        if (document.readyState === 'complete') {
             pageLoaded();
         }
     }
@@ -128,14 +128,6 @@ define('require/domReady', [], function () {
 
     return domReady;
 });
-
-
-
-
-
-
-
-
 
 
 

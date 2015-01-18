@@ -3051,3 +3051,13 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
 
   return __module0__;
 }));
+
+
+
+
+
+
+
+
+// Ensure this file has completely loaded AND PARSED before we take off...
+if (typeof window !== "undefined") { window.visyond_file_counter = (!window.visyond_file_counter ? 1 : window.visyond_file_counter + 1); }
