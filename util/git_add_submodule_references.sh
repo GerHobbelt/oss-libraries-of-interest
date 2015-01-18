@@ -110,6 +110,7 @@ git_submod_add   git@github.com:GerHobbelt/Bootstrap-Form-Builder.git           
 git_submod_add   git@github.com:GerHobbelt/BtYacc.git                                    tooling/btyacc
 git_submod_add   git@github.com:GerHobbelt/Caret.js.git                                  js/caret-position
 git_submod_add   git@github.com:GerHobbelt/ChannelPlate.git                              js/google-channelplate
+git_submod_add   git@github.com:GerHobbelt/Chroma-Hash.git                               js/Chroma-Hash-password-entry-assist
 git_submod_add   git@github.com:GerHobbelt/CodeMirror2.git                               js/CodeMirror
 git_submod_add   git@github.com:GerHobbelt/Columnizer-jQuery-Plugin.git                  js/jquery-columnizer
 git_submod_add   git@github.com:GerHobbelt/CompoundSignal.git                            js/signal-compoundsignal
@@ -207,6 +208,9 @@ git_submod_add   git@github.com:GerHobbelt/Tipue-Search.git                     
 git_submod_add   git@github.com:GerHobbelt/Tipue-drop.git                                js/tipue-drop-search-suggestions
 git_submod_add   git@github.com:GerHobbelt/TooltipMenu.git                               js/TooltipMenu
 git_submod_add   git@github.com:GerHobbelt/Twig.git                                      php/twig-template-engine
+git_submod_add   git@github.com:GerHobbelt/URI.js.git                                    js/URI.js-url-mutator
+git_submod_add   git@github.com:GerHobbelt/UglifyCSS.git                                 tooling/UglifyCSS
+git_submod_add   git@github.com:GerHobbelt/UglifyJS2.git                                 tooling/uglify2
 git_submod_add   git@github.com:GerHobbelt/Underscore-Matchers-for-Jasmine.git           js/jasmine-Underscore-matchers
 git_submod_add   git@github.com:GerHobbelt/Upload.git                                    php/Upload
 git_submod_add   git@github.com:GerHobbelt/Ventus.git                                    js/ventus-window-manager
@@ -300,6 +304,8 @@ git_submod_add   git@github.com:GerHobbelt/classList.js.git                     
 git_submod_add   git@github.com:GerHobbelt/clipboard.git                                 js/clipboard
 git_submod_add   git@github.com:GerHobbelt/closure-compiler.git                          tooling/google-closure-compiler
 git_submod_add   git@github.com:GerHobbelt/codemirror-ui.git                             js/CodeMirror-UI
+git_submod_add   git@github.com:GerHobbelt/color-diff.git                                js/color-diff-CIEDE2000
+git_submod_add   git@github.com:GerHobbelt/colorPicker.git                               js/colorPicker-WCAG2
 git_submod_add   git@github.com:GerHobbelt/colorbox.git                                  js/jquery-colorbox
 git_submod_add   git@github.com:GerHobbelt/colorjoe.git                                  js/colorjoe
 git_submod_add   git@github.com:GerHobbelt/combine-source-map.git                        tooling/source-map-combine
@@ -391,6 +397,7 @@ git_submod_add   git@github.com:GerHobbelt/gridster.js.git                      
 git_submod_add   git@github.com:GerHobbelt/grumble.js.git                                js/jquery-grumble-tooltip
 git_submod_add   git@github.com:GerHobbelt/grunt-contrib-jshint.git                      tooling/grunt-contrib-jshint
 git_submod_add   git@github.com:GerHobbelt/grunt-contrib-requirejs.git                   tooling/grunt-contrib-requirejs
+git_submod_add   git@github.com:GerHobbelt/grunt-contrib-uglify.git                      tooling/grunt-contrib-uglify
 git_submod_add   git@github.com:GerHobbelt/grunt-multisourced-bower-config.git           tooling/grunt-multisourced-bower-config
 git_submod_add   git@github.com:GerHobbelt/grunt-umd-wrapper.git                         tooling/grunt-umd-wrapper
 git_submod_add   git@github.com:GerHobbelt/guriddo.git                                   js/slickgrid-guriddo-frozencolumns
@@ -550,6 +557,7 @@ git_submod_add   git@github.com:GerHobbelt/js-beautify.git                      
 git_submod_add   git@github.com:GerHobbelt/js-code-walker.git                            js/code-walker
 git_submod_add   git@github.com:GerHobbelt/js-signals.git                                js/signal-signals
 git_submod_add   git@github.com:GerHobbelt/jsPDF.git                                     js/jsPDF
+git_submod_add   git@github.com:GerHobbelt/jsPanel.git                                   js/jsPanel-dialog
 git_submod_add   git@github.com:GerHobbelt/jsSHA.git                                     js/jsSHA
 git_submod_add   git@github.com:GerHobbelt/js_priority_queue.git                         js/priority-queue
 git_submod_add   git@github.com:GerHobbelt/jsbin.git                                     js/jsbin
@@ -612,8 +620,10 @@ git_submod_add   git@github.com:GerHobbelt/marked.git                           
 git_submod_add   git@github.com:GerHobbelt/masonry.git                                   js/masonry
 git_submod_add   git@github.com:GerHobbelt/mediaelement.git                              js/mediaelement
 git_submod_add   git@github.com:GerHobbelt/mercury.git                                   js/mercury-wysiwyg-editor
+git_submod_add   git@github.com:GerHobbelt/mersenne-twister.git                          js/mersenne-twister
 git_submod_add   git@github.com:GerHobbelt/metalsmith.git                                js/metalsmith
 git_submod_add   git@github.com:GerHobbelt/mocha.git                                     js/mocha
+git_submod_add   git@github.com:GerHobbelt/model.git                                     js/model-reactive-dataviz
 git_submod_add   git@github.com:GerHobbelt/mold-source-map.git                           tooling/source-map-mold
 git_submod_add   git@github.com:GerHobbelt/moment.git                                    js/moment
 git_submod_add   git@github.com:GerHobbelt/monologue.js.git                              js/monologue
@@ -722,6 +732,7 @@ git_submod_add   git@github.com:GerHobbelt/simple-statistics.git                
 git_submod_add   git@github.com:GerHobbelt/simpletest-visual-gui.git                     php/SimpleTest-visualGUI
 git_submod_add   git@github.com:GerHobbelt/simpletest.git                                php/SimpleTest
 git_submod_add   git@github.com:GerHobbelt/sisyphus.git                                  js/sisyphus
+git_submod_add   git@github.com:GerHobbelt/sjcl.git                                      js/sjcl-stanford-crypto-lib
 git_submod_add   git@github.com:GerHobbelt/sketch.js.git                                 js/sketch
 git_submod_add   git@github.com:GerHobbelt/skrollr.git                                   js/skrollr
 git_submod_add   git@github.com:GerHobbelt/slick.distinctMenu.git                        js/slickgrid-distinct-values-menu-plugin

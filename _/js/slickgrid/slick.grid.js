@@ -36,6 +36,25 @@ if (typeof Slick === "undefined") {
     }
   });
 
+  // Helper function to aid Chrome/V8 optimizer: for...in loops prevent a function to become JIT compiled so we separate out this bit of code here:
+  function __extend_support(dst, src) {
+    for (var i in src) {
+      dst[i] = src[i];
+    }
+  }
+
+  // Helper function: a quick & dirty faster version of $.extend() for our purposes...
+  function __extend(dst, dotdotdot) {
+    var a = arguments;
+    var len = a.length;
+    for (var i = 1; i < len; i++) {
+      var src = arguments[i];
+      if (!src) continue;
+      __extend_support(dst, src);
+    }
+    return dst;
+  }
+
   // shared across all grids on the page
   var scrollbarDimensions;
   var maxSupportedCssHeight;    // browser's breaking point
@@ -441,7 +460,7 @@ if (typeof Slick === "undefined") {
       maxSupportedCssHeight = maxSupportedCssHeight || getMaxSupportedCssHeight();
       scrollbarDimensions = scrollbarDimensions || measureScrollbar();
 
-      options = $.extend({}, defaults, options);
+      options = __extend({}, defaults, options);
       validateAndEnforceOptions();
       assert(options.defaultColumnWidth > 0);
       columnDefaults.width = options.defaultColumnWidth;
@@ -2555,9 +2574,9 @@ if (typeof Slick === "undefined") {
 
       makeActiveCellNormal();
 
-      var prev = $.extend({}, options);    // shallow clone
+      var prev = __extend({}, options);    // shallow clone
 
-      options = $.extend(options, args);
+      options = __extend(options, args);
       validateAndEnforceOptions();
 
       if (options.enableAddRow !== prev.enableAddRow) {
@@ -2625,7 +2644,7 @@ if (typeof Slick === "undefined") {
     }
 
     function getCellValueAndInfo(row, cell, config) {
-      config = $.extend({
+      config = __extend({
         value: true,
         node: true,
         height: true,
@@ -2679,8 +2698,8 @@ if (typeof Slick === "undefined") {
           rowDataItem: rowDataItem,
           rowMetadata: rowMetadata,
           columnMetadata: columnMetadata,
-          formatterOptions: $.extend({}, options.formatterOptions, m.formatterOptions),
-          editorOptions: $.extend({}, options.editorOptions, m.editorOptions),
+          formatterOptions: __extend({}, options.formatterOptions, m.formatterOptions),
+          editorOptions: __extend({}, options.editorOptions, m.editorOptions),
           outputPlainText: config.outputPlainText || false
       };
 
@@ -2760,7 +2779,7 @@ if (typeof Slick === "undefined") {
         assert(input.length > 0);
         parent.childrenFirstIndex = columns.length;
         for (var i = 0, len = input.length; i < len; i++) {
-          var column = $.extend({}, columnDefaults, input[i]);
+          var column = __extend({}, columnDefaults, input[i]);
           colset.push(column);
           if (column.children) {
             hasNestedColumns = true;
@@ -3626,7 +3645,7 @@ if (typeof Slick === "undefined") {
         rowStyles.push("height: " + rowHeight + "px");
       }
 
-      var info = $.extend({}, options.rowFormatterOptions, {
+      var info = __extend({}, options.rowFormatterOptions, {
         rowCss: rowCss,
         rowStyles: rowStyles,
         attributes: metaData,
@@ -3742,7 +3761,7 @@ if (typeof Slick === "undefined") {
       }
 
       // if there is a corresponding row (if not, this is the Add New row or this data hasn't been loaded yet)
-      var info = $.extend({}, options.formatterOptions, m.formatterOptions, {
+      var info = __extend({}, options.formatterOptions, m.formatterOptions, {
         cellCss: cellCss,
         cellStyles: cellStyles,
         html: "",
@@ -5819,7 +5838,7 @@ out:
     // Notes:
     // - when count = 0 or ODD, then the `flash` class is SET [at the end of the flash period] but never reset!
     function flashCell(row, cell, flash_options) {
-      flash_options = $.extend({}, {
+      flash_options = __extend({}, {
         speed: 100,
         times: 4,
         delay: false,
@@ -7373,7 +7392,7 @@ out:
         activeCellNode.innerHTML = "";
       }
 
-      var info = $.extend({}, options.editorOptions, columnDef.editorOptions, rowMetadata && rowMetadata.editorOptions, columnMetadata && columnMetadata.editorOptions, {
+      var info = __extend({}, options.editorOptions, columnDef.editorOptions, rowMetadata && rowMetadata.editorOptions, columnMetadata && columnMetadata.editorOptions, {
         grid: self,
         gridPosition: getGridPosition(),
         position: getActiveCellPosition(),
@@ -8644,7 +8663,7 @@ if (0) {
     //////////////////////////////////////////////////////////////////////////////////////////////
     // Public API
 
-    $.extend(this, {
+    __extend(this, {
       "slickGridVersion": "2.2",
 
       // Events

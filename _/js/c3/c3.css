@@ -244,3 +244,7 @@
 .c3 {
   background-color: white;
 }
+
+.c3-axis-x-label, .c3-axis-y-label, .c3-axis-y2-label {
+  font-size: 9pt;
+}

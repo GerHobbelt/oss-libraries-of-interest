@@ -2161,3 +2161,36 @@
 [submodule "js/animation-frame"]
 	path = js/animation-frame
 	url = git@github.com:GerHobbelt/animation-frame.git
+[submodule "js/jsPanel-dialog"]
+	path = js/jsPanel-dialog
+	url = git@github.com:GerHobbelt/jsPanel.git
+[submodule "js/sjcl-stanford-crypto-lib"]
+	path = js/sjcl-stanford-crypto-lib
+	url = git@github.com:GerHobbelt/sjcl.git
+[submodule "js/URI.js-url-mutator"]
+	path = js/URI.js-url-mutator
+	url = git@github.com:GerHobbelt/URI.js.git
+[submodule "js/colorPicker-WCAG2"]
+	path = js/colorPicker-WCAG2
+	url = git@github.com:GerHobbelt/colorPicker.git
+[submodule "js/Chroma-Hash-password-entry-assist"]
+	path = js/Chroma-Hash-password-entry-assist
+	url = git@github.com:GerHobbelt/Chroma-Hash.git
+[submodule "js/color-diff-CIEDE2000"]
+	path = js/color-diff-CIEDE2000
+	url = git@github.com:GerHobbelt/color-diff.git
+[submodule "tooling/uglify2"]
+	path = tooling/uglify2
+	url = git@github.com:GerHobbelt/UglifyJS2.git
+[submodule "tooling/grunt-contrib-uglify"]
+	path = tooling/grunt-contrib-uglify
+	url = git@github.com:GerHobbelt/grunt-contrib-uglify.git
+[submodule "tooling/UglifyCSS"]
+	path = tooling/UglifyCSS
+	url = git@github.com:GerHobbelt/UglifyCSS.git
+[submodule "js/model-reactive-dataviz"]
+	path = js/model-reactive-dataviz
+	url = git@github.com:GerHobbelt/model.git
+[submodule "js/mersenne-twister"]
+	path = js/mersenne-twister
+	url = git@github.com:GerHobbelt/mersenne-twister.git
