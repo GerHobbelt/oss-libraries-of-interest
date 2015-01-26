@@ -2194,3 +2194,24 @@
 [submodule "js/mersenne-twister"]
 	path = js/mersenne-twister
 	url = git@github.com:GerHobbelt/mersenne-twister.git
+[submodule "js/ftscroller"]
+	path = js/ftscroller
+	url = git@github.com:GerHobbelt/ftscroller.git
+[submodule "js/fastclick"]
+	path = js/fastclick
+	url = git@github.com:GerHobbelt/fastclick.git
+[submodule "js/ftdomdelegate"]
+	path = js/ftdomdelegate
+	url = git@github.com:GerHobbelt/ftdomdelegate.git
+[submodule "js/ftellipsis"]
+	path = js/ftellipsis
+	url = git@github.com:GerHobbelt/ftellipsis.git
+[submodule "js/ftdatasquasher-pack-into-utf8-bytes"]
+	path = js/ftdatasquasher-pack-into-utf8-bytes
+	url = git@github.com:GerHobbelt/ftdatasquasher.git
+[submodule "js/jquery-fast-show-hide"]
+	path = js/jquery-fast-show-hide
+	url = git@github.com:GerHobbelt/jquery-fast-show-hide.git
+[submodule "js/cssrule.js"]
+	path = js/cssrule.js
+	url = git@github.com:GerHobbelt/cssrule.js.git
