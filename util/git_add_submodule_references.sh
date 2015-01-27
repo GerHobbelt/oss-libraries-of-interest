@@ -286,6 +286,7 @@ git_submod_add   git@github.com:GerHobbelt/blueprint.less.git                   
 git_submod_add   git@github.com:GerHobbelt/boilerplate.git                               js/jquery-boilerplate
 git_submod_add   git@github.com:GerHobbelt/bootstrap.git                                 css/bootstrap
 git_submod_add   git@github.com:GerHobbelt/bootswatch.git                                examples/bootstrap-themes-bootswatch
+git_submod_add   git@github.com:GerHobbelt/bxslider-4.git                                js/bxslider-4
 git_submod_add   git@github.com:GerHobbelt/c3.git                                        js/c3
 git_submod_add   git@github.com:GerHobbelt/callsite.git                                  js/callsite
 git_submod_add   git@github.com:GerHobbelt/canvas-toBlob.js.git                          js/canvas-to-Blob.js
@@ -322,6 +323,7 @@ git_submod_add   git@github.com:GerHobbelt/cssConsole.git                       
 git_submod_add   git@github.com:GerHobbelt/cssarrowplease.git                            css/CSS-arrow-please
 git_submod_add   git@github.com:GerHobbelt/csslint.git                                   tooling/csslint
 git_submod_add   git@github.com:GerHobbelt/csso.git                                      tooling/csso
+git_submod_add   git@github.com:GerHobbelt/cssrule.js.git                                js/cssrule.js
 git_submod_add   git@github.com:GerHobbelt/cycle2.git                                    js/jquery-cycle2
 git_submod_add   git@github.com:GerHobbelt/d3-plugins.git                                js/d3-plugins
 git_submod_add   git@github.com:GerHobbelt/d3-tip.git                                    js/d3-tooltip
