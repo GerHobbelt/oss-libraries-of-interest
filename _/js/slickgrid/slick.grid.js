@@ -250,6 +250,8 @@ if (typeof Slick === "undefined") {
       defaultRowFormatter: defaultRowFormatter,
       defaultHeaderFormatter: defaultHeaderFormatter,
       defaultHeaderRowFormatter: defaultHeaderRowFormatter,
+      minBufferSize: 3,
+      maxBufferSize: 50,
       scrollHoldoffX: 2,
       scrollHoldoffY: 3,
       smoothScrolling: true,
@@ -491,7 +493,7 @@ if (typeof Slick === "undefined") {
         $container.css("position", "relative");
       }
 
-      $focusSink = $("<div tabIndex='0' hideFocus='true' style='position:fixed;width:0;height:0;top:0;left:0;outline:0;'></div>").appendTo($container);
+      $focusSink = $("<div tabIndex='0' hideFocus='true' style='position:absolute;width:0;height:0;top:0;left:0;outline:0;'></div>").appendTo($container);
 
       $headerScroller = $("<div class='slick-header ui-state-default' />").appendTo($container);
 
@@ -830,21 +832,21 @@ if (typeof Slick === "undefined") {
 
       var cached = false;
       if (canvasWidth !== oldCanvasWidth) {
-        $canvas.width(canvasWidth);
+        $canvas.outerWidth(canvasWidth);
         cached = true;
       }
       if (oldTotalColumnsWidth !== totalColumnsWidth) {
-        $topPanel.width(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
-        $headerRow.width(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
-        $footerRow.width(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
-        $headers.width(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
+        $topPanel.outerWidth(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
+        $headerRow.outerWidth(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
+        $footerRow.outerWidth(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
+        $headers.outerWidth(totalColumnsWidth + HEADER_ROW_WIDTH_CORRECTION);
         cached = true;
       }
       if (oldViewportW !== viewportW) {
-        $topPanelScroller.width(viewportW);
-        $headerRowScroller.width(viewportW);
-        $footerRowScroller.width(viewportW);
-        $headerScroller.width(viewportW);
+        $topPanelScroller.outerWidth(viewportW);
+        $headerRowScroller.outerWidth(viewportW);
+        $footerRowScroller.outerWidth(viewportW);
+        $headerScroller.outerWidth(viewportW);
         cached = true;
       }
 
@@ -1437,7 +1439,7 @@ if (typeof Slick === "undefined") {
         placeholder: "slick-sortable-placeholder ui-state-default slick-header-column",
         items: ".slick-header-reorderable",
         start: function (e, ui) {
-          ui.placeholder.width(ui.helper.width());
+          ui.placeholder.outerWidth(ui.helper.outerWidth());
           trigger(self.onColumnsStartReorder, {
             ui: ui
           }, e);
@@ -1720,6 +1722,7 @@ if (typeof Slick === "undefined") {
         assert(rv === true);
         handleScroll();
         //render();
+        
         trigger(self.onColumnsResized, { 
           adjustedColumns: adjustedColumns, 
           dd: dd,
@@ -2070,8 +2073,8 @@ if (typeof Slick === "undefined") {
 
     // Fix for Google Chrome
     function getStyleSheet() {
-      for (var style in document.styleSheets) {
-        var sheet = document.styleSheets[style];
+      for (var i = 0, len = document.styleSheets.length; i < len; i++) {
+        var sheet = document.styleSheets[i];
         var ownerNode = getStyleSheetOwner(sheet);
         if (ownerNode && ownerNode.id === "slickgrid_stylesheet_" + uid) {
           return sheet;
@@ -3561,8 +3564,9 @@ if (typeof Slick === "undefined") {
       var attr, val, meta;
       var count = 0;
 
-      if (rowMetadata && rowMetadata.attributes) {
-        meta = rowMetadata.attributes;
+      function collect_meta(obj, meta) {
+        var count = 0;
+        var attr, val;
 
         for (attr in meta) {
           assert(meta.hasOwnProperty(attr));
@@ -3572,32 +3576,25 @@ if (typeof Slick === "undefined") {
             count++;
           }
         }
+        return count;
+      }
+
+      if (rowMetadata && rowMetadata.attributes) {
+        meta = rowMetadata.attributes;
+
+        count += collect_meta(obj, meta);
       }
 
       if (columnMetadata && columnMetadata.attributes) {
         meta = columnMetadata.attributes;
 
-        for (attr in meta) {
-          assert(meta.hasOwnProperty(attr));
-          val = meta[attr];
-          if (val !== undefined) {
-            obj[attr] = val;
-            count++;
-          }
-        }
+        count += collect_meta(obj, meta);
       }
 
       if (mkCellHtmlOutput && mkCellHtmlOutput.attributes) {
         meta = mkCellHtmlOutput.attributes;
   
-        for (attr in meta) {
-          assert(meta.hasOwnProperty(attr));
-          val = meta[attr];
-          if (val !== undefined) {
-            obj[attr] = val;
-            count++;
-          }
-        }
+        count += collect_meta(obj, meta);
       }
 
       if (count) {
@@ -4588,6 +4585,8 @@ if (typeof Slick === "undefined") {
       if ($container.is(":visible")) {
         rv = parseFloat($.css($container[0], "width", true /* jQuery: Make numeric if forced or a qualifier was provided and val looks numeric */ ));
         assert(rv === $container.width());
+      } else {
+        console.debug("What's the width when this shit is hidden? It IS unpredictable!   ", $.css($container[0], "width", true));
       }
       return rv;
     }
@@ -4626,11 +4625,11 @@ if (typeof Slick === "undefined") {
 
     // Returns the size of the content area
     function getContentSize() {
-      var canvasWidth = $canvas.width(),
+      var canvasWidth = $canvas.outerWidth(),
           canvasHeight = $canvas.height(),
           hasVScroll = canvasHeight > $viewport.height(),
           contentWidth = canvasWidth + (hasVScroll ? scrollbarDimensions.width : 0),
-          hasHScroll = contentWidth > $viewport.width(),
+          hasHScroll = contentWidth > $viewport.outerWidth(),
           contentHeight = canvasHeight + (hasHScroll ? scrollbarDimensions.height : 0);
       return { 
         width: contentWidth, 
@@ -4640,9 +4639,9 @@ if (typeof Slick === "undefined") {
 
     // Returns the size of the visible area, i.e. between the scroll bars
     function getVisibleSize() {
-      var width = $viewport.width(),
+      var width = $viewport.outerWidth(),
           height = $viewport.height(),
-          hasHScroll = $canvas.width() > width - scrollbarDimensions.width,
+          hasHScroll = $canvas.outerWidth() > width - scrollbarDimensions.width,
           hasVScroll = $canvas.height() > height - scrollbarDimensions.height;
       width -= hasVScroll ? scrollbarDimensions.width : 0;
       height -= hasHScroll ? scrollbarDimensions.height : 0;
@@ -4694,7 +4693,7 @@ if (typeof Slick === "undefined") {
         autosizeColumns();
       }
 
-      cleanUpAndRenderCells(getRenderedRange());
+      //cleanUpAndRenderCells(getRenderedRange()); -- happens in render()
       updateRowCount();
       handleScroll(true);
       // Since the width has changed, force the render() to re-evaluate virtually rendered cells.
@@ -4839,8 +4838,8 @@ if (typeof Slick === "undefined") {
 
     function getRenderedRange(viewportTop, viewportLeft) {
       var visibleRange = getVisibleRange(viewportTop, viewportLeft);
-      var minBuffer = 3;
-      var buffer = Math.max(minBuffer, visibleRange.bottom - visibleRange.top);
+      var minBuffer = options.minBufferSize;
+      var buffer = Math.min(options.maxBufferSize, Math.max(minBuffer, visibleRange.bottom - visibleRange.top));
 
       var range = {
         top: visibleRange.top,                      // the first visible row
@@ -7458,84 +7457,12 @@ out:
       }
     }
 
-    function absBox(elem) {
-      if (!elem) {
-        // produce a box which is positioned way outside the visible area.
-        // Note: use values > 1e15 to abuse the floating point artifact
-        // where adding small values to such numbers is neglected due
-        // to mantissa limitations (e.g. 1e30 + 1 === 1e30)
-        return {
-          top: 1e38,
-          left: 1e38,
-          bottom: 1e38,
-          right: 1e38,
-          width: 0,
-          height: 0,
-          visible: false // <-- that's the important bit!
-        };
-      }
-      var $elem = $(elem);
-      var box = {
-        top: elem.offsetTop,
-        left: elem.offsetLeft,
-        bottom: 0,
-        right: 0,
-        width: $elem.outerWidth(),
-        height: $elem.outerHeight(),
-        visible: true
-      };
-      box.bottom = box.top + box.height;
-      box.right = box.left + box.width;
-
-      // walk up the tree
-      var offsetParent = elem.offsetParent;
-      while ((elem = elem.parentNode) !== document.body) {
-        if (!elem) {
-          // when we end up at elem===null, then the elem has been detached
-          // from the DOM and all our size calculations are useless:
-          // produce a box which is positioned at (0,0) and has a size of (0,0).
-          // return {
-          //   top: 0,
-          //   left: 0,
-          //   bottom: 0,
-          //   right: 0,
-          //   width: 0,
-          //   height: 0,
-          //   visible: false // <-- that's the important bit!
-          // };
-          box.visible = false; // <-- that's the important bit!
-          return box;
-        }
-        if (box.visible && elem.scrollHeight !== elem.offsetHeight && $(elem).css("overflowY") !== "visible") {
-          box.visible = box.bottom > elem.scrollTop && box.top < elem.scrollTop + elem.clientHeight;
-        }
-
-        if (box.visible && elem.scrollWidth !== elem.offsetWidth && $(elem).css("overflowX") !== "visible") {
-          box.visible = box.right > elem.scrollLeft && box.left < elem.scrollLeft + elem.clientWidth;
-        }
-
-        box.left -= elem.scrollLeft;
-        box.top -= elem.scrollTop;
-
-        if (elem === offsetParent) {
-          box.left += elem.offsetLeft;
-          box.top += elem.offsetTop;
-          offsetParent = elem.offsetParent;
-        }
-
-        box.bottom = box.top + box.height;
-        box.right = box.left + box.width;
-      }
-
-      return box;
-    }
-
     function getActiveCellPosition() {
-      return absBox(activeCellNode);
+      return Slick.BoxInfo(activeCellNode);
     }
 
     function getGridPosition() {
-      return absBox($container[0]);
+      return Slick.BoxInfo($container[0]);
     }
 
     function handleActiveCellPositionChange(evt) {
@@ -8379,20 +8306,29 @@ if (0) {
         var needToReselectCell = false;
         if (!node && mandatory) {
           // force render the new active cell
+          // 
+          // WARNING: under rare circumstances may the renderer *still* decide *not* to render
+          // the grid (e.g. when a custom/user onRenderStart event handler decides to signal 
+          // that rendering is currently undesirable) hence we MUST anticipate the unlikely
+          // situation where the rowCache will be empty after the next call!
           needToReselectCell = forcedRenderCriticalCell(row, cell);
 
           // and then attempt fetching the DOM node again:
           assert(rowsCache[row]);
-          assert(rowsCache[row].cellNodesByColumnIdx);
-          assert(rowsCache[row].cellNodesByColumnIdx.length > cell);
-          node = rowsCache[row].cellNodesByColumnIdx[cell];
-          assert(node);
-          if (needToReselectCell) {
-            assert(rowsCache[activeRow]);
-            assert(rowsCache[activeRow].cellNodesByColumnIdx);
-            assert(rowsCache[activeRow].cellNodesByColumnIdx.length > activeCell);
-            activeCellNode = getCellNode(activeRow, activeCell, true);
-            assert(activeCellNode);
+          if (rowsCache[row]) {
+            assert(rowsCache[row].cellNodesByColumnIdx);
+            assert(rowsCache[row].cellNodesByColumnIdx.length > cell);
+            node = rowsCache[row].cellNodesByColumnIdx[cell];
+            assert(node);
+            if (needToReselectCell) {
+              assert(rowsCache[activeRow]);
+              assert(rowsCache[activeRow].cellNodesByColumnIdx);
+              assert(rowsCache[activeRow].cellNodesByColumnIdx.length > activeCell);
+              activeCellNode = getCellNode(activeRow, activeCell, true);
+              assert(activeCellNode);
+            }
+          } else {
+            node = null;
           }
         } else if (dirty) {
           assert(node);
@@ -8843,28 +8779,9 @@ if (0) {
       "getEditController": getEditController,
 
       // export utility function(s)
-      "absBox": absBox,                    // similar to jQuery .offset() but provides more info and guaranteed to match its numbers with getGridPosition() and  getActiveCellPosition()      
       "scrollPort": scrollPort
     });
 
     init();
   }
 }(jQuery));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Ensure this file has completely loaded AND PARSED before we take off...
-if (typeof window !== "undefined") { window.visyond_file_counter = (!window.visyond_file_counter ? 1 : window.visyond_file_counter + 1); }

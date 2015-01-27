@@ -364,6 +364,7 @@ git_submod_add   git@github.com:GerHobbelt/facebook.git                         
 git_submod_add   git@github.com:GerHobbelt/facebox.git                                   js/jquery-facebox
 git_submod_add   git@github.com:GerHobbelt/famfamfam.git                                 buttons/famfamfam
 git_submod_add   git@github.com:GerHobbelt/famous.git                                    js/famous
+git_submod_add   git@github.com:GerHobbelt/fastclick.git                                 js/fastclick
 git_submod_add   git@github.com:GerHobbelt/fd-slider.git                                 js/fd-slider
 git_submod_add   git@github.com:GerHobbelt/financial.js.git                              js/financial-Excel-functions
 git_submod_add   git@github.com:GerHobbelt/finchjs.git                                   js/finch-router
@@ -382,6 +383,10 @@ git_submod_add   git@github.com:GerHobbelt/foundation.git                       
 git_submod_add   git@github.com:GerHobbelt/freewall.git                                  js/jquery-freewall
 git_submod_add   git@github.com:GerHobbelt/fseditor.git                                  js/jquery-fseditor
 git_submod_add   git@github.com:GerHobbelt/ftcolumnflow.git                              js/ftcolumnflow
+git_submod_add   git@github.com:GerHobbelt/ftdatasquasher.git                            js/ftdatasquasher-pack-into-utf8-bytes
+git_submod_add   git@github.com:GerHobbelt/ftdomdelegate.git                             js/ftdomdelegate
+git_submod_add   git@github.com:GerHobbelt/ftellipsis.git                                js/ftellipsis
+git_submod_add   git@github.com:GerHobbelt/ftscroller.git                                js/ftscroller
 git_submod_add   git@github.com:GerHobbelt/fullcalendar.git                              js/jquery-fullcalendar
 git_submod_add   git@github.com:GerHobbelt/functional-javascript.git                     js/functional-js
 git_submod_add   git@github.com:GerHobbelt/genie.git                                     js/genie
@@ -476,6 +481,7 @@ git_submod_add   git@github.com:GerHobbelt/jquery-cookie.git                    
 git_submod_add   git@github.com:GerHobbelt/jquery-deserialize.git                        js/jquery-deserialize
 git_submod_add   git@github.com:GerHobbelt/jquery-dropdown.git                           js/jquery-dropdown
 git_submod_add   git@github.com:GerHobbelt/jquery-editable.git                           js/jquery-editable
+git_submod_add   git@github.com:GerHobbelt/jquery-fast-show-hide.git                     js/jquery-fast-show-hide
 git_submod_add   git@github.com:GerHobbelt/jquery-fieldselection.git                     js/jquery-fieldselection
 git_submod_add   git@github.com:GerHobbelt/jquery-filedrop.git                           js/jQuery-filedrop
 git_submod_add   git@github.com:GerHobbelt/jquery-fixclick.git                           js/jquery-fixclick

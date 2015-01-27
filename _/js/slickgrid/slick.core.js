@@ -14,6 +14,7 @@
       Keyboard: Keyboard(),
       PerformanceTimer: PerformanceTimer,
       HtmlEntities: HtmlEntities,
+      BoxInfo: BoxInfo,
       Range: Range,
       NonDataRow: NonDataItem,
       Group: Group,
@@ -720,6 +721,107 @@
       }
     };
   }
+
+  // similar to jQuery .offset() but provides more info and guaranteed to match its numbers with getGridPosition() and  getActiveCellPosition()      
+  // 
+  // @param elem may be a DOM Element or a jQuery selector object.
+  function BoxInfo(elem) {
+    if (!elem) {
+      // produce a box which is positioned way outside the visible area.
+      // Note: use values > 1e15 to abuse the floating point artifact
+      // where adding small values to such numbers is neglected due
+      // to mantissa limitations (e.g. 1e30 + 1 === 1e30)
+      return {
+        top: 1e38,
+        left: 1e38,
+        bottom: 1e38,
+        right: 1e38,
+        width: 0,
+        height: 0,
+        visible: false // <-- that's the important bit!
+      };
+    }
+    var $elem = $(elem);
+    elem = $elem[0];
+
+    // See also Sizzle:
+    // 
+    // jQuery.expr.filters.hidden = function( elem ) {
+    //   // Use OR instead of AND as the element is not visible if either is true
+    //   // See tickets #10406 and #13132
+    //   return !elem.offsetWidth || !elem.offsetHeight;
+    // };
+
+    var box = {
+      top: elem.offsetTop,
+      left: elem.offsetLeft,
+      bottom: 0,
+      right: 0,
+      width: $elem.outerWidth(),
+      height: $elem.outerHeight(),
+      visible: elem.offsetWidth > 0 && elem.offsetHeight > 0
+    };
+    box.bottom = box.top + box.height;
+    box.right = box.left + box.width;
+
+    // walk up the tree
+    var offsetParent = elem;
+    // first quickly check visibility:
+    while (offsetParent && offsetParent !== document.body) {
+      offsetParent = offsetParent.offsetParent;
+    }
+    if (!offsetParent) {
+      // when we end up at elem===null, then the elem has been detached
+      // from the DOM and all our size calculations are useless:
+      // produce a box which is positioned at (0,0) and has a size of (0,0).
+      // return {
+      //   top: 0,
+      //   left: 0,
+      //   bottom: 0,
+      //   right: 0,
+      //   width: 0,
+      //   height: 0,
+      //   visible: false // <-- that's the important bit!
+      // };
+      box.visible = false; // <-- that's the important bit!
+      return box;
+    }
+    // now walk up the tree to calculate the position/clipped-by-viewport visibility:
+    offsetParent = elem.offsetParent;
+    elem = elem.parentNode;
+    while (elem && elem.nodeType === 1 /* ELEMENT_TYPE */) {
+      assert(elem.nodeType !== 9 /* DOCUMENT_TYPE */);
+      if (box.visible && (!elem.offsetWidth || !elem.offsetHeight)) {
+        box.visible = false;
+        break;
+      }
+
+      if (box.visible && elem.scrollHeight !== elem.offsetHeight && $(elem).css("overflowY") !== "visible") {
+        box.visible = box.bottom > elem.scrollTop && box.top < elem.scrollTop + elem.clientHeight;
+      }
+
+      if (box.visible && elem.scrollWidth !== elem.offsetWidth && $(elem).css("overflowX") !== "visible") {
+        box.visible = box.right > elem.scrollLeft && box.left < elem.scrollLeft + elem.clientWidth;
+      }
+
+      box.left -= elem.scrollLeft;
+      box.top -= elem.scrollTop;
+
+      if (elem === offsetParent) {
+        box.left += elem.offsetLeft;
+        box.top += elem.offsetTop;
+        offsetParent = elem.offsetParent;
+      }
+
+      box.bottom = box.top + box.height;
+      box.right = box.left + box.width;
+
+      elem = elem.parentNode;
+    }
+
+    return box;
+  }
+
 
 
   /***

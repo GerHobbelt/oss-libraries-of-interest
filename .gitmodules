@@ -2215,3 +2215,6 @@
 [submodule "js/cssrule.js"]
 	path = js/cssrule.js
 	url = git@github.com:GerHobbelt/cssrule.js.git
+[submodule "js/bxslider-4"]
+	path = js/bxslider-4
+	url = git@github.com:GerHobbelt/bxslider-4.git
