@@ -235,6 +235,7 @@ git_repo_checkout_branch "../js/BigUpload" 105ede4d2c029f1f32f3536f5f87888046440
 git_repo_checkout_branch "../js/Blob-filesystem-shim" 8c1deeb4bd4f80c57aaa4f13dd86c634ff621b74 master
 git_repo_checkout_branch "../js/BookBlock" ec1cb343be71431f47e1c74b564eb986f8425866 master
 git_repo_checkout_branch "../js/BookJS" 5297025fc74209cdbea6a06137001e065ad01adb master
+git_repo_checkout_branch "../js/bxslider-4" 1e6b1e7ae8bfa0b104daf95bef6ca0256a558ad5 master
 git_repo_checkout_branch "../js/c3" 5c918985e5fee9d2a9099ab0d3395e77a31e8f5c master
 git_repo_checkout_branch "../js/callsite" 6a3726f25d5979e55c740a92823f377e9f8cff5f master
 git_repo_checkout_branch "../js/canvas-to-Blob.js" 27bbe1d4f063d6f735b48a33c12f247ced93d008 master
@@ -244,6 +245,7 @@ git_repo_checkout_branch "../js/cash-fast-jquery-alt" 70839298bc4d4e047b2a89ecd1
 git_repo_checkout_branch "../js/catiline-webworkers" 9d219ab948e049dce03d7175b236d3ea88045746 master
 git_repo_checkout_branch "../js/chai" 1df11d00275f526b596b933faab1479f7af7f7c5 master
 git_repo_checkout_branch "../js/chroma" cc1c8397c1662809c4fd8d59926d3579ce8da756 master
+git_repo_checkout_branch "../js/Chroma-Hash-password-entry-assist" 512a92ec395e1acc4147a2134145633263cdfa77 master
 git_repo_checkout_branch "../js/chrono" f4077bb351104b1d2e97d5da7dbf8ce00cd58ae7 master
 git_repo_checkout_branch "../js/circle-menu" da6a48de30fda0a6c9e9e8509d56da34bb4e4260 master
 git_repo_checkout_branch "../js/CKeditor.development" 258e2ba1d3ec3a16d03c9c483194943f4496bcdd master
@@ -253,7 +255,9 @@ git_repo_checkout_branch "../js/clipboard" c77943325384093b718fd1c0d44d754a21ab7
 git_repo_checkout_branch "../js/code-walker" 34714e8018a0da733f18ccdf849bababe217dcd2 master
 git_repo_checkout_branch "../js/CodeMirror" 93a889dd6b6ee62a9eb1e0de71d6f3a3356c97a8 master
 git_repo_checkout_branch "../js/CodeMirror-UI" 4ec880ca7bcff9f0eb4da39bdf4ce729d3cfa3fd master
+git_repo_checkout_branch "../js/color-diff-CIEDE2000" 5c589cd221d9a743dbd9ffaf8b07d53451fc36dd master
 git_repo_checkout_branch "../js/colorjoe" 5f76862a6c8105cb7740b535ad02fe2b0f0b8e0c master
+git_repo_checkout_branch "../js/colorPicker-WCAG2" 3700b24b2f39836e8dae1541024a9ec8d41485a8 master
 git_repo_checkout_branch "../js/consolidate-template-engines" 84c691ad69b7a9316e4af2816f6eb2cbc5f8312b master
 git_repo_checkout_branch "../js/crc8" d68924223db36a5937c4accd2bfa7c869cf0acb9 master
 git_repo_checkout_branch "../js/create" 00d43ea4e53ea084333f0280753964db9131ade5 master
@@ -262,6 +266,7 @@ git_repo_checkout_branch "../js/crossroads-router" 05a5bfa6dbba51359173ec9c22a4b
 git_repo_checkout_branch "../js/crypto-js" 34b30e52b82a151f2229b3d2974a55d66c0bd5cf master
 git_repo_checkout_branch "../js/crypto-js-hashes" 007d2dc8efdd6dd480ed80355c5ca6b89dc896ba master
 git_repo_checkout_branch "../js/crypton-zero-knowledge" ba725485a91928c7e62d1b405d83c9de85796b8e master
+git_repo_checkout_branch "../js/cssrule.js" 3e28ca5f1fe51c09ec6a6812204c56d0e88da654 master
 git_repo_checkout_branch "../js/d3" b9e022444e7fdc4f6fe6e64e97822a260622ef2c master
 git_repo_checkout_branch "../js/d3-DexCharts" 953806e08f3c5c2120703a91b924183ecd8c462a master
 git_repo_checkout_branch "../js/d3-dimple" dd7009ef20785c3c0e840e968bdda0dc672f0ac2 master
@@ -291,6 +296,7 @@ git_repo_checkout_branch "../js/editable-contenteditable" fb0552a21513ec357e9a88
 git_repo_checkout_branch "../js/elFinder" c91226ef2f803cd60295314a40dc27c9437907a0
 git_repo_checkout_branch "../js/event.js" be033483a41feaceb1b5ebf9c1bdd7f45c6ce907 master
 git_repo_checkout_branch "../js/famous" 4d9c58a5ff8067207c9bd0d7be693a9fa7854284 master
+git_repo_checkout_branch "../js/fastclick" 040fa81e973da33219d8e8326716d71743a900d7 master
 git_repo_checkout_branch "../js/fd-slider" c7d6da543fe2cde3a37d00e20d1eb058d8779197 master
 git_repo_checkout_branch "../js/File-manager" b7aeca655a75eb7cfc598c1d6b55fd1351babbf6 master
 git_repo_checkout_branch "../js/FileSaver-filesystem-shim" d20bfc4d3bf482963ed626eef20bdfa72339e03c master
@@ -304,6 +310,10 @@ git_repo_checkout_branch "../js/fontIconPicker" ee4f686196aeef2c4ddf3c9e3be7f5f0
 git_repo_checkout_branch "../js/formatter.js" 36660b4bc26ca916ab5f9b5567c59ca6a1eee615 master
 git_repo_checkout_branch "../js/formula-Excel-functions" 7d5a3be867b6ed1841a6fd42a69e3365aeab2c2d master
 git_repo_checkout_branch "../js/ftcolumnflow" c18d408b04dfd0b1e6a20fd38f08fa65ed2985ba master
+git_repo_checkout_branch "../js/ftdatasquasher-pack-into-utf8-bytes" e76b3b2a8b90dae601a7193b2f4453ed35abc027 master
+git_repo_checkout_branch "../js/ftdomdelegate" 8b086e6bc913aa548178f9bd40448576083f5711 master
+git_repo_checkout_branch "../js/ftellipsis" f7f867e90f4285718d235a061e9c65d81b658c95 master
+git_repo_checkout_branch "../js/ftscroller" 86f43649e075c0539f0bc8f877531fb2fffe865e master
 git_repo_checkout_branch "../js/fullscreen-API-polyfill" 22c9ea2f1bd7e8894dcb85511869f959a5e0f41b master
 git_repo_checkout_branch "../js/functional-js" 3991d2becd7661640ff6a3b2a7403e1314413636 master
 git_repo_checkout_branch "../js/Garlic" 1d9fe8a4626fb7db25b9e8bd36f8ae581c22c4bc master
@@ -341,6 +351,9 @@ git_repo_checkout_branch "../js/jasmine-signals" da60933727b2da1eb61f6dc4ed1cb45
 git_repo_checkout_branch "../js/jasmine-stealth" 8e79168f122e19ac3e25b9089f1362c479bad43f master
 git_repo_checkout_branch "../js/jasmine-ui" 74657a362ee8e23778d48bac94ce2581871f3829 master
 git_repo_checkout_branch "../js/jasmine-Underscore-matchers" fcf553e3922114b602432f7bfebe1112bdbe2644 master
+git_repo_checkout_branch "../js/jasmine/documentation.website" 695c8cf5a468fe80e1f98050f54bc7769819e228 master
+git_repo_checkout_branch "../js/jasmine/pages" 64493b062e41fdf24a82034ac4b76fc13826c6b2 gh-pages
+git_repo_checkout_branch "../js/jasmine/pages/pages" e82a2ff018d71a78d3b470cf246bc1df700d4aba master
 git_repo_checkout_branch "../js/javascript-debug" 6dcf21c756a3ec5cb31a663b80c035f14e3f4024 master
 git_repo_checkout_branch "../js/JavaScript-MD5" c74b18ec61df8ff31a149c6326aaee7ece85ac89 master
 git_repo_checkout_branch "../js/javascript-sandbox-console" 6e5cbe9acef032b64941c5c816c62a385eec5121 master
@@ -388,6 +401,7 @@ git_repo_checkout_branch "../js/jquery-event-drag-drop" 328826bdd9490a7130985620
 git_repo_checkout_branch "../js/jquery-event-move" 80071a7b3ddbd2c3f0c0bfc97eb1dcdfbb5e88f8 master
 git_repo_checkout_branch "../js/jquery-event-swipe" 6a284657be7f6ab45173a7cc7e626dc8e129faa8 master
 git_repo_checkout_branch "../js/jquery-facebox" 054c2c90db7b4d119a5a445bfc65e8501f45d2b3 master
+git_repo_checkout_branch "../js/jquery-fast-show-hide" 6631e08ebccb9b0f32bb7ecfca1a8c5feb2429a0 master
 git_repo_checkout_branch "../js/jquery-fieldselection" 0a2447008b720e2ff46b8051915cdc4e864d6d0b master
 git_repo_checkout_branch "../js/jquery-file-download" f8a3e5fb5729f8a55ff212f0beb86fb339be0035 master
 git_repo_checkout_branch "../js/jquery-file-tree" f98aacd82ff0865fb790e583d9f5ac26aeeb8158 master
@@ -565,11 +579,13 @@ git_repo_checkout_branch "../js/mathjax-dev" e33439e9f25481401a4009f284656ae67bb
 git_repo_checkout_branch "../js/mediaelement" d799a546ed179be1ed575bde86f36c239ee25875 master
 git_repo_checkout_branch "../js/meny-menu" 4530fc5cc27d19c95038b72e29d32d3511dabfbd master
 git_repo_checkout_branch "../js/mercury-wysiwyg-editor" 1cc637b0bccea19085f824d2881c6513ed5ee8ae master
+git_repo_checkout_branch "../js/mersenne-twister" 5f1bb0c301fb340fc63f2cafc262353574016abf master
 git_repo_checkout_branch "../js/MessageChannel" ff566a0a3ee1f01c3b0081af824979d9228597af master
 git_repo_checkout_branch "../js/metalsmith" dc4002abbb69be260f8dbe09bd944c25708a2502 master
 git_repo_checkout_branch "../js/miso.dataset" 1399b516cad0865eb5a98c106bc0c80c5d24a9bf master
 git_repo_checkout_branch "../js/miso.events" 68b66f4d76819e32aa1c3c749ea7cd93eaa0a507 master
 git_repo_checkout_branch "../js/mocha" c0bcf71e84ddf4da1396a0574e74eccbc9196a3b master
+git_repo_checkout_branch "../js/model-reactive-dataviz" 97219b71707f612819e85d6d4d7a59421b3b88bf gh-pages
 git_repo_checkout_branch "../js/Modernizr" 5d891e1babef2570d43218aa2fa47048bc555bdf master
 git_repo_checkout_branch "../js/moment" 47dee3fae668b07b9bf9126ed905f479d91a448e master
 git_repo_checkout_branch "../js/monologue" f6d9ffa4e509c282e30db9266b40bb4e54e9f409 master
@@ -730,6 +746,7 @@ git_repo_checkout_branch "../js/ui-progress-bar" c089b48290f8748867238ec14dd28c4
 git_repo_checkout_branch "../js/underscore" cab31863af7873f0f148422cf4fbed2c60918b29 master
 git_repo_checkout_branch "../js/underscore.math" cc29a2733b5cb34c5267fcf46d8dce86dce93a27 master
 git_repo_checkout_branch "../js/underscore.string" 52be74cf2c8ef2c9a2164c72e71dacf955978d88 master
+git_repo_checkout_branch "../js/URI.js-url-mutator" 891b5551da274d1ef3ff23ad3fdabea2b98344fd gh-pages
 git_repo_checkout_branch "../js/uri.regex" b1917cdcb99d36cbc8a60bd79e04d509fc265783 master
 git_repo_checkout_branch "../js/uuid" 03e81d2a3e1d568c95fc9d57860691cf3ce7bdf7 master
 git_repo_checkout_branch "../js/veinjs-css-injection" 4241a45067a4105cae9529cf1bb1fb1934989997 master
@@ -816,10 +833,17 @@ git_repo_checkout_branch "../tooling/google-closure-compiler" e910aca6637cbf8593
 git_repo_checkout_branch "../tooling/greg" d577e8014ab979952e5d0107bcf3de043cd2f0fe master
 git_repo_checkout_branch "../tooling/grunt-contrib-jshint" 7d654c3bab7cf76e48f3861d7d6151c5dc7c25c7 master
 git_repo_checkout_branch "../tooling/grunt-contrib-requirejs" 899ed8f4606d823d64e9fa86d870da08cbb55036 master
+git_repo_checkout_branch "../tooling/grunt-contrib-uglify" ae723ace0b4ba76f160de7683989832b070fae83 master
 git_repo_checkout_branch "../tooling/grunt-multisourced-bower-config" 2202e48276d8b02c76cea5519fbe0436ce528f47 master
 git_repo_checkout_branch "../tooling/grunt-umd-wrapper" 1855cfe9322e2ccfbaa9790efa27cb5d1c1bf01d master
 git_repo_checkout_branch "../tooling/javascriptlint" e1bd0abfd424811af469d1ece3af131d95443924 master
 git_repo_checkout_branch "../tooling/jison" 2be8fc61b164bb33fe3f1e4ce90c4c4729baa978 master
+git_repo_checkout_branch "../tooling/jison/gh-pages" 29225af2e036e9524eedfa85850abf2fed4624a9 master
+git_repo_checkout_branch "../tooling/jison/modules/ebnf-parser" 1b1126fe5e8352ae076195dc7b982d7dbc53aa59 master
+git_repo_checkout_branch "../tooling/jison/modules/jison-lex" 7c8734a8b94a26158796b3c340378a16e4d83b55 master
+git_repo_checkout_branch "../tooling/jison/modules/jison2json" 19f094dc591033e444120c201a6cf1ca30914d5f master
+git_repo_checkout_branch "../tooling/jison/modules/json2jison" b7d1351d0f9821a3e50f396d2d7793f75de9d106 master
+git_repo_checkout_branch "../tooling/jison/modules/lex-parser" c04f7e5f294cab3144722c8832566ddfd92cd6bc master
 git_repo_checkout_branch "../tooling/jsbeautifier" 60fe74c6e11f3bd3ea1f1737c7f0fc825fff53a4 master
 git_repo_checkout_branch "../tooling/JSDoc" 353afea49e8774183bca667829d3565fa9bc282e master
 git_repo_checkout_branch "../tooling/JSHint" 37757f0195e9ee4eb4bd8aeb5162c2a3c1565832 master
@@ -833,6 +857,8 @@ git_repo_checkout_branch "../tooling/source-map-convert" 725b2347a83b42011da465d
 git_repo_checkout_branch "../tooling/source-map-inline" f0d9db8f2e31b2d52b071b89c8360f19eb85dcef master
 git_repo_checkout_branch "../tooling/source-map-mold" 4e966b14917f85f618b12acf5eee7eaa440e011d master
 git_repo_checkout_branch "../tooling/source-map-readwrite" 9d8f09a1e4ef7bf8584fa4e5775afc7f62285fc6 master
+git_repo_checkout_branch "../tooling/uglify2" f36a1eaa8b5203ab7e4616108c33a0b68668a8db master
+git_repo_checkout_branch "../tooling/UglifyCSS" 3c140347adb0ed9e85c89372d502fd96c35bcfb9 master
 git_repo_checkout_branch "../tooling/vulcanize" 8a851f782b80870e2eb22f5340bc309abdc5fa63 master
 git_repo_checkout_branch "../tooling/wsclean" 78e56497930f686e10659dd8a1adf3a9681bca72 master
 git_repo_checkout_branch "../tooling/xmail" 33bf2eb3bdca4e79d8b6339d5ff9f8583c046cf7 master
