@@ -2218,3 +2218,6 @@
 [submodule "js/bxslider-4"]
 	path = js/bxslider-4
 	url = git@github.com:GerHobbelt/bxslider-4.git
+[submodule "tooling/gulp-jison"]
+	path = tooling/gulp-jison
+	url = git@github.com:GerHobbelt/gulp-jison.git
