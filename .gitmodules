@@ -2221,3 +2221,9 @@
 [submodule "tooling/gulp-jison"]
 	path = tooling/gulp-jison
 	url = git@github.com:GerHobbelt/gulp-jison.git
+[submodule "tooling/gulp-fncallback"]
+	path = tooling/gulp-fncallback
+	url = git@github.com:GerHobbelt/gulp-fncallback.git
+[submodule "js/steel_capped_toe-booting-up"]
+	path = js/steel_capped_toe-booting-up
+	url = git@github.com:GerHobbelt/steel_capped_toe.git
