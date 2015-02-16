@@ -2230,3 +2230,6 @@
 [submodule "tooling/npm-check-updates"]
 	path = tooling/npm-check-updates
 	url = git@github.com:GerHobbelt/npm-check-updates.git
+[submodule "js/sprintf"]
+	path = js/sprintf
+	url = git@github.com:GerHobbelt/sprintf.js.git
