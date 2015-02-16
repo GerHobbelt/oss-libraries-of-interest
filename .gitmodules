@@ -2227,3 +2227,6 @@
 [submodule "js/steel_capped_toe-booting-up"]
 	path = js/steel_capped_toe-booting-up
 	url = git@github.com:GerHobbelt/steel_capped_toe.git
+[submodule "tooling/npm-check-updates"]
+	path = tooling/npm-check-updates
+	url = git@github.com:GerHobbelt/npm-check-updates.git
