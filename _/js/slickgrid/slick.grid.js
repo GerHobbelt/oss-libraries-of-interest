@@ -431,6 +431,13 @@ if (typeof Slick === "undefined") {
       return lu;
     }
 
+    // The cell attributes which are set by vanilla SlickGrid: 
+    var slickgridStandardCellAttributes = {
+      tabindex: 1,
+      role: 1,
+      "class": 1,
+      "aria-describedby": 1
+    };
 
     //////////////////////////////////////////////////////////////////////////////////////////////
     // Initialization
@@ -1121,6 +1128,9 @@ if (typeof Slick === "undefined") {
         });
       $footerRow.empty();
 
+      // speed improvement? detach the $headers DOM element from the view while we work on it in here:
+      $headers = $headers.detach();
+
       function createColumnHeader(columnDef, appendTo, cell) {
         var isLeaf = !columnDef.children;
         var cellCss = [
@@ -1332,6 +1342,9 @@ if (typeof Slick === "undefined") {
           createBaseColumnHeader(column, $headers, i);
         }
       }
+
+      // re-attach DOM node to viewport
+      $headers = $headers.appendTo($headerScroller);
 
       setSortColumns(sortColumns);
       setupColumnResize();
@@ -1691,17 +1704,47 @@ if (typeof Slick === "undefined") {
             }
           }
         }
+
+        var selectionModel = getSelectionModel();
+
+        // If selection model is defined and column 
+        // which user is resizing currently, is part of his selection area
+        // then let's resize other columns which are part of selection area
+        if(selectionModel) {
+          var currentSelectedRanges = getSelectionModel().getSelectedRanges(), fromCell, toCell;
+          for (j=0; j<currentSelectedRanges.length; j++) {
+            if(activeColumnIndex >= currentSelectedRanges[j].fromCell 
+              && activeColumnIndex <= currentSelectedRanges[j].toCell) {
+              fromCell = currentSelectedRanges[j].fromCell;
+              toCell = currentSelectedRanges[j].toCell;
+              for(k=fromCell; k<=toCell; k++) {
+                columns[k].width = columns[activeColumnIndex].width;
+              }
+            }
+          }
+        }
+
         updateColumnCaches();
         //applyColumnWidths(); -- happens already inside the next statement: updateCanvasWidth(true)
         var rv = updateCanvasWidth();
         assert(rv === true);
         trigger(self.onColumnsResizing, {}, e);
+        // On column resizing we should redecoarte selection model
+        // as older selection area could cover more or less columns in
+        // ui depending on whether user has shrink or strech the column
+        if(selectionModel) {
+          var currentSelectedRanges = getSelectionModel().getSelectedRanges();
+          for (j=0; j<currentSelectedRanges.length; j++) {
+            selectionModel.getPostSelectionDecorator().show(currentSelectedRanges[i]);
+          }
+        }
         //e.preventDefault();
         //e.stopPropagation();
       }
       
-      function onColumnResizeDragEnd(e, dd) {
-        var newWidth, j, c;
+      function onColumnResizeDragEnd(e, dd, activeColumnIndex) {
+        var newWidth, j, k, c;
+
         var columnCount = columns.length;
         var adjustedColumns = [];
         $(this).parent().removeClass("slick-header-column-active");
@@ -1718,6 +1761,29 @@ if (typeof Slick === "undefined") {
             }
           }
         }
+
+        var selectionModel = getSelectionModel();
+
+        // If selection model is defined and column 
+        // which user is resizing currently, is part of his selection area
+        // then let's resize other columns which are part of selection area
+        if(selectionModel) {
+          var currentSelectedRanges = getSelectionModel().getSelectedRanges(), fromCell, toCell;
+          for (j=0; j<currentSelectedRanges.length; j++) {
+            if(activeColumnIndex >= currentSelectedRanges[j].fromCell 
+              && activeColumnIndex <= currentSelectedRanges[j].toCell) {
+              fromCell = currentSelectedRanges[j].fromCell;
+              toCell = currentSelectedRanges[j].toCell;
+              for(k=fromCell; k<=toCell; k++) {
+                columns[k].width = columns[activeColumnIndex].width;
+              }
+            }
+          }
+        }
+
+        // Reminder: Always call updateColumnCaches() *before* calling updateCanvasWidth() iff you need to call updateColumnCaches() at all
+        updateColumnCaches();
+
         var rv = updateCanvasWidth();
         assert(rv === true);
         handleScroll();
@@ -1728,6 +1794,15 @@ if (typeof Slick === "undefined") {
           dd: dd,
           success: rv 
         }, e);
+        // On column resizing we should redecoarte selection model
+        // as older selection area could cover more or less columns in
+        // ui depending on whether user has shrink or strech the column
+        if(selectionModel) {
+          var currentSelectedRanges = getSelectionModel().getSelectedRanges();
+          for (j=0; j<currentSelectedRanges.length; j++) {
+            selectionModel.getPostSelectionDecorator().show(currentSelectedRanges[i]);
+          }
+        }
         e.preventDefault();
         e.stopPropagation();
       }
@@ -1807,7 +1882,7 @@ if (typeof Slick === "undefined") {
         }
       }
 
-      $headerScroller
+      $headerScroller.find(".slick-resizable-handle")
           // .bind("contextmenu", handleHeaderContextMenu)
           // .fixClick(handleHeaderClick, handleHeaderDblClick)
           // .delegate(".slick-header-column", "mouseenter", handleHeaderMouseEnter)
@@ -1816,27 +1891,27 @@ if (typeof Slick === "undefined") {
           // .bind("dragstart", {distance: 3}, handleHeaderDragStart)
           // .bind("drag", handleHeaderDrag)
           // .bind("dragend", handleHeaderDragEnd)
-          .delegate(".slick-resizable-handle", "draginit", function (e, dd) {
+          .bind("draginit", function (e, dd) {
             var columnIdx = $(this).attr("data-column-index");
             columnIdx = parseInt(columnIdx);
             onColumnResizeDragInit(e, dd, columnIdx);
           })
-          .delegate(".slick-resizable-handle", "dragstart touchstart", {distance: 3}, function (e, dd) {
+          .bind("dragstart touchstart", {distance: 3}, function (e, dd) {
             var columnIdx = $(this).attr("data-column-index");
             columnIdx = parseInt(columnIdx);
             onColumnResizeDragStart(e, dd, columnIdx);
           })
-          .delegate(".slick-resizable-handle", "drag touchmove", function (e, dd) {
+          .bind("drag touchmove", function (e, dd) {
             var columnIdx = $(this).attr("data-column-index");
             columnIdx = parseInt(columnIdx);
             onColumnResizeDrag(e, dd, columnIdx);
           })
-          .delegate(".slick-resizable-handle", "dragend touchend", function (e, dd) {
+          .bind("dragend touchend", function (e, dd) {
             var columnIdx = $(this).attr("data-column-index");
             columnIdx = parseInt(columnIdx);
             onColumnResizeDragEnd(e, dd, columnIdx);
           })
-          .delegate(".slick-resizable-handle", "dblclick", function (e, dd) {
+          .bind("dblclick", function (e, dd) {
             var columnIdx = $(this).attr("data-column-index");
             columnIdx = parseInt(columnIdx);
             onColumnResizeDblClick(e, dd, columnIdx);
@@ -2082,6 +2157,7 @@ if (typeof Slick === "undefined") {
       }
       var $sheet = $("style#slickgrid_stylesheet_" + uid);
       if ($sheet.length) {
+        assert(0, "should never get here: it's pretty darn bad when jQuery finds what we ourselves cannot");
         return $sheet[0].sheet;
       }
       return null;
@@ -3851,6 +3927,7 @@ if (typeof Slick === "undefined") {
       }
     }
 
+    // Note: this function will replace (add/update/delete) *all* custom attributes
     function updateElementHtml($el, info) {
       assert(info);
       var metaData = info.attributes;
@@ -3875,6 +3952,21 @@ if (typeof Slick === "undefined") {
         metaData.class = null;
       }
 
+      // Make sure we nuke all existing *non-standard* attributes:
+      // when we execute this function we are updating *all* attributes
+      // which in particular circumstances means we need to *destroy* a
+      // few of them, e.g. when clearing a cell which previously showed a
+      // value tooltip.
+      var attrList = $el[0].attributes;
+      for (var i = 0, len = attrList.length; i < len; i++) {
+        var attr = attrList[i].name;
+        if (metaData[attr] === undefined && !slickgridStandardCellAttributes[attr]) {
+          // add this previously existing attribute and make it go away
+          // in the subsequent loop!
+          metaData[attr] = null;
+        }
+      } 
+      
       // apply the new attributes:
       for (var attr in metaData) {
         assert(metaData.hasOwnProperty(attr));
@@ -8785,3 +8877,13 @@ if (0) {
     init();
   }
 }(jQuery));
+
+
+
+
+
+
+
+
+// Ensure this file has completely loaded AND PARSED before we take off...
+if (typeof window !== "undefined") { window.visyond_file_counter = (!window.visyond_file_counter ? 1 : window.visyond_file_counter + 1); }
