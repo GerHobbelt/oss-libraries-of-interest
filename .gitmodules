@@ -2233,3 +2233,6 @@
 [submodule "js/sprintf"]
 	path = js/sprintf
 	url = git@github.com:GerHobbelt/sprintf.js.git
+[submodule "js/node-assert-in-browser"]
+	path = js/node-assert-in-browser
+	url = git@github.com:GerHobbelt/assert.git
