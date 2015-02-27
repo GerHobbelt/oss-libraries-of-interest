@@ -2122,9 +2122,6 @@
 [submodule "js/zepto-fast-jquery-alt"]
 	path = js/zepto-fast-jquery-alt
 	url = git@github.com:GerHobbelt/zepto.git
-[submodule "php/collision_detection"]
-	path = php/collision_detection
-	url = git@github.com:Visyond/collision_detection.git
 [submodule "js/Montmartre"]
 	path = js/Montmartre
 	url = git@github.com:GerHobbelt/Montmartre.git
