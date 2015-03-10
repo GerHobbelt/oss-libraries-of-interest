@@ -2233,3 +2233,9 @@
 [submodule "js/node-assert-in-browser"]
 	path = js/node-assert-in-browser
 	url = git@github.com:GerHobbelt/assert.git
+[submodule "tooling/gulp-docco"]
+	path = tooling/gulp-docco
+	url = git@github.com:GerHobbelt/gulp-docco.git
+[submodule "js/BaseUTF16-encode-decode"]
+	path = js/BaseUTF16-encode-decode
+	url = git@github.com:GerHobbelt/BaseUTF16-encode-decode.git
