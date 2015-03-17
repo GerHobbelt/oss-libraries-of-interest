@@ -2245,3 +2245,6 @@
 [submodule "tooling/gulp-lint-everything"]
 	path = tooling/gulp-lint-everything
 	url = git@github.com:GerHobbelt/gulp-lint-everything.git
+[submodule "js/chardin-screen-overlays"]
+	path = js/chardin-screen-overlays
+	url = git@github.com:GerHobbelt/chardin.js.git
