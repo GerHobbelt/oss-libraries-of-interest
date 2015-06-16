@@ -2251,3 +2251,69 @@
 [submodule "js/chardin-screen-overlays"]
 	path = js/chardin-screen-overlays
 	url = git@github.com:GerHobbelt/chardin.js.git
+[submodule "tooling/webpack"]
+	path = tooling/webpack
+	url = git@github.com:GerHobbelt/webpack.git
+[submodule "js/medium-editor-contenteditable"]
+	path = js/medium-editor-contenteditable
+	url = git@github.com:GerHobbelt/medium-editor.git
+[submodule "doc/essential-js-design-patterns-book"]
+	path = doc/essential-js-design-patterns-book
+	url = git@github.com:GerHobbelt/essential-js-design-patterns.git
+[submodule "js/Dante-editor-contenteditable"]
+	path = js/Dante-editor-contenteditable
+	url = git@github.com:GerHobbelt/Dante.git
+[submodule "js/zenpen-editor-contenteditable"]
+	path = js/zenpen-editor-contenteditable
+	url = git@github.com:GerHobbelt/zenpen.git
+[submodule "js/mediumJS-editor-contenteditable"]
+	path = js/mediumJS-editor-contenteditable
+	url = git@github.com:GerHobbelt/Medium.js.git
+[submodule "js/RefluxJS"]
+	path = js/RefluxJS
+	url = git@github.com:GerHobbelt/refluxjs.git
+[submodule "js/google-tracing-framework"]
+	path = js/google-tracing-framework
+	url = git@github.com:GerHobbelt/tracing-framework.git
+[submodule "js/violin-function-instrumentation"]
+	path = js/violin-function-instrumentation
+	url = git@github.com:GerHobbelt/violin.git
+[submodule "js/error-stack-parser"]
+	path = js/error-stack-parser
+	url = git@github.com:GerHobbelt/error-stack-parser.git
+[submodule "js/MathBox-WebGL-graphics"]
+	path = js/MathBox-WebGL-graphics
+	url = git@github.com:GerHobbelt/MathBox.js.git
+[submodule "js/jim-knopf.rotary-dials"]
+	path = js/jim-knopf.rotary-dials
+	url = git@github.com:GerHobbelt/jim-knopf.git
+[submodule "js/CoderDeck"]
+	path = js/CoderDeck
+	url = git@github.com:GerHobbelt/CoderDeck.git
+[submodule "js/showdown-markdown-parser"]
+	path = js/showdown-markdown-parser
+	url = git@github.com:GerHobbelt/showdown.git
+[submodule "js/MarkdownPresenter"]
+	path = js/MarkdownPresenter
+	url = git@github.com:GerHobbelt/MarkdownPresenter.git
+[submodule "js/presentz.js"]
+	path = js/presentz.js
+	url = git@github.com:GerHobbelt/presentz.js.git
+[submodule "js/advice-functional-mixin"]
+	path = js/advice-functional-mixin
+	url = git@github.com:GerHobbelt/advice.git
+[submodule "js/eon-chart-using-d3-c3-pubnub"]
+	path = js/eon-chart-using-d3-c3-pubnub
+	url = git@github.com:GerHobbelt/eon-chart.git
+[submodule "js/pubnub-API-javascript"]
+	path = js/pubnub-API-javascript
+	url = git@github.com:GerHobbelt/javascript.git
+[submodule "js/istanbul-code-coverage"]
+	path = js/istanbul-code-coverage
+	url = git@github.com:GerHobbelt/istanbul.git
+[submodule "js/topoJSON"]
+	path = js/topoJSON
+	url = git@github.com:GerHobbelt/topojson.git
+[submodule "js/voronoi"]
+	path = js/voronoi
+	url = git@github.com:GerHobbelt/Javascript-Voronoi.git
