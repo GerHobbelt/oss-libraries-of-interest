@@ -96,8 +96,13 @@ git_repo_checkout_branch "../buttons/tango-iconset-theme" 00a48744dc9e6b4cf0c2e7
 git_repo_checkout_branch "../css/Blueprint-HorizontalDropDownMenu" d01ed4a928f6483be674278617eacb596cf3eada master
 git_repo_checkout_branch "../css/Blueprint-SlidePushMenus" a05356c3225e81924bd2068f72b043735302c470 master
 git_repo_checkout_branch "../css/blueprint.css" 4fd30eb3436b0e0e8efcb396832ef58b76defd4a master
+git_repo_checkout_branch "../css/blueprint.css/blueprint/plugins/liquid" c9160aca2210c754fb5603ed0e7b79a8077089da 
+git_repo_checkout_branch "../css/blueprint.css/blueprint/plugins/silksprite" 5ebdcc5e41e68355c206d740bf10f50a4da131ec 
+git_repo_checkout_branch "../css/blueprint.css/blueprint/plugins/tabs" 759be55ca356890143e850b05d8dbca0e2b48b2c 
+git_repo_checkout_branch "../css/blueprint.css/contrib/lessphp" a51c89bd47ddfc3670c6ee495dde3281c268951f 
+git_repo_checkout_branch "../css/blueprint.css/contrib/packager" b1c9d048d76cd2bb692084cf25596d4e53a6bee4 
 git_repo_checkout_branch "../css/blueprint.less" e4d1aa3f478f0612b41f8c654b7be2e7f5d3564e master
-git_repo_checkout_branch "../css/bootstrap" 5775e011f69d3a32f08874094f0dea18a6645e14 master
+git_repo_checkout_branch "../css/bootstrap" 6aacb1bde3eb02028ecfaf13cfa433611c1c03a1 master
 git_repo_checkout_branch "../css/CSS-arrow-please" e9d0b487c4fac8fc45a0efa8b1c99573e08f34ff master
 git_repo_checkout_branch "../css/CSS-hint" 5ff09413f2a097e0a18c569cf008683d1af43454 master
 git_repo_checkout_branch "../css/Fluid-Baseline-Grid" be5fa84192a621731485acea5f992fee5a101f08 master
@@ -119,11 +124,13 @@ git_repo_checkout_branch "../css/uni-form" 3bb94bf919dfa0d99cab3f5619d7bcde7fcee
 git_repo_checkout_branch "../doc/crossfilter-wiki" 0772796aa572017e80089d6d006af28a0dbec907 master
 git_repo_checkout_branch "../doc/d3-nvd3-charts-wiki" 9123944f10ff6c9d97439eaeba5f51cd78f042d6 master
 git_repo_checkout_branch "../doc/ECMAscript.5" 11d1470e32fdeee84091e943a3f585ebbef586a5 master
+git_repo_checkout_branch "../doc/essential-js-design-patterns-book" 6c639bedbd3fa5fad62777ea8f90600a0789840b master
 git_repo_checkout_branch "../doc/gitmagic" 775e73a5c846557fef5ee94101e24ed668474d53 master
 git_repo_checkout_branch "../doc/json-schema" cc8ec81ce0abe2385ebd6c2a6f2d6deb646f874a master
 git_repo_checkout_branch "../doc/Know.Your.HTTP" c60d9016ca5b30001a1ef93894182cc99aafab50 master
 git_repo_checkout_branch "../doc/mathjax-docs" cfc87bbe283faf2b10688dcf1b8aad56649cd411 master
 git_repo_checkout_branch "../doc/php-opauth-docs" 1f99c720e90c5f1c0638cd002dc0031590152455 gh-pages
+git_repo_checkout_branch "../doc/php-opauth-docs/opauth" 4a7ccdb92895caf8a2c57afaa959115de97cd5e4 
 git_repo_checkout_branch "../doc/slickgrid-wiki" 2efc9f13f8416afcc23d97f0468db533eb8853d5 master
 git_repo_checkout_branch "../examples/AMDjs-API" 8180d01f94931fa4a5d598487ca4c2e28e610a07 master
 git_repo_checkout_branch "../examples/antlr-examples" 48f9ef439d06f5e6d9c7046a988b00e965319e66 master
@@ -132,19 +139,52 @@ git_repo_checkout_branch "../examples/Backbone-example-directory" 0ef04ec2dc8ce8
 git_repo_checkout_branch "../examples/backbone-iOS-html5demos" 30260a37a8a16132fcfe515415a87b0404179488 master
 git_repo_checkout_branch "../examples/Backbone-Require-Biolerplate-example" c99e74149d68da792c0c6aa4028ac6723c29fa55 master
 git_repo_checkout_branch "../examples/BookPreview" 741cbc217912f6f3d1c1ef3d76062c0c63d52c05 master
-git_repo_checkout_branch "../examples/Bootstrap-Form-Builder" f09416f2a8c096c627c3925bb57cb9a43aeea930
+git_repo_checkout_branch "../examples/Bootstrap-Form-Builder" 525e7e5bf8a5efa25e0fc0574c2a63469da92767         gh-pages
 git_repo_checkout_branch "../examples/bootstrap-themes-bootswatch" 4f965965b6e8a39502e571fea51523ca31d798d7 master
 git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory" b3dace42b27b4133cc5e8cc020c55f90523d6999 master
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/almond" 36b4b28163c31b699235534686e32d9585d9b826 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/chosen" 6602359d02f11e0579773c3bb0f0140109b64fc5 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/codemirror" f452cabf2ea2a41f3bf2fffdd7e7da62ab64a1ba 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/coffee-script" ab5728c0303722acc3a42f84e23cbe59073be49d 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/d3" a4bd16705e2a054f570310d6a8adac663923ab92 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/d3-plugins" 37cf8158cd66f6aa6aba8a8739ae44ed391ca9f8 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/domReady" 449478e133bd39ac043778fded3d9a8258be50ba 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/dsp.js" a7b2e97b1385a43083e50ed6dc81d697f0e57e28 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/fastclick" 96c956bbf5efd0f860cfc67499a44927ba5c9b75 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/fingerprintjs" 684b7caa6f31e392b16d13020b7e395994cc3d38 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/fonts/Font-Awesome" 0373b63c16d7aa31b6715c3f81a98a2ffb9f40a6 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/hijs" 0eaa0031781dbc86e075b3b914e30f5424914c6e 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/jquery" 984f77a930aa322bcc277762303370d7a2a4667a 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/jquery-context-menu" 09dffabe588900dc5bf607a3f75bbec6ce053127 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/jquery-selectBoxIt" 6e8808bd34d68185a76e0db5f9d33e280edfa776 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/jquery-ui" 457b275880b63b05b16b7c9ee6c22f29f682ebc8 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/jquery-ui-touch-punch" 72d67b63c98a6d9c324881343fcd423b88939ccf 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/lab-grapher" cfc5913083d183b5a812930dd9af0afec1ffecc3 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/lab-sensor-applet-interface-dist" 6bbc3b6a5029630734d80fdea8dcc69a61f22299 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/mathjax" 4a4f53545a84ee7f88c1ecb51f8a2047e9f2e24a 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/modernizr" 87c723720a48254ae37ffd56829e32a96f5c5496 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/pixi.js" 433f466d94ed2765de1510fede3d07686aa05bb6 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/require-cs" 44d9685bfb0925590fee78b12ecdb8db7b41b0da 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/requirejs" 416b3ad094024c5efad99681b370248d9cb15e83 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/science.js" 6edf64386277e0230bd870de74016d8dcdae8f80 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/seedrandom" ba3123d5ae1245c6cc07b7fce95c17409c98fb7c 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/sensor-labquest-2-interface" 5ea6fa5a4b5f7de518984269d25d6e3f82ba560a 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/sizzle" 423f35af8bf43f3f07bb17284e21608f08372c22 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/text" e705b166bff0f4a766a43b77b7bf66a10d76150f 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/tinysort" 44757b3d0b54a46adaa79ee2cebb55b348d56589 
+git_repo_checkout_branch "../examples/concord-consortium-HTML5-laboratory/vendor/underscore" df050beae261ba5b1751b345d19f46e32a3dab69 
 git_repo_checkout_branch "../examples/d4-examples-website" 953e4c3bf95ee4fc0152ce9b86369e4ac256e3d0 master
 git_repo_checkout_branch "../examples/DeckJS-CodeMirror-Example" ab6761e08d107b142a75a98422e51e84a2df8054 master
 git_repo_checkout_branch "../examples/fullscreen-form" 0fea38a0024f25bedcba185423ef96bf1dd5dc7f master
 git_repo_checkout_branch "../examples/HTML5-Clear-v2-demoapp" 97de81a6d97ac6a4356450d80b9b9d4bf2648476 master
 git_repo_checkout_branch "../examples/HTML5-Offline-Form" b2b4e52c25c0d227ec68949e44ff3bc6ba84f6cd master
 git_repo_checkout_branch "../examples/html5demos" fa6ad18b6bba9bd1b5fbf80870b13cc1ec827e5b master
+git_repo_checkout_branch "../examples/html5demos/server/node-websocket-server" dae6bed226ccfccf3939973155570b39dc8b3df0 
 git_repo_checkout_branch "../examples/interdependent-interactive-histograms" 24fc535a722100d99fe1092981416e8cd18f2c0c master
 git_repo_checkout_branch "../examples/jquery-boilerplate-patterns" 0cdb36cf96408f6a42117c1500f716cd4362867d master
 git_repo_checkout_branch "../examples/json-select.tests" 29f2882e30268ea1b0a6f1bf6a5b6e07e7136444 master
 git_repo_checkout_branch "../examples/mathjax-acidtests" b18c8872ca9b9f738ebaf5429313bc1bf3917ceb master
+git_repo_checkout_branch "../examples/mathjax-examples" df598c903ec91128f3a1cc9dd89abe8ddf66aa1a master
 git_repo_checkout_branch "../examples/mathjax-test" 6859307d174e29aca7dc9028249d18b9dc704bde master
 git_repo_checkout_branch "../examples/modal-window-CSS3-effects" 859d73f6f88e763ad10e698746cb94acceb870d9 master
 git_repo_checkout_branch "../examples/PEG-js-web" 799dd94d7411483b2943f85a61e3fe7471208095 master
@@ -154,26 +194,38 @@ git_repo_checkout_branch "../examples/tether-shepherd-intro" 624481fec8f0bc4d0d8
 git_repo_checkout_branch "../examples/UMD-Universal-Module-Definition" caa1a477ddf01603f4d9b928934c9e367f78431a master
 git_repo_checkout_branch "../fonts/EB-Garamond" 726709a14dc1e6445c9d879ad5217985632ad13b master
 git_repo_checkout_branch "../fonts/Font-Awesome" 8b5086e1479f8a4a2725a98001985da6319e5071 master
+git_repo_checkout_branch "../fonts/Font-Awesome/_gh_pages" 77571fb68190208441be94b4c28b98b7a872d0aa 
 git_repo_checkout_branch "../fonts/Font-Batch" 23c24042baea66c27ca90050e1c0d3b4058e5809 master
 git_repo_checkout_branch "../fonts/Font-Genericons" 0baeeca02933cc5f269d09a93130bf9e24d120cf master
 git_repo_checkout_branch "../js/accounting-format" 1fc18efe4ca53a21ff7d99051572de6fd18efc5a master
+git_repo_checkout_branch "../js/advice-functional-mixin" 51d2124e8ca8fa0e3307f560ad0429afc14911c3 master
 git_repo_checkout_branch "../js/ajaxify" 48ade184f27cf26d8eade526db0228aad059b89e master
 git_repo_checkout_branch "../js/AMD-feature" 22e8c4616a0a732117894b08fb5fd4e173147c7e master
 git_repo_checkout_branch "../js/animation-frame" 8c75d99fbddc63e554e107b93dbca55f466ea2df master
 git_repo_checkout_branch "../js/AnythingZoomer" f45cb3647ce418cde1197542fcafcf9c4c79e39d master
+git_repo_checkout_branch "../js/ASCIImathML" c9591df2bb283ba7653b44cd3d74251fbce4fe2b master
 git_repo_checkout_branch "../js/at.autohinting" fc18ea71a7bcec4ab423dee1016e22582a4fcd54 master
 git_repo_checkout_branch "../js/autoNumeric" 62c625cf10e7ad7d004e81e5cdd359c164303124 master
 git_repo_checkout_branch "../js/autosize" cb50e5428843bac5bb45203c4c5f058880c5011a master
 git_repo_checkout_branch "../js/backbone" 7bbb509d7342ae112f764ea5c4270e798d20ba5a master
 git_repo_checkout_branch "../js/backbone-act-as-configurable" 3f0ac1e5ae2e33f88c6adcb24a109198f7e12a23 master
 git_repo_checkout_branch "../js/backbone-act-as-mementoable" e66b2d905e34b8bcc9f257eb4761dd5cf5043df0 master
+git_repo_checkout_branch "../js/backbone-act-as-mementoable/tests/vendor/backbone" 100453aca59f4d108dde4515206ab5af31b1abd6 
+git_repo_checkout_branch "../js/backbone-act-as-mementoable/tests/vendor/qunit" 7ab0d558b7ed5f35fded86516231cb8532b39a0d 
 git_repo_checkout_branch "../js/backbone-act-as-paginatable" 320e3c88b0889059bcc1e43578ede65574498603 master
+git_repo_checkout_branch "../js/backbone-act-as-paginatable/tests/vendor/Backbone.JS" 100453aca59f4d108dde4515206ab5af31b1abd6 
+git_repo_checkout_branch "../js/backbone-act-as-paginatable/tests/vendor/jquery-mockjax" 942bae9732ce761f6027da0d2a0ccf409c868758 
+git_repo_checkout_branch "../js/backbone-act-as-paginatable/tests/vendor/qunit" 7ab0d558b7ed5f35fded86516231cb8532b39a0d 
+git_repo_checkout_branch "../js/backbone-act-as-paginatable/tests/vendor/underscore.js" c82b67fb228c030ec1cba24e45e5be124a214c97 
 git_repo_checkout_branch "../js/backbone-activities" 7f8c3e3fc8f09bc2f6b66f26e8e9b3197824cc0b master
 git_repo_checkout_branch "../js/backbone-associations" c20da878d339c822eb3300d22a0ab75e8d238b20 master
 git_repo_checkout_branch "../js/backbone-autocomplete" 6ab120943b97a24e9063dd66947ccb7d96554918 master
 git_repo_checkout_branch "../js/backbone-boilerplate" daa467e5f00fda6360e7f7fe160c5d28ea99bf47 master
 git_repo_checkout_branch "../js/backbone-bootstrap-modal" e7ff6e45d0bf297b6cc1d36a8d5891b849a63383 master
 git_repo_checkout_branch "../js/backbone-chosen" d52786bfeaeb507e002eb25a396a60afc5b0cc49 master
+git_repo_checkout_branch "../js/backbone-chosen/vendor/backbone" 100453aca59f4d108dde4515206ab5af31b1abd6 
+git_repo_checkout_branch "../js/backbone-chosen/vendor/qunit" 7ab0d558b7ed5f35fded86516231cb8532b39a0d 
+git_repo_checkout_branch "../js/backbone-chosen/vendor/underscore" c82b67fb228c030ec1cba24e45e5be124a214c97 
 git_repo_checkout_branch "../js/backbone-collection-view" 1d4357328db3e7811d815f689e49f2d754480818 master
 git_repo_checkout_branch "../js/backbone-collectionsubset" 48c3a7956c9c0c25c1214436df06ebd8938f7c58 master
 git_repo_checkout_branch "../js/backbone-courier" 12520cad717265793ac1bf1509f50f4700eb0732 master
@@ -184,6 +236,7 @@ git_repo_checkout_branch "../js/backbone-eventbroker" 73bc91eca2b958b3ddaf36f781
 git_repo_checkout_branch "../js/backbone-factory" ca14482bf13b4670128bc0291dd108fcc4cbeec0 master
 git_repo_checkout_branch "../js/backbone-fetch-cache" a5f5f64d41e9c339748198693fd2d53b07c0fc08 master
 git_repo_checkout_branch "../js/backbone-forms" b589879023025313ef5a8929f67d4d7199cfa2f2 master
+git_repo_checkout_branch "../js/backbone-forms/lib/backbone.bootstrap-modal" 245149fdcbb53868f86a78198efe37ec2b3f71f3 
 git_repo_checkout_branch "../js/backbone-fundamentals-book" eca98953faf0af9771df3051d7066c8d85b1f881 master
 git_repo_checkout_branch "../js/backbone-getters-setters" 149046fa7485a2acc2c8eff5b7ffb1cf7ca60e0e master
 git_repo_checkout_branch "../js/backbone-giraffe" 8e85bf0752052d315d7a7bdf54f55bc531d5049a master
@@ -201,6 +254,9 @@ git_repo_checkout_branch "../js/backbone-model-factory" 4dad927cf4608fda14fe9e04
 git_repo_checkout_branch "../js/backbone-modelref" 6aa5928ce351e7fa1505886b9e5c8db048e48484 master
 git_repo_checkout_branch "../js/backbone-mousetrap" 3172bd4beaf04219d8aa37dbb4097dfb6abdb154 master
 git_repo_checkout_branch "../js/backbone-mutators" 01d93c4e7f84db8c1d12af8c70199d66aff50cf3 master
+git_repo_checkout_branch "../js/backbone-mutators/vendor/backbone" 100453aca59f4d108dde4515206ab5af31b1abd6 
+git_repo_checkout_branch "../js/backbone-mutators/vendor/qunit" 7ab0d558b7ed5f35fded86516231cb8532b39a0d 
+git_repo_checkout_branch "../js/backbone-mutators/vendor/underscore" c82b67fb228c030ec1cba24e45e5be124a214c97 
 git_repo_checkout_branch "../js/backbone-namespaced-events" 840d1b18e1cea06c6519976ab9a5d888dc88f0c3 master
 git_repo_checkout_branch "../js/backbone-nested" 9ddd1faf9093b63571098eca4d3041d83c5e5837 master
 git_repo_checkout_branch "../js/backbone-notifier" 1e1d06715a7d05eccfe780757611b7a559c56923 master
@@ -232,6 +288,10 @@ git_repo_checkout_branch "../js/backbone-workflow" cc75604fbad8b448127dd5ff089c6
 git_repo_checkout_branch "../js/backbone.layoutmanager" b2b1055d15de370f0cfe5860216b2f3f3cc2921e master
 git_repo_checkout_branch "../js/bacon-frp" 4a931d31755c88ebd9b46b42a6148e5ddb95314b master
 git_repo_checkout_branch "../js/baseline-image" 75a85cb68a29b2c4725e76698caafc8128a0ad48 master
+git_repo_checkout_branch "../js/BaseUTF16-encode-decode" f5423dd613761f52592bfad32719939eea883808 master
+git_repo_checkout_branch "../js/BaseUTF16-encode-decode/libraries-of-interest/MathJax-dev" e33439e9f25481401a4009f284656ae67bb34d0a master
+git_repo_checkout_branch "../js/BaseUTF16-encode-decode/libraries-of-interest/xregexp" 7354fb84472289b15ee7c511442f74d6386e94ad master
+git_repo_checkout_branch "../js/BeatMaster" 325cb2a00a494d7d6000b7cf78a514e48926b65a master
 git_repo_checkout_branch "../js/BeatMaster" be8b5fb8ddb5482cc201abaea4258f22791654f6 master
 git_repo_checkout_branch "../js/BeatMaster/lib/js/animation-frame" 8c75d99fbddc63e554e107b93dbca55f466ea2df master
 git_repo_checkout_branch "../js/benchmark" 425373377516c4af25eec12e4e3211b3550d9ea6 master
@@ -241,7 +301,7 @@ git_repo_checkout_branch "../js/Blob-filesystem-shim" 8c1deeb4bd4f80c57aaa4f13dd
 git_repo_checkout_branch "../js/BookBlock" ec1cb343be71431f47e1c74b564eb986f8425866 master
 git_repo_checkout_branch "../js/BookJS" 5297025fc74209cdbea6a06137001e065ad01adb master
 git_repo_checkout_branch "../js/bxslider-4" 1e6b1e7ae8bfa0b104daf95bef6ca0256a558ad5 master
-git_repo_checkout_branch "../js/c3" 5c918985e5fee9d2a9099ab0d3395e77a31e8f5c master
+git_repo_checkout_branch "../js/c3" adadfd11485e3be2136939f79eacdf218dec6cf5 master
 git_repo_checkout_branch "../js/callsite" 6a3726f25d5979e55c740a92823f377e9f8cff5f master
 git_repo_checkout_branch "../js/canvas-to-Blob.js" 27bbe1d4f063d6f735b48a33c12f247ced93d008 master
 git_repo_checkout_branch "../js/caret-position" 72edcabcb3b7f41e59a112a7981b10389f1c2f1c master
@@ -249,6 +309,7 @@ git_repo_checkout_branch "../js/caret-position-in-textbox" 4784c56fdb2abd33fffcf
 git_repo_checkout_branch "../js/cash-fast-jquery-alt" 70839298bc4d4e047b2a89ecd18ef27db4522b24 master
 git_repo_checkout_branch "../js/catiline-webworkers" 9d219ab948e049dce03d7175b236d3ea88045746 master
 git_repo_checkout_branch "../js/chai" 1df11d00275f526b596b933faab1479f7af7f7c5 master
+git_repo_checkout_branch "../js/chardin-screen-overlays" fa129f149f925a3b288c98510f139580531bcd29 master
 git_repo_checkout_branch "../js/chroma" cc1c8397c1662809c4fd8d59926d3579ce8da756 master
 git_repo_checkout_branch "../js/Chroma-Hash-password-entry-assist" 512a92ec395e1acc4147a2134145633263cdfa77 master
 git_repo_checkout_branch "../js/chrono" f4077bb351104b1d2e97d5da7dbf8ce00cd58ae7 master
@@ -260,6 +321,7 @@ git_repo_checkout_branch "../js/clipboard" c77943325384093b718fd1c0d44d754a21ab7
 git_repo_checkout_branch "../js/code-walker" 34714e8018a0da733f18ccdf849bababe217dcd2 master
 git_repo_checkout_branch "../js/CodeMirror" 93a889dd6b6ee62a9eb1e0de71d6f3a3356c97a8 master
 git_repo_checkout_branch "../js/CodeMirror-UI" 4ec880ca7bcff9f0eb4da39bdf4ce729d3cfa3fd master
+git_repo_checkout_branch "../js/CoderDeck" ee8604ff589d7e2d05b2bd90c5c387ad527e4568 master
 git_repo_checkout_branch "../js/color-diff-CIEDE2000" 5c589cd221d9a743dbd9ffaf8b07d53451fc36dd master
 git_repo_checkout_branch "../js/colorjoe" 5f76862a6c8105cb7740b535ad02fe2b0f0b8e0c master
 git_repo_checkout_branch "../js/colorPicker-WCAG2" 3700b24b2f39836e8dae1541024a9ec8d41485a8 master
@@ -272,19 +334,26 @@ git_repo_checkout_branch "../js/crypto-js" 34b30e52b82a151f2229b3d2974a55d66c0bd
 git_repo_checkout_branch "../js/crypto-js-hashes" 007d2dc8efdd6dd480ed80355c5ca6b89dc896ba master
 git_repo_checkout_branch "../js/crypton-zero-knowledge" ba725485a91928c7e62d1b405d83c9de85796b8e master
 git_repo_checkout_branch "../js/cssrule.js" 3e28ca5f1fe51c09ec6a6812204c56d0e88da654 master
-git_repo_checkout_branch "../js/d3" b9e022444e7fdc4f6fe6e64e97822a260622ef2c master
+git_repo_checkout_branch "../js/cssrule.js" 67270d30d26fd026edf4a6ecaeef2084ab80ad9d gh-pages
+git_repo_checkout_branch "../js/d3" b360829ef2c5b296d5815b41fb4f6f9b62283940 master
 git_repo_checkout_branch "../js/d3-DexCharts" 953806e08f3c5c2120703a91b924183ecd8c462a master
 git_repo_checkout_branch "../js/d3-dimple" dd7009ef20785c3c0e840e968bdda0dc672f0ac2 master
 git_repo_checkout_branch "../js/d3-nvd3-charts" e99aa3088e2e87ec563f2da990c6914f8cb37554 master
 git_repo_checkout_branch "../js/d3-plugins" 95fb7ac1823fe49ce334de3eb2c542ea8165fe00 master
 git_repo_checkout_branch "../js/d3-tooltip" 15fef5c3e84ce0291dfcac812a655d66886c032e master
 git_repo_checkout_branch "../js/d3-xcharts" e11d90c9b3efaea3c147f4bb3321793b6a834ae6 master
+git_repo_checkout_branch "../js/d3/documentation/wiki" 3e1057322fa624bd3a9f443e9f2533b7af83e682 master
+git_repo_checkout_branch "../js/d3/documentation/wiki-vanilla" 5dbfb9d3db2a5994a762e5f4d5810adfcc61e3a4 master
 git_repo_checkout_branch "../js/d4" 2da1bcff4c28e8ccd41142e12c912c3d16841573 master
 git_repo_checkout_branch "../js/dagre" 7602bafe05340252e2c319b3f6bcc86852cad317 master
+git_repo_checkout_branch "../js/Dante-editor-contenteditable" 383cbb2dd203dc00082b6f4f7d71cbbffea84e25 master
+git_repo_checkout_branch "../js/dat.gui" 94443c15d0614b7dfaacac238902603e1441c657 master
 git_repo_checkout_branch "../js/dat.gui" bcdaa755a6bcc8329b1ab71b7b818606af81b37f master
 git_repo_checkout_branch "../js/datavore" d73c083f793290aaba1d33ec8158cdbf4ad1c560 master
 git_repo_checkout_branch "../js/dc" 80e6c41cb7f6267af72382aba4298e479eb34184 master
 git_repo_checkout_branch "../js/debug-helper-functions" b68534af669e50b77b7a2dff79c2233c6d69b959 master
+git_repo_checkout_branch "../js/debug-helper-functions/javascript-debug" 6dcf21c756a3ec5cb31a663b80c035f14e3f4024 
+git_repo_checkout_branch "../js/debug-helper-functions/javascript-stacktrace" 2c2c55d84a7ad01ebd6cf4afb9d06ed98885f39c 
 git_repo_checkout_branch "../js/deck.js" e9d7055c855064c8d7688c3d902b84afcd13624e master
 git_repo_checkout_branch "../js/detect-zoom" 6f6efc6a289035132236344eadb46fa15171d973 master
 git_repo_checkout_branch "../js/director-router" dacf5479859dda414ebf96a26a60e317df04a646 master
@@ -299,8 +368,22 @@ git_repo_checkout_branch "../js/echo3" 38c1fdb96cbfc0c52bc12eaa1e21fa6f34a49b74 
 git_repo_checkout_branch "../js/edison-routing" 15d20758bc751190e640ce974d973f47c5739597 master
 git_repo_checkout_branch "../js/editable-contenteditable" fb0552a21513ec357e9a88a5a06ed09f1fbcdc83 master
 git_repo_checkout_branch "../js/elFinder" c91226ef2f803cd60295314a40dc27c9437907a0
+git_repo_checkout_branch "../js/elFinder" c91226ef2f803cd60295314a40dc27c9437907a0 
+git_repo_checkout_branch "../js/eon-chart-using-d3-c3-pubnub" dc9f23e2d4a5bbe8828023c9c1a4a1d8cfc5bdff master
+git_repo_checkout_branch "../js/error-stack-parser" 2965497583c3f6ad99aba0e324b29547b169782a master
 git_repo_checkout_branch "../js/event.js" be033483a41feaceb1b5ebf9c1bdd7f45c6ce907 master
 git_repo_checkout_branch "../js/famous" 4d9c58a5ff8067207c9bd0d7be693a9fa7854284 master
+git_repo_checkout_branch "../js/famous/core" d84779f2df76da48d64016c575c3dc4727321c68 
+git_repo_checkout_branch "../js/famous/events" 1c637748a1515ab4ff3254ca16211d5304d8181b 
+git_repo_checkout_branch "../js/famous/inputs" 08075d9fe73eb1a7f90eff68bc59417007b64f6d 
+git_repo_checkout_branch "../js/famous/math" 070e005563100d69248fe26e31272f4293debe64 
+git_repo_checkout_branch "../js/famous/modifiers" 4fd80e6aff1395eda5ee1f7e82db9246ed8219fe 
+git_repo_checkout_branch "../js/famous/physics" fdc80fd6408b6c3b5c385e320ed90c51cf758c7a 
+git_repo_checkout_branch "../js/famous/surfaces" 32d5068284d24e626e5ada9afa85d029a8749953 
+git_repo_checkout_branch "../js/famous/transitions" cf32fe33a56166961bfcc7225067b0664444afb3 
+git_repo_checkout_branch "../js/famous/utilities" 8bbe47b13fbdf69347949870623bc7b7b0711609 
+git_repo_checkout_branch "../js/famous/views" ccbfc4df33453d0fe6759a2f3997c7749befeb44 
+git_repo_checkout_branch "../js/famous/widgets" c444110dbae46d538236fea6150c8598213f1f25 
 git_repo_checkout_branch "../js/fastclick" 040fa81e973da33219d8e8326716d71743a900d7 master
 git_repo_checkout_branch "../js/fd-slider" c7d6da543fe2cde3a37d00e20d1eb058d8779197 master
 git_repo_checkout_branch "../js/File-manager" b7aeca655a75eb7cfc598c1d6b55fd1351babbf6 master
@@ -323,16 +406,21 @@ git_repo_checkout_branch "../js/fullscreen-API-polyfill" 22c9ea2f1bd7e8894dcb855
 git_repo_checkout_branch "../js/functional-js" 3991d2becd7661640ff6a3b2a7403e1314413636 master
 git_repo_checkout_branch "../js/Garlic" 1d9fe8a4626fb7db25b9e8bd36f8ae581c22c4bc master
 git_repo_checkout_branch "../js/genie" 4d4d554ad0a075a9a4d88b8161ad8d7e41b2a1e8 master
+git_repo_checkout_branch "../js/github_api_wrapper" 3c5dd961d0b0c41137aa9955b01b656b5f4479a8 master
 git_repo_checkout_branch "../js/google-channelplate" 60aaf7212852fa915cc235fcfc466b478ba5b000 master
+git_repo_checkout_branch "../js/google-tracing-framework" f9eb14af7100fea73bd355cec5c40eb8ba1bdb07 master
 git_repo_checkout_branch "../js/gridster" b73f371bf322d86e86d391a6bb1f41f070b1fd2a master
 git_repo_checkout_branch "../js/hallo" e274abfe7cdc59c603b29199c7b58c7906f690d6 master
 git_repo_checkout_branch "../js/hammer" ef1ec7a248aee3c3544d5d9aad9685c25fe3fc11 master
+git_repo_checkout_branch "../js/handlebars" 01b0f82453f25d95b8739a6307bc6fb5ae649624 master
 git_repo_checkout_branch "../js/handlebars" efad61b1b72a487c087f57ba85287f5682e57280 master
+git_repo_checkout_branch "../js/handlebars/spec/mustache" 72233f3ffda9e33915fd3022d0a9ebbcce265acd 
 git_repo_checkout_branch "../js/has.js" c6d621477d9113adba9af1d8b98f162c399771a6 master
 git_repo_checkout_branch "../js/Hasher" 97b891aaceddd5bde62962d3945582efa40b97ab master
 git_repo_checkout_branch "../js/headjs" 50981626624d610216d90ab69245775c523e9171 master
 git_repo_checkout_branch "../js/highlight" 148c321f4b586be8cca17f300e45560ae5bb078f master
 git_repo_checkout_branch "../js/hilitor" 6bd61f53be5b53e0bbc1627270932309f9d3d9d3 master
+git_repo_checkout_branch "../js/history-js" 46959f2ad6dc359787397273c5d020807df9494d master
 git_repo_checkout_branch "../js/history-js" a98aa3b3634c017b2280d63ef0d446618d6912e1 master
 git_repo_checkout_branch "../js/html2canvas" a697b99822b88e2ea9772dbe449a118a4186ac08 master
 git_repo_checkout_branch "../js/humane-js-notifications" 9b23fa913fdba798c0ba5f4518fe3f95f649fdf2 master
@@ -341,10 +429,16 @@ git_repo_checkout_branch "../js/IndexedDBShim" 4ade50aae17293274e96dd5c45660c76f
 git_repo_checkout_branch "../js/IndexedDBWrapper" 85f3b14ab71d6c45a2fdfbeebf8963e342530334 master
 git_repo_checkout_branch "../js/intercom" d6f49ad7db5df138ec9c4f4247526174464ff97f master
 git_repo_checkout_branch "../js/intern" c8f845d8be64f0cc2ad6961a24b38351538cbc73 master
+git_repo_checkout_branch "../js/intern/chai" 4b51ea75484eae9225a4330d267f5e231f208ed0 
+git_repo_checkout_branch "../js/intern/dojo" 68634651d19a5789e518c012036a6c2987e03f6b 
+git_repo_checkout_branch "../js/intro.js" 2404d4b3d430b08dc2d0bb733758e4817d4fa273 master
 git_repo_checkout_branch "../js/intro.js" 457b4c321a130f25c92d8e3894f7ce405f757022 master
 git_repo_checkout_branch "../js/iscroll" d31d6e6ff798a8adc572879549ac1a3e2f47a01e master
+git_repo_checkout_branch "../js/istanbul-code-coverage" bec0e4b2cce51c75043e6a95c0151dc253894636 master
 git_repo_checkout_branch "../js/jasmine" dc6d3e29fd5d0f474b33fafae4772d5fcd3d6066 master
+git_repo_checkout_branch "../js/jasmine" e82a2ff018d71a78d3b470cf246bc1df700d4aba master
 git_repo_checkout_branch "../js/jasmine-ajax" 7a77ffb2bd15fbc7e3baa77e60e48bf6c2f6fb5a master
+git_repo_checkout_branch "../js/jasmine-ajax" e617dc533647871b1211f19159b80408fa25a4fc master
 git_repo_checkout_branch "../js/jasmine-async" 97bd4e23ebc287f57bbdf055406b3588f20bfd3c master
 git_repo_checkout_branch "../js/jasmine-backbone-matchers" 40140f7eea39688fc8f1eb0e214a6d83a4e0873a master
 git_repo_checkout_branch "../js/jasmine-bootstrap" e06019ec5d288cee2f6bbfcf72a48333d2cd0b88 master
@@ -357,12 +451,16 @@ git_repo_checkout_branch "../js/jasmine-stealth" 8e79168f122e19ac3e25b9089f1362c
 git_repo_checkout_branch "../js/jasmine-ui" 74657a362ee8e23778d48bac94ce2581871f3829 master
 git_repo_checkout_branch "../js/jasmine-Underscore-matchers" fcf553e3922114b602432f7bfebe1112bdbe2644 master
 git_repo_checkout_branch "../js/jasmine/documentation.website" 695c8cf5a468fe80e1f98050f54bc7769819e228 master
+git_repo_checkout_branch "../js/jasmine/documentation.website" 71a1607cf2eaf04ad8decbd38202202bd6ca9f10 
 git_repo_checkout_branch "../js/jasmine/pages" 64493b062e41fdf24a82034ac4b76fc13826c6b2 gh-pages
+git_repo_checkout_branch "../js/jasmine/pages/documentation.website" 71a1607cf2eaf04ad8decbd38202202bd6ca9f10 
 git_repo_checkout_branch "../js/jasmine/pages/pages" e82a2ff018d71a78d3b470cf246bc1df700d4aba master
 git_repo_checkout_branch "../js/javascript-debug" 6dcf21c756a3ec5cb31a663b80c035f14e3f4024 master
 git_repo_checkout_branch "../js/JavaScript-MD5" c74b18ec61df8ff31a149c6326aaee7ece85ac89 master
 git_repo_checkout_branch "../js/javascript-sandbox-console" 6e5cbe9acef032b64941c5c816c62a385eec5121 master
 git_repo_checkout_branch "../js/javascript-stacktrace" 2c2c55d84a7ad01ebd6cf4afb9d06ed98885f39c master
+git_repo_checkout_branch "../js/jim-knopf.rotary-dials" a541010c70b173c033e2522e7ccffc5f6188afda master
+git_repo_checkout_branch "../js/jquery" 44fa523e4d4059c095b80b6e800a75cbd917ca66 master
 git_repo_checkout_branch "../js/jquery" 48843eecd6d73a47584733784c28aa576bb7f533 master
 git_repo_checkout_branch "../js/jquery-animate-enhanced" b5ed267f2160f1293dde2237682e703ac70362de master
 git_repo_checkout_branch "../js/jquery-anystretch" 49c82f59f0533f37724f680473fb7a71fdd2b49f master
@@ -381,6 +479,7 @@ git_repo_checkout_branch "../js/jquery-chosen" 1205c626a826a86619535099aad404bcd
 git_repo_checkout_branch "../js/jquery-classList" 3011429602b2cc97da65bda79ecce8f5f06b10ea master
 git_repo_checkout_branch "../js/jquery-cleverfocus" 7cdd8e9360a6c3f162d6c1bf5e3ef88afaa5e49e master
 git_repo_checkout_branch "../js/jquery-color" 3e56c19b11ea18bf1b29f745278e738c89dfa2ce master
+git_repo_checkout_branch "../js/jquery-color/test/qunit" b6bb95a71b6c365a8d78bca42fbbed1bf81223d3 
 git_repo_checkout_branch "../js/jquery-colorbox" 7cea499d0f5602bba2973fee0ecdd383d05c6e7d master
 git_repo_checkout_branch "../js/jquery-colorpicker" 188d0209285bbabd3f804ec8d4784f944c12d3b0 master
 git_repo_checkout_branch "../js/jquery-colorpickersliders" 8470ee26aa7a5a9b6c735db340f662a26500d0c7 master
@@ -391,12 +490,14 @@ git_repo_checkout_branch "../js/jquery-contextmenu" 30f78054f7f2674c86104687d117
 git_repo_checkout_branch "../js/jquery-cookie" 9481ec9eb649e10cd8650d58c0170a36b2da10e7 master
 git_repo_checkout_branch "../js/jquery-css-console" 37e078e5127321a6346970ae9565c8e19fdb88c3 master
 git_repo_checkout_branch "../js/jquery-custom-input" c11f5d6cea833252eca00ca69ec3279e8cf9866c master
+git_repo_checkout_branch "../js/jquery-cycle2" 29c8a23bc9b467a30da955601f39a7368ff77ec5 master
 git_repo_checkout_branch "../js/jquery-cycle2" 5740915049fbf7a10fe040189dd835b6c8e1a692 master
 git_repo_checkout_branch "../js/jquery-datepicker" eef9e0328eb3572665ce10613a197beff6ec8d2c master
 git_repo_checkout_branch "../js/jquery-deserialize" 1260dc200f6959916152c9f9d3beb65048972ea9 master
 git_repo_checkout_branch "../js/jquery-dform" ab8bc83c541b7c14c7e555c16c0f07b01fd30f5d master
 git_repo_checkout_branch "../js/jquery-dialog" 2924a2f406e586730954f8b8ba1ca6cccae60d44 master
 git_repo_checkout_branch "../js/jquery-dirtyforms" a7c6397e79375cfeaa91b66ff26dd4eeb32db50b master
+git_repo_checkout_branch "../js/jquery-dirtyforms/lib/facebox" a50c186bfc20a18ca7c6fe4d80be71bff614d62c 
 git_repo_checkout_branch "../js/jquery-dropdown" 12d44c761a51e4c699f95d7d2748d0ecdaf067c4 master
 git_repo_checkout_branch "../js/jquery-easie" 91f29ef0a2fc41d71980137f359ff25e4450a162 master
 git_repo_checkout_branch "../js/jquery-editable" 249d252c2b4d3c4b2c0d6c7cc223f7e2ec8eadb4 master
@@ -411,6 +512,7 @@ git_repo_checkout_branch "../js/jquery-fieldselection" 0a2447008b720e2ff46b80519
 git_repo_checkout_branch "../js/jquery-file-download" f8a3e5fb5729f8a55ff212f0beb86fb339be0035 master
 git_repo_checkout_branch "../js/jquery-file-tree" f98aacd82ff0865fb790e583d9f5ac26aeeb8158 master
 git_repo_checkout_branch "../js/jQuery-File-Upload" 445e23b5254b424d98f3e92790ccb0ee3d0ceb44 master
+git_repo_checkout_branch "../js/jQuery-File-Upload" 81f54e0197d36d094db3a9684d3fb17be11a1a7d master
 git_repo_checkout_branch "../js/jQuery-filedrop" f0618370cc87221cc1e3d693c3eb3f7173a15c0f master
 git_repo_checkout_branch "../js/jquery-filedrop-alt" 6fb5fc20aca6646547f7424cdd5c18099d0ee8e6 master
 git_repo_checkout_branch "../js/jquery-fixclick" 762bb2c01a63101ed8c03845510e2be3e896eeb4 master
@@ -418,6 +520,7 @@ git_repo_checkout_branch "../js/jquery-flexselect" f61aa88f8b81d3c409051365034f6
 git_repo_checkout_branch "../js/jquery-floatlabels" 9dec978136f7206bdc8672bb55d16597122723cc master
 git_repo_checkout_branch "../js/jquery-form" 4bbb64591c7f2607cf2ebf91c9e313f83b440e5f master
 git_repo_checkout_branch "../js/jquery-form-accordion" a8dea7b4b98cd13a1be2e6ae5ee00fd63a1a01b7
+git_repo_checkout_branch "../js/jquery-form-accordion" a8dea7b4b98cd13a1be2e6ae5ee00fd63a1a01b7 
 git_repo_checkout_branch "../js/jquery-fracs-page-overview" fd4dcfa2694265773c534fd532ee6d8f4195817b master
 git_repo_checkout_branch "../js/jquery-freewall" 24ac21915ace6e9a3efc17a8e2ae233affb21451 master
 git_repo_checkout_branch "../js/jquery-fseditor" 190fc7a0e475d6d7124940e048d0a785174e084d master
@@ -438,7 +541,9 @@ git_repo_checkout_branch "../js/jquery-iCheck" a97450ab337fd66e77e98378e4971713b
 git_repo_checkout_branch "../js/jquery-icheckbox" 3f72629a40788779bbe4fa3e73467fe7d4944abd master
 git_repo_checkout_branch "../js/jquery-idealforms" ad91ab67dbea5328c9af498702d22f546c2d3a82 master
 git_repo_checkout_branch "../js/jquery-image-preload" c832aa912870685595d8dd7186f62a82284eae73 master
+git_repo_checkout_branch "../js/jquery-image-preload/tests/qunit" bedb98636511a3b64f879f52945b5d0177a020a3 
 git_repo_checkout_branch "../js/jquery-impress" 7ae776de4cd1e6a2eeb558079f3b38aa18726843 master
+git_repo_checkout_branch "../js/jquery-impress/documentation" 893de9c87ab2e255131cb472cff88236a36abd38 
 git_repo_checkout_branch "../js/jquery-in-field-labels" fa351c56bdbc8617e3116568db0d5bced48411bf master
 git_repo_checkout_branch "../js/jquery-infinite-drag" 33137e2d7bcbe7893801099ab4994428fd062fa0 master
 git_repo_checkout_branch "../js/jquery-input-indicator" 14e3b4b11bee220dba2414d6be211403b59d1b9a master
@@ -447,6 +552,7 @@ git_repo_checkout_branch "../js/jquery-inview" d17d731568bd29305a9ae93323d37d414
 git_repo_checkout_branch "../js/jquery-jeditable" f9883a5292b550bab19cc673cc64a5faeca4ad1f master
 git_repo_checkout_branch "../js/jquery-jq-console" 0267afa821581c033515a83d257da472471dd03d master
 git_repo_checkout_branch "../js/jquery-jscrollpane" 47caf6e101183fea4c8403c9cff3f8ffcbd63f5e master
+git_repo_checkout_branch "../js/jquery-jscrollpane/v1" 5d9d71dd367551967af26550363a4a1de3644a24 master
 git_repo_checkout_branch "../js/jquery-jsizes" dcb10dfb46e7e1114365031e9ade99245cdd7979 master
 git_repo_checkout_branch "../js/jquery-keynavigator" 2394db74638be4bc146ed6cfe76ba46791530f61 master
 git_repo_checkout_branch "../js/jquery-kontrols" 6e6183fcf039704724ccc6299fb2d6383356c5ea master
@@ -459,9 +565,11 @@ git_repo_checkout_branch "../js/jquery-match-height" ae0a8254ba56651a0bfb58284e1
 git_repo_checkout_branch "../js/jquery-menu-aim" 86ac9a0782ebc417b50114c2475f2a4b106cf121 master
 git_repo_checkout_branch "../js/jquery-mobile-simpledialog" a8c93e8f063dbf0e50e90debad7a29f0d6c96904 master
 git_repo_checkout_branch "../js/jquery-mockjax" 942bae9732ce761f6027da0d2a0ccf409c868758 master
+git_repo_checkout_branch "../js/jquery-mousewheel" 88caa9304cc1fd221142bafadc455effc0a6d69d gh-pages
 git_repo_checkout_branch "../js/jquery-mousewheel" f94a47dc9eb7a681735887fb53ad30b2024b84f5 master
 git_repo_checkout_branch "../js/jquery-multipage-form" 63e67dd8b95b2f15a0a9897e116d75dddbe3fae8 master
 git_repo_checkout_branch "../js/jquery-multiselect" 1b09c2e4b28d390b7691cbd7529b43b173ad4ea7 master
+git_repo_checkout_branch "../js/jquery-multiselect" 8692d76988b6c411f9a815f3449db6312cc6db69 master
 git_repo_checkout_branch "../js/jquery-nestable-dragndrop" cd52d8a8410dcea667241457a9cbfa5904ced75d master
 git_repo_checkout_branch "../js/jquery-nicescroll" ec4061b0bfeffc6ceeec3df0466fd6a99cb9cab2 master
 git_repo_checkout_branch "../js/jquery-notify" a851efde3facdb9dbbe5883102d91666727796b3 master
@@ -495,6 +603,7 @@ git_repo_checkout_branch "../js/jquery-shapeshift" e64fca743bf90e35a1abf724ed25f
 git_repo_checkout_branch "../js/jquery-simple-datetimepicker" 675e0fab151cc64b2087bef7be4126b4ec2ae140 master
 git_repo_checkout_branch "../js/jquery-simulate" 8a9e765f3930d09b4594aca7e30a3634c6f48ef4 master
 git_repo_checkout_branch "../js/jquery-simulate-ext" 6e2f7cbb1bc8dc45a93d841fb8d3940d4a5a83bd master
+git_repo_checkout_branch "../js/jquery-simulate/test/qunit" 99f10eabddb0b960525f1acfb71c7f80fbf22d57 
 git_repo_checkout_branch "../js/jquery-slider-jssor" 1c00d4dd51a438e4029999de9b8f6c0312658e54 master
 git_repo_checkout_branch "../js/jquery-sliders" 451399f2be67910363b61ca7552624bc564bfd04 master
 git_repo_checkout_branch "../js/jquery-smartresize" abcc3699b0715632b8a61513d3ef324a6eab0397 master
@@ -503,6 +612,7 @@ git_repo_checkout_branch "../js/jquery-splitter-panels" a654da8d67565ae7e7e58192
 git_repo_checkout_branch "../js/jquery-stick-em" 9719db5a358fe0811dbcf2c797a534a9f817d7aa master
 git_repo_checkout_branch "../js/jquery-switchy" 4dd7a9fd771b0f06bbfe4610438a84ea11dbf0ac master
 git_repo_checkout_branch "../js/jquery-terminal" 679b0d60d9645bfba530da7c4ca61a1cab13e970 master
+git_repo_checkout_branch "../js/jquery-terminal/examples/json-rpc" 89c56c5fc842e4c801c503bd1579fae277995792 
 git_repo_checkout_branch "../js/jquery-textfit" 1e5be0548c389f793c01164201182e320cc9cbdf master
 git_repo_checkout_branch "../js/jquery-throttle-debounce" 54efbdc685cac07c9e5c2db02b1e101228b8fefb master
 git_repo_checkout_branch "../js/jquery-timepicker" 496bb8d328767337a490135c48a67fea7ff526ce master
@@ -511,13 +621,16 @@ git_repo_checkout_branch "../js/jquery-tocify" c179865a65c86e9323cdf2b9bfc66f812
 git_repo_checkout_branch "../js/jquery-toggles" 9ef5707b0e1d0965f3c4d0c9c340b6169b345b21 master
 git_repo_checkout_branch "../js/jquery-tokeninput" aefac0bcff768fa93b08ace5e23635855e6aec59 master
 git_repo_checkout_branch "../js/jquery-tooltip-toolbar" 5145fafb83ca6f5eabea4cc08957f97985a24b5b master
+git_repo_checkout_branch "../js/jquery-tooltip-toolbar" 9233b6346b67f2334a12e9c80f2feb8f30d13fd4 master
 git_repo_checkout_branch "../js/jquery-transition" 609b99d603a8452a5981fdd84e646331ae27b040 master
 git_repo_checkout_branch "../js/jquery-twinkle" a45d40bfdabc198431bbec024bbffa5c5dfc639d master
+git_repo_checkout_branch "../js/jquery-ui" 842bb16523b098d576c4f15d713928e9ac3aabc8 master
 git_repo_checkout_branch "../js/jquery-ui" c644cc9466d5bd904fcc7a2969fbefb91fa7aaac master
 git_repo_checkout_branch "../js/jquery-ui-bootstrap" 57bfc05198c34d2096b8436cd45ed05017120aca master
 git_repo_checkout_branch "../js/jquery-ui-keyboard" c3c58c76f4aab527b6f7928458e3fa66a68b44b6 master
 git_repo_checkout_branch "../js/jquery-ui-layout" 9ea2730c7179fb76bc5b57129c3c87554d50987b master
 git_repo_checkout_branch "../js/jquery-ui-touch-punch" 72d67b63c98a6d9c324881343fcd423b88939ccf master
+git_repo_checkout_branch "../js/jquery-ui-touch-punch" 7bb9dfed44a20adf17ca35df888b84c117297eb0 master
 git_repo_checkout_branch "../js/jquery-validation" f80fa049b50e2f0945a8302481bcc049ab7e8292 master
 git_repo_checkout_branch "../js/jquery-validation-engine" 810797e42bb669c7c8883de040ba156e161e41be master
 git_repo_checkout_branch "../js/jquery-waypoints" 0c1d157fce93ac8a7151b1d96282c0f9c7ba48d5 master
@@ -526,6 +639,7 @@ git_repo_checkout_branch "../js/jquery-zoomooz" 31d8a0a6fcf78363c6833f54721ff2f3
 git_repo_checkout_branch "../js/jquery-zTree" a6ec3d1a25b684dac238114eb623513babd09a08 master
 git_repo_checkout_branch "../js/jquery/src/sizzle" 4f36e79796e642a6019675a8fa114d8a8c0a5fb8 master
 git_repo_checkout_branch "../js/jquery/src/sizzle/speed/benchmark.js" 425373377516c4af25eec12e4e3211b3550d9ea6 master
+git_repo_checkout_branch "../js/jquery/test/qunit" 7054e6b5398176a9305b13f906466fe58dd213e6 
 git_repo_checkout_branch "../js/jquery/test/qunit" 7054e6b5398176a9305b13f906466fe58dd213e6 master
 git_repo_checkout_branch "../js/jquerypp" ad61dbb276cdc735f5a745132898deb17108059c master
 git_repo_checkout_branch "../js/jquerytools" 7c6634b4dfa321b16cffcaa5ba06f95e9aa9b136 master
@@ -536,16 +650,23 @@ git_repo_checkout_branch "../js/jsdiff" 39cca690d2fca726c8d0ab4d005fbd2ee7b9bd33
 git_repo_checkout_branch "../js/jskata" 5b12ecacbaadaffae830809619e6f3c749f4bffd master
 git_repo_checkout_branch "../js/json-editor" 5cb68dda0e48a4da3d27132b5bac0b38d07cb39a master
 git_repo_checkout_branch "../js/json-select" edc6b5c7c7319c4df69b290f8634f4a35a182fc6 master
+git_repo_checkout_branch "../js/json-select/src/test/tests" 29f2882e30268ea1b0a6f1bf6a5b6e07e7136444 
 git_repo_checkout_branch "../js/json2" 3d7767b6b1f3da363c625ff54e63bbf20e9e83ac master
 git_repo_checkout_branch "../js/json3" e282232c1b02cd8de6b727aa8d0f50775bf82f2f master
+git_repo_checkout_branch "../js/json3/vendor/marked" 84a9be252dbe63530a26a80eb49ef9442f2dd1e9 
+git_repo_checkout_branch "../js/json3/vendor/spec" 06811994dac0954fffbe410143835edcc94dc69d 
 git_repo_checkout_branch "../js/json5" b0f09f5a18ffcc0b1dbc366abb87ca4003761dbe master
 git_repo_checkout_branch "../js/jsPanel-dialog" 40a2e37889b36c93d87480b7882614b99bf44bcb master
+git_repo_checkout_branch "../js/jsPanel-dialog" 4830360d7fe58a81cbcc7490b8827ade24f24c31 master
 git_repo_checkout_branch "../js/jsPDF" 7fec45fd9d310e7397ad7a9abe9459525b73c29e master
 git_repo_checkout_branch "../js/jsSHA" bb71c600a90b49c5bd6868d37379399defdf20db master
 git_repo_checkout_branch "../js/jstat" 55b765d3272a174878e6b1b953ea399d8ec531d1 master
 git_repo_checkout_branch "../js/jsTimezoneDetect" 0cf95e3410337790cb4284dd73c790ccc06133db master
 git_repo_checkout_branch "../js/jwerty" 5636d3515064322615afb29cad92c3b45d9d7e84 master
+git_repo_checkout_branch "../js/jwerty/test/qunit" 167e41f35c49d54c9dda84a074c6e6a89917cd20 
 git_repo_checkout_branch "../js/kamino" a134c6a05f58ac264f881d4ca7c13ac8299069d2 master
+git_repo_checkout_branch "../js/kamino/vendor/marked" 60fefe674f0aa607293bf44929d22839cbe38454 
+git_repo_checkout_branch "../js/kamino/vendor/spec" 142d1ac3576439dfd1b3b1a6509d43f2ca8b137c 
 git_repo_checkout_branch "../js/kebab-pubsub-queue" 1a3e1e3badd02a63f50215a92a38065ddd6ce163 master
 git_repo_checkout_branch "../js/keyboard-js" 0a9a1a399ecfab64a2589375c61031d9337c8778 master
 git_repo_checkout_branch "../js/keyboard-layout-editor" 3932c2eb57f163c7a3e8271c5d33ec141e1b946a master
@@ -562,26 +683,39 @@ git_repo_checkout_branch "../js/lazy" 3f89478b6aa8f882317a9bdeecb824f52cbcd731 m
 git_repo_checkout_branch "../js/lazyload" 73508d7674586c249195168d65a62e8569098a29 master
 git_repo_checkout_branch "../js/lazyload-all" 3b0ecf1c4fa7a23cc8f09f40fce47bac3e344c44 master
 git_repo_checkout_branch "../js/less" 5223e315ade147815e24fe72f3f654f9a5823820 master
+git_repo_checkout_branch "../js/less" 92a984c21ef4219296625e056b4c04df40747433 master
+git_repo_checkout_branch "../js/less/website" 6a482903ebba37d318541ca8f6a7e497fa1d3392 
+git_repo_checkout_branch "../js/less/wiki" 382841be36f402d835120945b0ced3b918b2971a 
 git_repo_checkout_branch "../js/lettering.js" 1e298caeb40c08556489f7ceaf24cecfe6b759dd master
 git_repo_checkout_branch "../js/liquidmetal-scoring-algo" 29899b4410f17d2176b98674d9d659a84ffd808f master
 git_repo_checkout_branch "../js/locache" 0029c813c000a365483f829c5ff3c24941e2b44b master
 git_repo_checkout_branch "../js/LocalConnection" 24db2ffd3364901954bb5c65de7425281db92fe2 master
+git_repo_checkout_branch "../js/localForage" 72defe62ced255e9436facbde65eaddcdd335a49 master
 git_repo_checkout_branch "../js/lodash" 2ee614ae55b9125f5b7249b9073ee8b4478b34f8 master
 git_repo_checkout_branch "../js/loglevel" 7af50ae5a04877f4206d8c1ef9297525ee588823 master
+git_repo_checkout_branch "../js/loStorage" 8b66562e94f3ff9ab2fff0b34dcd2c56140f3dab master
 git_repo_checkout_branch "../js/loStorage" afe96f4cdc1716716c5ee98f6b1ef8d9d7bc5521 master
+git_repo_checkout_branch "../js/loStorage/spec/vendor/jasmine" a9f71aacc6c7cd0e06f6564ca9d6c331d7f26bb4 master
+git_repo_checkout_branch "../js/loStorage/spec/vendor/jasmine/pages" 8fc113948f3f27a0538ffa44bb4e63381b95bb34 gh-pages
 git_repo_checkout_branch "../js/lunr-search-engine" f1cdf61248bdfddb793c0936c134e16ca37e8969 master
 git_repo_checkout_branch "../js/machina" 352c77f7664d9d89ec6880b7a2c0756e6a2dd08f master
 git_repo_checkout_branch "../js/machina-promise" 9f41bd2ada0113c16a2e11efd6bd34be7482728f master
 git_repo_checkout_branch "../js/malihu-scrollbar" 179ced37ef972b2c44bb4b71d20a6310fa317867 master
 git_repo_checkout_branch "../js/markdown" 53e53d610ebdd4bc3c2d0cacaf9eccfa34f98360 master
+git_repo_checkout_branch "../js/MarkdownPresenter" 71f423e57ba91fb100f33dd116730b58845e2e3e master
+git_repo_checkout_branch "../js/marked" 55aaa00bbcb16fe1c0432f607619ff4d545e9269 master
 git_repo_checkout_branch "../js/marked" af8240892bb28b5be48b8276a2c948538a57cbd9 master
 git_repo_checkout_branch "../js/marked-kramed" aa2aa13018bf1a406dc958d2f1d503e3a238622d master
 git_repo_checkout_branch "../js/marked-toc" 81559e4fe3d788e5a27819d7f0deaf7faa5d1209 master
 git_repo_checkout_branch "../js/mason" 5eaf7b41c7df72526a770819e46cdc04fd2ade1d master
 git_repo_checkout_branch "../js/masonry" 832851939c554f3147b3a79af7b9eb99b28d1b84 master
+git_repo_checkout_branch "../js/MathBox-WebGL-graphics" dd802725b51260dcb361c65387afbb2a1e99b3ea master
 git_repo_checkout_branch "../js/mathjax" ddac71bae69cc14f86b75222338fa32cedd098ff master
 git_repo_checkout_branch "../js/mathjax-dev" e33439e9f25481401a4009f284656ae67bb34d0a master
+git_repo_checkout_branch "../js/mathjax-third-party-extensions" 833e78fae8e8b9472c6ee2520a40b6fa9ce8d84c master
 git_repo_checkout_branch "../js/mediaelement" d799a546ed179be1ed575bde86f36c239ee25875 master
+git_repo_checkout_branch "../js/medium-editor-contenteditable" e4f7a77626996c0128a3cd00dc16dcc799b43364 master
+git_repo_checkout_branch "../js/mediumJS-editor-contenteditable" ac7207bfd22a6af8c5aa7fce50331ffb01a92e4a master
 git_repo_checkout_branch "../js/meny-menu" 4530fc5cc27d19c95038b72e29d32d3511dabfbd master
 git_repo_checkout_branch "../js/mercury-wysiwyg-editor" 1cc637b0bccea19085f824d2881c6513ed5ee8ae master
 git_repo_checkout_branch "../js/mersenne-twister" 5f1bb0c301fb340fc63f2cafc262353574016abf master
@@ -589,9 +723,11 @@ git_repo_checkout_branch "../js/MessageChannel" ff566a0a3ee1f01c3b0081af824979d9
 git_repo_checkout_branch "../js/metalsmith" dc4002abbb69be260f8dbe09bd944c25708a2502 master
 git_repo_checkout_branch "../js/miso.dataset" 1399b516cad0865eb5a98c106bc0c80c5d24a9bf master
 git_repo_checkout_branch "../js/miso.events" 68b66f4d76819e32aa1c3c749ea7cd93eaa0a507 master
+git_repo_checkout_branch "../js/mocha" 845c01fb24817915de55ed3e76f05e059d71333d master
 git_repo_checkout_branch "../js/mocha" c0bcf71e84ddf4da1396a0574e74eccbc9196a3b master
 git_repo_checkout_branch "../js/model-reactive-dataviz" 97219b71707f612819e85d6d4d7a59421b3b88bf gh-pages
 git_repo_checkout_branch "../js/Modernizr" 5d891e1babef2570d43218aa2fa47048bc555bdf master
+git_repo_checkout_branch "../js/Modernizr" ce9a81cfbda75224598d9c90a5593924c63ada82 master
 git_repo_checkout_branch "../js/moment" 47dee3fae668b07b9bf9126ed905f479d91a448e master
 git_repo_checkout_branch "../js/monologue" f6d9ffa4e509c282e30db9266b40bb4e54e9f409 master
 git_repo_checkout_branch "../js/Montmartre" d2c1f311c84d2c2e4359bf78ae4db6550f0a15f9 master
@@ -602,10 +738,14 @@ git_repo_checkout_branch "../js/multi-level-push-menu" 2cc6cf4799dc844f19d3fd8d5
 git_repo_checkout_branch "../js/multilevel-pushmenu" c954082c71675258a56987e4789910ada866f57b master
 git_repo_checkout_branch "../js/nested-grid-layout" 0fc86c1833d4815cd5e3cdc7a9cd568258728eac master
 git_repo_checkout_branch "../js/no-ui-slider" d645c21fba0aadb45678af84f4ec3a121ff6ec8a master
+git_repo_checkout_branch "../js/node-assert-in-browser" ac895ade8d9ee7a5a022b78a228c13776331224e master
 git_repo_checkout_branch "../js/node-si" f201cee70a524f2126968878215fd95bd2720690 master
+git_repo_checkout_branch "../js/nomnom" 99efa17ea2d678ccf8e6cd898ba17bba477a0d23 master
 git_repo_checkout_branch "../js/notifyjs" 3e98e714c6f63eace14fcdcfd491aa013f11622e gh-pages
 git_repo_checkout_branch "../js/noty" 089923e5de440ce5f8e4745fc36a0f7d13486514 master
+git_repo_checkout_branch "../js/noty" 511958e292032f1fcc7d2e6304114cd461b6bfe7 master
 git_repo_checkout_branch "../js/nprogress" a1f354ba1278e4f14c51811b027462480eb22fac master
+git_repo_checkout_branch "../js/nprogress" bd2825627c4d4bfe9e346255bf23bbf7384c7ded gh-pages
 git_repo_checkout_branch "../js/numbers-math" 6c6037465a85b94d793c591c117df2c720017098 master
 git_repo_checkout_branch "../js/numeral" 4a0c8f15ab0e77847804dbb66018edd06c0e9ba0 master
 git_repo_checkout_branch "../js/numeric" 566074cc12b5340f53638a2302bc291c5c1ef575 master
@@ -613,6 +753,7 @@ git_repo_checkout_branch "../js/object-path" 8821fbc929b83e4f7387de07c0bf9f490a0
 git_repo_checkout_branch "../js/objeq-json-querying" c07dc70f49a212f033e1f83c25fa9b5001d7e07c master
 git_repo_checkout_branch "../js/offline" a5fdd4fbdcc499046c52388d21da5d6b48d4f5e7 master
 git_repo_checkout_branch "../js/one-color" 111adc257330c6ceb426e1d8cb6bb7c818548257 master
+git_repo_checkout_branch "../js/one-color/slides/3rdparty/CSSS" 18d992326ad666dff3dde831eb8b7fa73c469183 
 git_repo_checkout_branch "../js/pace-automatic-progress" 896a0a7ccd018e47656d8a006c1dd575f0286ab4 master
 git_repo_checkout_branch "../js/pageguide" 4a77b208623d7408bdf06e04790f553724cd7c4c master
 git_repo_checkout_branch "../js/pagejs-router" 1e572e3acffa6ef1dc45eff4fa464d5de671e894 master
@@ -632,46 +773,67 @@ git_repo_checkout_branch "../js/postal-machina" b4f5341b8dc22dd54044640f543d3b76
 git_repo_checkout_branch "../js/postal-monologue" 47d29e945eed8cb0bc0624c0de0b883b7dce138f master
 git_repo_checkout_branch "../js/postal-when" 79e2462b7a5bd25c28af5cad0c4b4ce31e8bc60b master
 git_repo_checkout_branch "../js/postal-xframe" 1c36f7d9cdabf7a68e663208086af4c4a96a7692 master
+git_repo_checkout_branch "../js/presentz.js" fe4020bb8ab79ec0304d11106b60816b5a438170 master
 git_repo_checkout_branch "../js/priority-queue" 1405aafc346ca95a40dfb7c496f95381cce38ad6 master
 git_repo_checkout_branch "../js/Probability-F" 51bb5d20e07a96368ce002cebf6b4a9ee8746cec master
 git_repo_checkout_branch "../js/progress" f217cf589800e90e17108793a8044e3cbecf7703 master
+git_repo_checkout_branch "../js/pubnub-API-javascript" 095266cfd7067fb9cd8fc59fe9c3fad8ece285e0 master
 git_repo_checkout_branch "../js/qTip2" e11baaac3213da670d8d716a7610259a11e6d2a4 master
+git_repo_checkout_branch "../js/qTip2/libs/imagesloaded" ffd3fcfa3ef94329a2fe280c7fb25230188d5d60 
 git_repo_checkout_branch "../js/queue" 6dd6359f3ae789028c405c6879e0d210769c0b3f master
 git_repo_checkout_branch "../js/quickdiff" fb9c5f08cd9340ded2c9059d5b7812cefa32b86a master
 git_repo_checkout_branch "../js/qunit" 7054e6b5398176a9305b13f906466fe58dd213e6 master
+git_repo_checkout_branch "../js/qunit" 91a0b8c352a2d85bd08bcb608407b657c67835df master
 git_repo_checkout_branch "../js/radial-menu" 0c06ef1683a18cd0c60a2f048f6d3c990589e7d8 master
 git_repo_checkout_branch "../js/radial-responsive-menu" c9c8615046cc01dc550df13c42fc1c6f830446c3 master
 git_repo_checkout_branch "../js/rainbow-vis" 2f29dd66ff0f9f1ed848cc8558b29bf6a78852c8 master
 git_repo_checkout_branch "../js/rangeslider" 2b8be83576337ced629274057f23d9d94a6b1443 master
+git_repo_checkout_branch "../js/rangy" 5aa0a7c45bf06f99fd5e27d2ac673895703aa37d master
 git_repo_checkout_branch "../js/rangy" f574d3ca856c91d3c3389a76c9743a0eb2f8d00a master
+git_repo_checkout_branch "../js/rangyinputs" 330525aaf16cd45ed3c92d547c681183f77f4b06 master
 git_repo_checkout_branch "../js/rangyinputs" 8defc4022093a7145ef3ec8445649acf3da4d240 master
 git_repo_checkout_branch "../js/recline" 7757e563ee180e136a8a4008b6ac7b7b56e3050f master
+git_repo_checkout_branch "../js/RefluxJS" f23394f8d4d12062c69c7365500493e89638b8a0 master
 git_repo_checkout_branch "../js/regression" a2b4b131f4ba06c343774d96605a959fb8055866 master
 git_repo_checkout_branch "../js/rekapi-keyframe-animation" d18af263e2e19c894319ed8794c5eda9d8b1df67 master
 git_repo_checkout_branch "../js/require-domReady" 1c2356c7bc8701085d0b40eff503680933560117 master
 git_repo_checkout_branch "../js/require-handlebars" 9dc102b4e7f6d65f400c98b540d3354d99cf82ab master
 git_repo_checkout_branch "../js/require-less" 9073280a3cacacfba42d723a9c178c87149732e1 master
+git_repo_checkout_branch "../js/require-plugins" a747b3114b12d5c9a8a5585f8b794ddbd4b41d89 master
 git_repo_checkout_branch "../js/require-plugins" bdc452ca04b8f800aee35c0baac42429ab6b5ed4 master
 git_repo_checkout_branch "../js/require-text" 9fcaafe82a32e9f232eeaa33812b4a5d413fac7c master
 git_repo_checkout_branch "../js/requireCSS" db33253e5998f3f080a8bf43d123433f8813e7e4 master
 git_repo_checkout_branch "../js/requireJS" 69245fcff152df80e56b3ee196b93cf54adb2e26 master
+git_repo_checkout_branch "../js/requireJS" f4b6e4f9ce69ee5d311c7bf773a39d83aa707328 master
 git_repo_checkout_branch "../js/requirejs-coffeescript" 7488ac66475c3050871337557522b43d7df14887 master
 git_repo_checkout_branch "../js/response.js" ae5b535d2c72e417875dd1555fd3f672a98ab26c master
 git_repo_checkout_branch "../js/Responsive-Measure" ed7df598f9df5903a7d9e3e10dd6b63a58c190ac master
 git_repo_checkout_branch "../js/responsive-multilevel-menu" 7fc79ab1ea9cd0575a7a9c96dcd06e6e2f657e12 master
 git_repo_checkout_branch "../js/responsive-nav" d279b06076f2f57ef79d3c62bdf87cb67dc40156 master
 git_repo_checkout_branch "../js/reveal.js" 4f455497ee8fae3ace73fceb880372b63f8f29d3 master
+git_repo_checkout_branch "../js/reveal.js" 7e0b109697147b9c7ff9a405ea54b3e596b7789e master
 git_repo_checkout_branch "../js/reveal.js-presentable-TOC" 478399ed6f7da905680e82c1841bf6461c858f70 master
+git_repo_checkout_branch "../js/reveal.js/lib/js/classList" 507a9fd9a825faff23bce50fa2e01d1177157e85 
+git_repo_checkout_branch "../js/reveal.js/lib/js/head" 50981626624d610216d90ab69245775c523e9171 
+git_repo_checkout_branch "../js/reveal.js/lib/js/response.js" 8d5af82408c223bdb76980c7be8cf88d5732cc9d 
+git_repo_checkout_branch "../js/reveal.js/lib/js/verge" 4b0bb42b2b24ee75e9105e0f5b0c4aff5b4c3d42 
+git_repo_checkout_branch "../js/reveal.js/lib/js/zoom" e6abd41c7e87a6e1ffcb8961f2fd05268ab1affa 
+git_repo_checkout_branch "../js/reveal.js/lib/plugins/highlight" b48abbba81c69687f90a125b573a5b3dc3c18391 
+git_repo_checkout_branch "../js/reveal.js/lib/plugins/SyntaxHighlighter" e94af6df019624d7e93c71a66da44ff00b8decd9 
+git_repo_checkout_branch "../js/reveal.js/lib/plugins/zoom" e6abd41c7e87a6e1ffcb8961f2fd05268ab1affa 
 git_repo_checkout_branch "../js/rickshaw" 7dcada0d45cef8604ff1f46df4adc2bd10b04e3a master
 git_repo_checkout_branch "../js/ring-progress-bar" 80785b9b84e4a2ca462eee41f58ed124340edd9e master
 git_repo_checkout_branch "../js/riot" 7cabe7a1408fa0cc7dfc45815b6bb7a15c5819b8 master
+git_repo_checkout_branch "../js/riot" efcc7c80e2a466b8a818e0b6301cf95cc92c15f3 development
 git_repo_checkout_branch "../js/riveter-mixins" fda167de26566511b9e56ecbff1943586296f0fc master
 git_repo_checkout_branch "../js/rivets" 5cd20248ee2ef03f537b81cff582e72b3e03422a master
 git_repo_checkout_branch "../js/science" 6b3cf90d240cd07fa2a83937a4e369ebb8eab13b master
+git_repo_checkout_branch "../js/science" fd2b1a62c0c96bcc518ddfd4f03f4406f05d8cfa master
 git_repo_checkout_branch "../js/scoped-querySelector-shim" 2da1c67a3b92f0b70e2ce751ad7dcf3c7d6e583b master
 git_repo_checkout_branch "../js/SHA3-js" ac7f114fc8b737c9d8d26e37ee10375529455945 master
 git_repo_checkout_branch "../js/shifty-tweens" cb7b99081ddfcb4d3f65877e14be4a038cde1817 master
 git_repo_checkout_branch "../js/shotgun" 22bc6682e36045ea172d7a4f93a94ba0d9efeb29 master
+git_repo_checkout_branch "../js/showdown-markdown-parser" eca8386dbb6586f5e255f177f2cdad619cbfdfaa master
 git_repo_checkout_branch "../js/signal-compoundsignal" d2e197f6d9f759b34c5fd3da4c1adbfeb7e46f2d master
 git_repo_checkout_branch "../js/signal-signals" 1a82bdd4097941bb010ab4a5757a67da460ce2f4 master
 git_repo_checkout_branch "../js/simple-statistics" c16b59ea76ad310ec5934d0bd0cd0b89ec129055 master
@@ -681,6 +843,7 @@ git_repo_checkout_branch "../js/sjcl-stanford-crypto-lib" 16dde36fa2a58845f63942
 git_repo_checkout_branch "../js/sketch" 124895f6d1ef13ae04f6b1839c6273283a281583 master
 git_repo_checkout_branch "../js/skrollr" f0971d3a9aa6978a2c5262ee01a85af215ba86e4 master
 git_repo_checkout_branch "../js/SlickBack" 00b3d85128c7a020b51ce70f70cad7c1efb84bd9 master
+git_repo_checkout_branch "../js/slickgrid" 7c8d81aca242df14ce7f869f67c04415580774ff k0stya-rowspan
 git_repo_checkout_branch "../js/slickgrid" df07fcff2bf6516d7b2f29215ccda3c382da420b k0stya-rowspan
 git_repo_checkout_branch "../js/slickgrid-checkbox-select-all-column-plugin" cf3d43ad95953b078d06606fde594a44caee082b master
 git_repo_checkout_branch "../js/slickgrid-distinct-values-menu-plugin" 5ff33717127cd72cd74159d80f5a062e4e123d58 master
@@ -694,10 +857,13 @@ git_repo_checkout_branch "../js/slickgrid/lib/hammer" ef1ec7a248aee3c3544d5d9aad
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-fixclick" 762bb2c01a63101ed8c03845510e2be3e896eeb4 master
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-iCheck" a97450ab337fd66e77e98378e4971713bda4ff19 master
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-jsonp" 9ee843dfb531cdc0f494d307e663ff34596ed522 master
+git_repo_checkout_branch "../js/slickgrid/lib/jquery-jsonp" c313be97a4c4a605023cebfe8944b8fc43945629 master
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-jsonp/test/qunit" 403897f422a2b739dcd16c84e9bbc8afa6d7cd78 master
+git_repo_checkout_branch "../js/slickgrid/lib/jquery-jsonp/test/qunit" 6733398db8811fb839e9c81fc8119ba357e1f6b2 
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-multiselect" 1b09c2e4b28d390b7691cbd7529b43b173ad4ea7 master
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-simulate" 8a9e765f3930d09b4594aca7e30a3634c6f48ef4 master
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-simulate/test/qunit" 403897f422a2b739dcd16c84e9bbc8afa6d7cd78 master
+git_repo_checkout_branch "../js/slickgrid/lib/jquery-simulate/test/qunit" 99f10eabddb0b960525f1acfb71c7f80fbf22d57 
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-sparkline" 1c161fa62436e27d3ef07ced57bf4a01fa4dc8ca takacsv-work
 git_repo_checkout_branch "../js/slickgrid/lib/jquery-sparkline/lib/rainbow-vis" 2f29dd66ff0f9f1ed848cc8558b29bf6a78852c8 master
 git_repo_checkout_branch "../js/slickgrid/lib/keymaster" 1ea29b8498456b8afa07c5a76382addc3691c87f master
@@ -708,8 +874,11 @@ git_repo_checkout_branch "../js/slickgrid/lib/slickgrid-spreadsheet-plugins" 36a
 git_repo_checkout_branch "../js/slickgrid/lib/slickgrid-surge-extensions" 9db1bd5b770d0c6ba5c1bf27f943780eb6089926 master
 git_repo_checkout_branch "../js/slickgrid/lib/slickgrid-totals-plugin" ebed7e10d9c8608f863e8bb4c9e784434aac115c master
 git_repo_checkout_branch "../js/slickgrid/lib/spectrum" 8aa582006103110498fef49a3662e3d5bf4616fe no-color
+git_repo_checkout_branch "../js/slickgrid/lib/spectrum" dac3867c57fb5b0dcd94b83d53703379310552e1 
+git_repo_checkout_branch "../js/slickgrid/lib/spectrum/lib/TinyColor" d3801b440f31d852b4bc1030c770225318fc4de2 
 git_repo_checkout_branch "../js/slickgrid/lib/spectrum/lib/TinyColor" d3801b440f31d852b4bc1030c770225318fc4de2 gh-pages
 git_repo_checkout_branch "../js/slickgrid/lib/threedubmedia" 328826bdd9490a7130985620db6aa96fc899df0a master
+git_repo_checkout_branch "../js/slickgrid/lib/TinyColor" d3801b440f31d852b4bc1030c770225318fc4de2 
 git_repo_checkout_branch "../js/slickgrid/lib/TinyColor" d3801b440f31d852b4bc1030c770225318fc4de2 gh-pages
 git_repo_checkout_branch "../js/slickgrid/lib/verge-screendimensions" c9b2acca6c24a9e5f972ab12dafad8ccd06b1f85 master
 git_repo_checkout_branch "../js/Slidebars" 5cb46565007930945e916250ba4c8f19e67c9528 master
@@ -718,12 +887,16 @@ git_repo_checkout_branch "../js/snap.js" 15c77da330d9e8ca580a922bc748d88553838a7
 git_repo_checkout_branch "../js/snap.svg" 5b17fca57cbc4f8a8fd9ddd55cea2511da619ecf master
 git_repo_checkout_branch "../js/Socialite" 71e756eed1ce77b98731e43c51a72e003feac273 master
 git_repo_checkout_branch "../js/speakingURL" b05cd7e4601c7300ea3f157a221a4bdb4fe0357a master
+git_repo_checkout_branch "../js/spectrum" af289972636bd5bc0633b03902c6ad00608c3eae master
 git_repo_checkout_branch "../js/spectrum" d95a8ab4856f3a5dddcefe613082272ca6a2aad5 master
+git_repo_checkout_branch "../js/spectrum/lib/TinyColor" d3801b440f31d852b4bc1030c770225318fc4de2 
 git_repo_checkout_branch "../js/spectrum/lib/TinyColor" d3801b440f31d852b4bc1030c770225318fc4de2 master
 git_repo_checkout_branch "../js/spin" e55014b43f843eb032d98e4dff7b4d68572399d0 master
+git_repo_checkout_branch "../js/sprintf" efdc201e546d0fac6707f30dd89bb1fc90b90595 master
 git_repo_checkout_branch "../js/square-responsive-menu" 9865b6d9e6656a31715000cb28a5f88fe988e824 master
 git_repo_checkout_branch "../js/stapes-js-mvc" 434737e2fa3d27cc4553d041425eb25cf3d2c8ba master
 git_repo_checkout_branch "../js/stately" 535bd9b5f0615574f41489fe7e39d0fda8fae6c4 master
+git_repo_checkout_branch "../js/steel_capped_toe-booting-up" cc2db261f5d77ab67e611577d0d4087f9debdc23 master
 git_repo_checkout_branch "../js/store-local" 70e8e74d66ab9c947ec29bd4148c6f1a3b1e1578 master
 git_repo_checkout_branch "../js/StringView-polyfill" b0ac12a38d72d2d94c36c2851fb91c464cb15d0b master
 git_repo_checkout_branch "../js/SyntaxHighlighter" e94af6df019624d7e93c71a66da44ff00b8decd9 master
@@ -735,11 +908,14 @@ git_repo_checkout_branch "../js/three" faab5d4a5ad88793c1f2c0c49be426f8535275b5 
 git_repo_checkout_branch "../js/three-ex" b37f730082ddd726df2e757ec2dc09429a7c330e master
 git_repo_checkout_branch "../js/thumbs-touch" 93cf21c2d8d6008f62deadba3d59aa3d9cbb724d master
 git_repo_checkout_branch "../js/TinyColor" 3e5be699412a173428bd3caeb2314b9f882a3293 master
+git_repo_checkout_branch "../js/TinyColor" 537fbe83397d867ce5390d0c98dbd2a1e28343cd master
 git_repo_checkout_branch "../js/tipue-drop-search-suggestions" 20b9895e38627286fad530e577419e99d800e461 master
 git_repo_checkout_branch "../js/tipue-search-engine" 3388797fb32bd0d6836060962163e4dd30be811c master
 git_repo_checkout_branch "../js/toastr-notifications" 4f1d70aaea664d155b847a4579ec7b540bc7fbd3 master
 git_repo_checkout_branch "../js/TooltipMenu" c3f3bb4bcc9b0079d542d13fab7b64789f282b24 master
+git_repo_checkout_branch "../js/tooltipster" 8a1a3dbc17e49259197e1629606c96d49c56b101 master
 git_repo_checkout_branch "../js/tooltipster" a5974380f96fc26df43645f98d160efcd956dfd5 master
+git_repo_checkout_branch "../js/topoJSON" df73e6a1b542c84bdadeed3ed2c9a7802a9c9ed9 master
 git_repo_checkout_branch "../js/tpz-base32" 54acf9e6f14f5e11616088d0c417ba8afbd6eea6 master
 git_repo_checkout_branch "../js/tributary" 8e0b8892db6648b731b562cb81099f2148653ca3 master
 git_repo_checkout_branch "../js/tv4-json-schema" 2a32c8c6dccab69a63ed9d9a9fd86f8e036a4136 master
@@ -755,10 +931,14 @@ git_repo_checkout_branch "../js/URI.js-url-mutator" 891b5551da274d1ef3ff23ad3fda
 git_repo_checkout_branch "../js/uri.regex" b1917cdcb99d36cbc8a60bd79e04d509fc265783 master
 git_repo_checkout_branch "../js/uuid" 03e81d2a3e1d568c95fc9d57860691cf3ce7bdf7 master
 git_repo_checkout_branch "../js/veinjs-css-injection" 4241a45067a4105cae9529cf1bb1fb1934989997 master
+git_repo_checkout_branch "../js/veinjs-css-injection" ad55572f8d405430ebdaad63d429ecb07eeb12bd master
 git_repo_checkout_branch "../js/ventus-window-manager" caf790e8f70baf34b5590183b31f6ba4c279f6c0 master
+git_repo_checkout_branch "../js/verge-screendimensions" 9f948e2d6bda441677d5346627e3743ba0459f7c master
 git_repo_checkout_branch "../js/verge-screendimensions" c9b2acca6c24a9e5f972ab12dafad8ccd06b1f85 master
 git_repo_checkout_branch "../js/verlet" 271af753940d8eb67cd2b0b37934d204ab2497da master
 git_repo_checkout_branch "../js/video.js" a96978b1942f4910d67aab70db24602b1eefd063 master
+git_repo_checkout_branch "../js/violin-function-instrumentation" 0812a465ecde9fcab1a0803a162a52a9a8374575 gh-pages
+git_repo_checkout_branch "../js/voronoi" 3fe2165aed14d3424398e04bccb120f68114eab5 master
 git_repo_checkout_branch "../js/vows" 253ca34c103281f169c8094597bb66a1a1bbc847 master
 git_repo_checkout_branch "../js/w2ui" f9b592193ffff7fd1c509136d5f00e8eb778b475 master
 git_repo_checkout_branch "../js/webcola-constrained-force-layout" dfa207a204c9ed833834fc69494b6077706d0eee master
@@ -767,6 +947,7 @@ git_repo_checkout_branch "../js/x-editable" 8adb0b1bf3761c98bbbebf40994bf150ec28
 git_repo_checkout_branch "../js/xregexp" 7354fb84472289b15ee7c511442f74d6386e94ad master
 git_repo_checkout_branch "../js/xtend" 94a95d76154103290533b2c55ffa0fe4be16bfef master
 git_repo_checkout_branch "../js/zen-form" 4d3d4b9ef132eb27e6ec2936936001147bc0b72b master
+git_repo_checkout_branch "../js/zenpen-editor-contenteditable" 29c52a5b38010cb8992be29b2f8d33425a2244ce master
 git_repo_checkout_branch "../js/zepto-fast-jquery-alt" f4129d531ae81a680c02415e93438bf2c28784b5 master
 git_repo_checkout_branch "../js/zeroclipboard" 1ec7da6bebafbd63153b14f6fa0db2d42f93b9d4 master
 git_repo_checkout_branch "../js/zoom" cd373039c26d49015b03b3b36c49ebb4e6fb302d master
@@ -777,10 +958,12 @@ git_repo_checkout_branch "../php/backbone-session" 5b0af6c7043bcb1c6fd014e881e21
 git_repo_checkout_branch "../php/collision_detection" 8614991c2707e64a109721ee88d745fc36ed1220 master
 git_repo_checkout_branch "../php/DByte-PDOwrapper" 2221ec480d2de28205a83bee8a81775be422e8fe master
 git_repo_checkout_branch "../php/domPDF" d52eb86598998239a0699b7146b1708e04081174 master
+git_repo_checkout_branch "../php/domPDF/lib/php-font-lib" 4fb25eec46b7a809caa87d1ee71d27f5ba244a52 
 git_repo_checkout_branch "../php/easier-baseN-encoding" 5cadc4885a41b157be9a28646da09c6fc7f1cec1 master
 git_repo_checkout_branch "../php/email-address-validation" 6af80e2750a33996ba4fb9490749c7d593681767 master
 git_repo_checkout_branch "../php/ErrorHandler" a6649a6ef4e080f8876a3c2fefed4803d3c4fecc master
 git_repo_checkout_branch "../php/github-api3-php" 5cdff4f5f1764d56185366c3ec4aa605608ded06 master
+git_repo_checkout_branch "../php/github-api3-php/lib/vendor/Buzz" dbe0436819ff3510335c2d0a1839c1e96e66acd7 
 git_repo_checkout_branch "../php/HTMLawed" 2be4bdcb8e9df52bef82e91adaaa26970b5c4ef8 master
 git_repo_checkout_branch "../php/HTMLpurifier" 80ebd4322e3b98bc25c3ed3effe99a1653bc00fc master
 git_repo_checkout_branch "../php/hybridauth" fd51fb6d260ef48fe85494b55d9931374230074b master
@@ -799,7 +982,9 @@ git_repo_checkout_branch "../php/opauth-live" 2a854d68cd5fbf10013afbf6008fff849f
 git_repo_checkout_branch "../php/opauth-openid" a90e5dd490c1c7c79dd3ab2ffe4bb7e3401127f0 master
 git_repo_checkout_branch "../php/opauth-twitter" 24792d512ccc67e7d11e9249737616f039551c11 master
 git_repo_checkout_branch "../php/packager" c4b7642ddf5308088eb7b0b259d45e02f4738e80 master
+git_repo_checkout_branch "../php/packager/libs" c71a28fbc5330c360681cb5f4b2172942720df74 
 git_repo_checkout_branch "../php/PHP-Error" 0ce1c142a2e5d8c33fad99858507959307a61471 master
+git_repo_checkout_branch "../php/PHP-Error" f37958901537cb379b5c439243f75e5de9c96a4d master
 git_repo_checkout_branch "../php/php-json-format" ce2cb1cf44fcf969d5275bc02553a8efd5ede4e6 master
 git_repo_checkout_branch "../php/php-markdown" b362286c57daaa2cb61f18be01a545752babbe66 master
 git_repo_checkout_branch "../php/php-profiler" 61b80f1d955a25fbb5cc395aebfd7b636b2c61e1 master
@@ -826,10 +1011,25 @@ git_repo_checkout_branch "../php/yii2" 164ddf98b09df78b03f78e8d5b9fb4139e27e831 
 git_repo_checkout_branch "../tooling/amdclean" b5780d8d2ce819c13589bffd657c92fcf1521dac master
 git_repo_checkout_branch "../tooling/antlr" 4bb5f5c0c59290f23b309a63b2a0610beef538c2 master
 git_repo_checkout_branch "../tooling/btyacc" ffb68b3500ae1ca3803e6682cecf2d26cac2bccf master
+git_repo_checkout_branch "../tooling/civet-webserver" 660066fc5198d83d1c7cca8e7e0390e409fd37f0 master
+git_repo_checkout_branch "../tooling/civet-webserver" 96b3773e0afa665e9730a78f3a241bbb4c759825 master
+git_repo_checkout_branch "../tooling/civet-webserver/documentation/wiki" 6cb6e851605ac9d3cb5f3f96293b3aca4b6ab91a 
+git_repo_checkout_branch "../tooling/civet-webserver/documentation/wiki" e3f84c6a123bb764416d5ac1ac67e0592fe521fc master
+git_repo_checkout_branch "../tooling/civet-webserver/documentation/wiki-vanilla" e099d4dc6c9e1c3a02fd31069294c902df9a020c 
+git_repo_checkout_branch "../tooling/civet-webserver/documentation/wiki-vanilla" e099d4dc6c9e1c3a02fd31069294c902df9a020c master
+git_repo_checkout_branch "../tooling/civet-webserver/extra-support-libs/popt" 303beb79bd4b61b116b3ed6ed45e07d9a4364a3d master
+git_repo_checkout_branch "../tooling/civet-webserver/pthread-win32" 74c382b989b5dd735356e0fdaef4263db66c44e4 master
+git_repo_checkout_branch "../tooling/civet-webserver/pthread-win32" 9dff6a1beb8330ec802b2bf210230cbb242f433f master
+git_repo_checkout_branch "../tooling/civet-webserver/selectable-socketpair" 222e5e18b8bdbdd925e0ad281dc60928be3a74ac master
+git_repo_checkout_branch "../tooling/civet-webserver/selectable-socketpair" fb913ef0a22d09ea404da854abe787f382450e25 master
+git_repo_checkout_branch "../tooling/civet-webserver/upskirt" 0fa550f091a91985902f5b96cf68e2187c9bbbe7 master
+git_repo_checkout_branch "../tooling/civet-webserver/upskirt" 131d0062740305c1553a177feb50a89b0d986026 master
 git_repo_checkout_branch "../tooling/csslint" 8bc5d769186cc932898ad6873221720e838e461f master
 git_repo_checkout_branch "../tooling/csso" 8fb75882c0d50c03eb48e6cc2903a989c98af0a6 master
 git_repo_checkout_branch "../tooling/denyhosts" 98c2aac34bb8e80537246960f64509d1c69274b6 sourceforge-master
+git_repo_checkout_branch "../tooling/docco" 00ba0b9823b3df1ecb3bee29959cde05c008bbbf master
 git_repo_checkout_branch "../tooling/docco" 9bd5fc81cb0a13e1f56b33a546be3843ad34ec07 master
+git_repo_checkout_branch "../tooling/docco/lib/highlight.js" 7cc79af80c19ba57b9fea06f027911dd87b3e081 
 git_repo_checkout_branch "../tooling/doxygen" 9b76c1a9bb7039962933aeef398bb7aa2f59c3a5 master
 git_repo_checkout_branch "../tooling/findW-find_in_worktree" aa9675959c76e02cf57e2aa0ccaffa19dc2c67e8 master
 git_repo_checkout_branch "../tooling/gitbook" 6b76032bb1e6a52c6dec94daca95ab730e861e98 master
@@ -841,21 +1041,44 @@ git_repo_checkout_branch "../tooling/grunt-contrib-requirejs" 899ed8f4606d823d64
 git_repo_checkout_branch "../tooling/grunt-contrib-uglify" ae723ace0b4ba76f160de7683989832b070fae83 master
 git_repo_checkout_branch "../tooling/grunt-multisourced-bower-config" 2202e48276d8b02c76cea5519fbe0436ce528f47 master
 git_repo_checkout_branch "../tooling/grunt-umd-wrapper" 1855cfe9322e2ccfbaa9790efa27cb5d1c1bf01d master
+git_repo_checkout_branch "../tooling/gulp-fncallback" 1240f93cee95b25046124b746de611074edee463 master
+git_repo_checkout_branch "../tooling/gulp-jison" 3f0764678ce731bdef777324747dec2eb26e6682 master
+git_repo_checkout_branch "../tooling/gulp-lint-everything" 3783c36631c1e78ea239d8fe84120b3872c9fde1 master
 git_repo_checkout_branch "../tooling/javascriptlint" e1bd0abfd424811af469d1ece3af131d95443924 master
 git_repo_checkout_branch "../tooling/jison" 2be8fc61b164bb33fe3f1e4ce90c4c4729baa978 master
+git_repo_checkout_branch "../tooling/jison" 70cdd51bb0654501ba0015addf19ae5a0ad3aad2 master
+git_repo_checkout_branch "../tooling/jison" 89f5c1aa3c36e3845a34022c324f542a0d69eb85 master
 git_repo_checkout_branch "../tooling/jison/gh-pages" 29225af2e036e9524eedfa85850abf2fed4624a9 master
 git_repo_checkout_branch "../tooling/jison/modules/ebnf-parser" 1b1126fe5e8352ae076195dc7b982d7dbc53aa59 master
+git_repo_checkout_branch "../tooling/jison/modules/ebnf-parser" 30f9c16d6309300330fd8fa70f8126760150fb83 master
+git_repo_checkout_branch "../tooling/jison/modules/ebnf-parser" 39143dfc0535c27028b159545a57ca5dc065cceb master
+git_repo_checkout_branch "../tooling/jison/modules/jison-lex" 050dac4dfcef769c1f71dd49bfa846ac93a20225 master
+git_repo_checkout_branch "../tooling/jison/modules/jison-lex" 47e807e8a06af92eb354e55783ad64f2bbfe9833 master
 git_repo_checkout_branch "../tooling/jison/modules/jison-lex" 7c8734a8b94a26158796b3c340378a16e4d83b55 master
 git_repo_checkout_branch "../tooling/jison/modules/jison2json" 19f094dc591033e444120c201a6cf1ca30914d5f master
+git_repo_checkout_branch "../tooling/jison/modules/jison2json" 26d491c0027ff6e9edafa862feb2f781805c182f master
+git_repo_checkout_branch "../tooling/jison/modules/jison2json" ccf8fd2ddac7632f4640fc8d0e9227de6deda17e master
+git_repo_checkout_branch "../tooling/jison/modules/json2jison" b2e062429900aca3d7e099e4bc223f704f7ba537 master
 git_repo_checkout_branch "../tooling/jison/modules/json2jison" b7d1351d0f9821a3e50f396d2d7793f75de9d106 master
+git_repo_checkout_branch "../tooling/jison/modules/json2jison" cda01792478b3910a13d15ea3a943055a6eacfe2 master
+git_repo_checkout_branch "../tooling/jison/modules/lex-parser" 1a1eb783436a2acc79eb98bb2c0d477b08e13066 master
 git_repo_checkout_branch "../tooling/jison/modules/lex-parser" c04f7e5f294cab3144722c8832566ddfd92cd6bc master
+git_repo_checkout_branch "../tooling/jison/modules/lex-parser" f1cfe70a2239d822653f86dee4200f8c65df3cae master
 git_repo_checkout_branch "../tooling/jsbeautifier" 60fe74c6e11f3bd3ea1f1737c7f0fc825fff53a4 master
 git_repo_checkout_branch "../tooling/JSDoc" 353afea49e8774183bca667829d3565fa9bc282e master
 git_repo_checkout_branch "../tooling/JSHint" 37757f0195e9ee4eb4bd8aeb5162c2a3c1565832 master
 git_repo_checkout_branch "../tooling/json" 349a245e40bc5dd43dfafff1963a22fd95508932 master
+git_repo_checkout_branch "../tooling/json/deps/JSON-js" 47a9882cddeb1e8529e07af9736218075372b8ac 
+git_repo_checkout_branch "../tooling/npm-check-updates" 4a16b603d1c77a570320c4e6470770cec800d466 master
+git_repo_checkout_branch "../tooling/npm-check-updates" 5db2de7f8a0b2b70acf48ab4911f178d1071dc4d master
 git_repo_checkout_branch "../tooling/PEG-js" 784db35cf5d248244a18312837fe4503392e8ef6 master
 git_repo_checkout_branch "../tooling/PEG-tolmasky" c7e1412e3c01be9bf4336db2e1bbafb2576ef2b3 master
 git_repo_checkout_branch "../tooling/phpDocumentor" 9cbe0bf8eeb621eb86929822ca52f857ae7f67f5 master
+git_repo_checkout_branch "../tooling/phpDocumentor/.puppet/modules/apache" 5dfe46538af1b5d2320dec8f185a8ce5db34a8d2 
+git_repo_checkout_branch "../tooling/phpDocumentor/.puppet/modules/composer" c981c46f94f1d7fa12490069410bc59b67382a08 
+git_repo_checkout_branch "../tooling/phpDocumentor/.puppet/modules/php" c085ab970e72d213a886fa96be58459d98c358a6 
+git_repo_checkout_branch "../tooling/phpDocumentor/.puppet/modules/puppi" 89dc156ade13483251ac4fd77777996fae926168 
+git_repo_checkout_branch "../tooling/phpDocumentor/.puppet/modules/vcsrepo" 50079b58192ed7a2af1ba6756f75084bc74d33e8 
 git_repo_checkout_branch "../tooling/requirejs-optimizer" b7ed3a2fec733d9b2323f95e0e7a0c8e5692e66d master
 git_repo_checkout_branch "../tooling/source-map-combine" 0e0621073906139408f85a482d74980368f50151 master
 git_repo_checkout_branch "../tooling/source-map-convert" 725b2347a83b42011da465d00678e45605361012 master
@@ -865,28 +1088,10 @@ git_repo_checkout_branch "../tooling/source-map-readwrite" 9d8f09a1e4ef7bf8584fa
 git_repo_checkout_branch "../tooling/uglify2" f36a1eaa8b5203ab7e4616108c33a0b68668a8db master
 git_repo_checkout_branch "../tooling/UglifyCSS" 3c140347adb0ed9e85c89372d502fd96c35bcfb9 master
 git_repo_checkout_branch "../tooling/vulcanize" 8a851f782b80870e2eb22f5340bc309abdc5fa63 master
+git_repo_checkout_branch "../tooling/webpack" 0431b741491e6cda1afbe6633813c7031e6dfb94 master
 git_repo_checkout_branch "../tooling/wsclean" 78e56497930f686e10659dd8a1adf3a9681bca72 master
 git_repo_checkout_branch "../tooling/xmail" 33bf2eb3bdca4e79d8b6339d5ff9f8583c046cf7 master
-git_repo_checkout_branch "../js/formula-Excel-functions" 7d5a3be867b6ed1841a6fd42a69e3365aeab2c2d master
-git_repo_checkout_branch "../js/mocha" 845c01fb24817915de55ed3e76f05e059d71333d master
-git_repo_checkout_branch "../js/node-assert-in-browser" ac895ade8d9ee7a5a022b78a228c13776331224e master
-git_repo_checkout_branch "../js/sprintf" efdc201e546d0fac6707f30dd89bb1fc90b90595 master
-git_repo_checkout_branch "../js/steel_capped_toe-booting-up" cc2db261f5d77ab67e611577d0d4087f9debdc23 master
-git_repo_checkout_branch "../tooling/civet-webserver" 660066fc5198d83d1c7cca8e7e0390e409fd37f0 master
-git_repo_checkout_branch "../tooling/civet-webserver/documentation/wiki" 6cb6e851605ac9d3cb5f3f96293b3aca4b6ab91a 
-git_repo_checkout_branch "../tooling/civet-webserver/documentation/wiki-vanilla" e099d4dc6c9e1c3a02fd31069294c902df9a020c 
-git_repo_checkout_branch "../tooling/civet-webserver/pthread-win32" 9dff6a1beb8330ec802b2bf210230cbb242f433f master
-git_repo_checkout_branch "../tooling/civet-webserver/selectable-socketpair" fb913ef0a22d09ea404da854abe787f382450e25 master
-git_repo_checkout_branch "../tooling/civet-webserver/upskirt" 0fa550f091a91985902f5b96cf68e2187c9bbbe7 master
-git_repo_checkout_branch "../tooling/gulp-fncallback" 1240f93cee95b25046124b746de611074edee463 master
-git_repo_checkout_branch "../tooling/gulp-jison" 3f0764678ce731bdef777324747dec2eb26e6682 master
-git_repo_checkout_branch "../tooling/jison" 70cdd51bb0654501ba0015addf19ae5a0ad3aad2 master
-git_repo_checkout_branch "../tooling/jison/modules/ebnf-parser" 30f9c16d6309300330fd8fa70f8126760150fb83 master
-git_repo_checkout_branch "../tooling/jison/modules/jison-lex" 050dac4dfcef769c1f71dd49bfa846ac93a20225 master
-git_repo_checkout_branch "../tooling/jison/modules/jison2json" ccf8fd2ddac7632f4640fc8d0e9227de6deda17e master
-git_repo_checkout_branch "../tooling/jison/modules/json2jison" b2e062429900aca3d7e099e4bc223f704f7ba537 master
-git_repo_checkout_branch "../tooling/jison/modules/lex-parser" 1a1eb783436a2acc79eb98bb2c0d477b08e13066 master
-git_repo_checkout_branch "../tooling/npm-check-updates" 5db2de7f8a0b2b70acf48ab4911f178d1071dc4d master
+
 
 # --- all done ---
 

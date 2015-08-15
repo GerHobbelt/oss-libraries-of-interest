@@ -2314,3 +2314,174 @@
 [submodule "js/voronoi"]
 	path = js/voronoi
 	url = git@github.com:GerHobbelt/Javascript-Voronoi.git
+[submodule "js/ASCIImathML"]
+	path = js/ASCIImathML
+	url = git@github.com:GerHobbelt/asciimathml.git
+[submodule "examples/mathjax-examples"]
+	path = examples/mathjax-examples
+	url = git@github.com:GerHobbelt/MathJax-examples.git
+[submodule "js/mathjax-third-party-extensions"]
+	path = js/mathjax-third-party-extensions
+	url = git@github.com:GerHobbelt/MathJax-third-party-extensions.git
+[submodule "js/github_api_wrapper"]
+	path = js/github_api_wrapper
+	url = git@github.com:GerHobbelt/github_api_wrapper.git
+[submodule "js/localForage"]
+	path = js/localForage
+	url = git@github.com:GerHobbelt/localForage.git
+[submodule "js/nomnom"]
+	path = js/nomnom
+	url = git@github.com:GerHobbelt/nomnom.git
+[submodule "js/scrollReveal.js"]
+	path = js/scrollReveal.js
+	url = git@github.com:GerHobbelt/scrollReveal.js.git
+[submodule "css/HTML-KickStart"]
+	path = css/HTML-KickStart
+	url = git@github.com:GerHobbelt/HTML-KickStart.git
+[submodule "js/techan-d3-OHLC-charts"]
+	path = js/techan-d3-OHLC-charts
+	url = git@github.com:GerHobbelt/techan.js.git
+[submodule "js/d3.ForceBundle"]
+	path = js/d3.ForceBundle
+	url = git@github.com:GerHobbelt/d3.ForceBundle.git
+[submodule "js/d3-micropolar-charts"]
+	path = js/d3-micropolar-charts
+	url = git@github.com:GerHobbelt/micropolar.git
+[submodule "js/d3-selection"]
+	path = js/d3-selection
+	url = git@github.com:GerHobbelt/d3-selection.git
+[submodule "js/d3-slider"]
+	path = js/d3-slider
+	url = git@github.com:GerHobbelt/d3.slider.git
+[submodule "js/d3-parallel-coordinates"]
+	path = js/d3-parallel-coordinates
+	url = git@github.com:GerHobbelt/parallel-coordinates.git
+[submodule "js/d3-geo-projection"]
+	path = js/d3-geo-projection
+	url = git@github.com:GerHobbelt/d3-geo-projection.git
+[submodule "js/d3-tauCharts"]
+	path = js/d3-tauCharts
+	url = git@github.com:GerHobbelt/tauCharts.git
+[submodule "js/d3-EventDrops"]
+	path = js/d3-EventDrops
+	url = git@github.com:GerHobbelt/EventDrops.git
+[submodule "doc/awesome-d3"]
+	path = doc/awesome-d3
+	url = git@github.com:GerHobbelt/awesome-d3.git
+[submodule "js/domready-integralist"]
+	path = js/domready-integralist
+	url = git@github.com:GerHobbelt/DOMReady-Integralist.git
+[submodule "js/lovefield-sql"]
+	path = js/lovefield-sql
+	url = git@github.com:GerHobbelt/lovefield.git
+[submodule "js/jinqJS-linq-sql"]
+	path = js/jinqJS-linq-sql
+	url = git@github.com:GerHobbelt/jinqJs.git
+[submodule "js/taffydb-sql"]
+	path = js/taffydb-sql
+	url = git@github.com:GerHobbelt/taffydb.git
+[submodule "js/JSONPath"]
+	path = js/JSONPath
+	url = git@github.com:GerHobbelt/JSONPath.git
+[submodule "js/JSONPath-alt"]
+	path = js/JSONPath-alt
+	url = git@github.com:GerHobbelt/jsonpath-alt.git
+[submodule "js/lil-brother-clicktracker"]
+	path = js/lil-brother-clicktracker
+	url = git@github.com:GerHobbelt/lil-brother.git
+[submodule "js/defiant-sql"]
+	path = js/defiant-sql
+	url = git@github.com:GerHobbelt/defiant.js.git
+[submodule "js/spahql-sql"]
+	path = js/spahql-sql
+	url = git@github.com:GerHobbelt/spahql.git
+[submodule "js/JSON-query"]
+	path = js/JSON-query
+	url = git@github.com:GerHobbelt/json-query.git
+[submodule "js/virtual-DOM"]
+	path = js/virtual-DOM
+	url = git@github.com:GerHobbelt/virtual-dom.git
+[submodule "js/jsondiffpatch"]
+	path = js/jsondiffpatch
+	url = git@github.com:GerHobbelt/jsondiffpatch.git
+[submodule "js/virtual-DOM-vtree"]
+	path = js/virtual-DOM-vtree
+	url = git@github.com:GerHobbelt/vtree.git
+[submodule "js/diff"]
+	path = js/diff
+	url = git@github.com:GerHobbelt/diff.git
+[submodule "js/google-diff-match-patch"]
+	path = js/google-diff-match-patch
+	url = git@github.com:GerHobbelt/google-diff-match-patch.git
+[submodule "js/appcache-nanny"]
+	path = js/appcache-nanny
+	url = git@github.com:GerHobbelt/appcache-nanny.git
+[submodule "js/appcache-update"]
+	path = js/appcache-update
+	url = git@github.com:GerHobbelt/appcache-update.git
+[submodule "css/Skeleton-LESS"]
+	path = css/Skeleton-LESS
+	url = git@github.com:GerHobbelt/Skeleton-Less.git
+[submodule "css/Skeleton"]
+	path = css/Skeleton
+	url = git@github.com:GerHobbelt/Skeleton.git
+[submodule "js/JavaScript-Load-Image"]
+	path = js/JavaScript-Load-Image
+	url = git@github.com:GerHobbelt/JavaScript-Load-Image.git
+[submodule "js/Swipe"]
+	path = js/Swipe
+	url = git@github.com:GerHobbelt/Swipe.git
+[submodule "js/blueimp-Gallery"]
+	path = js/blueimp-Gallery
+	url = git@github.com:GerHobbelt/Gallery.git
+[submodule "js/FortJS-form-completion"]
+	path = js/FortJS-form-completion
+	url = git@github.com:GerHobbelt/Fort.js.git
+[submodule "js/MProgressJS"]
+	path = js/MProgressJS
+	url = git@github.com:GerHobbelt/MProgress.js.git
+[submodule "js/PreloadJS"]
+	path = js/PreloadJS
+	url = git@github.com:GerHobbelt/PreloadJS.git
+[submodule "js/progressJS"]
+	path = js/progressJS
+	url = git@github.com:GerHobbelt/progress.js.git
+[submodule "js/tinycon-favicon-manip"]
+	path = js/tinycon-favicon-manip
+	url = git@github.com:GerHobbelt/tinycon.git
+[submodule "js/piecon-favicon-manip"]
+	path = js/piecon-favicon-manip
+	url = git@github.com:GerHobbelt/piecon.git
+[submodule "js/progressbar.js"]
+	path = js/progressbar.js
+	url = git@github.com:GerHobbelt/progressbar.js.git
+[submodule "php/encode-explorer"]
+	path = php/encode-explorer
+	url = git@github.com:GerHobbelt/encode-explorer.git
+[submodule "js/d3-cssTransition"]
+	path = js/d3-cssTransition
+	url = git@github.com:GerHobbelt/d3-cssTransition.git
+[submodule "js/prefixfree"]
+	path = js/prefixfree
+	url = git@github.com:GerHobbelt/prefixfree.git
+[submodule "examples/HTML5-Reset"]
+	path = examples/HTML5-Reset
+	url = git@github.com:GerHobbelt/HTML5-Reset.git
+[submodule "js/tappy"]
+	path = js/tappy
+	url = git@github.com:GerHobbelt/tappy.git
+[submodule "js/ScrollMagic"]
+	path = js/ScrollMagic
+	url = git@github.com:GerHobbelt/ScrollMagic.git
+[submodule "js/wysihtml-editor"]
+	path = js/wysihtml-editor
+	url = git@github.com:GerHobbelt/wysihtml.git
+[submodule "js/odometer"]
+	path = js/odometer
+	url = git@github.com:GerHobbelt/odometer.git
+[submodule "css/less-elements"]
+	path = css/less-elements
+	url = git@github.com:GerHobbelt/elements.git
+[submodule "css/Skeleton-LESS-with-Elements"]
+	path = css/Skeleton-LESS-with-Elements
+	url = git@github.com:GerHobbelt/skeleton.less.git
