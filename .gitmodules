@@ -2485,3 +2485,9 @@
 [submodule "css/Skeleton-LESS-with-Elements"]
 	path = css/Skeleton-LESS-with-Elements
 	url = git@github.com:GerHobbelt/skeleton.less.git
+[submodule "examples/HTML5-boilerplate"]
+	path = examples/HTML5-boilerplate
+	url = git@github.com:GerHobbelt/html5-boilerplate.git
+[submodule "js/jquery-migrate"]
+	path = js/jquery-migrate
+	url = git@github.com:GerHobbelt/jquery-migrate.git
