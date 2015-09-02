@@ -2491,3 +2491,21 @@
 [submodule "js/jquery-migrate"]
 	path = js/jquery-migrate
 	url = git@github.com:GerHobbelt/jquery-migrate.git
+[submodule "js/messageformat.js"]
+	path = js/messageformat.js
+	url = git@github.com:GerHobbelt/messageformat.js.git
+[submodule "js/node-google-translate"]
+	path = js/node-google-translate
+	url = git@github.com:GerHobbelt/node-google-translate.git
+[submodule "js/html-to-markdown"]
+	path = js/html-to-markdown
+	url = git@github.com:GerHobbelt/to-markdown.git
+[submodule "js/antiscroll-OSX-style-scrollbars"]
+	path = js/antiscroll-OSX-style-scrollbars
+	url = git@github.com:GerHobbelt/antiscroll.git
+[submodule "tooling/grunt-version-bump"]
+	path = tooling/grunt-version-bump
+	url = git@github.com:GerHobbelt/grunt-version-bump.git
+[submodule "js/jquery-attrchange-event"]
+	path = js/jquery-attrchange-event
+	url = git@github.com:GerHobbelt/attrchange.git
