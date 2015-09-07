@@ -2509,3 +2509,27 @@
 [submodule "js/jquery-attrchange-event"]
 	path = js/jquery-attrchange-event
 	url = git@github.com:GerHobbelt/attrchange.git
+[submodule "js/BeatPicker-datepicker"]
+	path = js/BeatPicker-datepicker
+	url = git@github.com:GerHobbelt/BeatPicker.git
+[submodule "js/reveal.js-markdown-cli"]
+	path = js/reveal.js-markdown-cli
+	url = git@github.com:GerHobbelt/reveal-md.git
+[submodule "js/etherpad-lite"]
+	path = js/etherpad-lite
+	url = git@github.com:GerHobbelt/etherpad-lite.git
+[submodule "fonts/google-fonts"]
+	path = fonts/google-fonts
+	url = git@github.com:GerHobbelt/fonts.git
+[submodule "tooling/html-minifier"]
+	path = tooling/html-minifier
+	url = git@github.com:GerHobbelt/html-minifier.git
+[submodule "examples/webpack-example-app"]
+	path = examples/webpack-example-app
+	url = git@github.com:GerHobbelt/example-app.git
+[submodule "js/remarkable"]
+	path = js/remarkable
+	url = git@github.com:GerHobbelt/remarkable.git
+[submodule "js/remark-presentations"]
+	path = js/remark-presentations
+	url = git@github.com:GerHobbelt/remark.git
