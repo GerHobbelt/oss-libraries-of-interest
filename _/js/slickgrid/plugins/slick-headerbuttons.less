@@ -1,0 +1,57 @@
+
+// Column layout looks like this:
+//
+// ```
+// <div role="columnheader" id="..." title="Select/Deselect All" class="ui-state-default slick-header-column level0 colspan1">
+//   <span class="slick-column-name">bla</span>
+//   <div class="slick-header-button"></div>
+//   <div class="slick-resizable-handle" style="width: 16px;"></div>
+// </div>
+// ```
+//
+// and we are trying to ensure that each HEADERBUTTON indeed overlaps the slick-resizable-handle DIV below it for mouse/touch.
+
+.slick-column-name,
+.slick-sort-indicator {
+  //
+  // This makes all "float:right" elements after it that spill over to the next line
+  // display way below the lower boundary of the column thus hiding them.
+  //
+  display: inline-block;
+  float: left;
+  margin-bottom: 100px;
+}
+
+.slick-header-button {
+  display: inline-block;
+  float: right;
+
+  // Ensure each HEADERBUTTON in the column header sits *on top* of the column resize DIV (which is position:absolute)
+  position: relative;
+  z-index: 1;                 // the trick to get it to sit on top is to combine the z-index and the position:relative; remove either and the column resize DIV overlaps the column content
+
+  vertical-align: top;
+  margin: 1px;
+  //
+  // This makes all "float:right" elements after it that spill over to the next line
+  // display way below the lower boundary of the column thus hiding them.
+  //
+  margin-bottom: 100px;
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.slick-header-button-hidden {
+  width: 0;
+
+  -webkit-transition: 0.2s width;
+  -ms-transition: 0.2s width;
+  transition: 0.2s width;
+}
+
+.slick-header-column:hover > .slick-header-button {
+  width: 15px;
+}

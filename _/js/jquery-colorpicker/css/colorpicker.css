@@ -1,0 +1,232 @@
+.colorpicker {
+  position: absolute;
+  width: 530px;
+  height: 170px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+  z-index: 999;
+  border: 3px solid #BABABA;
+  background-color: #121212;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.colorpicker .colorpicker_color {
+  position: absolute;
+  left: 9px;
+  top: 8px;
+  width: 150px;
+  height: 150px;
+  background: #f00;
+  overflow: hidden;
+  cursor: crosshair;
+  border: 2px solid #474848;
+}
+.colorpicker .colorpicker_color div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 150px;
+  background: url("../images/overlay.png");
+}
+.colorpicker .colorpicker_color div div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 11px;
+  height: 11px;
+  overflow: hidden;
+  background: url("../images/select.gif");
+  margin: -5px 0 0 -5px;
+}
+.colorpicker .colorpicker_hue {
+  position: absolute;
+  left: 175px;
+  top: 8px;
+  width: 17px;
+  height: 150px;
+  cursor: n-resize;
+  background: url("../images/select_hue.png");
+  border: 2px solid #474848;
+}
+.colorpicker .colorpicker_hue div {
+  position: absolute;
+  left: -9px;
+  width: 35px;
+  height: 9px;
+  overflow: hidden;
+  background: url("../images/indic.gif") left top;
+  margin: -4px 0 0 0;
+}
+.colorpicker .colorpicker_new_color {
+  position: absolute;
+  left: 208px;
+  top: 8px;
+  width: 60px;
+  height: 30px;
+  background: #f00;
+  border: 2px solid #474848;
+}
+.colorpicker .colorpicker_current_color {
+  position: absolute;
+  left: 278px;
+  top: 8px;
+  width: 60px;
+  height: 30px;
+  background: #f00;
+  border: 2px solid #474848;
+}
+.colorpicker input {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  width: 30px;
+  height: 13px;
+  line-height: normal;
+  border: 1px solid transparent;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #898989;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #2f2f2f;
+  background-color: #121212;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+.colorpicker .colorpicker_hex {
+  position: absolute;
+  left: 209px;
+  top: 139px;
+  width: 70px;
+  height: 20px;
+}
+.colorpicker .colorpicker_hex input {
+  right: 6px;
+  width: 47px;
+}
+.colorpicker .colorpicker_field,
+.colorpicker .colorpicker_hex {
+  background: url("../images/gradient_input.png") center repeat-x;
+  background: -webkit-linear-gradient(top, #1a1a1a 0%, #303030 45%, #262525 47%, #2e2e2e 100%);
+  background: -moz-linear-gradient(top, #1a1a1a 0%, #303030 45%, #262525 47%, #2e2e2e 100%);
+  background: -ms-linear-gradient(top, #1a1a1a 0%, #303030 45%, #262525 47%, #2e2e2e 100%);
+  background: -o-linear-gradient(top, #1a1a1a 0%, #303030 45%, #262525 47%, #2e2e2e 100%);
+  background: linear-gradient(top, #1a1a1a 0%, #303030 45%, #262525 47%, #2e2e2e 100%);
+  border: 1px solid #2f2f2f;
+}
+.colorpicker .colorpicker_focus,
+.colorpicker .colorpicker_focus input {
+  border: 1px solid #4d4b4b;
+}
+.colorpicker .colorpicker_field label,
+.colorpicker .colorpicker_hex label {
+  color: #D8D8D8;
+  font-size: 11px;
+  text-shadow: none;
+  display: block;
+  margin-top: 2px;
+  margin-left: 5px;
+  -webkit-touch-callout: none;
+}
+.colorpicker .colorpicker_field {
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  background-position: top;
+}
+.colorpicker .colorpicker_field span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 20px;
+  background-image: url("../images/grabber.png");
+  background-position: center;
+  overflow: hidden;
+  cursor: n-resize;
+  -webkit-touch-callout: none;
+}
+.colorpicker .colorpicker_rgb_r {
+  left: 209px;
+  top: 49px;
+}
+.colorpicker .colorpicker_rgb_g {
+  left: 209px;
+  top: 79px;
+}
+.colorpicker .colorpicker_rgb_b {
+  left: 209px;
+  top: 109px;
+}
+.colorpicker .colorpicker_hsb_h {
+  left: 279px;
+  top: 49px;
+}
+.colorpicker .colorpicker_hsb_s {
+  left: 279px;
+  top: 79px;
+}
+.colorpicker .colorpicker_hsb_b {
+  left: 279px;
+  top: 109px;
+}
+.colorpicker .colorpicker_slider span {
+  background: url("../images/gradient_grabber.png") center;
+  background: url("../images/grabber.png"), -webkit-linear-gradient(top, #909090 0%, #4d4c4c 100%);
+  background: url("../images/grabber.png"), -moz-linear-gradient(top, #909090 0%, #4d4c4c 100%);
+  background: url("../images/grabber.png"), -ms-linear-gradient(top, #909090 0%, #4d4c4c 100%);
+  background: url("../images/grabber.png"), -o-linear-gradient(top, #909090 0%, #4d4c4c 100%);
+  background: url("../images/grabber.png"), linear-gradient(top, #909090 0%, #4d4c4c 100%);
+}
+.colorpicker .colorpicker_list {
+  position: absolute;
+  left: 352px;
+  top: 8px;
+  width: 180px;
+}
+.colorpicker .colorpicker_list a {
+  display: block;
+  font-size: 1px;
+  width: 14px;
+  height: 13px;
+  float: left;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  border: 1px solid #2f2f2f;
+}
+.colorpicker .colorpicker_list a:hover {
+  border-color: #f2f2f2;
+}
+.colorpicker .colorpicker_none {
+  position: absolute;
+  left: 292px;
+  top: 139px;
+  width: 22px;
+  height: 22px;
+  background: url("../images/none.png") top;
+  overflow: hidden;
+}
+.colorpicker .colorpicker_submit {
+  position: absolute;
+  left: 319px;
+  top: 139px;
+  width: 22px;
+  height: 22px;
+  background: url("../images/submit.png") top;
+  overflow: hidden;
+}

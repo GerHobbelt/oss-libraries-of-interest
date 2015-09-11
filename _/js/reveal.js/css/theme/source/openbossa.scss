@@ -1,0 +1,51 @@
+/**
+ * Openbossa theme for reveal.js.
+ *
+ * Based on night theme
+ *
+ * Copyright (C) 2013 Thiago Figueredo Cardoso, http://twitter.com/figueredo_
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #111;
+
+$mainFont: 'Open Sans', sans-serif;
+$linkColor: #e7ad52;
+$linkColorHover: lighten( $linkColor, 20% );
+$headingFont: 'Montserrat', Impact, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$selectionBackgroundColor: #e7ad52;
+$mainFontSize: 30px;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+/*********************************************
+ * PRESENTATION DETAILS
+ *********************************************/
+.reveal .logo {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  height: 120px;
+  width: 160px;
+  background-image: url("../../assets/indt.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}

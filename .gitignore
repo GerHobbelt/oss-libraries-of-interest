@@ -35,22 +35,8 @@ util/__tmp__.sh
 
 .directory
 
-# GNU autotooling intermediates
-util/Makefile
-php/Makefile
-php/lib/Makefile
-parser/Makefile
-config.log
-config.status
-autom4te.cache
-Makefile
-
 # npm/grunt temporaries
 node_modules/
-
-# ... misc ...
-
-
 
 
 #JetBrains IDE
@@ -60,4 +46,3 @@ node_modules/
 *.sublime-project
 *.sublime-workspace
 
-npm-debug.log

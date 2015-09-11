@@ -1,0 +1,24 @@
+
+// The checkbox INPUT tag sits inside a SPAN tag.
+//
+// Column layout looks like this:
+//
+// ```
+// <div role="columnheader" id="..." title="Select/Deselect All" class="ui-state-default slick-header-column level0 colspan1">
+//   <span class="slick-column-name">
+//     <input type="checkbox">
+//   </span>
+//   <div class="slick-resizable-handle" style="width: 16px;"></div>
+// </div>
+// ```
+//
+// and we are trying to ensure that the SPAN indeed overlaps the slick-resizable-handle DIV below it for mouse/touch.
+
+.slick-header-column span {
+  // background-color: red;
+
+  // Ensure any INPUT tag in the column header sits *on top* of the column resize DIV (which is position:absolute)
+  display: inline-block;
+  position: relative;
+  z-index: 1;                 // the trick to get it to sit on top is to combine the z-index and the position:relative; remove either and the column resize DIV overlaps the column content
+}

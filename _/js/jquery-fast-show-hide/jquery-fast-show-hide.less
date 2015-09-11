@@ -1,0 +1,42 @@
+//
+// Example LESS file to go with the jquery-fast-show-hide module
+//
+
+.fast-show
+{
+    // display: auto    -- the actual display style is determined by the application! block, inline-block, ...
+}
+.fast-hide
+{
+    display: none !important;       // added the !important so it overrules and other CSS display rules which apply to the same element.
+}
+
+// -------------------------------------------------------------------------------------
+// 
+// And in case you are of the same mind as I where blatant use of `!important` to get your way 
+// is concerned, here's the alternative:
+
+.fast-hide
+{
+    //
+    // WARNING: do *not* use !important as a 'quick fix' to make this bugger rule over everyone:
+    // the effect of `!important` use is that *any* attempts to override/replace this one
+    // require an abundance of `!important` attributes just to win over this one, creating 
+    // a maintenance mess which would feature prominently as the antagonist in any 
+    // Wes Craven horror flic.
+    // 
+    // In short: DON'T EVEN THINK ABOUT ABOUT USING `!important`!
+    // 
+    // The *proper* way out, if you need any, is to ensure the overriding style definitions have
+    // CSS selectors which have precedence over this one. Yes, that might mean you need to study up on CSS
+    // precedence rules, but that is a Good Thing, because once you know those, that's one less
+    // warm body to throw a wrench in the CSS styling gearbox in our app. :-)
+    // 
+    // - http://www.w3.org/TR/2013/WD-css3-cascade-20130103/
+    // - http://www.w3.org/TR/CSS2/cascade.html
+    // - http://css-tricks.com/specifics-on-css-specificity/
+    //  
+    
+    // UNCOMMENT THE NEXT LINE THEN:
+    //display: none;
+}

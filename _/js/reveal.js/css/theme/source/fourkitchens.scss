@@ -1,0 +1,56 @@
+/**
+ * 4K ~FourKitchens theme for reveal.js.
+ *
+ * Author: Elliot Foster
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@font-face {
+  font-family: 'Bryant';
+  src: url('../webfonts/BryantWebMedium.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/BryantWebMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/BryantWebMedium.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/BryantWebMedium.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Override theme settings (see ../template/settings.scss)
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+
+// Background generator
+@mixin bodyBackground() {
+  @include radial-gradient( rgba(247, 251, 252, 1), rgba(255, 255, 255, 1) );
+}
+
+// Background of the presentation
+$backgroundColor: #f7fbfc;
+
+// Primary/body text
+$mainFont: 'Bryant', 'Helvetica Neue', Helvetica, sans-serif;
+$mainColor: #4d4d4d;
+
+// Headings
+$headingMargin: 0 0 20px 0;
+$headingFont: $mainFont;
+$headingColor: $mainColor;
+
+// Links and actions
+$linkColor: #66B360;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: #66B360;
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

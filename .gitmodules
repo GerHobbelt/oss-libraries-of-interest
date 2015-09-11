@@ -2122,9 +2122,6 @@
 [submodule "js/zepto-fast-jquery-alt"]
 	path = js/zepto-fast-jquery-alt
 	url = git@github.com:GerHobbelt/zepto.git
-[submodule "php/collision_detection"]
-	path = php/collision_detection
-	url = git@github.com:Visyond/collision_detection.git
 [submodule "js/Montmartre"]
 	path = js/Montmartre
 	url = git@github.com:GerHobbelt/Montmartre.git
@@ -2137,3 +2134,186 @@
 [submodule "tooling/denyhosts"]
 	path = tooling/denyhosts
 	url = git@github.com:GerHobbelt/denyhosts.git
+[submodule "js/mercury-wysiwyg-editor"]
+	path = js/mercury-wysiwyg-editor
+	url = git@github.com:GerHobbelt/mercury.git
+[submodule "js/c3"]
+	path = js/c3
+	url = git@github.com:GerHobbelt/c3.git
+[submodule "js/marked-toc"]
+	path = js/marked-toc
+	url = git@github.com:GerHobbelt/marked-toc.git
+[submodule "tooling/gitbook"]
+	path = tooling/gitbook
+	url = git@github.com:GerHobbelt/gitbook.git
+[submodule "js/marked-kramed"]
+	path = js/marked-kramed
+	url = git@github.com:GerHobbelt/kramed.git
+[submodule "js/video.js"]
+	path = js/video.js
+	url = git@github.com:GerHobbelt/video-js.git
+[submodule "tooling/glueJS"]
+	path = tooling/glueJS
+	url = git@github.com:GerHobbelt/gluejs.git
+[submodule "js/animation-frame"]
+	path = js/animation-frame
+	url = git@github.com:GerHobbelt/animation-frame.git
+[submodule "js/jsPanel-dialog"]
+	path = js/jsPanel-dialog
+	url = git@github.com:GerHobbelt/jsPanel.git
+[submodule "js/sjcl-stanford-crypto-lib"]
+	path = js/sjcl-stanford-crypto-lib
+	url = git@github.com:GerHobbelt/sjcl.git
+[submodule "js/URI.js-url-mutator"]
+	path = js/URI.js-url-mutator
+	url = git@github.com:GerHobbelt/URI.js.git
+[submodule "js/colorPicker-WCAG2"]
+	path = js/colorPicker-WCAG2
+	url = git@github.com:GerHobbelt/colorPicker.git
+[submodule "js/Chroma-Hash-password-entry-assist"]
+	path = js/Chroma-Hash-password-entry-assist
+	url = git@github.com:GerHobbelt/Chroma-Hash.git
+[submodule "js/color-diff-CIEDE2000"]
+	path = js/color-diff-CIEDE2000
+	url = git@github.com:GerHobbelt/color-diff.git
+[submodule "tooling/uglify2"]
+	path = tooling/uglify2
+	url = git@github.com:GerHobbelt/UglifyJS2.git
+[submodule "tooling/grunt-contrib-uglify"]
+	path = tooling/grunt-contrib-uglify
+	url = git@github.com:GerHobbelt/grunt-contrib-uglify.git
+[submodule "tooling/UglifyCSS"]
+	path = tooling/UglifyCSS
+	url = git@github.com:GerHobbelt/UglifyCSS.git
+[submodule "js/model-reactive-dataviz"]
+	path = js/model-reactive-dataviz
+	url = git@github.com:GerHobbelt/model.git
+[submodule "js/mersenne-twister"]
+	path = js/mersenne-twister
+	url = git@github.com:GerHobbelt/mersenne-twister.git
+[submodule "js/ftscroller"]
+	path = js/ftscroller
+	url = git@github.com:GerHobbelt/ftscroller.git
+[submodule "js/fastclick"]
+	path = js/fastclick
+	url = git@github.com:GerHobbelt/fastclick.git
+[submodule "js/ftdomdelegate"]
+	path = js/ftdomdelegate
+	url = git@github.com:GerHobbelt/ftdomdelegate.git
+[submodule "js/ftellipsis"]
+	path = js/ftellipsis
+	url = git@github.com:GerHobbelt/ftellipsis.git
+[submodule "js/ftdatasquasher-pack-into-utf8-bytes"]
+	path = js/ftdatasquasher-pack-into-utf8-bytes
+	url = git@github.com:GerHobbelt/ftdatasquasher.git
+[submodule "js/jquery-fast-show-hide"]
+	path = js/jquery-fast-show-hide
+	url = git@github.com:GerHobbelt/jquery-fast-show-hide.git
+[submodule "js/cssrule.js"]
+	path = js/cssrule.js
+	url = git@github.com:GerHobbelt/cssrule.js.git
+[submodule "js/bxslider-4"]
+	path = js/bxslider-4
+	url = git@github.com:GerHobbelt/bxslider-4.git
+[submodule "tooling/gulp-jison"]
+	path = tooling/gulp-jison
+	url = git@github.com:GerHobbelt/gulp-jison.git
+[submodule "tooling/gulp-fncallback"]
+	path = tooling/gulp-fncallback
+	url = git@github.com:GerHobbelt/gulp-fncallback.git
+[submodule "js/steel_capped_toe-booting-up"]
+	path = js/steel_capped_toe-booting-up
+	url = git@github.com:GerHobbelt/steel_capped_toe.git
+[submodule "tooling/npm-check-updates"]
+	path = tooling/npm-check-updates
+	url = git@github.com:GerHobbelt/npm-check-updates.git
+[submodule "js/sprintf"]
+	path = js/sprintf
+	url = git@github.com:GerHobbelt/sprintf.js.git
+[submodule "js/node-assert-in-browser"]
+	path = js/node-assert-in-browser
+	url = git@github.com:GerHobbelt/assert.git
+[submodule "tooling/gulp-docco"]
+	path = tooling/gulp-docco
+	url = git@github.com:GerHobbelt/gulp-docco.git
+[submodule "js/BaseUTF16-encode-decode"]
+	path = js/BaseUTF16-encode-decode
+	url = git@github.com:GerHobbelt/BaseUTF16-encode-decode.git
+[submodule "tooling/civet-webserver"]
+	path = tooling/civet-webserver
+	url = git@github.com:GerHobbelt/civet-webserver.git
+[submodule "js/pubsubjs"]
+	path = js/pubsubjs
+	url = git@github.com:mroderick/PubSubJS.git
+[submodule "tooling/gulp-lint-everything"]
+	path = tooling/gulp-lint-everything
+	url = git@github.com:GerHobbelt/gulp-lint-everything.git
+[submodule "js/chardin-screen-overlays"]
+	path = js/chardin-screen-overlays
+	url = git@github.com:GerHobbelt/chardin.js.git
+[submodule "tooling/webpack"]
+	path = tooling/webpack
+	url = git@github.com:GerHobbelt/webpack.git
+[submodule "js/medium-editor-contenteditable"]
+	path = js/medium-editor-contenteditable
+	url = git@github.com:GerHobbelt/medium-editor.git
+[submodule "doc/essential-js-design-patterns-book"]
+	path = doc/essential-js-design-patterns-book
+	url = git@github.com:GerHobbelt/essential-js-design-patterns.git
+[submodule "js/Dante-editor-contenteditable"]
+	path = js/Dante-editor-contenteditable
+	url = git@github.com:GerHobbelt/Dante.git
+[submodule "js/zenpen-editor-contenteditable"]
+	path = js/zenpen-editor-contenteditable
+	url = git@github.com:GerHobbelt/zenpen.git
+[submodule "js/mediumJS-editor-contenteditable"]
+	path = js/mediumJS-editor-contenteditable
+	url = git@github.com:GerHobbelt/Medium.js.git
+[submodule "js/RefluxJS"]
+	path = js/RefluxJS
+	url = git@github.com:GerHobbelt/refluxjs.git
+[submodule "js/google-tracing-framework"]
+	path = js/google-tracing-framework
+	url = git@github.com:GerHobbelt/tracing-framework.git
+[submodule "js/violin-function-instrumentation"]
+	path = js/violin-function-instrumentation
+	url = git@github.com:GerHobbelt/violin.git
+[submodule "js/error-stack-parser"]
+	path = js/error-stack-parser
+	url = git@github.com:GerHobbelt/error-stack-parser.git
+[submodule "js/MathBox-WebGL-graphics"]
+	path = js/MathBox-WebGL-graphics
+	url = git@github.com:GerHobbelt/MathBox.js.git
+[submodule "js/jim-knopf.rotary-dials"]
+	path = js/jim-knopf.rotary-dials
+	url = git@github.com:GerHobbelt/jim-knopf.git
+[submodule "js/CoderDeck"]
+	path = js/CoderDeck
+	url = git@github.com:GerHobbelt/CoderDeck.git
+[submodule "js/showdown-markdown-parser"]
+	path = js/showdown-markdown-parser
+	url = git@github.com:GerHobbelt/showdown.git
+[submodule "js/MarkdownPresenter"]
+	path = js/MarkdownPresenter
+	url = git@github.com:GerHobbelt/MarkdownPresenter.git
+[submodule "js/presentz.js"]
+	path = js/presentz.js
+	url = git@github.com:GerHobbelt/presentz.js.git
+[submodule "js/advice-functional-mixin"]
+	path = js/advice-functional-mixin
+	url = git@github.com:GerHobbelt/advice.git
+[submodule "js/eon-chart-using-d3-c3-pubnub"]
+	path = js/eon-chart-using-d3-c3-pubnub
+	url = git@github.com:GerHobbelt/eon-chart.git
+[submodule "js/pubnub-API-javascript"]
+	path = js/pubnub-API-javascript
+	url = git@github.com:GerHobbelt/javascript.git
+[submodule "js/istanbul-code-coverage"]
+	path = js/istanbul-code-coverage
+	url = git@github.com:GerHobbelt/istanbul.git
+[submodule "js/topoJSON"]
+	path = js/topoJSON
+	url = git@github.com:GerHobbelt/topojson.git
+[submodule "js/voronoi"]
+	path = js/voronoi
+	url = git@github.com:GerHobbelt/Javascript-Voronoi.git
