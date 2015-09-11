@@ -2,6 +2,8 @@
 *~
 *.bak
 
+# util/git_sync_all_sites.sh cache file
+.instantiated_git_repositories
 
 # SVN-to-GIT conversion assist directories
 lib/blocky-svn/blockly/
