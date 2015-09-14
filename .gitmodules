@@ -2533,3 +2533,36 @@
 [submodule "js/remark-presentations"]
 	path = js/remark-presentations
 	url = git@github.com:GerHobbelt/remark.git
+[submodule "doc/AppCacheFacts"]
+	path = doc/AppCacheFacts
+	url = git@github.com:GerHobbelt/appcachefacts.git
+[submodule "css/fluidable-less"]
+	path = css/fluidable-less
+	url = git@github.com:GerHobbelt/fluidable.git
+[submodule "js/less-plugin-functions"]
+	path = js/less-plugin-functions
+	url = git@github.com:GerHobbelt/less-plugin-functions.git
+[submodule "js/less-curious"]
+	path = js/less-curious
+	url = git@github.com:GerHobbelt/less.curious.git
+[submodule "js/less-morphodynamics"]
+	path = js/less-morphodynamics
+	url = git@github.com:GerHobbelt/morphodynamics.git
+[submodule "js/less-plugin-lists"]
+	path = js/less-plugin-lists
+	url = git@github.com:GerHobbelt/less-plugin-lists.git
+[submodule "tooling/clean-css"]
+	path = tooling/clean-css
+	url = git@github.com:GerHobbelt/clean-css.git
+[submodule "css/Metro-UI-CSS"]
+	path = css/Metro-UI-CSS
+	url = git@github.com:GerHobbelt/Metro-UI-CSS.git
+[submodule "css/pure-framework"]
+	path = css/pure-framework
+	url = git@github.com:GerHobbelt/pure.git
+[submodule "css/cascade-framework"]
+	path = css/cascade-framework
+	url = git@github.com:GerHobbelt/cascadeframework.git
+[submodule "examples/front-end-frameworks-overview"]
+	path = examples/front-end-frameworks-overview
+	url = git@github.com:GerHobbelt/front-end-frameworks.git
