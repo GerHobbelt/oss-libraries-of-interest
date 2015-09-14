@@ -2242,6 +2242,9 @@
 [submodule "tooling/civet-webserver"]
 	path = tooling/civet-webserver
 	url = git@github.com:GerHobbelt/civet-webserver.git
+[submodule "js/pubsubjs"]
+	path = js/pubsubjs
+	url = git@github.com:mroderick/PubSubJS.git
 [submodule "tooling/gulp-lint-everything"]
 	path = tooling/gulp-lint-everything
 	url = git@github.com:GerHobbelt/gulp-lint-everything.git
