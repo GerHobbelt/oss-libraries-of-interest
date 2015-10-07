@@ -2569,3 +2569,75 @@
 [submodule "examples/front-end-frameworks-overview"]
 	path = examples/front-end-frameworks-overview
 	url = git@github.com:GerHobbelt/front-end-frameworks.git
+[submodule "js/jQuery-Responsive-Text-Plugin"]
+	path = js/jQuery-Responsive-Text-Plugin
+	url = git@github.com:GerHobbelt/jQuery-Responsive-Text-Plugin.git
+[submodule "js/jquery-lettering-animate"]
+	path = js/jquery-lettering-animate
+	url = git@github.com:GerHobbelt/jquery-lettering-animate.git
+[submodule "js/FitText.js"]
+	path = js/FitText.js
+	url = git@github.com:GerHobbelt/FitText.js.git
+[submodule "js/FlowType.JS"]
+	path = js/FlowType.JS
+	url = git@github.com:GerHobbelt/FlowType.JS.git
+[submodule "js/LABjs-loader"]
+	path = js/LABjs-loader
+	url = git@github.com:GerHobbelt/LABjs.git
+[submodule "examples/webpack-with-common-libs"]
+	path = examples/webpack-with-common-libs
+	url = git@github.com:GerHobbelt/webpack-with-common-libs.git
+[submodule "tooling/webpack-dev-server"]
+	path = tooling/webpack-dev-server
+	url = git@github.com:GerHobbelt/webpack-dev-server.git
+[submodule "misc/microjs.com"]
+	path = misc/microjs.com
+	url = git@github.com:GerHobbelt/microjs.com.git
+[submodule "examples/substance-editor-demos"]
+	path = examples/substance-editor-demos
+	url = git@github.com:GerHobbelt/demos.git
+[submodule "js/substance-editor"]
+	path = js/substance-editor
+	url = git@github.com:GerHobbelt/substance.git
+[submodule "js/keymage"]
+	path = js/keymage
+	url = git@github.com:GerHobbelt/keymage.git
+[submodule "js/ace-editor"]
+	path = js/ace-editor
+	url = git@github.com:GerHobbelt/ace.git
+[submodule "js/slickgrid-bootstrap"]
+	path = js/slickgrid-bootstrap
+	url = git@github.com:GerHobbelt/SlickGrid-bootstrap.git
+[submodule "js/slickgrid-enhancement-pager"]
+	path = js/slickgrid-enhancement-pager
+	url = git@github.com:GerHobbelt/SlickGridEnhancementPager.git
+[submodule "js/DropKick-dropdown-selector"]
+	path = js/DropKick-dropdown-selector
+	url = git@github.com:GerHobbelt/DropKick.git
+[submodule "js/jquery-hoverIntent"]
+	path = js/jquery-hoverIntent
+	url = git@github.com:GerHobbelt/jquery-hoverIntent.git
+[submodule "tooling/grunt-banner"]
+	path = tooling/grunt-banner
+	url = git@github.com:GerHobbelt/grunt-banner.git
+[submodule "tooling/JSDoc-to-MarkDown"]
+	path = tooling/JSDoc-to-MarkDown
+	url = git@github.com:GerHobbelt/jsdoc-to-markdown.git
+[submodule "tooling/jsdoc-parse"]
+	path = tooling/jsdoc-parse
+	url = git@github.com:GerHobbelt/jsdoc-parse.git
+[submodule "tooling/verb-documenter"]
+	path = tooling/verb-documenter
+	url = git@github.com:GerHobbelt/verb.git
+[submodule "doc/static-site-generators"]
+	path = doc/static-site-generators
+	url = git@github.com:GerHobbelt/staticgen.git
+[submodule "js/sequence-diagrams"]
+	path = js/sequence-diagrams
+	url = git@github.com:GerHobbelt/js-sequence-diagrams.git
+[submodule "js/mermaid-d3-diagrams"]
+	path = js/mermaid-d3-diagrams
+	url = git@github.com:GerHobbelt/mermaid.git
+[submodule "js/KaTeX"]
+	path = js/KaTeX
+	url = git@github.com:GerHobbelt/KaTeX.git
