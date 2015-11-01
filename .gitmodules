@@ -2244,7 +2244,7 @@
 	url = git@github.com:GerHobbelt/civet-webserver.git
 [submodule "js/pubsubjs"]
 	path = js/pubsubjs
-	url = git@github.com:mroderick/PubSubJS.git
+	url = git@github.com:GerHobbelt/PubSubJS.git
 [submodule "tooling/gulp-lint-everything"]
 	path = tooling/gulp-lint-everything
 	url = git@github.com:GerHobbelt/gulp-lint-everything.git
@@ -2641,3 +2641,57 @@
 [submodule "js/KaTeX"]
 	path = js/KaTeX
 	url = git@github.com:GerHobbelt/KaTeX.git
+[submodule "js/jquery-onAppear"]
+	path = js/jquery-onAppear
+	url = git@github.com:GerHobbelt/jquery.onAppear.git
+[submodule "js/iframe-resizer"]
+	path = js/iframe-resizer
+	url = git@github.com:GerHobbelt/iframe-resizer.git
+[submodule "js/ExcelJS-xlsx-manager"]
+	path = js/ExcelJS-xlsx-manager
+	url = git@github.com:GerHobbelt/exceljs.git
+[submodule "js/typeset-TeX-linewrapping"]
+	path = js/typeset-TeX-linewrapping
+	url = git@github.com:GerHobbelt/typeset.git
+[submodule "js/d3-force-in-a-box"]
+	path = js/d3-force-in-a-box
+	url = git@github.com:GerHobbelt/forceInABox.git
+[submodule "js/prism-highlighter"]
+	path = js/prism-highlighter
+	url = git@github.com:GerHobbelt/prism.git
+[submodule "css/prism-highlighter-themes"]
+	path = css/prism-highlighter-themes
+	url = git@github.com:GerHobbelt/prism-themes.git
+[submodule "js/ProseMirror-contenteditable-editor"]
+	path = js/ProseMirror-contenteditable-editor
+	url = git@github.com:GerHobbelt/prosemirror.git
+[submodule "js/node-unicode-data"]
+	path = js/node-unicode-data
+	url = git@github.com:GerHobbelt/node-unicode-data.git
+[submodule "js/regenerate-unicode-regexes"]
+	path = js/regenerate-unicode-regexes
+	url = git@github.com:GerHobbelt/regenerate.git
+[submodule "js/esprima"]
+	path = js/esprima
+	url = git@github.com:GerHobbelt/esprima.git
+[submodule "js/requireDir"]
+	path = js/requireDir
+	url = git@github.com:GerHobbelt/requireDir.git
+[submodule "js/DateJS"]
+	path = js/DateJS
+	url = git@github.com:GerHobbelt/datejs.git
+[submodule "js/arrive-DOM-watcher"]
+	path = js/arrive-DOM-watcher
+	url = git@github.com:GerHobbelt/arrive.git
+[submodule "js/basket-script-loader"]
+	path = js/basket-script-loader
+	url = git@github.com:GerHobbelt/basket.js.git
+[submodule "js/q-async-promises"]
+	path = js/q-async-promises
+	url = git@github.com:GerHobbelt/q.git
+[submodule "js/commander-cli-argv-parser"]
+	path = js/commander-cli-argv-parser
+	url = git@github.com:GerHobbelt/commander.js.git
+[submodule "js/excel-xlsx-reader-writer"]
+	path = js/excel-xlsx-reader-writer
+	url = git@github.com:GerHobbelt/js-xlsx.git
