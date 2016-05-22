@@ -2695,3 +2695,36 @@
 [submodule "js/excel-xlsx-reader-writer"]
 	path = js/excel-xlsx-reader-writer
 	url = git@github.com:GerHobbelt/js-xlsx.git
+[submodule "js/expectJS"]
+	path = js/expectJS
+	url = git@github.com:GerHobbelt/expect.js.git
+[submodule "js/lz-string-compress"]
+	path = js/lz-string-compress
+	url = git@github.com:GerHobbelt/lz-string.git
+[submodule "js/jBox"]
+	path = js/jBox
+	url = git@github.com:GerHobbelt/jBox.git
+[submodule "js/jsparser"]
+	path = js/jsparser
+	url = git@github.com:GerHobbelt/jsparser.git
+[submodule "js/yaml"]
+	path = js/yaml
+	url = git@github.com:GerHobbelt/yaml.js.git
+[submodule "css/animate"]
+	path = css/animate
+	url = git@github.com:GerHobbelt/animate.css.git
+[submodule "css/magic"]
+	path = css/magic
+	url = git@github.com:GerHobbelt/magic.git
+[submodule "css/Effeckt"]
+	path = css/Effeckt
+	url = git@github.com:GerHobbelt/Effeckt.css.git
+[submodule "js/bespoke-presentation-framework"]
+	path = js/bespoke-presentation-framework
+	url = git@github.com:GerHobbelt/bespoke.git
+[submodule "js/simpleMDE-MarkDown-editor"]
+	path = js/simpleMDE-MarkDown-editor
+	url = git@github.com:GerHobbelt/simpleMDE-MarkDown-editor.git
+[submodule "js/js-yaml"]
+	path = js/js-yaml
+	url = git@github.com:GerHobbelt/js-yaml.git
