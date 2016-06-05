@@ -2728,3 +2728,6 @@
 [submodule "js/js-yaml"]
 	path = js/js-yaml
 	url = git@github.com:GerHobbelt/js-yaml.git
+[submodule "js/brackets-adobe-editor"]
+	path = js/brackets-adobe-editor
+	url = git@github.com:GerHobbelt/brackets.git
