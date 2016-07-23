@@ -2731,3 +2731,24 @@
 [submodule "js/brackets-adobe-editor"]
 	path = js/brackets-adobe-editor
 	url = git@github.com:GerHobbelt/brackets.git
+[submodule "tooling/asciidoctor"]
+	path = tooling/asciidoctor
+	url = git@github.com:GerHobbelt/asciidoctor.git
+[submodule "tooling/opal-ruby-to-JS"]
+	path = tooling/opal-ruby-to-JS
+	url = git@github.com:GerHobbelt/opal.git
+[submodule "js/asciidoctor.js"]
+	path = js/asciidoctor.js
+	url = git@github.com:GerHobbelt/asciidoctor.js.git
+[submodule "tooling/semistandard"]
+	path = tooling/semistandard
+	url = git@github.com:GerHobbelt/semistandard.git
+[submodule "js/metalsmith-markdown-remarkable"]
+	path = js/metalsmith-markdown-remarkable
+	url = git@github.com:GerHobbelt/metalsmith-markdown-remarkable.git
+[submodule "doc/CommonMark-MarkDown-specification"]
+	path = doc/CommonMark-MarkDown-specification
+	url = git@github.com:GerHobbelt/CommonMark.git
+[submodule "js/multi-select-side-by-side"]
+	path = js/multi-select-side-by-side
+	url = git@github.com:GerHobbelt/multi-select.git
