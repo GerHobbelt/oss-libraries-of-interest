@@ -2752,3 +2752,567 @@
 [submodule "js/multi-select-side-by-side"]
 	path = js/multi-select-side-by-side
 	url = git@github.com:GerHobbelt/multi-select.git
+[submodule "js/benchmark.js-wrapper"]
+	path = js/benchmark.js-wrapper
+	url = git@github.com:GerHobbelt/benchmark.js-wrapper.git
+[submodule "js/platform.js"]
+	path = js/platform.js
+	url = git@github.com:GerHobbelt/platform.js.git
+[submodule "tooling/live-server"]
+	path = tooling/live-server
+	url = git@github.com:GerHobbelt/live-server.git
+[submodule "examples/rollup-starter-project"]
+	path = examples/rollup-starter-project
+	url = git@github.com:GerHobbelt/rollup-starter-project.git
+[submodule "tooling/rollup"]
+	path = tooling/rollup
+	url = git@github.com:GerHobbelt/rollup.git
+[submodule "js/d3-axis"]
+	path = js/d3-axis
+	url = git@github.com:GerHobbelt/d3-axis.git
+[submodule "js/d3-shape"]
+	path = js/d3-shape
+	url = git@github.com:GerHobbelt/d3-shape.git
+[submodule "js/d3-force"]
+	path = js/d3-force
+	url = git@github.com:GerHobbelt/d3-force.git
+[submodule "js/d3-sankey"]
+	path = js/d3-sankey
+	url = git@github.com:GerHobbelt/d3-sankey.git
+[submodule "js/d3-scale"]
+	path = js/d3-scale
+	url = git@github.com:GerHobbelt/d3-scale.git
+[submodule "js/d3-scale-chromatic"]
+	path = js/d3-scale-chromatic
+	url = git@github.com:GerHobbelt/d3-scale-chromatic.git
+[submodule "js/d3-array"]
+	path = js/d3-array
+	url = git@github.com:GerHobbelt/d3-array.git
+[submodule "js/d3-brush"]
+	path = js/d3-brush
+	url = git@github.com:GerHobbelt/d3-brush.git
+[submodule "js/d3-collection"]
+	path = js/d3-collection
+	url = git@github.com:GerHobbelt/d3-collection.git
+[submodule "js/d3-color"]
+	path = js/d3-color
+	url = git@github.com:GerHobbelt/d3-color.git
+[submodule "js/d3-chord"]
+	path = js/d3-chord
+	url = git@github.com:GerHobbelt/d3-chord.git
+[submodule "js/d3-dispatch"]
+	path = js/d3-dispatch
+	url = git@github.com:GerHobbelt/d3-dispatch.git
+[submodule "js/d3-drag"]
+	path = js/d3-drag
+	url = git@github.com:GerHobbelt/d3-drag.git
+[submodule "js/d3-dsv"]
+	path = js/d3-dsv
+	url = git@github.com:GerHobbelt/d3-dsv.git
+[submodule "js/d3-ease"]
+	path = js/d3-ease
+	url = git@github.com:GerHobbelt/d3-ease.git
+[submodule "js/d3-format"]
+	path = js/d3-format
+	url = git@github.com:GerHobbelt/d3-format.git
+[submodule "js/d3-geo"]
+	path = js/d3-geo
+	url = git@github.com:GerHobbelt/d3-geo.git
+[submodule "js/d3-hierarchy"]
+	path = js/d3-hierarchy
+	url = git@github.com:GerHobbelt/d3-hierarchy.git
+[submodule "js/d3-interpolate"]
+	path = js/d3-interpolate
+	url = git@github.com:GerHobbelt/d3-interpolate.git
+[submodule "js/d3-path"]
+	path = js/d3-path
+	url = git@github.com:GerHobbelt/d3-path.git
+[submodule "js/d3-polygon"]
+	path = js/d3-polygon
+	url = git@github.com:GerHobbelt/d3-polygon.git
+[submodule "js/d3-hexbin"]
+	path = js/d3-hexbin
+	url = git@github.com:GerHobbelt/d3-hexbin.git
+[submodule "js/d3-hsv"]
+	path = js/d3-hsv
+	url = git@github.com:GerHobbelt/d3-hsv.git
+[submodule "js/d3-hcg"]
+	path = js/d3-hcg
+	url = git@github.com:GerHobbelt/d3-hcg.git
+[submodule "js/d3-tile"]
+	path = js/d3-tile
+	url = git@github.com:GerHobbelt/d3-tile.git
+[submodule "js/d3-selection-multi"]
+	path = js/d3-selection-multi
+	url = git@github.com:GerHobbelt/d3-selection-multi.git
+[submodule "js/d3-zoom"]
+	path = js/d3-zoom
+	url = git@github.com:GerHobbelt/d3-zoom.git
+[submodule "js/d3-transition"]
+	path = js/d3-transition
+	url = git@github.com:GerHobbelt/d3-transition.git
+[submodule "js/d3-voronoi"]
+	path = js/d3-voronoi
+	url = git@github.com:GerHobbelt/d3-voronoi.git
+[submodule "js/d3-timer"]
+	path = js/d3-timer
+	url = git@github.com:GerHobbelt/d3-timer.git
+[submodule "js/d3-time-format"]
+	path = js/d3-time-format
+	url = git@github.com:GerHobbelt/d3-time-format.git
+[submodule "js/d3-time"]
+	path = js/d3-time
+	url = git@github.com:GerHobbelt/d3-time.git
+[submodule "js/d3-request"]
+	path = js/d3-request
+	url = git@github.com:GerHobbelt/d3-request.git
+[submodule "js/d3-random"]
+	path = js/d3-random
+	url = git@github.com:GerHobbelt/d3-random.git
+[submodule "js/d3-queue"]
+	path = js/d3-queue
+	url = git@github.com:GerHobbelt/d3-queue.git
+[submodule "js/d3-quadtree"]
+	path = js/d3-quadtree
+	url = git@github.com:GerHobbelt/d3-quadtree.git
+[submodule "js/d3-flextree"]
+	path = js/d3-flextree
+	url = git@github.com:GerHobbelt/d3-flextree.git
+[submodule "js/markdown-it"]
+	path = js/markdown-it
+	url = git@github.com:GerHobbelt/markdown-it.git
+[submodule "js/markdown-it-footnote"]
+	path = js/markdown-it-footnote
+	url = git@github.com:GerHobbelt/markdown-it-footnote.git
+[submodule "js/markdown-it-deflist"]
+	path = js/markdown-it-deflist
+	url = git@github.com:GerHobbelt/markdown-it-deflist.git
+[submodule "js/markdown-it-abbr"]
+	path = js/markdown-it-abbr
+	url = git@github.com:GerHobbelt/markdown-it-abbr.git
+[submodule "js/markdown-it-emoji"]
+	path = js/markdown-it-emoji
+	url = git@github.com:GerHobbelt/markdown-it-emoji.git
+[submodule "js/markdown-it-container"]
+	path = js/markdown-it-container
+	url = git@github.com:GerHobbelt/markdown-it-container.git
+[submodule "js/markdown-it-mark"]
+	path = js/markdown-it-mark
+	url = git@github.com:GerHobbelt/markdown-it-mark.git
+[submodule "js/markdown-it-ins"]
+	path = js/markdown-it-ins
+	url = git@github.com:GerHobbelt/markdown-it-ins.git
+[submodule "js/markdown-it-sub"]
+	path = js/markdown-it-sub
+	url = git@github.com:GerHobbelt/markdown-it-sub.git
+[submodule "js/markdown-it-for-inline"]
+	path = js/markdown-it-for-inline
+	url = git@github.com:GerHobbelt/markdown-it-for-inline.git
+[submodule "js/markdown-it-sup"]
+	path = js/markdown-it-sup
+	url = git@github.com:GerHobbelt/markdown-it-sup.git
+[submodule "js/markdown-it-imsize"]
+	path = js/markdown-it-imsize
+	url = git@github.com:GerHobbelt/markdown-it-imsize.git
+[submodule "js/markdown-it-math"]
+	path = js/markdown-it-math
+	url = git@github.com:GerHobbelt/markdown-it-math.git
+[submodule "js/markdown-it-checkbox"]
+	path = js/markdown-it-checkbox
+	url = git@github.com:GerHobbelt/markdown-it-checkbox.git
+[submodule "js/markdown-it-classy"]
+	path = js/markdown-it-classy
+	url = git@github.com:GerHobbelt/markdown-it-classy.git
+[submodule "js/markdown-it-anchor"]
+	path = js/markdown-it-anchor
+	url = git@github.com:GerHobbelt/markdown-it-anchor.git
+[submodule "js/markdown-it-attrs"]
+	path = js/markdown-it-attrs
+	url = git@github.com:GerHobbelt/markdown-it-attrs.git
+[submodule "js/markdown-it-toc"]
+	path = js/markdown-it-toc
+	url = git@github.com:GerHobbelt/markdown-it-toc.git
+[submodule "js/markdown-it-hashtag"]
+	path = js/markdown-it-hashtag
+	url = git@github.com:GerHobbelt/markdown-it-hashtag.git
+[submodule "js/markdown-it-regexp"]
+	path = js/markdown-it-regexp
+	url = git@github.com:GerHobbelt/markdown-it-regexp.git
+[submodule "js/markdown-it-katex"]
+	path = js/markdown-it-katex
+	url = git@github.com:GerHobbelt/markdown-it-katex.git
+[submodule "js/markdown-it-mathjax"]
+	path = js/markdown-it-mathjax
+	url = git@github.com:GerHobbelt/markdown-it-mathjax.git
+[submodule "js/markdown-it-responsive"]
+	path = js/markdown-it-responsive
+	url = git@github.com:GerHobbelt/markdown-it-responsive.git
+[submodule "js/string.js"]
+	path = js/string.js
+	url = git@github.com:GerHobbelt/string.js.git
+[submodule "js/markdown-it-table-of-contents"]
+	path = js/markdown-it-table-of-contents
+	url = git@github.com:GerHobbelt/markdown-it-table-of-contents.git
+[submodule "js/markdown-it-toc-and-anchor"]
+	path = js/markdown-it-toc-and-anchor
+	url = git@github.com:GerHobbelt/markdown-it-toc-and-anchor.git
+[submodule "js/markdown-it-html5-embed"]
+	path = js/markdown-it-html5-embed
+	url = git@github.com:GerHobbelt/markdown-it-html5-embed.git
+[submodule "js/markdown-it-implicit-figures"]
+	path = js/markdown-it-implicit-figures
+	url = git@github.com:GerHobbelt/markdown-it-implicit-figures.git
+[submodule "js/front-matter"]
+	path = js/front-matter
+	url = git@github.com:GerHobbelt/front-matter.git
+[submodule "js/markdown-it-task-lists"]
+	path = js/markdown-it-task-lists
+	url = git@github.com:GerHobbelt/markdown-it-task-lists.git
+[submodule "js/markdown-it-named-headers"]
+	path = js/markdown-it-named-headers
+	url = git@github.com:GerHobbelt/markdown-it-named-headers.git
+[submodule "js/markdown-it-header-sections"]
+	path = js/markdown-it-header-sections
+	url = git@github.com:GerHobbelt/markdown-it-header-sections.git
+[submodule "js/markdown-it-sanitizer"]
+	path = js/markdown-it-sanitizer
+	url = git@github.com:GerHobbelt/markdown-it-sanitizer.git
+[submodule "js/markdown-it-title"]
+	path = js/markdown-it-title
+	url = git@github.com:GerHobbelt/markdown-it-title.git
+[submodule "js/markdown-it-flowdock"]
+	path = js/markdown-it-flowdock
+	url = git@github.com:GerHobbelt/markdown-it-flowdock.git
+[submodule "js/markdown-it-fontawesome"]
+	path = js/markdown-it-fontawesome
+	url = git@github.com:GerHobbelt/markdown-it-fontawesome.git
+[submodule "js/markdown-it-highlighted"]
+	path = js/markdown-it-highlighted
+	url = git@github.com:GerHobbelt/markdown-it-highlighted.git
+[submodule "js/markdown-it-highlightjs"]
+	path = js/markdown-it-highlightjs
+	url = git@github.com:GerHobbelt/markdown-it-highlightjs.git
+[submodule "js/markdown-it-smartarrows"]
+	path = js/markdown-it-smartarrows
+	url = git@github.com:GerHobbelt/markdown-it-smartarrows.git
+[submodule "js/markdown-it-icon"]
+	path = js/markdown-it-icon
+	url = git@github.com:GerHobbelt/markdown-it-icon.git
+[submodule "js/markdown-it-replace-link"]
+	path = js/markdown-it-replace-link
+	url = git@github.com:GerHobbelt/markdown-it-replace-link.git
+[submodule "js/markdown-it-named-headings"]
+	path = js/markdown-it-named-headings
+	url = git@github.com:GerHobbelt/markdown-it-named-headings.git
+[submodule "js/markdown-it-link-target"]
+	path = js/markdown-it-link-target
+	url = git@github.com:GerHobbelt/markdown-it-link-target.git
+[submodule "css/uikit"]
+	path = css/uikit
+	url = git@github.com:GerHobbelt/uikit.git
+[submodule "js/markdown-it-strikethrough-alt"]
+	path = js/markdown-it-strikethrough-alt
+	url = git@github.com:GerHobbelt/markdown-it-strikethrough-alt.git
+[submodule "js/markdown-it-block-image"]
+	path = js/markdown-it-block-image
+	url = git@github.com:GerHobbelt/markdown-it-block-image.git
+[submodule "js/markdown-it-modify-token"]
+	path = js/markdown-it-modify-token
+	url = git@github.com:GerHobbelt/markdown-it-modify-token.git
+[submodule "js/markdown-it-nouwiki-wikilink"]
+	path = js/markdown-it-nouwiki-wikilink
+	url = git@github.com:GerHobbelt/markdown-it-nouwiki-wikilink.git
+[submodule "js/markdown-it-pandoc-renderer"]
+	path = js/markdown-it-pandoc-renderer
+	url = git@github.com:GerHobbelt/markdown-it-pandoc-renderer.git
+[submodule "examples/hakimel-css-experiments"]
+	path = examples/hakimel-css-experiments
+	url = git@github.com:GerHobbelt/hakimel-css-experiments.git
+[submodule "js/colorspaces.js"]
+	path = js/colorspaces.js
+	url = git@github.com:GerHobbelt/colorspaces.js.git
+[submodule "js/husl-colorspace"]
+	path = js/husl-colorspace
+	url = git@github.com:GerHobbelt/husl.git
+[submodule "js/color-js"]
+	path = js/color-js
+	url = git@github.com:GerHobbelt/color-js.git
+[submodule "js/color-conversion"]
+	path = js/color-conversion
+	url = git@github.com:GerHobbelt/color.git
+[submodule "js/markdown-it-hyphenate"]
+	path = js/markdown-it-hyphenate
+	url = git@github.com:GerHobbelt/markdown-it-hyphenate.js.git
+[submodule "js/markdown-it-linkify-images"]
+	path = js/markdown-it-linkify-images
+	url = git@github.com:GerHobbelt/markdown-it-linkify-images.git
+[submodule "js/markdown-it-front-matter"]
+	path = js/markdown-it-front-matter
+	url = git@github.com:GerHobbelt/markdown-it-front-matter.git
+[submodule "js/markdown-it-expand-tabs"]
+	path = js/markdown-it-expand-tabs
+	url = git@github.com:GerHobbelt/markdown-it-expand-tabs.git
+[submodule "tooling/gulp-markdown-it-adapter"]
+	path = tooling/gulp-markdown-it-adapter
+	url = git@github.com:GerHobbelt/gulp-markdown-it-adapter.git
+[submodule "js/hypher"]
+	path = js/hypher
+	url = git@github.com:GerHobbelt/hypher.git
+[submodule "examples/metalsmith-base"]
+	path = examples/metalsmith-base
+	url = git@github.com:GerHobbelt/metalsmith-base.git
+[submodule "js/browser-sync"]
+	path = js/browser-sync
+	url = git@github.com:GerHobbelt/browser-sync.git
+[submodule "tooling/documentation.js"]
+	path = tooling/documentation.js
+	url = git@github.com:GerHobbelt/documentation.git
+[submodule "js/FPCVT"]
+	path = js/FPCVT
+	url = git@github.com:GerHobbelt/FPCVT.git
+[submodule "js/UBON"]
+	path = js/UBON
+	url = git@github.com:GerHobbelt/UBON.git
+[submodule "js/Pure-JavaScript-HTML5-Parser"]
+	path = js/Pure-JavaScript-HTML5-Parser
+	url = git@github.com:GerHobbelt/Pure-JavaScript-HTML5-Parser.git
+[submodule "examples/google-chrome-js-examples"]
+	path = examples/google-chrome-js-examples
+	url = git@github.com:GerHobbelt/samples.git
+[submodule "js/stickyfill"]
+	path = js/stickyfill
+	url = git@github.com:GerHobbelt/stickyfill.git
+[submodule "js/js-binarypack"]
+	path = js/js-binarypack
+	url = git@github.com:GerHobbelt/js-binarypack.git
+[submodule "js/animateplus"]
+	path = js/animateplus
+	url = git@github.com:GerHobbelt/animateplus.git
+[submodule "js/jquery-pep-pointer-events"]
+	path = js/jquery-pep-pointer-events
+	url = git@github.com:GerHobbelt/PEP.git
+[submodule "js/sticky-state"]
+	path = js/sticky-state
+	url = git@github.com:GerHobbelt/sticky-state.git
+[submodule "js/grisel-grid-select"]
+	path = js/grisel-grid-select
+	url = git@github.com:GerHobbelt/grisel.git
+[submodule "js/Multiple-Dates-Picker-for-jQuery-UI"]
+	path = js/Multiple-Dates-Picker-for-jQuery-UI
+	url = git@github.com:GerHobbelt/Multiple-Dates-Picker-for-jQuery-UI.git
+[submodule "js/create-optimal-DOM-selectors"]
+	path = js/create-optimal-DOM-selectors
+	url = git@github.com:GerHobbelt/optimal-select.git
+[submodule "js/Flux-Slider"]
+	path = js/Flux-Slider
+	url = git@github.com:GerHobbelt/Flux-Slider.git
+[submodule "js/Ideal-Image-Slider"]
+	path = js/Ideal-Image-Slider
+	url = git@github.com:GerHobbelt/Ideal-Image-Slider.git
+[submodule "js/pym-responsive-iframes"]
+	path = js/pym-responsive-iframes
+	url = git@github.com:GerHobbelt/pym.js.git
+[submodule "js/fixto-position-fixed"]
+	path = js/fixto-position-fixed
+	url = git@github.com:GerHobbelt/fixto.git
+[submodule "js/slick-image-carousel"]
+	path = js/slick-image-carousel
+	url = git@github.com:GerHobbelt/slick.git
+[submodule "css/markdown-css"]
+	path = css/markdown-css
+	url = git@github.com:GerHobbelt/markdown-css.git
+[submodule "css/text-spinners"]
+	path = css/text-spinners
+	url = git@github.com:GerHobbelt/text-spinners.git
+[submodule "css/tawian-frontend-framework"]
+	path = css/tawian-frontend-framework
+	url = git@github.com:GerHobbelt/tawian-frontend.git
+[submodule "css/hack-framework"]
+	path = css/hack-framework
+	url = git@github.com:GerHobbelt/hack.git
+[submodule "examples/css-books"]
+	path = examples/css-books
+	url = git@github.com:GerHobbelt/css-books.git
+[submodule "examples/css-for-print"]
+	path = examples/css-for-print
+	url = git@github.com:GerHobbelt/css-for-print.git
+[submodule "js/debug-on-node"]
+	path = js/debug-on-node
+	url = git@github.com:GerHobbelt/debug.git
+[submodule "js/metalsmith-markdown-it"]
+	path = js/metalsmith-markdown-it
+	url = git@github.com:GerHobbelt/metalsmith-markdown.git
+[submodule "doc/LESS-documentation"]
+	path = doc/LESS-documentation
+	url = git@github.com:GerHobbelt/less-docs.git
+[submodule "js/stackedit-w-dropbox-googledrive"]
+	path = js/stackedit-w-dropbox-googledrive
+	url = git@github.com:GerHobbelt/stackedit.git
+[submodule "js/rulers-guides-UI-measuring"]
+	path = js/rulers-guides-UI-measuring
+	url = git@github.com:GerHobbelt/RulersGuides.js.git
+[submodule "js/optimize-js"]
+	path = js/optimize-js
+	url = git@github.com:GerHobbelt/optimize-js.git
+[submodule "js/SVM-js"]
+	path = js/SVM-js
+	url = git@github.com:GerHobbelt/svmjs.git
+[submodule "js/treehugger-AST"]
+	path = js/treehugger-AST
+	url = git@github.com:GerHobbelt/treehugger.git
+[submodule "js/clipboard.js"]
+	path = js/clipboard.js
+	url = git@github.com:GerHobbelt/clipboard.js.git
+[submodule "js/node-assert-in-browser-2"]
+	path = js/node-assert-in-browser-2
+	url = git@github.com:GerHobbelt/commonjs-assert.git
+[submodule "js/magic-string"]
+	path = js/magic-string
+	url = git@github.com:GerHobbelt/magic-string.git
+[submodule "css/remarkdown"]
+	path = css/remarkdown
+	url = git@github.com:GerHobbelt/remarkdown.git
+[submodule "js/sanitize-html"]
+	path = js/sanitize-html
+	url = git@github.com:GerHobbelt/sanitize-html.git
+[submodule "js/markdown-it-gallery"]
+	path = js/markdown-it-gallery
+	url = git@github.com:GerHobbelt/markdown-it-gallery.git
+[submodule "js/markdown-it-headinganchor"]
+	path = js/markdown-it-headinganchor
+	url = git@github.com:GerHobbelt/markdown-it-headinganchor.git
+[submodule "js/markdown-it-asciimath"]
+	path = js/markdown-it-asciimath
+	url = git@github.com:GerHobbelt/markdown-it-asciimath.git
+[submodule "tooling/markdown-it-testgen"]
+	path = tooling/markdown-it-testgen
+	url = git@github.com:GerHobbelt/markdown-it-testgen.git
+[submodule "js/markdown-it-include"]
+	path = js/markdown-it-include
+	url = git@github.com:GerHobbelt/markdown-it-include.git
+[submodule "js/markdown-it-external-links"]
+	path = js/markdown-it-external-links
+	url = git@github.com:GerHobbelt/markdown-it-external-links.git
+[submodule "js/markdown-it-ast"]
+	path = js/markdown-it-ast
+	url = git@github.com:GerHobbelt/markdown-it-ast.git
+[submodule "js/incremental-dom"]
+	path = js/incremental-dom
+	url = git@github.com:GerHobbelt/incremental-dom.git
+[submodule "js/markdown-it-incremental-dom"]
+	path = js/markdown-it-incremental-dom
+	url = git@github.com:GerHobbelt/markdown-it-incremental-dom.git
+[submodule "js/markdown-it-icons"]
+	path = js/markdown-it-icons
+	url = git@github.com:GerHobbelt/markdown-it-icons.git
+[submodule "js/markdown-it-link-attributes"]
+	path = js/markdown-it-link-attributes
+	url = git@github.com:GerHobbelt/markdown-it-link-attributes.git
+[submodule "js/markdown-it-samp"]
+	path = js/markdown-it-samp
+	url = git@github.com:GerHobbelt/markdown-it-samp.git
+[submodule "js/markdown-it-kbd"]
+	path = js/markdown-it-kbd
+	url = git@github.com:GerHobbelt/markdown-it-kbd.git
+[submodule "js/markdown-it-meta"]
+	path = js/markdown-it-meta
+	url = git@github.com:GerHobbelt/markdown-it-meta.git
+[submodule "js/markdown-it-prism"]
+	path = js/markdown-it-prism
+	url = git@github.com:GerHobbelt/markdown-it-prism.git
+[submodule "js/markdown-it-inline-comments"]
+	path = js/markdown-it-inline-comments
+	url = git@github.com:GerHobbelt/markdown-it-inline-comments.git
+[submodule "js/markdown-it-kramdown-attrs"]
+	path = js/markdown-it-kramdown-attrs
+	url = git@github.com:GerHobbelt/markdown-it-kramdown-attrs.git
+[submodule "js/markdown-it-wikilinks"]
+	path = js/markdown-it-wikilinks
+	url = git@github.com:GerHobbelt/markdown-it-wikilinks.git
+[submodule "js/markdown-it-underline"]
+	path = js/markdown-it-underline
+	url = git@github.com:GerHobbelt/markdown-it-underline.git
+[submodule "js/to-fast-properties"]
+	path = js/to-fast-properties
+	url = git@github.com:GerHobbelt/to-fast-properties.git
+[submodule "tooling/recast-ast-util"]
+	path = tooling/recast-ast-util
+	url = git@github.com:GerHobbelt/ast-util.git
+[submodule "js/recast"]
+	path = js/recast
+	url = git@github.com:GerHobbelt/recast.git
+[submodule "js/ast-types"]
+	path = js/ast-types
+	url = git@github.com:GerHobbelt/ast-types.git
+[submodule "js/recast-jscodeshift"]
+	path = js/recast-jscodeshift
+	url = git@github.com:GerHobbelt/jscodeshift.git
+[submodule "js/hjson"]
+	path = js/hjson
+	url = git@github.com:GerHobbelt/hjson-js.git
+[submodule "js/gray-matter-yaml"]
+	path = js/gray-matter-yaml
+	url = git@github.com:GerHobbelt/gray-matter.git
+[submodule "js/reveal.js-menu"]
+	path = js/reveal.js-menu
+	url = git@github.com:GerHobbelt/reveal.js-menu.git
+[submodule "js/reveal.js-plugins"]
+	path = js/reveal.js-plugins
+	url = git@github.com:GerHobbelt/reveal.js-plugins.git
+[submodule "examples/reveal.js-demos"]
+	path = examples/reveal.js-demos
+	url = git@github.com:GerHobbelt/reveal.js-demos.git
+[submodule "js/reveal.js-fullscreen-img"]
+	path = js/reveal.js-fullscreen-img
+	url = git@github.com:GerHobbelt/reveal.js-fullscreen-img.git
+[submodule "js/anime"]
+	path = js/anime
+	url = git@github.com:GerHobbelt/anime.git
+[submodule "js/node-stream-sink"]
+	path = js/node-stream-sink
+	url = git@github.com:GerHobbelt/node-stream-sink.git
+[submodule "js/recast-grasp-squery"]
+	path = js/recast-grasp-squery
+	url = git@github.com:GerHobbelt/grasp-squery.git
+[submodule "tooling/grasp"]
+	path = tooling/grasp
+	url = git@github.com:GerHobbelt/grasp.git
+[submodule "js/recast-estemplate"]
+	path = js/recast-estemplate
+	url = git@github.com:GerHobbelt/estemplate.git
+[submodule "js/recast-esquery"]
+	path = js/recast-esquery
+	url = git@github.com:GerHobbelt/esquery.git
+[submodule "js/recast-esutils"]
+	path = js/recast-esutils
+	url = git@github.com:GerHobbelt/esutils.git
+[submodule "js/recast-aster"]
+	path = js/recast-aster
+	url = git@github.com:GerHobbelt/aster.git
+[submodule "js/recast-aster-squery"]
+	path = js/recast-aster-squery
+	url = git@github.com:GerHobbelt/aster-squery.git
+[submodule "js/recast-aster-equery"]
+	path = js/recast-aster-equery
+	url = git@github.com:GerHobbelt/aster-equery.git
+[submodule "js/acorn-editor"]
+	path = js/acorn-editor
+	url = git@github.com:GerHobbelt/acorn.git
+[submodule "js/bwip.js-barcode-lib"]
+	path = js/bwip.js-barcode-lib
+	url = git@github.com:GerHobbelt/bwip-js.git
+[submodule "tooling/rollup-multiple-rollem"]
+	path = tooling/rollup-multiple-rollem
+	url = git@github.com:GerHobbelt/rollem.git
+[submodule "css/tufte-css"]
+	path = css/tufte-css
+	url = git@github.com:GerHobbelt/tufte-css.git
+[submodule "js/qrcodejs"]
+	path = js/qrcodejs
+	url = git@github.com:GerHobbelt/qrcodejs.git
+[submodule "js/BarcodeJs"]
+	path = js/BarcodeJs
+	url = git@github.com:GerHobbelt/JsBarcode.git
+[submodule "tooling/prettier"]
+	path = tooling/prettier
+	url = git@github.com:GerHobbelt/prettier.git
