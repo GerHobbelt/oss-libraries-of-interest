@@ -3316,3 +3316,18 @@
 [submodule "tooling/prettier"]
 	path = tooling/prettier
 	url = git@github.com:GerHobbelt/prettier.git
+[submodule "tooling/docdown"]
+	path = tooling/docdown
+	url = git@github.com:GerHobbelt/docdown.git
+[submodule "js/markdown-it-testgen"]
+	path = js/markdown-it-testgen
+	url = git@github.com:GerHobbelt/markdown-it-testgen.git
+[submodule "js/markdown-it-task-checkbox"]
+	path = js/markdown-it-task-checkbox
+	url = git@github.com:GerHobbelt/markdown-it-task-checkbox.git
+[submodule "js/recast-js-codemod"]
+	path = js/recast-js-codemod
+	url = git@github.com:GerHobbelt/js-codemod.git
+[submodule "js/recast-grasp-equery"]
+	path = js/recast-grasp-equery
+	url = git@github.com:GerHobbelt/grasp-equery.git
