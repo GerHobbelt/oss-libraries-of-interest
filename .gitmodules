@@ -3331,3 +3331,63 @@
 [submodule "js/recast-grasp-equery"]
 	path = js/recast-grasp-equery
 	url = git@github.com:GerHobbelt/grasp-equery.git
+[submodule "js/instantclick-pjax"]
+	path = js/instantclick-pjax
+	url = git@github.com:GerHobbelt/instantclick.git
+[submodule "js/route-parser"]
+	path = js/route-parser
+	url = git@github.com:GerHobbelt/route-parser.git
+[submodule "js/linewrap"]
+	path = js/linewrap
+	url = git@github.com:GerHobbelt/linewrap.git
+[submodule "tooling/moo-lexer"]
+	path = tooling/moo-lexer
+	url = git@github.com:GerHobbelt/moo.git
+[submodule "tooling/chevrotain"]
+	path = tooling/chevrotain
+	url = git@github.com:GerHobbelt/chevrotain.git
+[submodule "tooling/nearley"]
+	path = tooling/nearley
+	url = git@github.com:GerHobbelt/nearley.git
+[submodule "tooling/jison-debugger"]
+	path = tooling/jison-debugger
+	url = git@github.com:GerHobbelt/jison-debugger.git
+[submodule "tooling/lorax-gitlog2CHANGELOG"]
+	path = tooling/lorax-gitlog2CHANGELOG
+	url = git@github.com:GerHobbelt/lorax.git
+[submodule "tooling/changelog"]
+	path = tooling/changelog
+	url = git@github.com:GerHobbelt/changelog.git
+[submodule "js/pell-wysiwyg-editor"]
+	path = js/pell-wysiwyg-editor
+	url = git@github.com:GerHobbelt/pell.git
+[submodule "js/cherow"]
+	path = js/cherow
+	url = git@github.com:GerHobbelt/cherow.git
+[submodule "tooling/jison-ebnf-parser"]
+	path = tooling/jison-ebnf-parser
+	url = git@github.com:GerHobbelt/ebnf-parser.git
+[submodule "tooling/jison-lex-parser"]
+	path = tooling/jison-lex-parser
+	url = git@github.com:GerHobbelt/lex-parser.git
+[submodule "tooling/jison-jison-lex"]
+	path = tooling/jison-jison-lex
+	url = git@github.com:GerHobbelt/jison-lex.git
+[submodule "tooling/jison-jison2json"]
+	path = tooling/jison-jison2json
+	url = git@github.com:GerHobbelt/jison2json.git
+[submodule "tooling/jison-json2jison"]
+	path = tooling/jison-json2jison
+	url = git@github.com:GerHobbelt/json2jison.git
+[submodule "tooling/jison-helpers-lib"]
+	path = tooling/jison-helpers-lib
+	url = git@github.com:GerHobbelt/jison-helpers-lib.git
+[submodule "doc/chinese-copywriting-guidelines"]
+	path = doc/chinese-copywriting-guidelines
+	url = git@github.com:GerHobbelt/chinese-copywriting-guidelines.git
+[submodule "doc/chinese-programmer-wrong-pronunciation"]
+	path = doc/chinese-programmer-wrong-pronunciation
+	url = git@github.com:GerHobbelt/chinese-programmer-wrong-pronunciation.git
+[submodule "js/steady-nojank-onscroll"]
+	path = js/steady-nojank-onscroll
+	url = git@github.com:GerHobbelt/steady.js.git
