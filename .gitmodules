@@ -3391,3 +3391,111 @@
 [submodule "js/steady-nojank-onscroll"]
 	path = js/steady-nojank-onscroll
 	url = git@github.com:GerHobbelt/steady.js.git
+[submodule "js/MathJax-node"]
+	path = js/MathJax-node
+	url = git@github.com:GerHobbelt/MathJax-node.git
+[submodule "examples/metalsmith-demo"]
+	path = examples/metalsmith-demo
+	url = git@github.com:GerHobbelt/metalsmith-demo.git
+[submodule "js/chartist-js"]
+	path = js/chartist-js
+	url = git@github.com:GerHobbelt/chartist-js.git
+[submodule "js/BTF-Bring-The-Fire"]
+	path = js/BTF-Bring-The-Fire
+	url = git@github.com:GerHobbelt/BTF.git
+[submodule "js/MathJax-node-page"]
+	path = js/MathJax-node-page
+	url = git@github.com:GerHobbelt/mathjax-node-page.git
+[submodule "js/seedrandom"]
+	path = js/seedrandom
+	url = git@github.com:GerHobbelt/seedrandom.git
+[submodule "tooling/mathjax-node-cli"]
+	path = tooling/mathjax-node-cli
+	url = git@github.com:GerHobbelt/mathjax-node-cli.git
+[submodule "tooling/MathJax-single-file"]
+	path = tooling/MathJax-single-file
+	url = git@github.com:GerHobbelt/MathJax-single-file.git
+[submodule "css/Blitz-for-Books"]
+	path = css/Blitz-for-Books
+	url = git@github.com:GerHobbelt/Blitz.git
+[submodule "js/markdown-it-texmath"]
+	path = js/markdown-it-texmath
+	url = git@github.com:GerHobbelt/markdown-it-texmath.git
+[submodule "js/qrcode-jquery"]
+	path = js/qrcode-jquery
+	url = git@github.com:GerHobbelt/jquery-qrcode.git
+[submodule "js/qrcode-kjua"]
+	path = js/qrcode-kjua
+	url = git@github.com:GerHobbelt/kjua.git
+[submodule "js/morphDOM"]
+	path = js/morphDOM
+	url = git@github.com:GerHobbelt/morphdom.git
+[submodule "js/bel-dom-builder"]
+	path = js/bel-dom-builder
+	url = git@github.com:GerHobbelt/bel.git
+[submodule "js/nanomorph-dom-diff"]
+	path = js/nanomorph-dom-diff
+	url = git@github.com:GerHobbelt/nanomorph.git
+[submodule "tooling/bankai-app-builder"]
+	path = tooling/bankai-app-builder
+	url = git@github.com:GerHobbelt/bankai.git
+[submodule "js/unassert"]
+	path = js/unassert
+	url = git@github.com:GerHobbelt/unassert.git
+[submodule "js/yo-yo-UI-DOM-builder"]
+	path = js/yo-yo-UI-DOM-builder
+	url = git@github.com:GerHobbelt/yo-yo.git
+[submodule "js/choo-UI-framework"]
+	path = js/choo-UI-framework
+	url = git@github.com:GerHobbelt/choo.git
+[submodule "examples/ecmascript-test262"]
+	path = examples/ecmascript-test262
+	url = git@github.com:GerHobbelt/test262.git
+[submodule "js/d3-scripts"]
+	path = js/d3-scripts
+	url = git@github.com:GerHobbelt/d3-scripts.git
+[submodule "js/d3-geo-polygon"]
+	path = js/d3-geo-polygon
+	url = git@github.com:GerHobbelt/d3-geo-polygon.git
+[submodule "js/d3-contour"]
+	path = js/d3-contour
+	url = git@github.com:GerHobbelt/d3-contour.git
+[submodule "js/d3-fetch"]
+	path = js/d3-fetch
+	url = git@github.com:GerHobbelt/d3-fetch.git
+[submodule "js/d3-cam16"]
+	path = js/d3-cam16
+	url = git@github.com:GerHobbelt/d3-cam16.git
+[submodule "js/ejs"]
+	path = js/ejs
+	url = git@github.com:GerHobbelt/ejs.git
+[submodule "js/markdown-it-megamark"]
+	path = js/markdown-it-megamark
+	url = git@github.com:GerHobbelt/megamark.git
+[submodule "js/babel"]
+	path = js/babel
+	url = git@github.com:GerHobbelt/babel.git
+[submodule "tooling/astexplorer"]
+	path = tooling/astexplorer
+	url = git@github.com:GerHobbelt/astexplorer.git
+[submodule "js/babel-plugin-macros"]
+	path = js/babel-plugin-macros
+	url = git@github.com:GerHobbelt/babel-plugin-macros.git
+[submodule "js/babel-plugin-preval"]
+	path = js/babel-plugin-preval
+	url = git@github.com:GerHobbelt/babel-plugin-preval.git
+[submodule "js/babel-plugin-codegen"]
+	path = js/babel-plugin-codegen
+	url = git@github.com:GerHobbelt/babel-plugin-codegen.git
+[submodule "doc/babel-handbook"]
+	path = doc/babel-handbook
+	url = git@github.com:GerHobbelt/babel-handbook.git
+[submodule "js/babel-plugin-closure-elimination"]
+	path = js/babel-plugin-closure-elimination
+	url = git@github.com:GerHobbelt/babel-plugin-closure-elimination.git
+[submodule "js/babel-plugin-log-deprecated"]
+	path = js/babel-plugin-log-deprecated
+	url = git@github.com:GerHobbelt/babel-plugin-log-deprecated.git
+[submodule "js/currencyFormatter"]
+	path = js/currencyFormatter
+	url = git@github.com:GerHobbelt/currencyFormatter.js.git
