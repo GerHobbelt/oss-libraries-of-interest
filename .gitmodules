@@ -3499,3 +3499,372 @@
 [submodule "js/currencyFormatter"]
 	path = js/currencyFormatter
 	url = git@github.com:GerHobbelt/currencyFormatter.js.git
+[submodule "js/source-map"]
+	path = js/source-map
+	url = git@github.com:GerHobbelt/source-map.git
+[submodule "js/source-map-support"]
+	path = js/source-map-support
+	url = git@github.com:GerHobbelt/node-source-map-support.git
+[submodule "js/sizzle"]
+	path = js/sizzle
+	url = git@github.com:GerHobbelt/sizzle.git
+[submodule "js/jsTree"]
+	path = js/jsTree
+	url = git@github.com:GerHobbelt/jstree.git
+[submodule "js/golden-layout"]
+	path = js/golden-layout
+	url = git@github.com:GerHobbelt/golden-layout.git
+[submodule "js/window-scroll-manager"]
+	path = js/window-scroll-manager
+	url = git@github.com:GerHobbelt/window-scroll-manager.git
+[submodule "js/dblite"]
+	path = js/dblite
+	url = git@github.com:GerHobbelt/dblite.git
+[submodule "js/fastDOM"]
+	path = js/fastDOM
+	url = git@github.com:GerHobbelt/fastdom.git
+[submodule "js/mathjax-ext-contrib"]
+	path = js/mathjax-ext-contrib
+	url = git@github.com:GerHobbelt/mathjax-ext-contrib.git
+[submodule "examples/bootstrap-themes-startbootstrap"]
+	path = examples/bootstrap-themes-startbootstrap
+	url = git@github.com:GerHobbelt/startbootstrap.git
+[submodule "examples/bootstrap-themes-zero"]
+	path = examples/bootstrap-themes-zero
+	url = git@github.com:GerHobbelt/bootstrap-zero.git
+[submodule "examples/bootstrap-themes-material-design"]
+	path = examples/bootstrap-themes-material-design
+	url = git@github.com:GerHobbelt/bootstrap-material-design.git
+[submodule "js/mathjax-a11y"]
+	path = js/mathjax-a11y
+	url = git@github.com:GerHobbelt/MathJax-a11y.git
+[submodule "js/mathjax-v3"]
+	path = js/mathjax-v3
+	url = git@github.com:GerHobbelt/mathjax-v3.git
+[submodule "examples/mathjax-labs"]
+	path = examples/mathjax-labs
+	url = git@github.com:GerHobbelt/MathJax-labs.git
+[submodule "examples/mathjax-v3-demos-node"]
+	path = examples/mathjax-v3-demos-node
+	url = git@github.com:GerHobbelt/mj3-demos-node.git
+[submodule "examples/mathjax-v3-demos"]
+	path = examples/mathjax-v3-demos
+	url = git@github.com:GerHobbelt/mj3-demos.git
+[submodule "doc/mathjax-papers"]
+	path = doc/mathjax-papers
+	url = git@github.com:GerHobbelt/papers.git
+[submodule "js/mathjax-profiler"]
+	path = js/mathjax-profiler
+	url = git@github.com:GerHobbelt/MathJax-profiler.git
+[submodule "js/mathjax-siunitx"]
+	path = js/mathjax-siunitx
+	url = git@github.com:GerHobbelt/MathJax-siunitx.git
+[submodule "js/mathjax-longdiv-extension"]
+	path = js/mathjax-longdiv-extension
+	url = git@github.com:GerHobbelt/mathjax-extension-longdiv.git
+[submodule "js/mathjax-custom-elements-extension"]
+	path = js/mathjax-custom-elements-extension
+	url = git@github.com:GerHobbelt/mathjax-extension-custom-elements.git
+[submodule "examples/mathjax-gui"]
+	path = examples/mathjax-gui
+	url = git@github.com:GerHobbelt/mathjax-gui.git
+[submodule "js/terracotta-warrior"]
+	path = js/terracotta-warrior
+	url = git@github.com:GerHobbelt/terracotta-warrior.git
+[submodule "js/ES2015-common-template-tags"]
+	path = js/ES2015-common-template-tags
+	url = git@github.com:GerHobbelt/common-tags.git
+[submodule "js/ES2015-theredoc"]
+	path = js/ES2015-theredoc
+	url = git@github.com:GerHobbelt/theredoc.git
+[submodule "tooling/gulp-babel"]
+	path = tooling/gulp-babel
+	url = git@github.com:GerHobbelt/gulp-babel.git
+[submodule "tooling/rollup-plugin-babel"]
+	path = tooling/rollup-plugin-babel
+	url = git@github.com:GerHobbelt/rollup-plugin-babel.git
+[submodule "js/babel-plugin-unassert"]
+	path = js/babel-plugin-unassert
+	url = git@github.com:GerHobbelt/babel-plugin-unassert.git
+[submodule "js/babel-plugin-transform-define"]
+	path = js/babel-plugin-transform-define
+	url = git@github.com:GerHobbelt/babel-plugin-transform-define.git
+[submodule "js/html-to-markdown-breakdance"]
+	path = js/html-to-markdown-breakdance
+	url = git@github.com:GerHobbelt/breakdance.git
+[submodule "js/babel-loader"]
+	path = js/babel-loader
+	url = git@github.com:GerHobbelt/babel-loader.git
+[submodule "js/babel-plugin-transform-xregexp"]
+	path = js/babel-plugin-transform-xregexp
+	url = git@github.com:GerHobbelt/babel-plugin-transform-xregexp.git
+[submodule "js/babel-plugin-array-includes"]
+	path = js/babel-plugin-array-includes
+	url = git@github.com:GerHobbelt/babel-plugin-array-includes.git
+[submodule "js/babel-plugin-add-module-exports"]
+	path = js/babel-plugin-add-module-exports
+	url = git@github.com:GerHobbelt/babel-plugin-add-module-exports.git
+[submodule "js/babel-eslint"]
+	path = js/babel-eslint
+	url = git@github.com:GerHobbelt/babel-eslint.git
+[submodule "doc/awesome-babel"]
+	path = doc/awesome-babel
+	url = git@github.com:GerHobbelt/awesome-babel.git
+[submodule "js/babel-preset-modern-browsers"]
+	path = js/babel-preset-modern-browsers
+	url = git@github.com:GerHobbelt/babel-preset-modern-browsers.git
+[submodule "js/babel-modify-preset"]
+	path = js/babel-modify-preset
+	url = git@github.com:GerHobbelt/modify-babel-preset.git
+[submodule "js/babel-preset-stage-4"]
+	path = js/babel-preset-stage-4
+	url = git@github.com:GerHobbelt/babel-preset-stage-4.git
+[submodule "js/babel-preset-latest-minimal"]
+	path = js/babel-preset-latest-minimal
+	url = git@github.com:GerHobbelt/babel-preset-latest-minimal.git
+[submodule "js/babel-preset-minimal"]
+	path = js/babel-preset-minimal
+	url = git@github.com:GerHobbelt/babel-preset-minimal.git
+[submodule "js/babel-preset-power-assert"]
+	path = js/babel-preset-power-assert
+	url = git@github.com:GerHobbelt/babel-preset-power-assert.git
+[submodule "js/power-assert"]
+	path = js/power-assert
+	url = git@github.com:GerHobbelt/power-assert.git
+[submodule "js/babel-plugin-espower"]
+	path = js/babel-plugin-espower
+	url = git@github.com:GerHobbelt/babel-plugin-espower.git
+[submodule "js/babel-plugin-empower-assert"]
+	path = js/babel-plugin-empower-assert
+	url = git@github.com:GerHobbelt/babel-plugin-empower-assert.git
+[submodule "tooling/github-badges"]
+	path = tooling/github-badges
+	url = git@github.com:GerHobbelt/github-badges.git
+[submodule "tooling/github-badge-generator-service"]
+	path = tooling/github-badge-generator-service
+	url = git@github.com:GerHobbelt/badgen-service.git
+[submodule "js/node-sanitize-filename"]
+	path = js/node-sanitize-filename
+	url = git@github.com:GerHobbelt/node-sanitize-filename.git
+[submodule "examples/big-list-of-naughty-strings"]
+	path = examples/big-list-of-naughty-strings
+	url = git@github.com:GerHobbelt/big-list-of-naughty-strings.git
+[submodule "js/inspect-IEEE-float-bits"]
+	path = js/inspect-IEEE-float-bits
+	url = git@github.com:GerHobbelt/float.js.git
+[submodule "js/unify-paths"]
+	path = js/unify-paths
+	url = git@github.com:GerHobbelt/unify-paths.git
+[submodule "doc/The-Calculus-Road"]
+	path = doc/The-Calculus-Road
+	url = git@github.com:GerHobbelt/The-Calculus-Road.git
+[submodule "misc/browser-logos"]
+	path = misc/browser-logos
+	url = git@github.com:GerHobbelt/browser-logos.git
+[submodule "js/caniuse-api"]
+	path = js/caniuse-api
+	url = git@github.com:GerHobbelt/caniuse-api.git
+[submodule "js/ClusterizeJS"]
+	path = js/ClusterizeJS
+	url = git@github.com:GerHobbelt/Clusterize.js.git
+[submodule "examples/CSS-Houdini-Rocks"]
+	path = examples/CSS-Houdini-Rocks
+	url = git@github.com:GerHobbelt/css-houdini.rocks.git
+[submodule "js/vivliostyle"]
+	path = js/vivliostyle
+	url = git@github.com:GerHobbelt/vivliostyle.js.git
+[submodule "js/babel-preset-optimizations"]
+	path = js/babel-preset-optimizations
+	url = git@github.com:GerHobbelt/babel-preset-optimizations.git
+[submodule "js/babel-minify"]
+	path = js/babel-minify
+	url = git@github.com:GerHobbelt/minify.git
+[submodule "doc/javascript-tutorial"]
+	path = doc/javascript-tutorial
+	url = git@github.com:GerHobbelt/javascript-tutorial-en.git
+[submodule "js/serve-index"]
+	path = js/serve-index
+	url = git@github.com:GerHobbelt/serve-index.git
+[submodule "js/pretty-bytes"]
+	path = js/pretty-bytes
+	url = git@github.com:GerHobbelt/pretty-bytes.git
+[submodule "js/kangax-compat-table"]
+	path = js/kangax-compat-table
+	url = git@github.com:GerHobbelt/kangax-compat-table.git
+[submodule "js/cac-cli"]
+	path = js/cac-cli
+	url = git@github.com:GerHobbelt/cac.git
+[submodule "js/unicode-property-value-aliases"]
+	path = js/unicode-property-value-aliases
+	url = git@github.com:GerHobbelt/unicode-property-value-aliases.git
+[submodule "js/mathjs"]
+	path = js/mathjs
+	url = git@github.com:GerHobbelt/mathjs.git
+[submodule "js/web-xslt-math"]
+	path = js/web-xslt-math
+	url = git@github.com:GerHobbelt/web-xslt.git
+[submodule "tooling/zotero"]
+	path = tooling/zotero
+	url = git@github.com:GerHobbelt/zotero.git
+[submodule "js/citeproc-js"]
+	path = js/citeproc-js
+	url = git@github.com:GerHobbelt/citeproc-js.git
+[submodule "doc/citeproc-js"]
+	path = doc/citeproc-js
+	url = git@github.com:GerHobbelt/citeproc-js-docs.git
+[submodule "examples/zotero-hello-world-plugin"]
+	path = examples/zotero-hello-world-plugin
+	url = git@github.com:GerHobbelt/zotero-hello-world.git
+[submodule "js/gatekeeper-oauth-github"]
+	path = js/gatekeeper-oauth-github
+	url = git@github.com:GerHobbelt/gatekeeper.git
+[submodule "css/bulma-flexbox-framework"]
+	path = css/bulma-flexbox-framework
+	url = git@github.com:GerHobbelt/bulma.git
+[submodule "js/linkify-it"]
+	path = js/linkify-it
+	url = git@github.com:GerHobbelt/linkify-it.git
+[submodule "js/google-translate-api"]
+	path = js/google-translate-api
+	url = git@github.com:GerHobbelt/google-translate-api.git
+[submodule "js/google-translate-api-yixianle"]
+	path = js/google-translate-api-yixianle
+	url = git@github.com:GerHobbelt/translate-api.git
+[submodule "js/mathjax-img"]
+	path = js/mathjax-img
+	url = git@github.com:GerHobbelt/mathjax-img.git
+[submodule "js/mathjax-mhchem"]
+	path = js/mathjax-mhchem
+	url = git@github.com:GerHobbelt/MathJax-mhchem.git
+[submodule "js/britecharts"]
+	path = js/britecharts
+	url = git@github.com:GerHobbelt/britecharts.git
+[submodule "doc/JSpreadsheets"]
+	path = doc/JSpreadsheets
+	url = git@github.com:GerHobbelt/JSpreadsheets.git
+[submodule "js/fast-check"]
+	path = js/fast-check
+	url = git@github.com:GerHobbelt/fast-check.git
+[submodule "misc/yaml-test-suite"]
+	path = misc/yaml-test-suite
+	url = git@github.com:GerHobbelt/yaml-test-suite.git
+[submodule "js/d3-delaunay"]
+	path = js/d3-delaunay
+	url = git@github.com:GerHobbelt/d3-delaunay.git
+[submodule "misc/trng4"]
+	path = misc/trng4
+	url = git@github.com:GerHobbelt/trng4.git
+[submodule "js/snabbDOM"]
+	path = js/snabbDOM
+	url = git@github.com:GerHobbelt/snabbdom.git
+[submodule "js/VirtualDOM-stage0"]
+	path = js/VirtualDOM-stage0
+	url = git@github.com:GerHobbelt/stage0.git
+[submodule "js/VirtualDOM-domc"]
+	path = js/VirtualDOM-domc
+	url = git@github.com:GerHobbelt/domc.git
+[submodule "tooling/source-map-explorer"]
+	path = tooling/source-map-explorer
+	url = git@github.com:GerHobbelt/source-map-explorer.git
+[submodule "tooling/source-map-merge"]
+	path = tooling/source-map-merge
+	url = git@github.com:GerHobbelt/merge-source-map.git
+[submodule "js/resolve-config-rc"]
+	path = js/resolve-config-rc
+	url = git@github.com:GerHobbelt/rc.git
+[submodule "js/cosmiconfig"]
+	path = js/cosmiconfig
+	url = git@github.com:GerHobbelt/cosmiconfig.git
+[submodule "js/multi-stage-sourcemap"]
+	path = js/multi-stage-sourcemap
+	url = git@github.com:GerHobbelt/multi-stage-sourcemap.git
+[submodule "websites/bermuda-holding.com"]
+	path = websites/bermuda-holding.com
+	url = git@github.com:GerHobbelt/site.bermuda-holding.com.git
+[submodule "js/pinyinjs"]
+	path = js/pinyinjs
+	url = git@github.com:GerHobbelt/pinyinjs.git
+[submodule "websites/bermuda-holding.net"]
+	path = websites/bermuda-holding.net
+	url = git@github.com:GerHobbelt/site.bermuda-holding.net.git
+[submodule "websites/bermuda-holding.org"]
+	path = websites/bermuda-holding.org
+	url = git@github.com:GerHobbelt/site.bermuda-holding.org.git
+[submodule "websites/bermuda-triangle.biz"]
+	path = websites/bermuda-triangle.biz
+	url = git@github.com:GerHobbelt/site.bermuda-triangle.biz.git
+[submodule "websites/bermuda-triangle.net"]
+	path = websites/bermuda-triangle.net
+	url = git@github.com:GerHobbelt/site.bermuda-triangle.net.git
+[submodule "websites/ger-hobbelt.com"]
+	path = websites/ger-hobbelt.com
+	url = git@github.com:GerHobbelt/site.ger-hobbelt.com.git
+[submodule "websites/gerhobbelt.com"]
+	path = websites/gerhobbelt.com
+	url = git@github.com:GerHobbelt/site.gerhobbelt.com.git
+[submodule "websites/hebbut.net"]
+	path = websites/hebbut.net
+	url = git@github.com:GerHobbelt/site.hebbut.net.git
+[submodule "websites/himalayan-dreams.biz"]
+	path = websites/himalayan-dreams.biz
+	url = git@github.com:GerHobbelt/site.himalayan-dreams.biz.git
+[submodule "websites/himalayandreams.biz"]
+	path = websites/himalayandreams.biz
+	url = git@github.com:GerHobbelt/site.himalayandreams.biz.git
+[submodule "websites/hobbelt.com"]
+	path = websites/hobbelt.com
+	url = git@github.com:GerHobbelt/site.hobbelt.com.git
+[submodule "websites/hobbelt.eu"]
+	path = websites/hobbelt.eu
+	url = git@github.com:GerHobbelt/site.hobbelt.eu.git
+[submodule "websites/hobbelt.net"]
+	path = websites/hobbelt.net
+	url = git@github.com:GerHobbelt/site.hobbelt.net.git
+[submodule "websites/hobbelt.org"]
+	path = websites/hobbelt.org
+	url = git@github.com:GerHobbelt/site.hobbelt.org.git
+[submodule "websites/hobbelt.space"]
+	path = websites/hobbelt.space
+	url = git@github.com:GerHobbelt/site.hobbelt.space.git
+[submodule "websites/ia-schaake.com"]
+	path = websites/ia-schaake.com
+	url = git@github.com:GerHobbelt/site.ia-schaake.com.git
+[submodule "websites/insh-allah.com"]
+	path = websites/insh-allah.com
+	url = git@github.com:GerHobbelt/site.insh-allah.com.git
+[submodule "websites/insh-allah.net"]
+	path = websites/insh-allah.net
+	url = git@github.com:GerHobbelt/site.insh-allah.net.git
+[submodule "websites/insh-allah.org"]
+	path = websites/insh-allah.org
+	url = git@github.com:GerHobbelt/site.insh-allah.org.git
+[submodule "websites/mughal-e-azam.biz"]
+	path = websites/mughal-e-azam.biz
+	url = git@github.com:GerHobbelt/site.mughal-e-azam.biz.git
+[submodule "websites/mughaleazam.biz"]
+	path = websites/mughaleazam.biz
+	url = git@github.com:GerHobbelt/site.mughaleazam.biz.git
+[submodule "websites/schaake.biz"]
+	path = websites/schaake.biz
+	url = git@github.com:GerHobbelt/site.schaake.biz.git
+[submodule "websites/schaake.org"]
+	path = websites/schaake.org
+	url = git@github.com:GerHobbelt/site.schaake.org.git
+[submodule "websites/shalla.biz"]
+	path = websites/shalla.biz
+	url = git@github.com:GerHobbelt/site.shalla.biz.git
+[submodule "websites/uncle-ger.com"]
+	path = websites/uncle-ger.com
+	url = git@github.com:GerHobbelt/site.uncle-ger.com.git
+[submodule "websites/uncleger.com"]
+	path = websites/uncleger.com
+	url = git@github.com:GerHobbelt/site.uncleger.com.git
+[submodule "websites/xn--gia.net"]
+	path = websites/xn--gia.net
+	url = git@github.com:GerHobbelt/site.xn--gia.net.git
+[submodule "websites/xn--jxt.net"]
+	path = websites/xn--jxt.net
+	url = git@github.com:GerHobbelt/site.xn--jxt.net.git
+[submodule "websites/xn--vt3a.net"]
+	path = websites/xn--vt3a.net
+	url = git@github.com:GerHobbelt/site.xn--vt3a.net.git

@@ -29,6 +29,7 @@ util/jslint-svn/javascriptlint/
 
 # experimental and R&D/test directories
 tmp/
+websites/__research
 
 # intermediates
 util/__tmp__.sh
