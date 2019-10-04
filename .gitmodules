@@ -3868,3 +3868,66 @@
 [submodule "websites/xn--vt3a.net"]
 	path = websites/xn--vt3a.net
 	url = git@github.com:GerHobbelt/site.xn--vt3a.net.git
+[submodule "tooling/dox"]
+	path = tooling/dox
+	url = git@github.com:GerHobbelt/dox.git
+[submodule "tooling/qiqqa"]
+	path = tooling/qiqqa
+	url = git@github.com:GerHobbelt/qiqqa-open-source.git
+[submodule "js/node-cross-spawn"]
+	path = js/node-cross-spawn
+	url = git@github.com:GerHobbelt/node-cross-spawn.git
+[submodule "tooling/source-map-visualization"]
+	path = tooling/source-map-visualization
+	url = git@github.com:GerHobbelt/source-map-visualization.git
+[submodule "misc/citation-styles"]
+	path = misc/citation-styles
+	url = git@github.com:GerHobbelt/styles.git
+[submodule "tooling/nant"]
+	path = tooling/nant
+	url = git@github.com:GerHobbelt/nant.git
+[submodule "CS/Lucene.Net"]
+	path = CS/Lucene.Net
+	url = git@github.com:GerHobbelt/lucenenet.git
+[submodule "CS/GeckoFX-60"]
+	path = CS/GeckoFX-60
+	url = git@github.com:GerHobbelt/GeckoFX-60-clone.git
+[submodule "CS/MuPDF"]
+	path = CS/MuPDF
+	url = git@github.com:GerHobbelt/mupdf.git
+[submodule "CS/Tesseract-OCR"]
+	path = CS/Tesseract-OCR
+	url = git@github.com:GerHobbelt/tesseract.git
+[submodule "css/papercss"]
+	path = css/papercss
+	url = git@github.com:GerHobbelt/papercss.git
+[submodule "css/constructCSS"]
+	path = css/constructCSS
+	url = git@github.com:GerHobbelt/construct.css.git
+[submodule "tooling/conventional-changelog"]
+	path = tooling/conventional-changelog
+	url = git@github.com:GerHobbelt/conventional-changelog.git
+[submodule "CS/CefSharp"]
+	path = CS/CefSharp
+	url = git@github.com:GerHobbelt/CefSharp.git
+[submodule "tooling/WatsonWebserver.NET"]
+	path = tooling/WatsonWebserver.NET
+	url = git@github.com:GerHobbelt/WatsonWebserver.git
+[submodule "CS/MSTest-Extensions"]
+	path = CS/MSTest-Extensions
+	url = git@github.com:GerHobbelt/mstest-extensions.git
+[submodule "CS/PDFsharp"]
+	path = CS/PDFsharp
+	url = git@github.com:GerHobbelt/PDFsharp.git
+[submodule "CS/ApprovalTests.Net"]
+	path = CS/ApprovalTests.Net
+	url = git@github.com:GerHobbelt/ApprovalTests.Net.git
+[submodule "js/chokidar"]
+	path = js/chokidar
+	url = git@github.com:GerHobbelt/chokidar.git
+[submodule "websites/hilde-hofstee-praktijk"]
+	path = websites/hilde-hofstee-praktijk
+	url = git@github.com:GerHobbelt/site.hilde-hofstee.git
+[submodule "doc/markdown-guide"]
+	path = doc/markdown-guide
+	url = git@github.com:GerHobbelt/markdown-guide.git
