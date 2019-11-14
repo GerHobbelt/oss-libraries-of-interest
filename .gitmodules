@@ -3931,3 +3931,18 @@
 [submodule "doc/markdown-guide"]
 	path = doc/markdown-guide
 	url = git@github.com:GerHobbelt/markdown-guide.git
+[submodule "CS/MUI"]
+	path = CS/MUI
+	url = git@github.com:GerHobbelt/mui.git
+[submodule "CS/Jot"]
+	path = CS/Jot
+	url = git@github.com:GerHobbelt/Jot.git
+[submodule "CS/NTFS-Streams"]
+	path = CS/NTFS-Streams
+	url = git@github.com:GerHobbelt/NTFS-Streams.git
+[submodule "CS/IRCdotNet"]
+	path = CS/IRCdotNet
+	url = git@github.com:GerHobbelt/IrcDotNet.git
+[submodule "CS/WPF-Samples"]
+	path = CS/WPF-Samples
+	url = git@github.com:GerHobbelt/WPF-Samples.git
