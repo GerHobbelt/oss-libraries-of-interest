@@ -7,60 +7,9 @@
 [submodule "js/at.autohinting"]
 	path = js/at.autohinting
 	url = git@github.com:GerHobbelt/At.js.git
-[submodule "js/backbone-factory"]
-	path = js/backbone-factory
-	url = git@github.com:GerHobbelt/Backbone-Factory.git
 [submodule "examples/Backbone-Require-Biolerplate-example"]
 	path = examples/Backbone-Require-Biolerplate-example
 	url = git@github.com:GerHobbelt/Backbone-Require-Boilerplate.git
-[submodule "js/backbone-super"]
-	path = js/backbone-super
-	url = git@github.com:GerHobbelt/Backbone-Super.git
-[submodule "js/backbone-D3"]
-	path = js/backbone-D3
-	url = git@github.com:GerHobbelt/Backbone-d3.git
-[submodule "js/backbone-relational"]
-	path = js/backbone-relational
-	url = git@github.com:GerHobbelt/Backbone-relational.git
-[submodule "js/backbone-chosen"]
-	path = js/backbone-chosen
-	url = git@github.com:GerHobbelt/Backbone.Chosen.git
-[submodule "js/backbone-model-binder"]
-	path = js/backbone-model-binder
-	url = git@github.com:GerHobbelt/Backbone.ModelBinder.git
-[submodule "js/backbone-mutators"]
-	path = js/backbone-mutators
-	url = git@github.com:GerHobbelt/Backbone.Mutators.git
-[submodule "js/backbone-rel"]
-	path = js/backbone-rel
-	url = git@github.com:GerHobbelt/Backbone.Rel.git
-[submodule "js/backbone-safe"]
-	path = js/backbone-safe
-	url = git@github.com:GerHobbelt/Backbone.Safe.git
-[submodule "js/backbone-validator"]
-	path = js/backbone-validator
-	url = git@github.com:GerHobbelt/Backbone.Validator.git
-[submodule "js/backbone-virtual-collection"]
-	path = js/backbone-virtual-collection
-	url = git@github.com:GerHobbelt/Backbone.VirtualCollection.git
-[submodule "js/backbone-act-as-configurable"]
-	path = js/backbone-act-as-configurable
-	url = git@github.com:GerHobbelt/Backbone.actAs.Configurable.git
-[submodule "js/backbone-act-as-mementoable"]
-	path = js/backbone-act-as-mementoable
-	url = git@github.com:GerHobbelt/Backbone.actAs.Mementoable.git
-[submodule "js/backbone-act-as-paginatable"]
-	path = js/backbone-act-as-paginatable
-	url = git@github.com:GerHobbelt/Backbone.actAs.Paginatable.git
-[submodule "js/backbone-dual-storage"]
-	path = js/backbone-dual-storage
-	url = git@github.com:GerHobbelt/Backbone.dualStorage.git
-[submodule "js/backbone-localstorage"]
-	path = js/backbone-localstorage
-	url = git@github.com:GerHobbelt/Backbone.localStorage.git
-[submodule "js/backbone-modal-view"]
-	path = js/backbone-modal-view
-	url = git@github.com:GerHobbelt/BackboneJSModalView.git
 [submodule "fonts/Font-Batch"]
 	path = fonts/Font-Batch
 	url = git@github.com:GerHobbelt/Batch.git
@@ -358,156 +307,15 @@
 [submodule "js/autosize"]
 	path = js/autosize
 	url = git@github.com:GerHobbelt/autosize.git
-[submodule "js/backbone-associations"]
-	path = js/backbone-associations
-	url = git@github.com:GerHobbelt/backbone-associations.git
-[submodule "js/backbone-autocomplete"]
-	path = js/backbone-autocomplete
-	url = git@github.com:GerHobbelt/backbone-autocomplete.git
-[submodule "js/backbone-boilerplate"]
-	path = js/backbone-boilerplate
-	url = git@github.com:GerHobbelt/backbone-boilerplate.git
-[submodule "js/backbone-deep-model"]
-	path = js/backbone-deep-model
-	url = git@github.com:GerHobbelt/backbone-deep-model.git
-[submodule "js/backbone-eventbroker"]
-	path = js/backbone-eventbroker
-	url = git@github.com:GerHobbelt/backbone-eventbroker.git
-[submodule "js/backbone-fetch-cache"]
-	path = js/backbone-fetch-cache
-	url = git@github.com:GerHobbelt/backbone-fetch-cache.git
-[submodule "js/backbone-forms"]
-	path = js/backbone-forms
-	url = git@github.com:GerHobbelt/backbone-forms.git
-[submodule "js/backbone-fundamentals-book"]
-	path = js/backbone-fundamentals-book
-	url = git@github.com:GerHobbelt/backbone-fundamentals.git
 [submodule "examples/backbone-iOS-html5demos"]
 	path = examples/backbone-iOS-html5demos
 	url = git@github.com:GerHobbelt/backbone-iOS-html5demos.git
-[submodule "js/backbone-jasmine-koans"]
-	path = js/backbone-jasmine-koans
-	url = git@github.com:GerHobbelt/backbone-koans.git
-[submodule "js/backbone-model-factory"]
-	path = js/backbone-model-factory
-	url = git@github.com:GerHobbelt/backbone-model-factory.git
-[submodule "js/backbone-modelref"]
-	path = js/backbone-modelref
-	url = git@github.com:GerHobbelt/backbone-modelref.git
-[submodule "js/backbone-nested"]
-	path = js/backbone-nested
-	url = git@github.com:GerHobbelt/backbone-nested.git
-[submodule "js/backbone-pageable"]
-	path = js/backbone-pageable
-	url = git@github.com:GerHobbelt/backbone-pageable.git
-[submodule "js/backbone-poller"]
-	path = js/backbone-poller
-	url = git@github.com:GerHobbelt/backbone-poller.git
-[submodule "js/backbone-query-parameters"]
-	path = js/backbone-query-parameters
-	url = git@github.com:GerHobbelt/backbone-query-parameters.git
-[submodule "js/backbone-relational-tutorial"]
-	path = js/backbone-relational-tutorial
-	url = git@github.com:GerHobbelt/backbone-relational-tutorial.git
-[submodule "js/backbone-safesync"]
-	path = js/backbone-safesync
-	url = git@github.com:GerHobbelt/backbone-safesync.git
 [submodule "php/backbone-session"]
 	path = php/backbone-session
 	url = git@github.com:GerHobbelt/backbone-session.git
-[submodule "js/backbone-shortcuts"]
-	path = js/backbone-shortcuts
-	url = git@github.com:GerHobbelt/backbone-shortcuts.git
-[submodule "js/backbone-singleton"]
-	path = js/backbone-singleton
-	url = git@github.com:GerHobbelt/backbone-singleton.git
-[submodule "js/backbone-ui"]
-	path = js/backbone-ui
-	url = git@github.com:GerHobbelt/backbone-ui.git
-[submodule "js/backbone-view-model"]
-	path = js/backbone-view-model
-	url = git@github.com:GerHobbelt/backbone-view-model.git
-[submodule "js/backbone-activities"]
-	path = js/backbone-activities
-	url = git@github.com:GerHobbelt/backbone.activities.git
-[submodule "js/backbone-bootstrap-modal"]
-	path = js/backbone-bootstrap-modal
-	url = git@github.com:GerHobbelt/backbone.bootstrap-modal.git
-[submodule "js/backbone-collection-view"]
-	path = js/backbone-collection-view
-	url = git@github.com:GerHobbelt/backbone.collectionView.git
-[submodule "js/backbone-collectionsubset"]
-	path = js/backbone-collectionsubset
-	url = git@github.com:GerHobbelt/backbone.collectionsubset.git
-[submodule "js/backbone-courier"]
-	path = js/backbone-courier
-	url = git@github.com:GerHobbelt/backbone.courier.git
-[submodule "js/backbone-getters-setters"]
-	path = js/backbone-getters-setters
-	url = git@github.com:GerHobbelt/backbone.getters.setters.git
-[submodule "js/backbone-giraffe"]
-	path = js/backbone-giraffe
-	url = git@github.com:GerHobbelt/backbone.giraffe.git
 [submodule "js/backbone"]
 	path = js/backbone
 	url = git@github.com:GerHobbelt/backbone.git
-[submodule "js/backbone-iobind"]
-	path = js/backbone-iobind
-	url = git@github.com:GerHobbelt/backbone.iobind.git
-[submodule "js/backbone-jwerty"]
-	path = js/backbone-jwerty
-	url = git@github.com:GerHobbelt/backbone.jwerty.git
-[submodule "js/backbone-keys"]
-	path = js/backbone-keys
-	url = git@github.com:GerHobbelt/backbone.keys.git
-[submodule "js/backbone.layoutmanager"]
-	path = js/backbone.layoutmanager
-	url = git@github.com:GerHobbelt/backbone.layoutmanager.git
-[submodule "js/backbone-managedview"]
-	path = js/backbone-managedview
-	url = git@github.com:GerHobbelt/backbone.managedview.git
-[submodule "js/backbone-marionette"]
-	path = js/backbone-marionette
-	url = git@github.com:GerHobbelt/backbone.marionette.git
-[submodule "js/backbone-memento"]
-	path = js/backbone-memento
-	url = git@github.com:GerHobbelt/backbone.memento.git
-[submodule "js/backbone-mousetrap"]
-	path = js/backbone-mousetrap
-	url = git@github.com:GerHobbelt/backbone.mousetrap.git
-[submodule "js/backbone-namespaced-events"]
-	path = js/backbone-namespaced-events
-	url = git@github.com:GerHobbelt/backbone.namespaced-events.git
-[submodule "js/backbone-notifier"]
-	path = js/backbone-notifier
-	url = git@github.com:GerHobbelt/backbone.notifier.git
-[submodule "js/backbone-offline"]
-	path = js/backbone-offline
-	url = git@github.com:GerHobbelt/backbone.offline.git
-[submodule "js/backbone-paginator"]
-	path = js/backbone-paginator
-	url = git@github.com:GerHobbelt/backbone.paginator.git
-[submodule "js/backbone-stickit"]
-	path = js/backbone-stickit
-	url = git@github.com:GerHobbelt/backbone.stickit.git
-[submodule "js/backbone-subroute"]
-	path = js/backbone-subroute
-	url = git@github.com:GerHobbelt/backbone.subroute.git
-[submodule "js/backbone-subviews"]
-	path = js/backbone-subviews
-	url = git@github.com:GerHobbelt/backbone.subviews.git
-[submodule "js/backbone-syphon-serialize-views"]
-	path = js/backbone-syphon-serialize-views
-	url = git@github.com:GerHobbelt/backbone.syphon.git
-[submodule "js/backbone-touch"]
-	path = js/backbone-touch
-	url = git@github.com:GerHobbelt/backbone.touch.git
-[submodule "js/backbone-validation"]
-	path = js/backbone-validation
-	url = git@github.com:GerHobbelt/backbone.validation.git
-[submodule "js/backbone-validations"]
-	path = js/backbone-validations
-	url = git@github.com:GerHobbelt/backbone.validations.git
 [submodule "js/bacon-frp"]
 	path = js/bacon-frp
 	url = git@github.com:GerHobbelt/bacon.js.git
@@ -1759,9 +1567,6 @@
 [submodule "tooling/wsclean"]
 	path = tooling/wsclean
 	url = git@github.com:GerHobbelt/whitespace-cleaner.git
-[submodule "js/backbone-workflow"]
-	path = js/backbone-workflow
-	url = git@github.com:GerHobbelt/workflow.js.git
 [submodule "js/x-editable"]
 	path = js/x-editable
 	url = git@github.com:GerHobbelt/x-editable.git
@@ -2176,9 +1981,6 @@
 [submodule "js/color-diff-CIEDE2000"]
 	path = js/color-diff-CIEDE2000
 	url = git@github.com:GerHobbelt/color-diff.git
-[submodule "tooling/uglify2"]
-	path = tooling/uglify2
-	url = git@github.com:GerHobbelt/UglifyJS2.git
 [submodule "tooling/grunt-contrib-uglify"]
 	path = tooling/grunt-contrib-uglify
 	url = git@github.com:GerHobbelt/grunt-contrib-uglify.git
@@ -2740,9 +2542,6 @@
 [submodule "js/asciidoctor.js"]
 	path = js/asciidoctor.js
 	url = git@github.com:GerHobbelt/asciidoctor.js.git
-[submodule "tooling/semistandard"]
-	path = tooling/semistandard
-	url = git@github.com:GerHobbelt/semistandard.git
 [submodule "js/metalsmith-markdown-remarkable"]
 	path = js/metalsmith-markdown-remarkable
 	url = git@github.com:GerHobbelt/metalsmith-markdown-remarkable.git
@@ -3946,3 +3745,492 @@
 [submodule "CS/WPF-Samples"]
 	path = CS/WPF-Samples
 	url = git@github.com:GerHobbelt/WPF-Samples.git
+[submodule "CS/SharpBrowser"]
+	path = CS/SharpBrowser
+	url = git@github.com:GerHobbelt/SharpBrowser.git
+[submodule "CS/MaterialDesignInXamlToolkit"]
+	path = CS/MaterialDesignInXamlToolkit
+	url = git@github.com:GerHobbelt/MaterialDesignInXamlToolkit.git
+[submodule "CS/Avalonia"]
+	path = CS/Avalonia
+	url = git@github.com:GerHobbelt/Avalonia.git
+[submodule "CS/PDFsharp-samples"]
+	path = CS/PDFsharp-samples
+	url = git@github.com:GerHobbelt/PDFsharp-samples.git
+[submodule "CS/Ghostscript.NET"]
+	path = CS/Ghostscript.NET
+	url = git@github.com:GerHobbelt/Ghostscript.NET.git
+[submodule "CS/PDFiumSharp"]
+	path = CS/PDFiumSharp
+	url = git@github.com:GerHobbelt/PDFiumSharp.git
+[submodule "CS/EmbedIO"]
+	path = CS/EmbedIO
+	url = git@github.com:GerHobbelt/embedio.git
+[submodule "js/.TweenJS"]
+	path = js/.TweenJS
+	url = git@github.com:GerHobbelt/TweenJS.git
+[submodule "js/animatedModal"]
+	path = js/animatedModal
+	url = git@github.com:GerHobbelt/animatedModal.js.git
+[submodule "js/fakePageLoader"]
+	path = js/fakePageLoader
+	url = git@github.com:GerHobbelt/fakeLoader.js.git
+[submodule "css/loaders.css"]
+	path = css/loaders.css
+	url = git@github.com:GerHobbelt/loaders.css.git
+[submodule "js/jquery-knob"]
+	path = js/jquery-knob
+	url = git@github.com:GerHobbelt/jQuery-Knob.git
+[submodule "examples/responsive-tabbed-navigation"]
+	path = examples/responsive-tabbed-navigation
+	url = git@github.com:GerHobbelt/responsive-tabbed-navigation.git
+[submodule "tooling/vscode-live-server"]
+	path = tooling/vscode-live-server
+	url = git@github.com:GerHobbelt/vscode-live-server.git
+[submodule "js/algebra.js"]
+	path = js/algebra.js
+	url = git@github.com:GerHobbelt/algebra.js.git
+[submodule "tooling/xml-beautifier"]
+	path = tooling/xml-beautifier
+	url = git@github.com:GerHobbelt/xml-beautifier.git
+[submodule "CS/Livet-WPF"]
+	path = CS/Livet-WPF
+	url = git@github.com:GerHobbelt/Livet.git
+[submodule "CS/MahApps.Metro.WPF"]
+	path = CS/MahApps.Metro.WPF
+	url = git@github.com:GerHobbelt/MahApps.Metro.git
+[submodule "CS/CefSharpBrowser"]
+	path = CS/CefSharpBrowser
+	url = git@github.com:GerHobbelt/SharpBrowser.git
+[submodule "CS/MarkdownMonster"]
+	path = CS/MarkdownMonster
+	url = git@github.com:GerHobbelt/MarkdownMonster.git
+[submodule "CS/Fluent.Ribbon"]
+	path = CS/Fluent.Ribbon
+	url = git@github.com:GerHobbelt/Fluent.Ribbon.git
+[submodule "CS/MahApps.Metro.IconPacks"]
+	path = CS/MahApps.Metro.IconPacks
+	url = git@github.com:GerHobbelt/MahApps.Metro.IconPacks.git
+[submodule "CS/MahApps.Metro.SimpleChildWindow"]
+	path = CS/MahApps.Metro.SimpleChildWindow
+	url = git@github.com:GerHobbelt/MahApps.Metro.SimpleChildWindow.git
+[submodule "CS/LoadingIndicators.WPF"]
+	path = CS/LoadingIndicators.WPF
+	url = git@github.com:GerHobbelt/LoadingIndicators.WPF.git
+[submodule "CS/Caliburn.Metro"]
+	path = CS/Caliburn.Metro
+	url = git@github.com:GerHobbelt/Caliburn.Metro.git
+[submodule "CS/Caliburn.Micro"]
+	path = CS/Caliburn.Micro
+	url = git@github.com:GerHobbelt/Caliburn.Micro.git
+[submodule "CS/Simple.MahApps.Template"]
+	path = CS/Simple.MahApps.Template
+	url = git@github.com:GerHobbelt/Simple.MahApps.Template.git
+[submodule "CS/TinyLittleMVVM"]
+	path = CS/TinyLittleMVVM
+	url = git@github.com:GerHobbelt/TinyLittleMvvm.git
+[submodule "CS/MVVMlight"]
+	path = CS/MVVMlight
+	url = git@github.com:GerHobbelt/mvvmlight.git
+[submodule "CS/ControlzEx"]
+	path = CS/ControlzEx
+	url = git@github.com:GerHobbelt/ControlzEx.git
+[submodule "CS/ToastNotifications"]
+	path = CS/ToastNotifications
+	url = git@github.com:GerHobbelt/ToastNotifications.git
+[submodule "CS/MahApps.Metro.LinearGradientBrush.Theme.Sample"]
+	path = CS/MahApps.Metro.LinearGradientBrush.Theme.Sample
+	url = git@github.com:GerHobbelt/MahApps.Metro.LinearGradientBrush.Theme.Sample.git
+[submodule "CS/Mahapps.Show.Icons"]
+	path = CS/Mahapps.Show.Icons
+	url = git@github.com:GerHobbelt/MahappsIcons.git
+[submodule "CS/Javascript.NodeJS"]
+	path = CS/Javascript.NodeJS
+	url = git@github.com:GerHobbelt/Javascript.NodeJS.git
+[submodule "CS/WPF-WAF-framework"]
+	path = CS/WPF-WAF-framework
+	url = git@github.com:GerHobbelt/waf.git
+[submodule "CS/MaterialDesignInXaml.Extensions"]
+	path = CS/MaterialDesignInXaml.Extensions
+	url = git@github.com:GerHobbelt/MaterialDesignExtensions.git
+[submodule "CS/MaterialDesignInXaml.Examples"]
+	path = CS/MaterialDesignInXaml.Examples
+	url = git@github.com:GerHobbelt/MaterialDesignInXaml.Examples.git
+[submodule "CS/MaterialDesignInXaml.ExamplesHP"]
+	path = CS/MaterialDesignInXaml.ExamplesHP
+	url = git@github.com:GerHobbelt/MaterialDesignInXaml.git
+[submodule "js/railroad-diagrams"]
+	path = js/railroad-diagrams
+	url = git@github.com:GerHobbelt/railroad-diagrams.git
+[submodule "CS/hOCR"]
+	path = CS/hOCR
+	url = git@github.com:GerHobbelt/Hocr.git
+[submodule "misc/hOCR-DeNoising"]
+	path = misc/hOCR-DeNoising
+	url = git@github.com:GerHobbelt/hOCR-De-Noising.git
+[submodule "CS/NAPS2-Not-A-PDF-Scanner-OCR"]
+	path = CS/NAPS2-Not-A-PDF-Scanner-OCR
+	url = git@github.com:GerHobbelt/naps2.git
+[submodule "CS/Microsoft-AppCenter-SDK"]
+	path = CS/Microsoft-AppCenter-SDK
+	url = git@github.com:GerHobbelt/appcenter-sdk-dotnet.git
+[submodule "CS/Dragablz-WPF"]
+	path = CS/Dragablz-WPF
+	url = git@github.com:GerHobbelt/Dragablz.git
+[submodule "CS/AutoUpdater.NET"]
+	path = CS/AutoUpdater.NET
+	url = git@github.com:GerHobbelt/AutoUpdater.NET.git
+[submodule "CS/NETAutoUpdate"]
+	path = CS/NETAutoUpdate
+	url = git@github.com:GerHobbelt/.NET-Auto-Update.git
+[submodule "CS/ILMerge-tool"]
+	path = CS/ILMerge-tool
+	url = git@github.com:GerHobbelt/ILMerge.git
+[submodule "CS/LogViewer"]
+	path = CS/LogViewer
+	url = git@github.com:GerHobbelt/LogViewer.git
+[submodule "CS/AvalonEdit"]
+	path = CS/AvalonEdit
+	url = git@github.com:GerHobbelt/AvalonEdit.git
+[submodule "CS/ASN1.editor.WPF"]
+	path = CS/ASN1.editor.WPF
+	url = git@github.com:GerHobbelt/Asn1Editor.WPF.git
+[submodule "CS/WPF-RichText-Editor"]
+	path = CS/WPF-RichText-Editor
+	url = git@github.com:GerHobbelt/WPF-RichText-Editor.git
+[submodule "CS/VisualJsonEditor"]
+	path = CS/VisualJsonEditor
+	url = git@github.com:GerHobbelt/VisualJsonEditor.git
+[submodule "CS/fluent-xaml-theme-editor"]
+	path = CS/fluent-xaml-theme-editor
+	url = git@github.com:GerHobbelt/fluent-xaml-theme-editor.git
+[submodule "CS/WPF-RichText-Editor.Ex"]
+	path = CS/WPF-RichText-Editor.Ex
+	url = git@github.com:GerHobbelt/WpfRichText.Ex.git
+[submodule "tooling/inno-download-plugin"]
+	path = tooling/inno-download-plugin
+	url = git@github.com:GerHobbelt/inno-download-plugin.git
+[submodule "tooling/inno-dependency-installer"]
+	path = tooling/inno-dependency-installer
+	url = git@github.com:GerHobbelt/innodependencyinstaller.git
+[submodule "tooling/svgo"]
+	path = tooling/svgo
+	url = git@github.com:GerHobbelt/svgo.git
+[submodule "css/Gutenberg"]
+	path = css/Gutenberg
+	url = git@github.com:GerHobbelt/Gutenberg.git
+[submodule "css/Hartija.Print.Framework"]
+	path = css/Hartija.Print.Framework
+	url = git@github.com:GerHobbelt/Hartija---CSS-Print-Framework.git
+[submodule "CS/InteractiveDataDisplay.WPF"]
+	path = CS/InteractiveDataDisplay.WPF
+	url = git@github.com:GerHobbelt/InteractiveDataDisplay.WPF.git
+[submodule "CS/Live-Charts"]
+	path = CS/Live-Charts
+	url = git@github.com:GerHobbelt/Live-Charts.git
+[submodule "css/mini.CSS"]
+	path = css/mini.CSS
+	url = git@github.com:GerHobbelt/mini.css.git
+[submodule "CS/Localization"]
+	path = CS/Localization
+	url = git@github.com:GerHobbelt/Localization.git
+[submodule "CS/SubtitleEdit"]
+	path = CS/SubtitleEdit
+	url = git@github.com:GerHobbelt/subtitleedit.git
+[submodule "js/wavedrom-state-diagrams"]
+	path = js/wavedrom-state-diagrams
+	url = git@github.com:GerHobbelt/wavedrom.git
+[submodule "CS/commandline"]
+	path = CS/commandline
+	url = git@github.com:GerHobbelt/commandline.git
+[submodule "CS/UWP-Samples"]
+	path = CS/UWP-Samples
+	url = git@github.com:GerHobbelt/Windows-universal-samples.git
+[submodule "doc/awesome-OCR"]
+	path = doc/awesome-OCR
+	url = git@github.com:GerHobbelt/awesome-ocr.git
+[submodule "CS/ErrorControlSystem"]
+	path = CS/ErrorControlSystem
+	url = git@github.com:GerHobbelt/ErrorControlSystem.git
+[submodule "CS/GraphSharp"]
+	path = CS/GraphSharp
+	url = git@github.com:GerHobbelt/GraphSharp.git
+[submodule "CS/CSharp-Samples"]
+	path = CS/CSharp-Samples
+	url = git@github.com:GerHobbelt/samples.git
+[submodule "js/markdown-it-toc-done-right"]
+	path = js/markdown-it-toc-done-right
+	url = git@github.com:GerHobbelt/markdown-it-toc-done-right.git
+[submodule "js/markdown-it-vue"]
+	path = js/markdown-it-vue
+	url = git@github.com:GerHobbelt/markdown-it-vue.git
+[submodule "js/markdown-it-highlight-lines"]
+	path = js/markdown-it-highlight-lines
+	url = git@github.com:GerHobbelt/markdown-it-highlight-lines.git
+[submodule "js/markdown-it-custom-block"]
+	path = js/markdown-it-custom-block
+	url = git@github.com:GerHobbelt/markdown-it-custom-block.git
+[submodule "tooling/vuepress"]
+	path = tooling/vuepress
+	url = git@github.com:GerHobbelt/vuepress.git
+[submodule "js/markdown-it-html5-media"]
+	path = js/markdown-it-html5-media
+	url = git@github.com:GerHobbelt/markdown-it-html5-media.git
+[submodule "js/markdown-it-chain"]
+	path = js/markdown-it-chain
+	url = git@github.com:GerHobbelt/markdown-it-chain.git
+[submodule "js/mdurl"]
+	path = js/mdurl
+	url = git@github.com:GerHobbelt/mdurl.git
+[submodule "js/eleventy"]
+	path = js/eleventy
+	url = git@github.com:GerHobbelt/eleventy.git
+[submodule "js/pdf.js"]
+	path = js/pdf.js
+	url = git@github.com:GerHobbelt/pdf.js.git
+[submodule "CS/itext7-dotnet"]
+	path = CS/itext7-dotnet
+	url = git@github.com:GerHobbelt/itext7-dotnet.git
+[submodule "js/markdown-it-multimd-table"]
+	path = js/markdown-it-multimd-table
+	url = git@github.com:GerHobbelt/markdown-it-multimd-table.git
+[submodule "js/markdown-it-plantuml"]
+	path = js/markdown-it-plantuml
+	url = git@github.com:GerHobbelt/markdown-it-plantuml.git
+[submodule "js/markdown-it-mermaid"]
+	path = js/markdown-it-mermaid
+	url = git@github.com:GerHobbelt/markdown-it-mermaid.git
+[submodule "js/markdown-it-github-headings"]
+	path = js/markdown-it-github-headings
+	url = git@github.com:GerHobbelt/markdown-it-github-headings.git
+[submodule "js/markdown-it-diaspora-mention"]
+	path = js/markdown-it-diaspora-mention
+	url = git@github.com:GerHobbelt/markdown-it-diaspora-mention.git
+[submodule "js/markdown-it-cjk-breaks"]
+	path = js/markdown-it-cjk-breaks
+	url = git@github.com:GerHobbelt/markdown-it-cjk-breaks.git
+[submodule "js/webslides"]
+	path = js/webslides
+	url = git@github.com:GerHobbelt/Webslides.git
+[submodule "js/markdown-it-fence"]
+	path = js/markdown-it-fence
+	url = git@github.com:GerHobbelt/markdown-it-fence.git
+[submodule "js/markdown-it-source-map"]
+	path = js/markdown-it-source-map
+	url = git@github.com:GerHobbelt/markdown-it-source-map.git
+[submodule "js/markdown-it-image-lazy-loading"]
+	path = js/markdown-it-image-lazy-loading
+	url = git@github.com:GerHobbelt/markdown-it-image-lazy-loading.git
+[submodule "js/markdown-it-vuepress-code-snippet-enhanced"]
+	path = js/markdown-it-vuepress-code-snippet-enhanced
+	url = git@github.com:GerHobbelt/markdown-it-vuepress-code-snippet-enhanced.git
+[submodule "js/markdown-it-calendar"]
+	path = js/markdown-it-calendar
+	url = git@github.com:GerHobbelt/markdown-it-calendar.git
+[submodule "js/markdown-it-inline-text-color"]
+	path = js/markdown-it-inline-text-color
+	url = git@github.com:GerHobbelt/markdown-it-inline-text-color.git
+[submodule "js/markdown-it-markvis"]
+	path = js/markdown-it-markvis
+	url = git@github.com:GerHobbelt/markvis.git
+[submodule "js/markdown-it-shortcode-tag"]
+	path = js/markdown-it-shortcode-tag
+	url = git@github.com:GerHobbelt/markdown-it-shortcode-tag.git
+[submodule "js/markdown-it-codesandbox-embed"]
+	path = js/markdown-it-codesandbox-embed
+	url = git@github.com:GerHobbelt/markdown-it-codesandbox-embed.git
+[submodule "js/markdown-it-wiki-toc"]
+	path = js/markdown-it-wiki-toc
+	url = git@github.com:GerHobbelt/markdown-it-wiki-toc.git
+[submodule "js/markdown-it-alerts"]
+	path = js/markdown-it-alerts
+	url = git@github.com:GerHobbelt/markdown-it-alerts.git
+[submodule "js/markdown-it-virtual-dom"]
+	path = js/markdown-it-virtual-dom
+	url = git@github.com:GerHobbelt/markdown-it-v.git
+[submodule "js/markdown-it-charts"]
+	path = js/markdown-it-charts
+	url = git@github.com:GerHobbelt/markdown-it-charts.git
+[submodule "js/markdown-it-mentions"]
+	path = js/markdown-it-mentions
+	url = git@github.com:GerHobbelt/markdown-it-mentions.git
+[submodule "js/markdown-it-DITA-conref"]
+	path = js/markdown-it-DITA-conref
+	url = git@github.com:GerHobbelt/markdown-it-conref.git
+[submodule "js/markdown-it-bracketed-spans"]
+	path = js/markdown-it-bracketed-spans
+	url = git@github.com:GerHobbelt/markdown-it-bracketed-spans.git
+[submodule "js/markdown-it-fancy-lists"]
+	path = js/markdown-it-fancy-lists
+	url = git@github.com:GerHobbelt/markdown-it-fancy-lists.git
+[submodule "js/markdown-it-blockdiag"]
+	path = js/markdown-it-blockdiag
+	url = git@github.com:GerHobbelt/markdown-it-blockdiag.git
+[submodule "js/markdown-it-copy"]
+	path = js/markdown-it-copy
+	url = git@github.com:GerHobbelt/markdown-it-copy.git
+[submodule "js/markdown-it-criticmarkup"]
+	path = js/markdown-it-criticmarkup
+	url = git@github.com:GerHobbelt/markdown-it-criticmarkup.git
+[submodule "js/markdown-it-revealjs"]
+	path = js/markdown-it-revealjs
+	url = git@github.com:GerHobbelt/markdown-it-revealjs.git
+[submodule "js/markdown-it-collapsible"]
+	path = js/markdown-it-collapsible
+	url = git@github.com:GerHobbelt/markdown-it-collapsible.git
+[submodule "js/markdown-it-status-icons"]
+	path = js/markdown-it-status-icons
+	url = git@github.com:GerHobbelt/markdown-it-status-icons.git
+[submodule "js/markdown-it-attribution"]
+	path = js/markdown-it-attribution
+	url = git@github.com:GerHobbelt/markdown-it-attribution.git
+[submodule "js/markdown-it-picture"]
+	path = js/markdown-it-picture
+	url = git@github.com:GerHobbelt/markdown-it-picture.git
+[submodule "js/markdown-it-replacements"]
+	path = js/markdown-it-replacements
+	url = git@github.com:GerHobbelt/markdown-it-replacements.git
+[submodule "js/markdown-it-spoiler"]
+	path = js/markdown-it-spoiler
+	url = git@github.com:GerHobbelt/markdown-it-spoiler.git
+[submodule "js/markdown-it-figure"]
+	path = js/markdown-it-figure
+	url = git@github.com:GerHobbelt/markdown-it-figure.git
+[submodule "js/markdown-it-furigana"]
+	path = js/markdown-it-furigana
+	url = git@github.com:GerHobbelt/furigana-markdown-it.git
+[submodule "js/markdown-it-input"]
+	path = js/markdown-it-input
+	url = git@github.com:GerHobbelt/markdown-it-input.git
+[submodule "js/markdown-it-relativelink"]
+	path = js/markdown-it-relativelink
+	url = git@github.com:GerHobbelt/markdown-it-ins.git
+[submodule "js/markdown-it-contained-image"]
+	path = js/markdown-it-contained-image
+	url = git@github.com:GerHobbelt/markdown-it-contained-image.git
+[submodule "tooling/deGaulle"]
+	path = tooling/deGaulle
+	url = git@github.com:GerHobbelt/deGaulle.git
+[submodule "js/markdown-it-dirty-dozen"]
+	path = js/markdown-it-dirty-dozen
+	url = git@github.com:GerHobbelt/markdown-it-dirty-dozen.git
+[submodule "CS/Avalondock"]
+	path = CS/Avalondock
+	url = git@github.com:GerHobbelt/AvalonDock.git
+[submodule "CS/Dock"]
+	path = CS/Dock
+	url = git@github.com:GerHobbelt/Dock.git
+[submodule "CS/Xceed-WPFtoolkit"]
+	path = CS/Xceed-WPFtoolkit
+	url = git@github.com:GerHobbelt/wpftoolkit.git
+[submodule "CS/WpfDocking"]
+	path = CS/WpfDocking
+	url = git@github.com:GerHobbelt/WpfDocking.git
+[submodule "CS/MuPDF-Converter"]
+	path = CS/MuPDF-Converter
+	url = git@github.com:GerHobbelt/mupdf-converter.git
+[submodule "tooling/LNK-2-Hardlink"]
+	path = tooling/LNK-2-Hardlink
+	url = git@github.com:GerHobbelt/LNK-2-Hardlink.git
+[submodule "js/vivliostyle-cli"]
+	path = js/vivliostyle-cli
+	url = git@github.com:GerHobbelt/vivliostyle-cli.git
+[submodule "js/vivliostyle-print"]
+	path = js/vivliostyle-print
+	url = git@github.com:GerHobbelt/vivliostyle-print.git
+[submodule "js/sanscript"]
+	path = js/sanscript
+	url = git@github.com:GerHobbelt/sanscript.js.git
+[submodule "tooling/prepend-header"]
+	path = tooling/prepend-header
+	url = git@github.com:GerHobbelt/prepend-header.git
+[submodule "tooling/microbundle"]
+	path = tooling/microbundle
+	url = git@github.com:GerHobbelt/microbundle.git
+[submodule "examples/print-css-rocks"]
+	path = examples/print-css-rocks
+	url = git@github.com:GerHobbelt/print-css-rocks.git
+[submodule "js/shadergraph"]
+	path = js/shadergraph
+	url = git@github.com:GerHobbelt/shadergraph.git
+[submodule "js/threestrap"]
+	path = js/threestrap
+	url = git@github.com:GerHobbelt/threestrap.git
+[submodule "tooling/github-emoji-list"]
+	path = tooling/github-emoji-list
+	url = git@github.com:GerHobbelt/emoji-list.git
+[submodule "js/markdown-it-mathpix"]
+	path = js/markdown-it-mathpix
+	url = git@github.com:GerHobbelt/mathpix-markdown-it.git
+[submodule "js/gitignore-parser"]
+	path = js/gitignore-parser
+	url = git@github.com:GerHobbelt/gitignore-parser.git
+[submodule "js/node-ignore"]
+	path = js/node-ignore
+	url = git@github.com:GerHobbelt/node-ignore.git
+[submodule "misc/sublime-monocyanide-colorscheme"]
+	path = misc/sublime-monocyanide-colorscheme
+	url = git@github.com:GerHobbelt/sublime-monocyanide-colorscheme.git
+[submodule "js/node-glob"]
+	path = js/node-glob
+	url = git@github.com:GerHobbelt/node-glob.git
+[submodule "js/minimatch"]
+	path = js/minimatch
+	url = git@github.com:GerHobbelt/minimatch.git
+[submodule "js/waitfor-ES6"]
+	path = js/waitfor-ES6
+	url = git@github.com:GerHobbelt/waitfor-ES6.git
+[submodule "js/node-nan"]
+	path = js/node-nan
+	url = git@github.com:GerHobbelt/nan.git
+[submodule "CS/zint-barcodes"]
+	path = CS/zint-barcodes
+	url = git@github.com:GerHobbelt/zint.git
+[submodule "js/symbology"]
+	path = js/symbology
+	url = git@github.com:GerHobbelt/symbology.git
+[submodule "websites/site.inventory-at-temple.net"]
+	path = websites/site.inventory-at-temple.net
+	url = git@github.com:GerHobbelt/site.inventory-at-temple.net.git
+[submodule "js/qrcode-generator"]
+	path = js/qrcode-generator
+	url = git@github.com:GerHobbelt/qrcode-generator.git
+[submodule "CS/XamlColorSchemeGenerator"]
+	path = CS/XamlColorSchemeGenerator
+	url = git@github.com:GerHobbelt/XamlColorSchemeGenerator.git
+[submodule "CS/Edge.JS"]
+	path = CS/Edge.JS
+	url = git@github.com:GerHobbelt/edge-js.git
+[submodule "js/bigfoot-footnotes"]
+	path = js/bigfoot-footnotes
+	url = git@github.com:GerHobbelt/bigfoot.git
+[submodule "js/editorJS"]
+	path = js/editorJS
+	url = git@github.com:GerHobbelt/editor.js.git
+[submodule "js/markdown-it-video"]
+	path = js/markdown-it-video
+	url = git@github.com:GerHobbelt/markdown-it-imsize.git
+[submodule "js/markdown-it-block-embed"]
+	path = js/markdown-it-block-embed
+	url = git@github.com:GerHobbelt/markdown-it-imsize.git
+[submodule "js/linkcheck"]
+	path = js/linkcheck
+	url = git@github.com:GerHobbelt/linkcheck.git
+[submodule "tooling/all-contributors-cli"]
+	path = tooling/all-contributors-cli
+	url = git@github.com:GerHobbelt/all-contributors-cli.git
+[submodule "js/popper-core"]
+	path = js/popper-core
+	url = git@github.com:GerHobbelt/popper-core.git
+[submodule "tooling/frame-rate-distribution"]
+	path = tooling/frame-rate-distribution
+	url = git@github.com:GerHobbelt/frame-rate-distribution.git
+[submodule "js/node-prepend-to-js-file"]
+	path = js/node-prepend-to-js-file
+	url = git@github.com:GerHobbelt/node-prepend-to-js-file.git
+[submodule "CS/civet-webserver"]
+	path = CS/civet-webserver
+	url = git@github.com:GerHobbelt/civet-webserver.git
+[submodule "cs/socat"]
+	path = cs/socat
+	url = git@github.com:GerHobbelt/socat.git
