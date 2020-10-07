@@ -4231,6 +4231,36 @@
 [submodule "CS/civet-webserver"]
 	path = CS/civet-webserver
 	url = git@github.com:GerHobbelt/civet-webserver.git
-[submodule "cs/socat"]
-	path = cs/socat
+[submodule "CS/socat"]
+	path = CS/socat
 	url = git@github.com:GerHobbelt/socat.git
+[submodule "js/markdown-it-diagrams"]
+	path = js/markdown-it-diagrams
+	url = git@github.com:GerHobbelt/markdown-it-diagrams.git
+[submodule "js/markdown-it-renderer"]
+	path = js/markdown-it-renderer
+	url = git@github.com:GerHobbelt/markdown-it-renderer.git
+[submodule "js/markdown-it-grouped-code-fence"]
+	path = js/markdown-it-grouped-code-fence
+	url = git@github.com:GerHobbelt/markdown-it-grouped-code-fence.git
+[submodule "js/markdown-it-gridtables"]
+	path = js/markdown-it-gridtables
+	url = git@github.com:GerHobbelt/markdown-it-gridtables.git
+[submodule "js/markdown-it-broken-image-placeholder"]
+	path = js/markdown-it-broken-image-placeholder
+	url = git@github.com:GerHobbelt/markdown-it-broken-image-placeholder.git
+[submodule "js/markdown-it-latex"]
+	path = js/markdown-it-latex
+	url = git@github.com:GerHobbelt/markdown-it-latex.git
+[submodule "CS/chromely-demo-apps"]
+	path = CS/chromely-demo-apps
+	url = git@github.com:GerHobbelt/demo-projects.git
+[submodule "CS/Chromely"]
+	path = CS/Chromely
+	url = git@github.com:GerHobbelt/Chromely.git
+[submodule "tooling/qpdf"]
+	path = tooling/qpdf
+	url = git@github.com:GerHobbelt/qpdf.git
+[submodule "CS/zopfli"]
+	path = CS/zopfli
+	url = git@github.com:GerHobbelt/zopfli.git
