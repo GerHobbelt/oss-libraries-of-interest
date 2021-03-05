@@ -3745,9 +3745,6 @@
 [submodule "CS/WPF-Samples"]
 	path = CS/WPF-Samples
 	url = git@github.com:GerHobbelt/WPF-Samples.git
-[submodule "CS/SharpBrowser"]
-	path = CS/SharpBrowser
-	url = git@github.com:GerHobbelt/SharpBrowser.git
 [submodule "CS/MaterialDesignInXamlToolkit"]
 	path = CS/MaterialDesignInXamlToolkit
 	url = git@github.com:GerHobbelt/MaterialDesignInXamlToolkit.git
@@ -4264,3 +4261,195 @@
 [submodule "CS/zopfli"]
 	path = CS/zopfli
 	url = git@github.com:GerHobbelt/zopfli.git
+[submodule "CS/DbfDataReader"]
+	path = CS/DbfDataReader
+	url = git@github.com:GerHobbelt/DbfDataReader.git
+[submodule "CS/dbf"]
+	path = CS/dbf
+	url = git@github.com:GerHobbelt/dbf.git
+[submodule "js/zotero-translators"]
+	path = js/zotero-translators
+	url = git@github.com:GerHobbelt/translators.git
+[submodule "tooling/zotero-citeproc-js-server"]
+	path = tooling/zotero-citeproc-js-server
+	url = git@github.com:GerHobbelt/citeproc-js-server.git
+[submodule "tooling/zotero-translation-server"]
+	path = tooling/zotero-translation-server
+	url = git@github.com:GerHobbelt/translation-server.git
+[submodule "tooling/jpeginfo"]
+	path = tooling/jpeginfo
+	url = git@github.com:GerHobbelt/jpeginfo.git
+[submodule "CS/webview"]
+	path = CS/webview
+	url = git@github.com:GerHobbelt/webview.git
+[submodule "js/json-diff"]
+	path = js/json-diff
+	url = git@github.com:GerHobbelt/json-diff.git
+[submodule "js/assertive"]
+	path = js/assertive
+	url = git@github.com:GerHobbelt/assertive.git
+[submodule "CS/SolrNet"]
+	path = CS/SolrNet
+	url = git@github.com:GerHobbelt/SolrNet.git
+[submodule "CS/Windows-API-Code-Pack"]
+	path = CS/Windows-API-Code-Pack
+	url = git@github.com:GerHobbelt/Windows-API-Code-Pack.git
+[submodule "CS/AngleSharp.HTML5.Parser"]
+	path = CS/AngleSharp.HTML5.Parser
+	url = git@github.com:GerHobbelt/AngleSharp.git
+[submodule "CS/ReoGrid"]
+	path = CS/ReoGrid
+	url = git@github.com:GerHobbelt/ReoGrid.git
+[submodule "CS/FastColoredTextBox"]
+	path = CS/FastColoredTextBox
+	url = git@github.com:GerHobbelt/FastColoredTextBox.git
+[submodule "js/Office-Ribbon-2010"]
+	path = js/Office-Ribbon-2010
+	url = git@github.com:GerHobbelt/Office-Ribbon-2010.git
+[submodule "CS/WPF-Blocky"]
+	path = CS/WPF-Blocky
+	url = git@github.com:GerHobbelt/WPF-Blocky.git
+[submodule "CS/SimpleStateMachineNodeEditor"]
+	path = CS/SimpleStateMachineNodeEditor
+	url = git@github.com:GerHobbelt/SimpleStateMachineNodeEditor.git
+[submodule "CS/SimpleStateMachineLibrary"]
+	path = CS/SimpleStateMachineLibrary
+	url = git@github.com:GerHobbelt/SimpleStateMachineLibrary.git
+[submodule "js/rete-graphical-node-system"]
+	path = js/rete-graphical-node-system
+	url = git@github.com:GerHobbelt/rete.git
+[submodule "CS/QuickGraph"]
+	path = CS/QuickGraph
+	url = git@github.com:GerHobbelt/QuickGraph.git
+[submodule "CS/GraphShape"]
+	path = CS/GraphShape
+	url = git@github.com:GerHobbelt/GraphShape.git
+[submodule "js/rc-dock"]
+	path = js/rc-dock
+	url = git@github.com:GerHobbelt/rc-dock.git
+[submodule "js/dock-spawn-ts"]
+	path = js/dock-spawn-ts
+	url = git@github.com:GerHobbelt/dock-spawn-ts.git
+[submodule "CS/nodify"]
+	path = CS/nodify
+	url = git@github.com:GerHobbelt/nodify.git
+[submodule "CS/OpenCV"]
+	path = CS/OpenCV
+	url = git@github.com:GerHobbelt/opencv.git
+[submodule "CS/ScintillaNET.WPF"]
+	path = CS/ScintillaNET.WPF
+	url = git@github.com:GerHobbelt/ScintillaNET.WPF.git
+[submodule "CS/libzmq"]
+	path = CS/libzmq
+	url = git@github.com:GerHobbelt/libzmq.git
+[submodule "CS/netmq"]
+	path = CS/netmq
+	url = git@github.com:GerHobbelt/netmq.git
+[submodule "CS/libCzmq"]
+	path = CS/libCzmq
+	url = git@github.com:GerHobbelt/czmq.git
+[submodule "CS/cpython"]
+	path = CS/cpython
+	url = git@github.com:GerHobbelt/cpython.git
+[submodule "CS/linenoise-readline"]
+	path = CS/linenoise-readline
+	url = git@github.com:GerHobbelt/linenoise.git
+[submodule "js/markdown-it-img-size"]
+	path = js/markdown-it-img-size
+	url = git@github.com:GerHobbelt/markdown-it-img-size.git
+[submodule "misc/scholarly_markdown"]
+	path = misc/scholarly_markdown
+	url = git@github.com:GerHobbelt/scholarly_markdown.git
+[submodule "js/slugify"]
+	path = js/slugify
+	url = git@github.com:GerHobbelt/node-slug.git
+[submodule "CS/replxx-readline-linenoise"]
+	path = CS/replxx-readline-linenoise
+	url = git@github.com:GerHobbelt/replxx.git
+[submodule "CS/lua"]
+	path = CS/lua
+	url = git@github.com:GerHobbelt/lua.git
+[submodule "CS/jerryscript"]
+	path = CS/jerryscript
+	url = git@github.com:GerHobbelt/jerryscript.git
+[submodule "CS/sciter-js-SDK"]
+	path = CS/sciter-js-SDK
+	url = git@github.com:GerHobbelt/sciter-js-sdk.git
+[submodule "CS/Polly-resilience"]
+	path = CS/Polly-resilience
+	url = git@github.com:GerHobbelt/Polly.git
+[submodule "CS/cmocka"]
+	path = CS/cmocka
+	url = git@github.com:GerHobbelt/cmocka.git
+[submodule "CS/googletest"]
+	path = CS/googletest
+	url = git@github.com:GerHobbelt/googletest.git
+[submodule "css/tailwindcss"]
+	path = css/tailwindcss
+	url = git@github.com:GerHobbelt/tailwindcss.git
+[submodule "css/milligram"]
+	path = css/milligram
+	url = git@github.com:GerHobbelt/milligram.git
+[submodule "css/Fomantic-UI"]
+	path = css/Fomantic-UI
+	url = git@github.com:GerHobbelt/Fomantic-UI.git
+[submodule "css/animxyz"]
+	path = css/animxyz
+	url = git@github.com:GerHobbelt/animxyz.git
+[submodule "css/halfmoon"]
+	path = css/halfmoon
+	url = git@github.com:GerHobbelt/halfmoon.git
+[submodule "examples/dropin-minimal-css-switcher"]
+	path = examples/dropin-minimal-css-switcher
+	url = git@github.com:GerHobbelt/dropin-minimal-css.git
+[submodule "js/googlee-workbox"]
+	path = js/googlee-workbox
+	url = git@github.com:GerHobbelt/workbox.git
+[submodule "js/monaco-editor"]
+	path = js/monaco-editor
+	url = git@github.com:GerHobbelt/monaco-editor.git
+[submodule "css/Cirrus"]
+	path = css/Cirrus
+	url = git@github.com:GerHobbelt/Cirrus.git
+[submodule "css/Basic.css-minimal-framework"]
+	path = css/Basic.css-minimal-framework
+	url = git@github.com:GerHobbelt/Basic.css.git
+[submodule "CS/Kooboo-JSON"]
+	path = CS/Kooboo-JSON
+	url = git@github.com:GerHobbelt/Kooboo-JSON.git
+[submodule "CS/MessagePack-CSharp"]
+	path = CS/MessagePack-CSharp
+	url = git@github.com:GerHobbelt/MessagePack-CSharp.git
+[submodule "CS/openssl"]
+	path = CS/openssl
+	url = git@github.com:GerHobbelt/openssl.git
+[submodule "CS/UTF8JSON"]
+	path = CS/UTF8JSON
+	url = git@github.com:GerHobbelt/Utf8Json.git
+[submodule "js/depot.js"]
+	path = js/depot.js
+	url = git@github.com:GerHobbelt/depot.js.git
+[submodule "CS/inih--ini-file-parser"]
+	path = CS/inih--ini-file-parser
+	url = git@github.com:GerHobbelt/inih.git
+[submodule "CS/iniparser"]
+	path = CS/iniparser
+	url = git@github.com:GerHobbelt/iniparser.git
+[submodule "CS/WebView2Samples"]
+	path = CS/WebView2Samples
+	url = git@github.com:GerHobbelt/WebView2Samples.git
+[submodule "CS/Chromely.CefSharp"]
+	path = CS/Chromely.CefSharp
+	url = git@github.com:GerHobbelt/Chromely.CefSharp.git
+[submodule "CS/CefGlue"]
+	path = CS/CefGlue
+	url = git@github.com:GerHobbelt/CefGlue.Core.git
+[submodule "js/isotope"]
+	path = js/isotope
+	url = git@github.com:GerHobbelt/isotope.git
+[submodule "misc/unidecode"]
+	path = misc/unidecode
+	url = git@github.com:GerHobbelt/unidecode.git
+[submodule "misc/unihandecode"]
+	path = misc/unihandecode
+	url = git@github.com:GerHobbelt/unihandecode.git

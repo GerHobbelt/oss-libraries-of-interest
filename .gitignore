@@ -30,6 +30,8 @@ util/jslint-svn/javascriptlint/
 # experimental and R&D/test directories
 tmp/
 websites/__research
+/CS/WPF-Experiments-II/*/
+/CS/WPF-Experiments/*/
 
 # intermediates
 util/__tmp__.sh
