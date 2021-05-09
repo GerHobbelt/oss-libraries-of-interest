@@ -4453,3 +4453,87 @@
 [submodule "misc/unihandecode"]
 	path = misc/unihandecode
 	url = git@github.com:GerHobbelt/unihandecode.git
+[submodule "css/minireset.css"]
+	path = css/minireset.css
+	url = git@github.com:GerHobbelt/minireset.css.git
+[submodule "CS/libzip"]
+	path = CS/libzip
+	url = git@github.com:GerHobbelt/libzip.git
+[submodule "CS/zstr-zlib-cpp-stream-wrapper"]
+	path = CS/zstr-zlib-cpp-stream-wrapper
+	url = git@github.com:GerHobbelt/zstr.git
+[submodule "CS/ZeroFormatter-Serializer"]
+	path = CS/ZeroFormatter-Serializer
+	url = git@github.com:GerHobbelt/ZeroFormatter.git
+[submodule "CS/FlatSharp-Serializer"]
+	path = CS/FlatSharp-Serializer
+	url = git@github.com:GerHobbelt/FlatSharp.git
+[submodule "CS/simple-binary-encoding-serializer"]
+	path = CS/simple-binary-encoding-serializer
+	url = git@github.com:GerHobbelt/simple-binary-encoding.git
+[submodule "CS/FlatBuffers.Google-Serializer"]
+	path = CS/FlatBuffers.Google-Serializer
+	url = git@github.com:GerHobbelt/flatbuffers.git
+[submodule "CS/flatcc-flatbuffers-compiler"]
+	path = CS/flatcc-flatbuffers-compiler
+	url = git@github.com:GerHobbelt/flatcc.git
+[submodule "CS/Binaron.Serializer"]
+	path = CS/Binaron.Serializer
+	url = git@github.com:GerHobbelt/Binaron.Serializer.git
+[submodule "CS/GraphView-over-MSSQL"]
+	path = CS/GraphView-over-MSSQL
+	url = git@github.com:GerHobbelt/GraphView.git
+[submodule "CS/arangodb-graph-db"]
+	path = CS/arangodb-graph-db
+	url = git@github.com:GerHobbelt/arangodb.git
+[submodule "CS/WebView2Browser"]
+	path = CS/WebView2Browser
+	url = git@github.com:GerHobbelt/WebView2Browser.git
+[submodule "CS/doctest"]
+	path = CS/doctest
+	url = git@github.com:GerHobbelt/doctest.git
+[submodule "CS/High-Speed-Priority-Queue-for-C-Sharp"]
+	path = CS/High-Speed-Priority-Queue-for-C-Sharp
+	url = git@github.com:GerHobbelt/High-Speed-Priority-Queue-for-C-Sharp.git
+[submodule "CS/ProcessX"]
+	path = CS/ProcessX
+	url = git@github.com:GerHobbelt/ProcessX.git
+[submodule "CS/jasper-image-lib"]
+	path = CS/jasper-image-lib
+	url = git@github.com:GerHobbelt/jasper.git
+[submodule "CS/libwebp"]
+	path = CS/libwebp
+	url = git@github.com:GerHobbelt/libwebp.git
+[submodule "tooling/the_silver_searcher"]
+	path = tooling/the_silver_searcher
+	url = git@github.com:GerHobbelt/the_silver_searcher.git
+[submodule "js/luxon-date-library"]
+	path = js/luxon-date-library
+	url = git@github.com:GerHobbelt/luxon.git
+[submodule "js/voca-string-lib"]
+	path = js/voca-string-lib
+	url = git@github.com:GerHobbelt/voca.git
+[submodule "css/layui"]
+	path = css/layui
+	url = git@github.com:GerHobbelt/layui.git
+[submodule "css/tabler"]
+	path = css/tabler
+	url = git@github.com:GerHobbelt/tabler.git
+[submodule "css/shelves-grid"]
+	path = css/shelves-grid
+	url = git@github.com:GerHobbelt/shelves.git
+[submodule "css/infinity-css-grid"]
+	path = css/infinity-css-grid
+	url = git@github.com:GerHobbelt/infinity-css-grid.git
+[submodule "CS/GraphicsMagick"]
+	path = CS/GraphicsMagick
+	url = git@github.com:GerHobbelt/graphicsmagick.git
+[submodule "CS/gperftools-tcmalloc"]
+	path = CS/gperftools-tcmalloc
+	url = git@github.com:GerHobbelt/gperftools.git
+[submodule "css/ragrid"]
+	path = css/ragrid
+	url = git@github.com:GerHobbelt/ragrid.git
+[submodule "tooling/dotnet-deployment-tools"]
+	path = tooling/dotnet-deployment-tools
+	url = git@github.com:GerHobbelt/deployment-tools.git
