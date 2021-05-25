@@ -4537,3 +4537,27 @@
 [submodule "tooling/dotnet-deployment-tools"]
 	path = tooling/dotnet-deployment-tools
 	url = git@github.com:GerHobbelt/deployment-tools.git
+[submodule "js/solr-node-client"]
+	path = js/solr-node-client
+	url = git@github.com:GerHobbelt/solr-node-client.git
+[submodule "CS/CEF3SimpleSample"]
+	path = CS/CEF3SimpleSample
+	url = git@github.com:GerHobbelt/CEF3SimpleSample.git
+[submodule "CS/taskt"]
+	path = CS/taskt
+	url = git@github.com:GerHobbelt/taskt.git
+[submodule "CS/tasktServer"]
+	path = CS/tasktServer
+	url = git@github.com:GerHobbelt/tasktServer.git
+[submodule "CS/NetCoreServer"]
+	path = CS/NetCoreServer
+	url = git@github.com:GerHobbelt/NetCoreServer.git
+[submodule "js/annotator"]
+	path = js/annotator
+	url = git@github.com:GerHobbelt/annotator.git
+[submodule "CS/readline"]
+	path = CS/readline
+	url = git@github.com:GerHobbelt/readline.git
+[submodule "CS/wil-microsoft-windows-impl-lib"]
+	path = CS/wil-microsoft-windows-impl-lib
+	url = git@github.com:GerHobbelt/wil.git
