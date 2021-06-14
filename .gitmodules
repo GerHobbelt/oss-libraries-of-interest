@@ -4561,3 +4561,18 @@
 [submodule "CS/wil-microsoft-windows-impl-lib"]
 	path = CS/wil-microsoft-windows-impl-lib
 	url = git@github.com:GerHobbelt/wil.git
+[submodule "js/DOMPurify"]
+	path = js/DOMPurify
+	url = git@github.com:GerHobbelt/DOMpurify.git
+[submodule "CS/NAudio"]
+	path = CS/NAudio
+	url = git@github.com:GerHobbelt/NAudio.git
+[submodule "CS/Vanara-PInvoke"]
+	path = CS/Vanara-PInvoke
+	url = git@github.com:GerHobbelt/Vanara.git
+[submodule "CS/tvision"]
+	path = CS/tvision
+	url = git@github.com:GerHobbelt/tvision.git
+[submodule "css/tvision"]
+	path = css/tvision
+	url = git@github.com:GerHobbelt/tvision-css.git
