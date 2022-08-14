@@ -2488,9 +2488,6 @@
 [submodule "js/basket-script-loader"]
 	path = js/basket-script-loader
 	url = git@github.com:GerHobbelt/basket.js.git
-[submodule "js/q-async-promises"]
-	path = js/q-async-promises
-	url = git@github.com:GerHobbelt/q.git
 [submodule "js/commander-cli-argv-parser"]
 	path = js/commander-cli-argv-parser
 	url = git@github.com:GerHobbelt/commander.js.git
@@ -2536,9 +2533,6 @@
 [submodule "tooling/asciidoctor"]
 	path = tooling/asciidoctor
 	url = git@github.com:GerHobbelt/asciidoctor.git
-[submodule "tooling/opal-ruby-to-JS"]
-	path = tooling/opal-ruby-to-JS
-	url = git@github.com:GerHobbelt/opal.git
 [submodule "js/asciidoctor.js"]
 	path = js/asciidoctor.js
 	url = git@github.com:GerHobbelt/asciidoctor.js.git
@@ -4576,3 +4570,174 @@
 [submodule "css/tvision"]
 	path = css/tvision
 	url = git@github.com:GerHobbelt/tvision-css.git
+[submodule "CS/webview-CS"]
+	path = CS/webview-CS
+	url = git@github.com:GerHobbelt/webview-cs.git
+[submodule "CS/webview-C"]
+	path = CS/webview-C
+	url = git@github.com:GerHobbelt/webview-c.git
+[submodule "CS/webview-QJS"]
+	path = CS/webview-QJS
+	url = git@github.com:GerHobbelt/qjs-webview.git
+[submodule "CS/sigar"]
+	path = CS/sigar
+	url = git@github.com:GerHobbelt/sigar.git
+[submodule "CS/libuv"]
+	path = CS/libuv
+	url = git@github.com:GerHobbelt/libuv.git
+[submodule "js/HTML-template"]
+	path = js/HTML-template
+	url = git@github.com:GerHobbelt/HTML.git
+[submodule "CS/html-plus-plus"]
+	path = CS/html-plus-plus
+	url = git@github.com:GerHobbelt/html-plus-plus.git
+[submodule "CS/see-phit"]
+	path = CS/see-phit
+	url = git@github.com:GerHobbelt/see-phit.git
+[submodule "CS/html-template"]
+	path = CS/html-template
+	url = git@github.com:GerHobbelt/html-template.git
+[submodule "CS/lunasvg"]
+	path = CS/lunasvg
+	url = git@github.com:GerHobbelt/lunasvg.git
+[submodule "js/fancytree"]
+	path = js/fancytree
+	url = git@github.com:GerHobbelt/fancytree.git
+[submodule "CS/ScintillaNET"]
+	path = CS/ScintillaNET
+	url = git@github.com:GerHobbelt/ScintillaNET.git
+[submodule "CS/ScintillaDiff"]
+	path = CS/ScintillaDiff
+	url = git@github.com:GerHobbelt/ScintillaDiff.git
+[submodule "CS/tvision-editor"]
+	path = CS/tvision-editor
+	url = git@github.com:GerHobbelt/turbo.git
+[submodule "CS/ScintillaNET.Demo"]
+	path = CS/ScintillaNET.Demo
+	url = git@github.com:GerHobbelt/ScintillaNET.Demo.git
+[submodule "CS/ScintillaNET.FindReplaceDialog"]
+	path = CS/ScintillaNET.FindReplaceDialog
+	url = git@github.com:GerHobbelt/ScintillaNET-FindReplaceDialog.git
+[submodule "CS/ScintillaNET.AutoCompleteMenu"]
+	path = CS/ScintillaNET.AutoCompleteMenu
+	url = git@github.com:GerHobbelt/AutoCompleteMenu-ScintillaNET.git
+[submodule "CS/ScintillaNET.Lexers"]
+	path = CS/ScintillaNET.Lexers
+	url = git@github.com:GerHobbelt/ScintillaLexers.git
+[submodule "CS/kaxaml"]
+	path = CS/kaxaml
+	url = git@github.com:GerHobbelt/kaxaml.git
+[submodule "CS/CEF"]
+	path = CS/CEF
+	url = git@github.com:GerHobbelt/cef.git
+[submodule "CS/CEF-sample-projects"]
+	path = CS/CEF-sample-projects
+	url = git@github.com:GerHobbelt/cef-project.git
+[submodule "CS/CEF-pdf"]
+	path = CS/CEF-pdf
+	url = git@github.com:GerHobbelt/cef-pdf.git
+[submodule "CS/CEF-debug"]
+	path = CS/CEF-debug
+	url = git@github.com:GerHobbelt/cefdebug.git
+[submodule "js/d3-inertia"]
+	path = js/d3-inertia
+	url = git@github.com:GerHobbelt/d3-inertia.git
+[submodule "js/d3-hull"]
+	path = js/d3-hull
+	url = git@github.com:GerHobbelt/d3-hull.git
+[submodule "js/d3-require"]
+	path = js/d3-require
+	url = git@github.com:GerHobbelt/d3-require.git
+[submodule "js/d3.github.com"]
+	path = js/d3.github.com
+	url = git@github.com:GerHobbelt/d3.github.com.git
+[submodule "js/versor"]
+	path = js/versor
+	url = git@github.com:GerHobbelt/versor.git
+[submodule "js/d3-3.x-api-reference"]
+	path = js/d3-3.x-api-reference
+	url = git@github.com:GerHobbelt/d3-3.x-api-reference.git
+[submodule "js/d3-bundler"]
+	path = js/d3-bundler
+	url = git@github.com:GerHobbelt/d3-bundler.git
+[submodule "js/d3-logo"]
+	path = js/d3-logo
+	url = git@github.com:GerHobbelt/d3-logo.git
+[submodule "js/d3-funnel"]
+	path = js/d3-funnel
+	url = git@github.com:GerHobbelt/d3-funnel.git
+[submodule "js/d3-flame-graph"]
+	path = js/d3-flame-graph
+	url = git@github.com:GerHobbelt/d3-flame-graph.git
+[submodule "js/d3-bumps-chart"]
+	path = js/d3-bumps-chart
+	url = git@github.com:GerHobbelt/d3-bumps-chart.git
+[submodule "js/tweakpane"]
+	path = js/tweakpane
+	url = git@github.com:GerHobbelt/tweakpane.git
+[submodule "js/d3-beeswarm"]
+	path = js/d3-beeswarm
+	url = git@github.com:GerHobbelt/d3-beeswarm.git
+[submodule "js/d3-timeseries"]
+	path = js/d3-timeseries
+	url = git@github.com:GerHobbelt/d3-timeseries.git
+[submodule "js/d3-cubism"]
+	path = js/d3-cubism
+	url = git@github.com:GerHobbelt/cubism.git
+[submodule "js/d3-horizon-chart"]
+	path = js/d3-horizon-chart
+	url = git@github.com:GerHobbelt/d3-horizon-chart.git
+[submodule "js/d3-dag"]
+	path = js/d3-dag
+	url = git@github.com:GerHobbelt/d3-dag.git
+[submodule "js/d3-upset-chart"]
+	path = js/d3-upset-chart
+	url = git@github.com:GerHobbelt/d3-upset.git
+[submodule "js/d3-panels"]
+	path = js/d3-panels
+	url = git@github.com:GerHobbelt/d3panels.git
+[submodule "js/d3-gantt-chart"]
+	path = js/d3-gantt-chart
+	url = git@github.com:GerHobbelt/Gantt-Chart.git
+[submodule "js/svelte-layercake"]
+	path = js/svelte-layercake
+	url = git@github.com:GerHobbelt/layercake.git
+[submodule "js/svelte"]
+	path = js/svelte
+	url = git@github.com:GerHobbelt/svelte.git
+[submodule "CS/libidn2"]
+	path = CS/libidn2
+	url = git@github.com:GerHobbelt/libidn2.git
+[submodule "CS/hamsterdb"]
+	path = CS/hamsterdb
+	url = git@github.com:GerHobbelt/hamsterdb.git
+[submodule "CS/forestdb"]
+	path = CS/forestdb
+	url = git@github.com:GerHobbelt/forestdb.git
+[submodule "CS/LSHbox-locality-sensitive-hashes"]
+	path = CS/LSHbox-locality-sensitive-hashes
+	url = git@github.com:GerHobbelt/LSHBOX.git
+[submodule "CS/LSH.TM-locality-sensitive-hashes"]
+	path = CS/LSH.TM-locality-sensitive-hashes
+	url = git@github.com:GerHobbelt/tlsh.git
+[submodule "doc/books-library"]
+	path = doc/books-library
+	url = git@github.com:GerHobbelt/books-library.git
+[submodule "CS/WebApiClient"]
+	path = CS/WebApiClient
+	url = git@github.com:GerHobbelt/WebApiClient.git
+[submodule "CS/ApprovalTests.CPP"]
+	path = CS/ApprovalTests.CPP
+	url = git@github.com:GerHobbelt/ApprovalTests.cpp.git
+[submodule "js/chart.js"]
+	path = js/chart.js
+	url = git@github.com:GerHobbelt/Chart.js.git
+[submodule "htmx"]
+	path = htmx
+	url = git@github.com:GerHobbelt/htmx.git
+[submodule "tooling/wysiwyg-tweak-output"]
+	path = tooling/wysiwyg-tweak-output
+	url = git@github.com:GerHobbelt/tweak-wysiwyg-output.git
+[submodule "doc/modern-cpp-features"]
+	path = doc/modern-cpp-features
+	url = git@github.com:GerHobbelt/modern-cpp-features.git
