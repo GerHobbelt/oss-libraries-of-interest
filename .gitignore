@@ -49,3 +49,19 @@ node_modules/
 *.sublime-project
 *.sublime-workspace
 
+# not tracked as git submodules, but still their own git repo's, IFF ANY:
+/examples/codrops/
+/_/
+
+!/_/buttons/README.md
+!/_/css/README.md
+!/_/fonts/README.md
+!/_/js/README.md
+!/_/misc/README.md
+!/_/php/README.md
+!/_/README.md
+
+/fonts/misc-google-fonts-2020/
+/examples/website-templates/
+/CS/WPF-Experiments/*.zip
+
