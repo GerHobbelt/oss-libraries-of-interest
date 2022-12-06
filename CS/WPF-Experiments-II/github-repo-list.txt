@@ -1,0 +1,847 @@
+https://github.com/0x414c49/Nancy
+https://github.com/adriancs2/SQLiteHelper.net
+https://github.com/agorischek/multigrain
+https://github.com/AitoDotAI/json-stringify-pretty-compact
+https://github.com/Albert-W/Folder-locker
+https://github.com/AlenToma/EntityWorker.Core
+https://github.com/Amine-Smahi/Sqlite-Global-Tool
+https://github.com/Apollo3zehn/CryptoDrive
+https://github.com/blehnen/DotNetWorkQueue
+https://github.com/bordoley/SQLitePCL.pretty
+https://github.com/borisdj/EFCore.BulkExtensions
+https://github.com/boxboat/config-merge
+https://github.com/Dirkster99/AvalonDock
+https://github.com/Dirkster99/Edi
+https://github.com/dotnetcore/EasyCaching
+https://github.com/dotnetcore/FreeSql
+https://github.com/dropbox/dropbox-sdk-dotnet
+https://github.com/DropNet/DropNet
+https://github.com/EikosPartners/windowmanagerjs
+https://github.com/electroly/sqlnotebook
+https://github.com/ericsink/SQLitePCL.raw
+https://github.com/firesharkstudios/butterfly-server
+https://github.com/fisker/left-phalange
+https://github.com/fisker/left-phalange-api
+https://github.com/GCSBOSS/confort
+https://github.com/google/google-drive-proxy
+https://github.com/HighEncryption/SyncPro
+https://github.com/hunterloftis/awaiting
+https://github.com/icsharpcode/AvalonEdit
+https://github.com/IKende/BeetleX
+https://github.com/imnbwd/FriendEditor
+https://github.com/jbatonnet/SmartSync
+https://github.com/jchristn/SqliteHelper
+https://github.com/jonschlinkert/gray-matter
+https://github.com/jstedfast/MonoTouch.SQLite
+https://github.com/KoenZomers/KeePassOneDriveSync
+https://github.com/KoenZomers/OneDriveAPI
+https://github.com/ktheod/OneDriveBully
+https://github.com/landsman/photopea-desktop
+https://github.com/lecaillon/Evolve
+https://github.com/martinjw/dbschemareader
+https://github.com/Mimetis/Dotmim.Sync
+https://github.com/mnakka9/OnedriveGraphUpload
+https://github.com/NancyFx/Nancy
+https://github.com/Obrelix/.net-Google-Drive-API-v3-File-Handling
+https://github.com/OneDrive/onedrive-sdk-csharp
+https://github.com/OpenCloudNeXt/UniDrive
+https://github.com/OpenNuvoton/N76E003-BSP
+https://github.com/OpenNuvoton/NuMicro-8051-Family
+https://github.com/P1CKLES/SharpBox
+https://github.com/paulkohler/minisqlquery
+https://github.com/realm/realm-dotnet
+https://github.com/ServiceStack/ServiceStack.OrmLite
+https://github.com/shuebener/SQLiteCompare
+https://github.com/shuxinqin/Chloe
+https://github.com/silviubogan/timed-silver
+https://github.com/sqlkata/querybuilder
+https://github.com/sunkaixuan/SqlSugar
+https://github.com/theunrepentantgeek/Markdown.XAML
+https://github.com/TorisanKitsune/MinoriEditorShell
+https://github.com/tufan-io/fs-read-data
+https://github.com/tumtumtum/Shaolinq
+https://github.com/unosquare/embedio
+https://github.com/unosquare/embedio-extras
+https://github.com/Vicra/SQLiteDatabaseManager
+https://github.com/zhaopeiym/quartzui
+https://github.com/zzzprojects/Bulk-Operations
+
+
+
+https://github.com/SeppPenner/GoogleDriveExample
+
+
+https://github.com/mikhail-tsennykh/Lucene.Net-search-MVC-sample-site
+https://github.com/NeutroniumCore/Neutronium
+
+https://github.com/batzen/XamlColorSchemeGenerator
+https://github.com/ControlzEx/ControlzEx
+https://github.com/ravibpatel/CrashReporter.NET
+https://github.com/mironych/Crasher
+https://github.com/k4m4r82/DemoCrashReporterDotNET
+https://github.com/peeweek/CrashReporter
+https://github.com/cythral/krash
+https://github.com/yoonhwan/UnityCrashReporter
+https://github.com/iUltimateLP/GameCrashReporter
+https://github.com/Dirkster99/AvalonDock
+https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit
+https://github.com/BerndK/SvgToXaml
+https://github.com/bchavez/BugTrap
+https://github.com/ajitsing/Sherlock
+https://github.com/microsoft/appcenter-sdk-dotnet
+https://github.com/Microsoft/InteractiveDataDisplay.WPF
+https://github.com/oxyplot/oxyplot/
+https://github.com/swharden/ScottPlot
+https://github.com/Live-Charts/Live-Charts
+
+https://github.com/Microsoft/WPF-Samples
+https://github.com/chenguanzhou/MarkDownEditor
+https://github.com/icsharpcode/WpfDesigner
+https://github.com/microsoft/XamlBehaviorsWpf
+https://github.com/huangjia2107/XamlViewer
+https://github.com/icsharpcode/AvalonEdit
+https://github.com/jacobslusser/ScintillaNET
+https://github.com/robinrodricks/ScintillaNET.Demo
+
+https://github.com/stimulant/SocialStream
+https://github.com/wasteam/waslibs
+
+https://github.com/2moveit/WPFTagControl
+https://github.com/944095635/DMSkin
+https://github.com/944095635/DMSkin-for-WPF
+https://github.com/9cvele3/Interoperability
+https://github.com/abbaye/WpfHexEditorControl
+https://github.com/ABTSoftware/SciChart.Wpf.UI
+https://github.com/adajos/FabTab
+https://github.com/aelij/WPFContrib
+https://github.com/AfterbuyAxel/WPF-RichText-Editor
+https://github.com/ailon/amCharts-Quick-Charts
+https://github.com/AlbertAlonso/PhotonTheme
+https://github.com/alex-titarenko/wpfcontrols
+https://github.com/alicanerdogan/HamburgerMenu
+https://github.com/antonyakushin/Intellibox
+https://github.com/antrv/winapi
+https://github.com/Apress/foundations-of-fsharp
+https://github.com/ArthurHub/HTML-Renderer
+https://github.com/auslavs/errorFS2014
+https://github.com/Bassman2/WpfExplorer
+https://github.com/bchavez/Bogus
+https://github.com/bezzad/ErrorControlSystem
+https://github.com/bgrimstad/splinter
+https://github.com/biboudis/LambdaMicrobenchmarking
+https://github.com/bitbonk/DockTab
+https://github.com/ButchersBoy/Dragablz
+https://github.com/caomfan/IpAddressControl
+https://github.com/carbonrobot/wpf-autogrid
+https://github.com/Carlos487/awesome-wpf
+https://github.com/catsgotmytongue/JsonControls-WPF
+https://github.com/cefsharp/CefSharp
+https://github.com/cesarioalmeida/SideMenu
+https://github.com/chandramouleswaran/AvalonDock
+https://github.com/charri/Font-Awesome-WPF
+https://github.com/chris84948/ResolutionIndependentPanel
+https://github.com/chucker/TSInteropGen
+https://github.com/Ciastex/Windows95-WPF
+https://github.com/CLIUtils/CLI11
+https://github.com/cmourglia/TestInterop
+https://github.com/commandlineparser/commandline
+https://github.com/ConfusedHorse/BlurryControls
+https://github.com/ControlzEx/ControlzEx
+https://github.com/Customatics/WPFControls-ThemePack
+https://github.com/damageboy/interopcost
+https://github.com/dataarts/dat.gui
+https://github.com/davuxcom/IPCamCGI
+https://github.com/dctdct/WPF-ResMerger
+https://github.com/DenysVuika/WPG
+https://github.com/Dimension4/CppCliInterop
+https://github.com/Dirkster99/ColorPickerLib
+https://github.com/Dirkster99/InplaceEditBoxLib
+https://github.com/Dirkster99/NumericUpDownLib
+https://github.com/Dirkster99/UnitComboLib
+https://github.com/Dirkster99/UserNotifications
+https://github.com/Dirkster99/WatermarkControlsLib
+https://github.com/dotMorten/UniversalWPF
+https://github.com/dotnet/interactive
+https://github.com/dotnet/project-system-tools
+https://github.com/dotnetprojects/SVGImage
+https://github.com/drewnoakes/style-snooper
+https://github.com/drogoganor/ColorPickerWPF
+https://github.com/duelinmarkers/FluentTime
+https://github.com/DylanSp/CSharpFSharpInterop
+https://github.com/ejensen/toggle-switch-control
+https://github.com/ekblom/noterium
+https://github.com/ElbyFross/wpf-handler
+https://github.com/ElbyFross/wpf-handler
+https://github.com/Enterwell/Wpf.Notifications
+https://github.com/erizet/NlogViewer
+https://github.com/ETLang/Gluon
+https://github.com/flashgc/MoonUI
+https://github.com/floydpink/CachedImage
+https://github.com/forki/FSharp.Testing
+https://github.com/galri/Csharp-YoutubePlayerControl
+https://github.com/garuma/Neteril.ComputationExpression
+https://github.com/gellerda/FancyCandles
+https://github.com/GenericCodes/WPFCrudControl
+https://github.com/ghost1372/HandyControls
+https://github.com/GregaMohorko/GM.WPF
+https://github.com/GregoryGhost/gasoline
+https://github.com/hacksalot/precision-analog-clock
+https://github.com/HandyOrg/HandyControl
+https://github.com/HimanshPal/ListViewVirtualizationTest
+https://github.com/icons8/WPF-UI-Framework
+https://github.com/igorcrevar/WPFCanvasChart
+https://github.com/imagin-tech/Imagin.NET
+https://github.com/ismailkocacan/CppCSharpInterop
+https://github.com/Itsukara/WpfZoo
+https://github.com/JackWangCUMT/WPFTabNavigation
+https://github.com/Jaykul/PoshConsole
+https://github.com/jenspettersson/WPF-Controls
+https://github.com/jeremybytes/interfaces-in-csharp-8
+https://github.com/jiangyan219/DateTimePicker
+https://github.com/jihankim/KnobControl
+https://github.com/JimFawcett/Interop
+https://github.com/Jinten/NodeGraph
+https://github.com/jjamardo/sharpwinsock
+https://github.com/jogibear9988/OdysseyWPF
+https://github.com/johanlindfors/ApplicationTypes
+https://github.com/josenk/srandom
+https://github.com/JscramblerBlog/browser-template
+https://github.com/jspuij/BlazorWebView
+https://github.com/Karnah/ReactiveValidation
+https://github.com/Keboo/ShowMeTheXAML
+https://github.com/KhaosCoders/wpf-kanban
+https://github.com/Kinnara/ModernWpf
+https://github.com/KodamaSakuno/Sakuno.CefSharp.Wpf
+https://github.com/lab101/WpfVideoplayer
+https://github.com/lc-soft/LCUI
+https://github.com/leboeuf/NodeGraphControl
+https://github.com/leogdion/InteropExample
+https://github.com/lezhkin11/wpf-extensions
+https://github.com/liabru/matter-js
+https://github.com/libroten/cpp_cs_interop
+https://github.com/lingme/LayterControl-WPF
+https://github.com/lmcarreiro/cs2ts-example
+https://github.com/MarcusWichelmann/WpfPlus
+https://github.com/MarkoPaul0/PrettyNSharp
+https://github.com/MartinTopfstedt/FontAwesome5
+https://github.com/MaterialDesignInXAML/MotionList
+https://github.com/matt-bentley/Unmanaged-Interop
+https://github.com/microsoft/InteractiveDataDisplay.WPF
+https://github.com/MillerMark/TimeLine
+https://github.com/MinChanSike/NativeLibraryInterop
+https://github.com/MiroslavMikus/Markdown.Wpf.Editor
+https://github.com/mono/CppSharp
+https://github.com/mono/cxxi
+https://github.com/MrDaedra/WPFSplitView
+https://github.com/msteinbeck/tinyspline
+https://github.com/Nimgoble/WPFTextBoxAutoComplete
+https://github.com/ninecrows/C9InteropSamples
+https://github.com/ocornut/imgui
+https://github.com/openfin/embedding-wpf-demo
+https://github.com/Orcomp/Orc.GraphExplorer
+https://github.com/oriches/Simple.Wpf.FSharp.Repl
+https://github.com/oriches/Simple.Wpf.Themes
+https://github.com/osdeverr/NPPInterop
+https://github.com/OutSystems/WebView
+https://github.com/ozcanzaferayan/RulerControlForWPF
+https://github.com/Panuon/PanuonUI.Silver
+https://github.com/PengfeiWang666/WPFMenuController
+https://github.com/PeterHuberSg/WpfWindowsLib
+https://github.com/porohkun/WpfCollapseBox
+https://github.com/PropertyTools/PropertyTools
+https://github.com/rafallopatka/ToastNotifications
+https://github.com/realistschuckle/wpfchrometabs
+https://github.com/reexmonkey/xinterop
+https://github.com/reliak/moonpdf
+https://github.com/RikkiGibson/CSharpToFSharp
+https://github.com/rollinghours/DateRangeControl
+https://github.com/saraff-9EB1047A4BEB4cef8506B29BA325BD5A/Saraff.Twain.NET
+https://github.com/seungin/PInvoker
+https://github.com/SharpGenTools/SharpGenTools
+https://github.com/Shritish/Gleipnir
+https://github.com/shweaver-MSFT/WebView.Interop
+https://github.com/SingletonSean/WPFCustomControls
+https://github.com/snmslavk/WPF-Keyboard-Control
+https://github.com/sourcechord/GridExtra
+https://github.com/spiegelp/MaterialDesignExtensions
+https://github.com/sskodje/wpfchrometabs-mvvm
+https://github.com/stenobot/InteropExample
+https://github.com/stil/CurlThin
+https://github.com/Stumpii/ScintillaNET.WPF
+https://github.com/SuperJMN/XAMLPagingControl
+https://github.com/syncfusion/wpf-controls-localization-resx-files
+https://github.com/syncfusion/wpf-demos
+https://github.com/TherionIM/AccordionControl
+https://github.com/thoemmi/WebBrowserHelper
+https://github.com/timunie/TimsWpfControls
+https://github.com/tom-englert/DataGridExtensions
+https://github.com/tom-englert/SplashGenerator
+https://github.com/tomasaschan/fs-cs-interop
+https://github.com/ToTlee/T.WPF.Controls
+https://github.com/Ttxman/WpfRangeControls
+https://github.com/tunaemre/Remote-Controller-Windows
+https://github.com/vczh-libraries/GacUI
+https://github.com/VitoMilanese/WpfCalendar
+https://github.com/weianweigan/DuEDrawingControl
+https://github.com/wexond/desktop
+https://github.com/wieslawsoltes/WpfUnitTests
+https://github.com/WildGums/CsvTextEditor
+https://github.com/willemodendaal/wpf-case-database
+https://github.com/windows-toolkit/Microsoft.Toolkit.Win32
+https://github.com/windows-toolkit/WindowsCommunityToolkit
+https://github.com/wwwIgorNet/NumericUpDown
+https://github.com/wyattoday/automatic-updater
+https://github.com/xamarin-plaroche/FastListView
+https://github.com/xamarin/java.interop
+https://github.com/xceedsoftware/wpftoolkit
+https://github.com/xinhuang/dotLua
+https://github.com/xoofx/CppAst.CodeGen
+https://github.com/xoofx/SharpCppGen
+https://github.com/yadyn/WPF-SearchTextBox
+https://github.com/ygoe/MultiSelectTreeView
+https://github.com/zaimpauzi/CSharpCpp_InteropTemplate
+https://github.com/zfkingth/ControlTemplateBrowser
+https://github.com/ZhengDaoWang/PrismMetroSample
+https://gitlab.com/xiliumhq/chromiumembedded
+
+
+https://github.com/Microsoft/WPF-Samples
+
+https://github.com/paulbartrum/jurassic
+
+https://github.com/tjanczuk/edge
+https://github.com/JeringTech/Javascript.NodeJS
+https://github.com/adamralph/simple-exec
+https://github.com/Microsoft/ClearScript
+https://github.com/axtens/Lychen
+https://github.com/microsoft/ClearScript
+https://github.com/DanPristupov/WpfExpressionBlendTheme
+https://github.com/Apress/pro-expression-blend-4
+https://github.com/azurechamp/AutoHideTaskPane
+https://github.com/azurechamp/PathListbox
+https://github.com/angelorohit/wpfglassbutton
+https://github.com/alamin-mahamud/xaml-practices
+https://github.com/AlexandrFW/WPF_Button_Design
+https://github.com/xceedsoftware/wpftoolkit
+https://github.com/microsoft/XamlBehaviorsWpf
+https://github.com/theunrepentantgeek/Markdown.XAML
+https://github.com/warappa/XamlCSS
+https://github.com/sourcechord/FluentWPF
+https://github.com/blackspike/Xaml-Spinners-WPF
+https://github.com/XAMLMarkupExtensions/XAMLMarkupExtensions
+https://github.com/Kinnara/ModernWpf
+https://github.com/PrismLibrary/Prism
+https://github.com/PrismLibrary/Prism-Samples-Wpf
+https://github.com/elmish/Elmish.WPF
+https://github.com/XamlFlair/XamlFlair
+https://github.com/maximcus/SimpleWPFReporting
+https://github.com/hardcodet/wpf-notifyicon
+https://github.com/HandyOrg/HandyControl
+https://github.com/Keboo/ShowMeTheXAML
+https://github.com/bblanchon/WpfBindingErrors
+https://github.com/Alex141/CalcBinding
+https://github.com/ButchersBoy/XamlAnimationWorkshop
+https://github.com/mrlacey/Rapid-XAML-Toolkit
+
+https://github.com/Mortens4444/LanguageService
+https://github.com/TheBauwssss/AdvancedHtmlTextBlock
+https://github.com/lanceliao/WPF-XAML-Translator
+https://github.com/codingseb/Localization
+https://github.com/ygoe/TxTranslation
+
+https://github.com/imazen/resizer
+https://github.com/imazen/gd-dotnet-bindings-generator
+https://github.com/zer0x304/gd-sharp
+https://github.com/dlemstra/Magick.NET
+
+https://github.com/toddmeinershagen/PdfInterrogation
+https://github.com/dorodnic/dorodnic.programming.blog
+https://github.com/Studiofreya/code-samples
+https://github.com/loycnet/ecsharp
+https://github.com/qwertie/LoycCore
+https://github.com/dotnet/infer
+https://github.com/runceel/Livet
+
+https://github.com/DevZest/WpfDocking
+https://github.com/DevZest/RDO.Net
+https://github.com/DevZest/Utilities
+https://github.com/DevZest/WpfDocking
+https://github.com/DevZest/Licensing
+https://github.com/DevZest/RDO.Doc
+https://github.com/DevZest/WpfDocking.Samples
+https://github.com/DevZest/AdventureWorksLT
+https://github.com/DevZest/Licensing.Samples
+https://github.com/DevZest/Licensing
+
+https://github.com/AlanWills/Celeste
+
+
+https://github.com/ButchersBoy/DragablzSamplez
+https://github.com/reneschulte/WriteableBitmapEx
+https://github.com/oriches/Simple.MahApps.Template
+https://github.com/rguerraalmeida/MahApps.Metro.Samples
+https://github.com/newky2k/mahapps.extra
+https://github.com/thoemmi/TinyLittleMvvm
+https://github.com/damianh/LibLog
+https://github.com/dotnet/extensions
+https://github.com/punker76/MahApps.Metro.Simple.Demo
+https://github.com/punker76/MahApps.Metro.CustomDialog.Sample
+https://github.com/dev4sys/MetroHamburgerMenu_V2
+https://github.com/rafallopatka/ToastNotifications
+https://github.com/dwarry/ReactiveUiMahAppsDialog
+https://github.com/Corne/WPFTemplate
+https://github.com/pentest30/EnhancedMahappsMetroTheme
+https://github.com/Dimigergo/MahappsThemeManager
+https://github.com/chm-tm/ToggleSwitchIsCheckedBindingLoss
+https://github.com/frankwwu/MahApps.Costume
+
+
+https://github.com/punker76/code-samples
+https://github.com/Code52/DownmarkerWPF
+https://github.com/ststeiger/ILRepack
+https://github.com/BrokenEvent/ILStrip
+https://github.com/wieslawsoltes/AvaloniaDockApplication
+
+https://github.com/DevZest/WpfDocking
+
+https://github.com/Ben-Mathews/WpfDockingWindowsApplicationTemplate
+https://github.com/bondtech/HotKey-Manager-for-WinForm-and-WPF-Apps
+https://github.com/SyncfusionExamples/wpf-visual-studio-docking-windows-demo
+https://github.com/LeifHwang/WPF.WindowsManager
+https://github.com/drogoganor/ColorPickerWPF
+https://github.com/Dirkster99/ColorPickerLib
+https://github.com/zubetto/ColorControl
+https://github.com/sh-akira/ColorPickerWPF
+https://github.com/Bluegrams/Colora
+https://github.com/hazzik/TreeListView
+https://github.com/pavlovek/virtualization-list-view
+https://github.com/amazingant/ListViewDragDropManager
+https://github.com/AeryoureRuz/WpfImageListView
+https://github.com/nucuoidocduoc/WPFMultipleColumnListView
+https://github.com/nucuoidocduoc/WPFMultipleColumnListView
+https://github.com/dotnetprojects/WpfToolkit
+https://github.com/ygoe/MultiSelectTreeView
+https://github.com/imnbwd/WpfWindowToolkit
+https://github.com/tainicom/TreeViewEx
+https://github.com/dotnetcurry/wpf-mvvmlight
+https://github.com/FantasticFiasco/mvvm-dialogs
+https://github.com/GuOrg/Gu.Wpf.FlipView
+https://github.com/kiletw/SpineViewerWPF
+https://github.com/Tosker/WpfViewChanger
+https://github.com/OutSystems/WebView
+https://github.com/MrZhangYuan/Unicorn.ViewManager
+https://github.com/dctdct/WPF-ResMerger
+https://github.com/MrDaedra/WPFSplitView
+https://github.com/reactiveui/ReactiveUI
+https://github.com/cmyksvoll/MultiSelectTreeView
+https://github.com/bricelam/ImageResizer
+https://github.com/XopcT/ImageEditor
+https://github.com/terjetyl/Simple.ImageResizer
+https://github.com/ArthurHub/HTML-Renderer
+https://github.com/floydpink/CachedImage
+https://github.com/thoemmi/TaskbarItemOverlay
+https://github.com/ThinkGeo/OverlaysSample-ForWpf
+https://github.com/nfriend/TutorialOverlay
+https://github.com/BeOmHoOn/OverlayContent
+https://github.com/oguiulfo/WebcamOverlayWPF
+https://github.com/oriches/Wpf.MessageOverlay
+https://github.com/simonjstanford/wpf-taskbar-progress-overlay
+https://github.com/kmcginnes/PoC.ImageOverlay
+https://github.com/frenemations/WPFoverlay
+https://github.com/ThinkGeo/PopupOverlaySample-ForWpf
+https://github.com/ignotus87/WpfPleaseWaitExample
+https://github.com/ignotus87/WpfPleaseWaitExample
+https://github.com/ThinkGeo/CombineOverlaySample-ForWpf
+https://github.com/CalculationCycle/wpf-adornedhwnd
+https://github.com/cang24/flowdesigner
+https://github.com/SiweiLiuCB/OCR_postprocessing
+https://github.com/TZstatsADS/Spring2019-Proj4-grp11
+https://github.com/TZstatsADS/ADS_Teaching
+https://github.com/jbarlow83/OCRmyPDF
+https://github.com/pjalusic/ocr-tesseract-wrapper
+https://github.com/GauthamMaraswami/ImagePreprocessing-for-OCR
+https://github.com/githubharald/DeslantImg
+https://github.com/siffi26/ImgPreprocessing
+https://github.com/arturaugusto/display_ocr
+https://github.com/allenlooplee/BaiduOcrActivitiesPack
+https://github.com/JTinkers/ScribeBot
+https://github.com/Atalasoft/SimpleOCR_CS
+https://github.com/JakeTrans/TesseractOCRPlugin
+https://github.com/antoniocorreia/Tesseract.NETCore
+https://github.com/8/ConsoleUwpOcr
+https://github.com/jayway/MsOcrLibTest
+https://github.com/doxakis/MachineLearningSharp
+https://github.com/DanielMeixner/InkToOcr
+https://github.com/fatihyildizli/dotnetcore-tesseract-ocr
+https://github.com/mlichtenberg/hocrimagemapper
+https://github.com/msm2020/OCR-google-APIs
+https://github.com/ikivanc/OCRVisualizer
+https://github.com/microsoft/ailab
+https://github.com/tleyden/open-ocr
+https://github.com/tleyden/open-ocr
+https://github.com/alex-doe/open-ocr-dotnet
+https://github.com/emgucv/emgucv
+https://github.com/emgucv/emgutf
+https://github.com/brakmic/OpenCV
+https://github.com/Omar-Salem/Connected-Component-Labeling-Algorithm
+https://github.com/ikivanc/Document-Classification-and-Post-OCR-Key-Value-Extraction
+https://github.com/pixeltris/Ocr
+https://github.com/nguyenq/VietOCRwpf
+https://github.com/lsd1991/SpellTextBox
+
+https://github.com/vladano/GenCert
+https://github.com/PrismLibrary/Prism
+https://github.com/PrismLibrary/Prism-Documentation
+https://github.com/MvvmCross/MvvmCross
+https://github.com/Kelin-Hong/MVVMLight
+https://github.com/MvvmCross/MvvmCross-Samples
+https://github.com/lbugnion/mvvmlight
+https://github.com/chhoppe/CANMonitor
+https://github.com/anakic/WpfUtils
+https://github.com/CarJem/GenerationsLib
+https://github.com/TetradogOther/SharpDevelop
+https://github.com/dotnetprojects/wpftoolkit
+https://github.com/dotnetprojects/WpfToolkit
+https://github.com/Dirkster99/AvalonDock
+https://github.com/michaelscodingspot/WpfMergingXamlResources
+https://github.com/dotnet/wpf
+https://github.com/RolandPheasant/TailBlazer
+https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit
+https://github.com/Keboo/MaterialDesignInXaml.Examples
+https://github.com/MaterialDesignInXAML/MotionList
+https://github.com/davidfowl/AspNetCoreDiagnosticScenarios
+https://github.com/ButchersBoy/DragablzSamplez
+https://github.com/wongjiahau/Displaying-XAML
+https://github.com/ButchersBoy/MaterialDesignWithMahAppsFlyout
+https://github.com/LHeczko/TestWPF_MaterialDesign
+https://github.com/structuremap/structuremap
+https://github.com/ButchersBoy/XamlAnimationWorkshop
+https://github.com/BorisPetelj/DragablzDemo
+https://github.com/icsharpcode/AvalonEdit
+https://github.com/RolandPheasant/Dynamic.Trader
+https://github.com/reactiveui/DynamicData
+https://github.com/reactiveui/ReactiveUI
+https://github.com/reactiveui/ReactiveUI.Samples
+https://github.com/reactiveui/Akavache
+https://github.com/reactiveui/DynamicData
+https://github.com/reactiveui/ReactiveUI.Validation
+https://github.com/reactiveui/Fusillade
+https://github.com/reactiveui/punchclock
+https://github.com/cefsharp/CefSharp.MinimalExample
+https://github.com/sharpbrowser/SharpBrowser
+https://github.com/cefsharp/CefSharp.Tutorial
+https://github.com/supperlitt/th_cefsharp_httpwatch
+https://github.com/CreateBrowser/SharpBrowser
+https://github.com/grocy/grocy-desktop
+https://github.com/Haltroy/Korot
+https://github.com/OutSystems/WebView
+https://github.com/viodo/CEFSample
+https://github.com/IPpaTsuEr/WPF-Elementary-WebGrappler
+https://github.com/chylex/TweetDuck
+https://github.com/martin-nikolov/Scheduler.TaskPrioritization
+https://github.com/brminnick/AsyncAwaitBestPractices
+https://github.com/brminnick/AsyncAwaitBestPractices
+
+statianzo/Fleck: C# Websocket Implementation
+https://github.com/statianzo/Fleck
+
+Auburn/FastNoiseLite: Fast Portable Noise Library - C# C++ C Java HLSL
+https://github.com/Auburn/FastNoiseLite
+
+TheAlgorithms/C-Sharp: All algorithms implemented in C#.
+https://github.com/TheAlgorithms/C-Sharp
+
+davideicardi/DynamicExpresso: C# expressions interpreter
+https://github.com/davideicardi/DynamicExpresso
+
+mono/CppSharp: Tools and libraries to glue C/C++ APIs to high-level languages
+https://github.com/mono/CppSharp
+
+sta/websocket-sharp: A C# implementation of the WebSocket protocol client and server
+https://github.com/sta/websocket-sharp
+
+abishekaditya/DesignPatterns: Project : Design Patterns Examples in C#
+https://github.com/abishekaditya/DesignPatterns
+
+dotnet-state-machine/stateless: A simple library for creating state machines in C# code
+https://github.com/dotnet-state-machine/stateless
+
+amaggiulli/QLNet: QLNet C# Library
+https://github.com/amaggiulli/QLNet
+
+matterpreter/OffensiveCSharp: Collection of Offensive C# Tooling
+https://github.com/matterpreter/OffensiveCSharp
+
+cbovar/ConvNetSharp: Deep Learning in C#
+https://github.com/cbovar/ConvNetSharp
+
+Robmaister/SharpNav: Advanced Pathfinding for C#
+https://github.com/Robmaister/SharpNav
+
+zeromq/netmq: A 100% native C# implementation of ZeroMQ for .NET
+https://github.com/zeromq/netmq
+
+MaterialDesignInXAML/MaterialDesignInXamlToolkit: Google's Material Design in XAML & WPF, for C# & VB.Net.
+https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit
+
+zzzprojects/Z.ExtensionMethods: C# Extension Methods | Over 1000 extension methods:
+https://github.com/zzzprojects/Z.ExtensionMethods
+
+sestoft/C5: C5 generic collection library for C#/.NET
+https://github.com/sestoft/C5
+
+juliettef/IconFontCppHeaders: C, C++ headers and C# classes for icon fonts: Font Awesome, Fork Awesome, Material Design, Kenney game icons and Fontaudio
+https://github.com/juliettef/IconFontCppHeaders
+
+web-push-libs/web-push-csharp: Web Push library for C#
+https://github.com/web-push-libs/web-push-csharp
+
+evernote/evernote-sdk-csharp: Evernote SDK for C#
+https://github.com/evernote/evernote-sdk-csharp
+
+abdonkov/DSA: Data structures and algorithms in C#
+https://github.com/abdonkov/DSA
+
+PouletFrit/csDelaunay: Voronoi Diagram C# Implementation
+https://github.com/PouletFrit/csDelaunay
+
+swharden/Csharp-Data-Visualization: Code examples and notes for displaying data with C#
+https://github.com/swharden/Csharp-Data-Visualization
+
+mganss/XmlSchemaClassGenerator: Generate C# classes from XML Schema files
+https://github.com/mganss/XmlSchemaClassGenerator
+
+dotnet/csharplang: The official repo for the design of the C# programming language
+https://github.com/dotnet/csharplang
+
+ASDAlexander77/cs2cpp: C# to C++ transpiler (Cs2Cpp) (Powered by Roslyn)
+https://github.com/ASDAlexander77/cs2cpp
+
+tevora-threat/SharpView: C# implementation of harmj0y's PowerView
+https://github.com/tevora-threat/SharpView
+
+sharpbrowser/SharpBrowser: A full featured web-browser built using C# and CefSharp
+https://github.com/sharpbrowser/SharpBrowser
+
+RefactoringGuru/design-patterns-csharp: Design Pattern Examples in C#
+https://github.com/RefactoringGuru/design-patterns-csharp
+
+snape/RVO2-CS: Optimal Reciprocal Collision Avoidance (C#)
+https://github.com/snape/RVO2-CS
+
+Nition/UnityOctree: A dynamic, loose octree implementation for Unity written in C#
+https://github.com/Nition/UnityOctree
+
+justcoding121/advanced-algorithms: 100+ algorithms & data structures generically implemented in C#.
+https://github.com/justcoding121/advanced-algorithms
+
+BlueRaja/High-Speed-Priority-Queue-for-C-Sharp: A C# priority queue optimized for pathfinding applications
+https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp
+
+matthewrdev/fa2cs: Easily use FontAwesome icon codes in C#.
+https://github.com/matthewrdev/fa2cs
+
+dsafa/CSDeskBand: Windows deskband with C#
+https://github.com/dsafa/CSDeskBand
+
+Haydend/ConsoleDraw: C# Console Graphics Library
+https://github.com/Haydend/ConsoleDraw
+
+adoconnection/SevenZipExtractor: C# wrapper for 7z.dll
+https://github.com/adoconnection/SevenZipExtractor
+
+michaelnoonan/inputsimulator: Windows Input Simulator (C# SendInput Wrapper - Simulate Keyboard and Mouse)
+https://github.com/michaelnoonan/inputsimulator
+
+garymcleanhall/AdaptiveCode: Code samples to accompany the book Adaptive Code Via C#.
+https://github.com/garymcleanhall/AdaptiveCode
+
+twain/twain-cs: A C# interface for TWAIN
+https://github.com/twain/twain-cs
+
+samcook/RedLock.net: An implementation of the Redlock algorithm in C#
+https://github.com/samcook/RedLock.net
+
+TomaszRewak/C-sharp-console-gui-framework: A GUI framework for C# console applications
+https://github.com/TomaszRewak/C-sharp-console-gui-framework
+
+frhagn/Typewriter: Automatic TypeScript template generation from C# source files
+https://github.com/frhagn/Typewriter
+
+sayems/csharp.webdriver: Browser test automation using Selenium WebDriver in C#
+https://github.com/sayems/csharp.webdriver
+
+benjamin-hodgson/Pidgin: C#'s fastest parser combinator library
+https://github.com/benjamin-hodgson/Pidgin
+
+headsling/Node.cs: Node.cs.net - Node.js in c# with all the beauty and performance that C# brings
+https://github.com/headsling/Node.cs
+
+lukebuehler/CShell: A simple, yet powerful, C# scripting IDE and REPL
+https://github.com/lukebuehler/CShell
+
+aalhour/C-Sharp-Algorithms: Plug-and-play class-library project of standard Data Structures and Algorithms in C#
+https://github.com/aalhour/C-Sharp-Algorithms
+
+animetrics/PlistCS: A C# Property List (plist) serialization library.
+https://github.com/animetrics/PlistCS
+
+olsh/curl-to-csharp: curl to C# converter
+https://github.com/olsh/curl-to-csharp
+
+microsoft/CsWinRT: C# language projection for the Windows Runtime
+https://github.com/microsoft/CsWinRT
+
+parallelbgls/Modbus.Net: A high extensible hardware communication platform using C#
+https://github.com/parallelbgls/Modbus.Net
+
+neuecc/Utf8Json: Definitely Fastest and Zero Allocation JSON Serializer for C#(NET, .NET Core, Unity, Xamarin).
+https://github.com/neuecc/Utf8Json
+
+svenheden/csharp-models-to-typescript: C# models to TypeScript
+https://github.com/svenheden/csharp-models-to-typescript
+
+mephraim/ghostscriptsharp: A C# wrapper for the Ghostscript library (1.1)
+https://github.com/mephraim/ghostscriptsharp
+
+NModbus/NModbus: NModbus is a C# implementation of the Modbus protocol.
+https://github.com/NModbus/NModbus
+
+harujoh/KelpNet: Pure C# machine learning framework
+https://github.com/harujoh/KelpNet
+
+NRules/NRules: Rules engine for .NET, based on the Rete matching algorithm, with internal DSL in C#.
+https://github.com/NRules/NRules
+
+JosefPihrt/Roslynator: A collection of 500+ analyzers, refactorings and fixes for C#, powered by Roslyn.
+https://github.com/JosefPihrt/Roslynator
+
+lemire/csharpewah: Compressed bitmaps in C#
+https://github.com/lemire/csharpewah
+
+qq362946/AOI: c# AOI algorithm for cross linked list
+https://github.com/qq362946/AOI
+
+dharmatech/Symbolism: Computer Algebra and Symbolic Computation in C#
+https://github.com/dharmatech/Symbolism
+
+LayoutFarm/HtmlRenderer: C# HTML Layout and HTML Rendering Engine
+https://github.com/LayoutFarm/HtmlRenderer
+
+nikhilk/scriptsharp: Script# Project - a C# to JavaScript compiler, to power your HTML5 and Node.js web development.
+https://github.com/nikhilk/scriptsharp
+
+zwcloud/ImGui: Immediate Mode GUI for C#
+https://github.com/zwcloud/ImGui
+
+commandlineparser/commandline: The best C# command line parser that brings standardized *nix getopt style, for .NET. Includes F# support
+https://github.com/commandlineparser/commandline
+
+lucasg/Dependencies: A rewrite of the old legacy software "depends.exe" in C# for Windows devs to troubleshoot dll load dependencies issues.
+https://github.com/lucasg/Dependencies
+
+lolp1/Process.NET: A C# class library for interacting with processes.
+https://github.com/lolp1/Process.NET
+
+praeclarum/CLanguage: C parser, compiler, and interpreter for .NET
+https://github.com/praeclarum/CLanguage
+
+unruledboy/WuManber: WuManber text search/matching implementation using c#
+https://github.com/unruledboy/WuManber
+
+viceroypenguin/RBush: R-Tree Implementation for C#
+https://github.com/viceroypenguin/RBush
+
+pfusik/cito: Ć programming language. Translated automatically to C, C++, C#, Java, JavaScript, Python, Swift, TypeScript and OpenCL C.
+https://github.com/pfusik/cito
+
+SciSharp/TensorFlow.NET: .NET Standard bindings for Google's TensorFlow for developing, training and deploying Machine Learning models in C# and F#.
+https://github.com/SciSharp/TensorFlow.NET
+
+sqlkata/querybuilder: SQL query builder, written in c#, helps you build complex queries easily, supports SqlServer, MySql, PostgreSql, Oracle, Sqlite and Firebird
+https://github.com/sqlkata/querybuilder
+
+amibar/SmartThreadPool: A .NET Thread Pool fully implemented in C# with many features
+https://github.com/amibar/SmartThreadPool
+
+mgravell/PooledAwait: Low allocation async/await for C#/.NET
+https://github.com/mgravell/PooledAwait
+
+gaochundong/Cowboy: Cowboy.Sockets is a C# library for building sockets based services.
+https://github.com/gaochundong/Cowboy
+
+JeringTech/Javascript.NodeJS: Invoke Javascript in NodeJS, from C#
+https://github.com/JeringTech/Javascript.NodeJS
+
+lionsoul2014/ip2region: Ip2region is a offline IP location library with accuracy rate of 99.9% and 0.0x millseconds searching performance. DB file is ONLY a few megabytes with all IP address stored. binding for Java,PHP,C,Python,Nodejs,Golang,C#,lua. Binary,B-tree,Memory searching algorithm
+https://github.com/lionsoul2014/ip2region
+
+mxjones/RedBus: A simple EventBus / MessageBus library in C#
+https://github.com/mxjones/RedBus
+
+Eonasdan/MomentSharp: MomentJs port to C#
+https://github.com/Eonasdan/MomentSharp
+
+baynezy/Html2Markdown: A library for converting HTML to markdown syntax in C#
+https://github.com/baynezy/Html2Markdown
+
+bkniffler/graphql-net-client: Very simple GraphQL client for .NET/C#
+https://github.com/bkniffler/graphql-net-client
+
+joelverhagen/TorSharp: Use Tor for your C# HTTP clients. Tor + Privoxy =
+https://github.com/joelverhagen/TorSharp
+
+verybadcat/CSharpMath: LaTeX. in C#. (ported from the wonderful iosMath project).
+https://github.com/verybadcat/CSharpMath
+
+meetanthony/crccsharp: All main CRC Algorithms on C#
+https://github.com/meetanthony/crccsharp
+
+LuizZak/FastBitmap: A fast C# Bitmap wrapping layer
+https://github.com/LuizZak/FastBitmap
+
+jamescourtney/FlatSharp: Fast, idiomatic C# implementation of Flatbuffers
+https://github.com/jamescourtney/FlatSharp
+
+markedup-mobi/file-lock: A simple file-locking implementation in C#
+https://github.com/markedup-mobi/file-lock
+
+rogeralsing/ProjectExodus: Transpiler from C# to Kotlin.
+https://github.com/rogeralsing/ProjectExodus
+
+Azure/durabletask: Durable Task Framework allows users to write long running persistent workflows in C# using the async/await capabilities.
+https://github.com/Azure/durabletask
+
+otac0n/markov: Generic Markov chain generation for C#
+https://github.com/otac0n/markov
+
+EamonNerbonne/ExpressionToCode: Generates valid, readable C# from an Expression Tree.
+https://github.com/EamonNerbonne/ExpressionToCode
+
+trueinteractions/wpf-autolayout: Auto Layout for .NET/C#/Managed C++
+https://github.com/trueinteractions/wpf-autolayout
+
+xoofx/CppAst.NET: CppAst is a .NET library providing a C/C++ parser for header files powered by Clang/libclang with access to the full AST, comments and macros
+https://github.com/xoofx/CppAst.NET
+
+antlr/antlrcs: The C# port of ANTLR 3, StringTemplate 3, and StringTemplate 4
+https://github.com/antlr/antlrcs
+
+kthompson/glob: A C# Glob library for .NET and .NET Core.
+https://github.com/kthompson/glob
+
+tejacques/Deque: A C# Deque class
+https://github.com/tejacques/Deque
+
+prozoroff/UKFSharp: C# implementation of Unscented Kalman Filter
+https://github.com/prozoroff/UKFSharp
+
+CodecWang/LearnOpenCVEdu: An OpenCV GUI for education built with EmguCV(C#)
+https://github.com/CodecWang/LearnOpenCVEdu
+
+dwmkerr/consolecontrol: ConsoleControl is a C# class library that lets you embed a console in a WinForms or WPF application.
+https://github.com/dwmkerr/consolecontrol
+
+afrog33k/SharpNative: A C# to Native Code (D, C++ etc...) Transpiler based on Microsoft Roslyn
+https://github.com/afrog33k/SharpNative
+
