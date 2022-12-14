@@ -6626,3 +6626,7 @@
 	path = websites/xn--vt3a.net
 	url = git@github.com:GerHobbelt/site.xn--vt3a.net.git
 	ignore = dirty
+[submodule "tooling/git"]
+	path = tooling/git
+	url = git@github.com:GerHobbelt/git.git
+	ignore = dirty
