@@ -1334,10 +1334,6 @@
 	path = fonts/google-fonts
 	url = git@github.com:GerHobbelt/fonts.git
 	ignore = dirty
-[submodule "htmx"]
-	path = htmx
-	url = git@github.com:GerHobbelt/htmx.git
-	ignore = dirty
 [submodule "js/.TweenJS"]
 	path = js/.TweenJS
 	url = git@github.com:GerHobbelt/TweenJS.git
@@ -6630,3 +6626,6 @@
 	path = tooling/git
 	url = git@github.com:GerHobbelt/git.git
 	ignore = dirty
+[submodule "js/htmx"]
+	path = js/htmx
+	url = git@github.com:GerHobbelt/htmx.git
