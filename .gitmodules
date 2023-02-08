@@ -6634,3 +6634,12 @@
 	path = doc/CEF.wiki
 	url = https://github.com/GerHobbelt/cef-wiki.git
 	ignore = dirty
+[submodule "tooling/qiqqa_tooling_devtree_snapshots"]
+	path = tooling/qiqqa_tooling_devtree_snapshots
+	url = git@github.com:GerHobbelt/qiqqa_tooling_devtree_snapshots.git
+[submodule "js/jsPanel4"]
+	path = js/jsPanel4
+	url = git@github.com:GerHobbelt/jsPanel4.git
+[submodule "misc/bibutils-cbputnam"]
+	path = misc/bibutils-cbputnam
+	url = git@github.com:GerHobbelt/bibutils.git
